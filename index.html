@@ -142,14 +142,6 @@
   .tag.hold { color: #8B7E6A; }
   .tag.sell { color: #B07070; }
 
-  /* Empty state */
-  .empty {
-    text-align: center;
-    padding: 60px 20px;
-    color: var(--text-secondary);
-  }
-  .empty .emoji { font-size: 3rem; margin-bottom: 12px; }
-
   /* Footer */
   footer {
     text-align: center;
@@ -170,50 +162,8 @@
     <button class="theme-toggle" onclick="toggleTheme()" id="themeBtn">🌙</button>
   </header>
 
-  <div class="section-title">📊 财报分析</div>
-  <div class="report-grid">
-    <a class="report-card" href="reports/jd-q4-2025.html">
-      <div class="ticker">NASDAQ: JD</div>
-      <h3>京东 Q4 2025 & 全年财报深度分析</h3>
-      <div class="desc">Morandi 风格交互式报告：收入拆解、桑基图、DCF 保守估值（$52.8/ADS）、多场景 P/E、巴菲特视角评级</div>
-      <div class="meta">
-        <span class="tag buy">有条件买入</span>
-        <span>2026-03-06</span>
-      </div>
-    </a>
-
-    <a class="report-card" href="reports/crcl-q4-2025.html">
-      <div class="ticker">NYSE: CRCL</div>
-      <h3>Circle Internet Group Q4 2025 & 全年财报深度分析</h3>
-      <div class="desc">USDC 稳定币基础设施龙头 · IPO 后首个完整财年 · AI 代理支付 · Arc 区块链 · DCF 三情景估值 · 13 条电话会议标注</div>
-      <div class="meta">
-        <span class="tag hold">审慎买入</span>
-        <span>2026-03-06</span>
-      </div>
-    </a>
-
-    <a class="report-card" href="reports/pdd-q3-2025.html">
-      <div class="ticker">NASDAQ: PDD</div>
-      <h3>PDD Holdings 拼多多 TTM 深度分析</h3>
-      <div class="desc">Temu 关税风暴 · 百亿商家扶持 · $454亿现金堡垒 · 毛利率结构性压缩 · 管理层拒绝提供指引 · DCF 三情景估值（$55/$120/$209）</div>
-      <div class="meta">
-        <span class="tag hold">谨慎观望</span>
-        <span>2026-03-06</span>
-      </div>
-    </a>
-
-    <a class="report-card" href="reports/qfin-q4-2025.html">
-      <div class="ticker">NASDAQ: QFIN</div>
-      <h3>奇富科技 Q4 2025 盘前深度分析</h3>
-      <div class="desc">P/E 2.0x · P/B 0.54x · 10%股息率 · 完整Q3电话会议实录（CEO/CFO/CRO+5家投行Q&A）· 科技解决方案+218% · DCF三情景（$21/$52/$99）</div>
-      <div class="meta">
-        <span class="tag buy">机会性买入</span>
-        <span>2026-03-12</span>
-      </div>
-    </a>
-
-    <!-- 未来报告在这里追加 -->
-  </div>
+  <div class="section-title">📊 财报分析 · 按最后修改时间排序</div>
+  <div class="report-grid" id="reportGrid"></div>
 
   <footer>
     <p>Powered by <a href="https://github.com/openclaw/openclaw">OpenClaw</a> · Built with 🍔 by Buffy</p>
@@ -221,6 +171,79 @@
 </div>
 
 <script>
+/* ── REPORT DATA — sorted by modTime desc (newest first) ── */
+const reports = [
+  {
+    file: "reports/qfin-q4-2025.html",
+    ticker: "NASDAQ: QFIN",
+    title: "奇富科技 Q4 2025 盘前深度分析",
+    desc: "P/E 2.0x · P/B 0.54x · 10%股息率 · 完整Q3电话会议实录（CEO/CFO/CRO+5家投行Q&A）· 科技解决方案+218% · DCF三情景（$21/$52/$99）",
+    tag: "机会性买入",
+    tagClass: "buy",
+    date: "2026-03-13",
+    modTime: 1741816620000
+  },
+  {
+    file: "reports/tcom-q4-2025.html",
+    ticker: "NASDAQ: TCOM",
+    title: "携程集团 Trip.com Q4 2025 & 全年财报深度分析",
+    desc: "中国在线旅游龙头 · 疫后出行复苏 · 国际业务高速增长 · AI 赋能旅行体验 · 酒店/机票/度假全链条拆解 · DCF 估值 · 巴菲特视角分析",
+    tag: "值得关注",
+    tagClass: "buy",
+    date: "2026-03-10",
+    modTime: 1741539900000
+  },
+  {
+    file: "reports/pdd-q3-2025.html",
+    ticker: "NASDAQ: PDD",
+    title: "PDD Holdings 拼多多 TTM 深度分析",
+    desc: "Temu 关税风暴 · 百亿商家扶持 · $454亿现金堡垒 · 毛利率结构性压缩 · 管理层拒绝提供指引 · DCF 三情景估值（$55/$120/$209）",
+    tag: "谨慎观望",
+    tagClass: "hold",
+    date: "2026-03-06",
+    modTime: 1741241100000
+  },
+  {
+    file: "reports/crcl-q4-2025.html",
+    ticker: "NYSE: CRCL",
+    title: "Circle Internet Group Q4 2025 & 全年财报深度分析",
+    desc: "USDC 稳定币基础设施龙头 · IPO 后首个完整财年 · AI 代理支付 · Arc 区块链 · DCF 三情景估值 · 13 条电话会议标注",
+    tag: "审慎买入",
+    tagClass: "hold",
+    date: "2026-03-06",
+    modTime: 1741236540000
+  },
+  {
+    file: "reports/jd-q4-2025.html",
+    ticker: "NASDAQ: JD",
+    title: "京东 Q4 2025 & 全年财报深度分析",
+    desc: "Morandi 风格交互式报告：收入拆解、桑基图、DCF 保守估值（$52.8/ADS）、多场景 P/E、巴菲特视角评级",
+    tag: "有条件买入",
+    tagClass: "buy",
+    date: "2026-03-06",
+    modTime: 1741233960000
+  }
+];
+
+/* ── RENDER (sort by modTime desc) ── */
+function renderReports() {
+  const grid = document.getElementById('reportGrid');
+  reports.sort((a, b) => b.modTime - a.modTime);
+  grid.innerHTML = reports.map(r => `
+    <a class="report-card" href="${r.file}">
+      <div class="ticker">${r.ticker}</div>
+      <h3>${r.title}</h3>
+      <div class="desc">${r.desc}</div>
+      <div class="meta">
+        <span class="tag ${r.tagClass}">${r.tag}</span>
+        <span>${r.date}</span>
+      </div>
+    </a>
+  `).join('');
+}
+renderReports();
+
+/* ── THEME ── */
 function toggleTheme() {
   const d = document.documentElement;
   const btn = document.getElementById('themeBtn');
