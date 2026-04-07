@@ -39,6 +39,8 @@
 .tbl{width:100%;border-collapse:collapse;font-size:14px} .tbl th,.tbl td{padding:12px 14px;border-bottom:1px solid var(--border);text-align:right;white-space:nowrap} .tbl th:first-child,.tbl td:first-child{text-align:left;position:sticky;left:0;background:var(--card);z-index:2} .tbl th{color:var(--text2);font-size:12px;text-transform:uppercase;letter-spacing:.8px}
 .cgrid{display:grid;grid-template-columns:1.2fr 1fr;gap:14px} .ccard,.acard,.qcard,.pbox{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:18px;box-shadow:0 8px 22px var(--shadow)}
 .ctitle{margin:0 0 10px;font-size:18px} .csub{margin:0 0 8px;color:var(--text2);font-size:13px}
+.cwrap{position:relative;height:280px;min-height:280px;max-height:280px;width:100%}
+.cwrap canvas{display:block !important;width:100% !important;height:100% !important;max-height:280px !important}
 .seg-grid,.agrid,.bscore,.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 .seg{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:18px;box-shadow:0 8px 22px var(--shadow)} .seg h3{margin:0 0 10px} .seg ul{padding-left:18px;margin:8px 0 0}
 .ec-note{background:var(--card2);border:1px dashed var(--border);border-radius:16px;padding:12px 14px;color:var(--text2);font-size:13px;margin-bottom:12px}
@@ -109,9 +111,9 @@
 
   <div class="stitle">图表：收入、利润、现金流、结构迁移</div>
   <section class="cgrid">
-    <div class="ccard"><h3 class="ctitle">收入 / 净利 / EBITDA 五年趋势</h3><p class="csub">你会发现它不是高增长怪兽，而是慢吞吞但很稳的现金机器。</p><canvas id="trendChart" height="280"></canvas></div>
-    <div class="ccard"><h3 class="ctitle">FCF vs CAPEX</h3><p class="csub">2025 最扎眼的雷点：CAPEX 降了，但 FCF 还是掉得很难看。</p><canvas id="cashChart" height="280"></canvas></div>
-    <div class="ccard"><h3 class="ctitle">2025 业务结构</h3><p class="csub">通信底盘依然最大，但计算+AI 已经抬到 20.2% 主营占比。</p><canvas id="mixChart" height="280"></canvas></div>
+    <div class="ccard"><h3 class="ctitle">收入 / 净利 / EBITDA 五年趋势</h3><p class="csub">你会发现它不是高增长怪兽，而是慢吞吞但很稳的现金机器。</p><div class="cwrap"><canvas id="trendChart"></canvas></div></div>
+    <div class="ccard"><h3 class="ctitle">FCF vs CAPEX</h3><p class="csub">2025 最扎眼的雷点：CAPEX 降了，但 FCF 还是掉得很难看。</p><div class="cwrap"><canvas id="cashChart"></canvas></div></div>
+    <div class="ccard"><h3 class="ctitle">2025 业务结构</h3><p class="csub">通信底盘依然最大，但计算+AI 已经抬到 20.2% 主营占比。</p><div class="cwrap"><canvas id="mixChart"></canvas></div></div>
     <div class="ccard"><h3 class="ctitle">现金流桑基图</h3><p class="csub">从营收到 EBITDA，再到经营现金流、CAPEX、FCF、股息，一眼看清钱流向哪里。</p><div id="sankey" style="height:280px"></div></div>
   </section>
 
