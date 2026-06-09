@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>X 时间线简报 · 门户</title>
+<style>
+  :root{
+    --bg:#2d2c2a; --panel:#393734; --border:#4a4744;
+    --text:#d9d4ca; --muted:#9c958a;
+    --green:#8f9c7f; --red:#b58c80; --yellow:#c2a978; --blue:#8c9aa2; --mauve:#a08e9a;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    line-height:1.7; font-size:16px;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:36px 20px 64px;}
+  header{margin-bottom:8px;}
+  h1{font-size:26px; font-weight:700; margin:0 0 6px; letter-spacing:.5px;}
+  .sub{color:var(--muted); font-size:14px; margin:0 0 26px;}
+  .list{display:flex; flex-direction:column; gap:12px;}
+  a.card{
+    display:block; text-decoration:none; color:var(--text);
+    background:var(--panel); border:1px solid var(--border); border-left:5px solid var(--blue);
+    border-radius:12px; padding:16px 18px; transition:border-color .15s ease, transform .05s ease;
+  }
+  a.card:hover{border-left-color:var(--yellow); border-color:var(--muted);}
+  a.card:active{transform:scale(.997);}
+  .card .date{font-size:18px; font-weight:700; margin:0 0 4px;}
+  .card .rel{font-size:12.5px; color:var(--yellow); font-weight:600; margin-left:8px;}
+  .card .meta{color:var(--muted); font-size:13.5px; margin:0; display:flex; flex-wrap:wrap; gap:6px 14px;}
+  .card .go{color:var(--blue); font-size:13.5px; margin-top:8px; display:inline-block;}
+  .empty,.err{
+    background:var(--panel); border:1px solid var(--border); border-radius:12px;
+    padding:22px; color:var(--muted); text-align:center; line-height:1.6;
+  }
+  footer{margin-top:30px; color:var(--muted); font-size:12.5px; text-align:center;}
+  @media (max-width:600px){
+    .wrap{padding:24px 14px 48px;}
+    h1{font-size:22px;}
+    .sub{margin-bottom:20px;}
+    .card .date{font-size:16px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>X 时间线简报 · 门户</h1>
+    <p class="sub">@JaceHoiX 时间线 · 最近 7 天（港时每日早 8 点 / 晚 8 点更新）</p>
+  </header>
+  <div id="list" class="list"><div class="empty">加载中…</div></div>
+  <footer id="foot"></footer>
+</div>
+<script src="manifest.js"></script>
+<script>
+(function(){
+  var data = (window.__BRIEFINGS || []).slice();
+  var now = Date.now(), WEEK = 7*24*3600*1000;
+  function ts(e){ var t = Date.parse(e.ts); return isNaN(t) ? 0 : t; }
+  // 最近 7 天(留 6h 余量,覆盖当次刚生成的那份)
+  var recent = data.filter(function(e){ return now - ts(e) <= WEEK + 6*3600*1000; })
+                   .sort(function(a,b){ return ts(b) - ts(a); });
+  var el = document.getElementById('list');
+  function relLabel(t){
+    var d = Math.floor((now - t)/(24*3600*1000));
+    if(d <= 0) return '今天';
+    if(d === 1) return '昨天';
+    return d + ' 天前';
+  }
+  function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  if(!recent.length){
+    el.innerHTML = '<div class="empty">最近 7 天暂无简报。</div>';
+  } else {
+    el.innerHTML = recent.map(function(e){
+      var meta = [];
+      if(e.window) meta.push('窗口 ' + esc(e.window));
+      if(e.count != null) meta.push(esc(e.count) + ' 条');
+      return '<a class="card" href="' + esc(e.file) + '">'
+        + '<p class="date">' + esc(e.dateLabel || e.title || e.file)
+        + '<span class="rel">' + relLabel(ts(e)) + '</span></p>'
+        + '<p class="meta">' + meta.map(function(m){ return '<span>' + m + '</span>'; }).join('') + '</p>'
+        + '<span class="go">查看简报 →</span>'
+        + '</a>';
+    }).join('');
+  }
+  document.getElementById('foot').textContent =
+    '共 ' + recent.length + ' 份 · 按时间倒序 · 打开于 ' + new Date().toLocaleString('zh-CN', {hour12:false});
+})();
+</script>
+</body>
+</html>
