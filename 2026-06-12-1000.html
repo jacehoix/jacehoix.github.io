@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>X 时间线简报 · 2026-06-12 10:00（港时）</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiByeD0iNSIgZmlsbD0iIzAwMCIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xOC4yNDQgMi4yNWgzLjMwOGwtNy4yMjcgOC4yNiA4LjUwMiAxMS4yNEgxNi4xN2wtNS4yMTQtNi44MTdMNC45OSAyMS43NUgxLjY4bDcuNzMtOC44MzVMMS4yNTQgMi4yNUg4LjA4bDQuNzEzIDYuMjMxem0tMS4xNjEgMTcuNTJoMS44MzNMNy4wODQgNC4xMjZINS4xMTd6Ii8+PC9zdmc+">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+:root{
+  --bg:#2d2c2a; --panel:#393734; --border:#4a4744; --text:#d9d4ca; --muted:#9c958a;
+  --green:#8f9c7f; --red:#b58c80; --yellow:#c2a978; --blue:#8c9aa2; --mauve:#a08e9a;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{
+  background:var(--bg); color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  line-height:1.7; font-size:16px; -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:860px; margin:0 auto; padding:38px 22px 70px;}
+h1{font-size:26px; font-weight:700; margin:0 0 6px; letter-spacing:.3px; color:#e4ded3;}
+.sub{color:var(--muted); font-size:14px; margin:0 0 26px; line-height:1.6;}
+.sub b{color:var(--text); font-weight:600;}
+a{color:var(--blue); text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+.callout{
+  background:var(--panel); border-radius:12px; padding:16px 18px 16px 20px;
+  border-left:4px solid var(--mauve); margin:0 0 28px;
+}
+.callout .lab{font-size:12px; letter-spacing:1px; color:var(--mauve); font-weight:700; text-transform:uppercase; margin-bottom:6px;}
+.callout p{margin:0; font-size:15.5px; color:#e0dacf;}
+.callout .pts{margin-top:8px; font-size:14.5px; color:var(--text);}
+
+h2.sec{
+  font-size:18px; font-weight:700; margin:34px 0 14px; color:#e4ded3;
+  display:flex; align-items:center; gap:9px;
+}
+h2.sec::before{content:""; width:9px; height:9px; border-radius:50%; background:var(--blue);}
+h2.sec.crypto::before{background:var(--yellow);}
+h2.sec.space::before{background:var(--mauve);}
+h2.sec.macro::before{background:var(--red);}
+h2.sec.ai::before{background:var(--green);}
+h2.sec.mood::before{background:var(--blue);}
+
+.tablewrap{overflow-x:auto; margin:0 0 6px; border-radius:12px; border:1px solid var(--border);}
+table.judge{border-collapse:collapse; width:100%; min-width:680px; font-size:14px;}
+table.judge th,table.judge td{padding:10px 12px; text-align:left; vertical-align:top; border-bottom:1px solid var(--border);}
+table.judge thead th{background:#403d3a; color:#e4ded3; font-weight:700; font-size:13px; white-space:nowrap;}
+table.judge tbody tr:nth-child(odd){background:#343230;}
+table.judge tbody tr:nth-child(even){background:#3b3835;}
+table.judge td.tgt{font-weight:600; color:#e4ded3; white-space:nowrap;}
+table.judge td.code{color:var(--muted); font-weight:400; font-size:12px;}
+table.judge td.bull{color:#bcc6ad;}
+table.judge td.bear{color:#d3b3a8;}
+table.judge td.net{white-space:nowrap; font-weight:700;}
+.net-bull{color:var(--green);} .net-bear{color:var(--red);} .net-mix{color:var(--yellow);}
+table.judge td.ref{color:var(--muted); white-space:nowrap; font-size:12.5px;}
+.dim{color:var(--muted);}
+
+.disc{font-size:12.5px; color:var(--muted); margin:10px 2px 4px; line-height:1.6;}
+
+.item{
+  background:var(--panel); border:1px solid var(--border); border-radius:11px;
+  padding:13px 16px; margin:0 0 11px;
+}
+.item .top{display:flex; align-items:baseline; flex-wrap:wrap; gap:8px; margin-bottom:5px;}
+.item .num{
+  background:#46433f; color:var(--blue); font-weight:700; font-size:12.5px;
+  border-radius:6px; padding:1px 7px; min-width:24px; text-align:center;
+}
+.item .hd{font-weight:600; color:#e4ded3; font-size:14.5px;}
+.item .tm{color:var(--muted); font-size:12.5px;}
+.item .sum{margin:3px 0 0; font-size:15px; color:var(--text);}
+.item .cmt{margin:6px 0 0; font-size:13.5px; color:var(--muted); padding-left:11px; border-left:2px solid var(--border);}
+.item .cmt b{color:var(--mauve); font-weight:600;}
+.item .lnk{margin:7px 0 0; font-size:12.5px;}
+.tag{display:inline-block; font-size:11px; padding:1px 7px; border-radius:5px; margin-left:2px; vertical-align:middle;}
+.tag.warn{background:#4a3f39; color:var(--yellow);}
+
+.foot{margin-top:40px; padding-top:16px; border-top:1px solid var(--border); color:var(--muted); font-size:12.5px; line-height:1.7;}
+
+@media (max-width:600px){
+  .wrap{padding:26px 14px 56px;}
+  h1{font-size:21px;}
+  body{font-size:15px;}
+  .callout p{font-size:14.5px;}
+  h2.sec{font-size:16.5px;}
+  .item .sum{font-size:14.5px;}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>X 时间线简报 · 2026-06-12 10:00（港时）</h1>
+  <p class="sub">覆盖窗口 <b>06-11 22:05 — 06-12 10:05（港时，约12小时）</b> · 来源：@JaceHoiX 时间线「为你推荐」+「正在关注」 · 共抓取 57 条、窗口内 33 条，<b>精选 18 条</b>。隔夜时段宏观/盘面信息量偏低，按要求放宽至第二层情绪帖后仍不足 30 条，故据实呈现、未硬凑或重复填充。</p>
+
+  <div class="callout">
+    <div class="lab">一句话全局判断</div>
+    <p>隔夜风险偏好整体<b>中性偏谨慎、加密板块局部 risk-on</b>。</p>
+    <p class="pts">三条主线：①<b>SpaceX 临上市</b>引爆「打新 / $SPCX」散户 FOMO，币安开闸后 24h 链上涌入 3.77 亿 USDC；②<b>Saylor 承认出售 32 枚 BTC</b>、改口「从没说过公司不卖」，动摇比特币信仰；③<b>特朗普对伊朗表态反复横跳</b>，地缘噪音支撑油金避险。TradFi 加速上链（Fidelity 用 DeFi）与境内券商监管收紧（老虎证券靠换 IP 下单）并存——资金活跃，但投机与拉盘风险同在。</p>
+  </div>
+
+  <h2 class="sec">个股 / 加密 利好·利空 判断表</h2>
+  <div class="tablewrap">
+    <table class="judge">
+      <thead>
+        <tr><th>标的（代码）</th><th>🟢 利好</th><th>🔴 利空</th><th>净倾向</th><th>条目</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="tgt">比特币<br><span class="code">BTC</span></td>
+          <td class="bull">—</td>
+          <td class="bear">Saylor 个人抛售 32 枚 BTC、改口公司「必要时会卖」动摇信仰；Bitcoin Core 31.0 现隐私漏洞</td>
+          <td class="net net-bear">🔴 偏空<br><span class="dim">（短期情绪）</span></td>
+          <td class="ref">#1 #2 #4</td>
+        </tr>
+        <tr>
+          <td class="tgt">Strategy<br><span class="code">MSTR</span></td>
+          <td class="bull">Saylor 澄清「卖的是个人、公司长期持有策略不变」</td>
+          <td class="bear">创始人卖币引发「公司是否也会抛售」质疑、信任折价</td>
+          <td class="net net-mix">🟡 多空交织</td>
+          <td class="ref">#1 #2 #3</td>
+        </tr>
+        <tr>
+          <td class="tgt">币安<br><span class="code">BNB</span></td>
+          <td class="bull">SpaceX 打新带动 24h 3.77 亿 USDC 涌入、平台交投活跃</td>
+          <td class="bear">—</td>
+          <td class="net net-bull">🟢 偏多</td>
+          <td class="ref">#8</td>
+        </tr>
+        <tr>
+          <td class="tgt">SpaceX / $SPCX<br><span class="code">未上市·代币化</span></td>
+          <td class="bull">临上市散户 FOMO，打新与 pre-IPO 代币情绪高涨、喊价不断</td>
+          <td class="bear">估值纯投机、未上市流动性与兑付/拆股风险</td>
+          <td class="net net-mix">🟡 多空交织<br><span class="dim">（高投机）</span></td>
+          <td class="ref">#8 #9 #10 #11</td>
+        </tr>
+        <tr>
+          <td class="tgt">老虎证券<br><span class="code">TIGR</span></td>
+          <td class="bull">换境外 IP 即可继续下单，找到临时绕行方案</td>
+          <td class="bear">中国境内监管限制境内用户美股交易，合规风险凸显</td>
+          <td class="net net-mix">🟡 多空交织</td>
+          <td class="ref">#12</td>
+        </tr>
+        <tr>
+          <td class="tgt">富途控股<br><span class="code">FUTU</span></td>
+          <td class="bull">—</td>
+          <td class="bear">同受境内券商监管收紧情绪拖累</td>
+          <td class="net net-bear">🔴 偏空</td>
+          <td class="ref">#12</td>
+        </tr>
+        <tr>
+          <td class="tgt">以太坊 / DeFi<br><span class="code">ETH</span></td>
+          <td class="bull">Fidelity 两协议共用同一区块，TradFi 巨头深度上链、采用度提升</td>
+          <td class="bear">—</td>
+          <td class="net net-bull">🟢 偏多</td>
+          <td class="ref">#13</td>
+        </tr>
+        <tr>
+          <td class="tgt">中海油<br><span class="code">0883.HK</span></td>
+          <td class="bull">特朗普对伊朗反复表态推升地缘避险、油价溢价</td>
+          <td class="bear">局势若缓和或表态证伪，溢价快速回吐</td>
+          <td class="net net-mix">🟡 多空交织</td>
+          <td class="ref">#14</td>
+        </tr>
+        <tr>
+          <td class="tgt">紫金矿业<br><span class="code">601899</span></td>
+          <td class="bull">地缘不确定性支撑黄金避险需求</td>
+          <td class="bear">风险偏好若回升则金价承压</td>
+          <td class="net net-mix">🟡 多空交织</td>
+          <td class="ref">#14</td>
+        </tr>
+        <tr>
+          <td class="tgt">泡泡玛特<br><span class="code">9992.HK</span></td>
+          <td class="bull">Labubu 现身世界杯开幕式约 13 秒，全球顶级曝光</td>
+          <td class="bear">—</td>
+          <td class="net net-bull">🟢 偏多</td>
+          <td class="ref">#17</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="disc">「事件→个股暴露」为客观梳理，<b>不构成投资建议</b>，本简报非持牌投顾；多空判断基于推文逻辑而非价格预测；突发/未证实消息已标注「待证实」。$BEAT 等小币（见 #5）无主流对应标的，仅列入明细不进表。</p>
+
+  <h2 class="sec crypto">明细 · 加密货币 &amp; 比特币</h2>
+
+  <div class="item">
+    <div class="top"><span class="num">1</span><span class="hd">@Cointelegraph</span><span class="tm">约 2 小时前 · 为你推荐</span></div>
+    <p class="sum">Michael Saylor 解释出售 32 枚 $BTC：「我说的是你们别卖，从没说过公司不会卖它的比特币。」</p>
+    <p class="cmt"><b>简评：</b>本窗口最重磅的加密叙事——长期「永不卖币」旗手亲手卖币并重新措辞，短期冲击 BTC 信仰、利空情绪；对 MSTR 则是「策略灵活性」与「信任折价」并存。</p>
+    <p class="lnk"><a href="https://x.com/Cointelegraph/status/2065227581595549980" target="_blank">查看原文 ↗</a></p>
+  </div>
+
+  <div class="item">
+    <div class="top"><span class="num">2</span><span class="hd">@PANewsCN</span><span class="tm">约 50 分钟前 · 正在关注</span></div>
+    <p class="sum">同步：Saylor 在 BTC Prague 现场回应卖币质疑，强调「永不卖币」是对个人说的、不是对公司。</p>
+    <p class="cmt"><b>简评：</b>官方口径与 #1 互证，确认是「表态转向」而非误读；中文圈已开始发酵，关注是否引发持币者跟风情绪松动。</p>
+    <p class="lnk"><a href="https://x.com/PANewsCN/status/2065242802301358343" target="_blank">查看原文 ↗</a></p>
+  </div>
+
+  <div class="item">
+    <div class="top"><span class="num">3</span><span class="hd">@BroLeon</span><span class="tm">约 25 分钟前 · 正在关注</span></div>
+    <p class="sum">吐槽 Saylor 双标：「叫我们不要卖，公司可以嘎嘎卖么？」</p>
+    <p class="cmt"><b>简评：</b>KOL 情绪样本，代表散户对 #1 的不满；这类「被背刺」叙事一旦扩散，会放大 MSTR/BTC 的短线抛压。</p>
+    <p class="lnk"><a href="https://x.com/BroLeon/status/2065249279984410958" target="_blank">查看原文 ↗</a></p>
+  </div>
+
+  <div class="item">
+    <div class="top"><span class="num">4</span><span class="hd">@PANewsCN</span><span class="tm">约 5 分钟前 · 正在关注</span></div>
+    <p class="sum">Bitcoin Core 31.0 的 -privatebroadcast 功能存隐私漏洞，特定网络条件下可能泄露发送方 IP，将随 31.1 修复。</p>
+    <p class="cmt"><b>简评：</b>技术面利空但可控——影响隐私非资金安全，且修复在途；对 BTC 基本面冲击有限，主要是情绪叠加。</p>
+    <p class="lnk"><a href="https://x.com/PANewsCN/status/2065253533256143006" target="_blank">查看原文 ↗</a></p>
+  </div>
+
+  <div class="item">
+    <div class="top"><span class="num">5</span><span class="hd">@bubblemaps</span><span class="tm">约 9 小时前 · 正在关注</span></div>
+    <p class="sum">预警 $BEAT 一夜冲上 80 亿美元 FDV，链上现与 $LAB、$RIVER 相同的拉盘模式，而 CEX 们集体沉默。</p>
+    <p class="cmt"><b>简评：</b>典型「犯罪式拉盘」风险提示，待证实但模式可疑；提醒小币板块仍是高危区，追高需警惕砸盘。<span class="tag warn">待证实</span></p>
+    <p class="lnk"><a href="https://x.com/bubblemaps/status/2065116941224964363" target="_blank">查看原文 ↗</a></p>
+  </div>
+
+  <div class="item">
+    <div class="top"><span class="num">6</span><span class="hd">@sayinshallah</span><span class="tm">约 1 小时前 · 为你推荐</span></div>
+    <p class="sum">自述将一笔预售分配在 OlympusDAO（$OHM）从 8000 万美元做到只剩 50 万的惨痛经历。</p>
+    <p class="cmt"><b>简评：</b>仓位教训型情绪帖，DeFi 旧周期「纸面财富」幻灭样本；在当前投机情绪回潮时是一记冷水。</p>
+    <p class="lnk"><a href="https://x.com/sayinshallah/status/2065239399663644958" target="_blank">查看原文 ↗</a></p>
+  </div>
+
+  <div class="item">
+    <div class="top"><span class="num">7</span><span class="hd">@an_le23998</span><span class="tm">约 4 小时前 · 正在关注</span></div>
+    <p class="sum">Jupiter 世界杯预测市场收官（任选 5 场全中瓜分奖金），自述「买下所有组合」的套利策略小幅获利。</p>
+    <p class="cmt"><b>简评：</b>链上预测市场（Jupiter 生态）借世界杯导流的活跃信号，反映 Solana DeFi 仍在用赛事场景拉新。</p>
+    <p class="lnk"><a href="https://x.com/an_le23998/status/2065193045369442457" target="_blank">查看原文 ↗</a></p>
+  </div>
+
+  <h2 class="sec space">明细 · SpaceX 上市 &amp; 打新热</h2>
+
+  <div class="item">
+    <div class="top"><span class="num">8</span><span class="hd">@_FORAB（AB Kuai.Dong）</span><span class="tm">约 35 分钟前 · 正在关注</span></div>
+    <p class="sum">币安开启 SpaceX 打新后，仅 24h 链上就涌入 3.77 亿美元 USDC，按顶格 50 万单笔打新者已近 50 位。</p>
+    <p class="cmt"><b>简评：</b>本窗口最硬的「资金流」数据——稳定币明确流向打新，利好币安平台活跃度与 BNB；也印证 SpaceX 上市是当下最强吸金叙事。</p>
+    <p class="lnk"><a href="https://x.com/_FORAB/status/2065246564524953962" target="_blank">查看原文 ↗</a></p>
+  </div>
+
+  <div class="item">
+    <div class="top"><span class="num">9</span><span class="hd">@MengLayer（陈小萌）</span><span class="tm">约 10 小时前 · 正在关注</span></div>
+    <p class="sum">配 $SPCX 喊话「就不能所有人都赢吗，大家一起赢一次吧」。</p>
+    <p class="cmt"><b>简评：</b>散户打新心态的直接写照，FOMO 与「人人有份」的乐观弥漫；情绪越一致，越要留意上市落地后的兑现风险。</p>
+    <p class="lnk"><a href="https://x.com/MengLayer/status/2065099111796441565" target="_blank">查看原文 ↗</a></p>
+  </div>
+
+  <div class="item">
+    <div class="top"><span class="num">10</span><span class="hd">@wholemars（Whole Mars Catalog）</span><span class="tm">约 6.5 小时前 · 为你推荐</span></div>
+    <p class="sum">段子：Elon「老兄，我明天有个该死的 IPO，别搞战争的破事了」/ Trump「好吧，成交」。</p>
+    <p class="cmt"><b>简评：</b>把 #8 的 SpaceX IPO 与 #14 的地缘风险串在一起的玩梗，侧证「明天上市」已是市场共识级预期。</p>
+    <p class="lnk"><a href="https://x.com/wholemars/status/2065155836935369193" target="_blank">查看原文 ↗</a></p>
+  </div>
+
+  <div class="item">
+    <div class="top"><span class="num">11</span><span class="hd">@MengLayer · @brucelolzz</span><span class="tm">约 1 / 10 小时前 · 正在关注</span></div>
+    <p class="sum">$SPCX pre-IPO 代币喊价不断——「173 了」「開 170 吧拜託」。</p>
+    <p class="cmt"><b>简评：</b>价格喊单已成刷屏，零售狂热度高；这类无信息含量的报价帖密集出现，本身就是过热的反向指标。</p>
+    <p class="lnk"><a href="https://x.com/MengLayer/status/2065238979105161450" target="_blank">原文 A ↗</a> · <a href="https://x.com/brucelolzz/status/2065102901643743646" target="_blank">原文 B ↗</a></p>
+  </div>
+
+  <h2 class="sec macro">明细 · 宏观 · 中概券商 · 地缘</h2>
+
+  <div class="item">
+    <div class="top"><span class="num">12</span><span class="hd">@innomad_io（Innomad 一挪迈）</span><span class="tm">约 2 小时前 · 正在关注</span></div>
+    <p class="sum">实测：老虎证券更换境外 IP 即可正常下单，绕开对中国境内用户的交易限制（附中国 IP/境外 IP 对比截图）。</p>
+    <p class="cmt"><b>简评：</b>境内券商合规收紧的最新实锤，对 TIGR/FUTU 是双刃——短期 workaround 缓解恐慌，但监管风险与潜在用户流失被摆上台面。</p>
+    <p class="lnk"><a href="https://x.com/innomad_io/status/2065228471408984509" target="_blank">查看原文 ↗</a></p>
+  </div>
+
+  <div class="item">
+    <div class="top"><span class="num">13</span><span class="hd">@newmichwill</span><span class="tm">约 4.5 小时前 · 正在关注</span></div>
+    <p class="sum">「两个协议都用同一个区块，哇——@Fidelity 真会用 DeFi！」</p>
+    <p class="cmt"><b>简评：</b>TradFi 巨头实操上链的细节信号，利好 ETH/DeFi 采用叙事；机构级资金对链上基础设施的依赖在加深。</p>
+    <p class="lnk"><a href="https://x.com/newmichwill/status/2065188390606176301" target="_blank">查看原文 ↗</a></p>
+  </div>
+
+  <div class="item">
+    <div class="top"><span class="num">14</span><span class="hd">@alifarhat79</span><span class="tm">约 11 小时前 · 为你推荐</span></div>
+    <p class="sum">段子图：特朗普「我要攻击伊朗 / 我不攻击伊朗」反复横跳，配「市场：」被来回甩的走势。</p>
+    <p class="cmt"><b>简评：</b>地缘不确定性的情绪温度计——表态反复本身即是波动来源，利好油气与黄金避险，但方向取决于后续证实/证伪。</p>
+    <p class="lnk"><a href="https://x.com/alifarhat79/status/2065094573332865342" target="_blank">查看原文 ↗</a></p>
+  </div>
+
+  <div class="item">
+    <div class="top"><span class="num">15</span><span class="hd">@MichaelCPA_ITA（Michael, CPA）</span><span class="tm">约 8 小时前 · 为你推荐</span></div>
+    <p class="sum">「一只鲸鱼在特朗普 Truth Social 发帖前 30 秒买入百亿美元 $SPY 看涨期权，45 秒后卖出赚 170 亿。」</p>
+    <p class="cmt"><b>简评：</b>数字夸张（百亿本金 45 秒赚 170 亿）应视为讽刺/段子而非事实，但「政策提前知情」的市场操纵叙事在持续发酵。<span class="tag warn">待证实</span></p>
+    <p class="lnk"><a href="https://x.com/MichaelCPA_ITA/status/2065131790436593666" target="_blank">查看原文 ↗</a></p>
+  </div>
+
+  <h2 class="sec ai">明细 · AI &amp; 科技</h2>
+
+  <div class="item">
+    <div class="top"><span class="num">16</span><span class="hd">@oran_ge（orange.ai）</span><span class="tm">约 4.5 小时前 · 正在关注</span></div>
+    <p class="sum">展示「一次 Prompt 生成」的 Fable 5 游戏 demo，称完成度很高、非常上头。</p>
+    <p class="cmt"><b>简评：</b>AIGC「一句话生成可玩内容」的进展样本，反映生成式 AI 在游戏/交互领域的能力边界仍在快速外推。</p>
+    <p class="lnk"><a href="https://x.com/oran_ge/status/2065188882623381829" target="_blank">查看原文 ↗</a></p>
+  </div>
+
+  <h2 class="sec mood">明细 · 情绪面 &amp; 消费</h2>
+
+  <div class="item">
+    <div class="top"><span class="num">17</span><span class="hd">@_FORAB（AB Kuai.Dong）</span><span class="tm">约 25 分钟前 · 正在关注</span></div>
+    <p class="sum">世界杯开幕式「少数几个中国元素」之一：突然出现约 13 秒的 Labubu。</p>
+    <p class="cmt"><b>简评：</b>消费/出海信号——Labubu（泡泡玛特）拿下世界杯顶级曝光，利好 9992.HK 的全球品牌叙事，IP 出海持续兑现。</p>
+    <p class="lnk"><a href="https://x.com/_FORAB/status/2065249314344186305" target="_blank">查看原文 ↗</a></p>
+  </div>
+
+  <div class="item">
+    <div class="top"><span class="num">18</span><span class="hd">@mubeitech（墓碑科技）</span><span class="tm">约 2 小时前 · 正在关注</span></div>
+    <p class="sum">爽文：被高盛开除、评为「公司史上最差分析师」的 Fernando De Leon，拿最后 10 万美金梭哈滚出 100 亿美元商业帝国。</p>
+    <p class="cmt"><b>简评：</b>励志叙事型情绪帖，市场信号弱；放在窗口尾部作为风险偏好「乐观底色」的旁证，提示当前情绪仍偏冒险。</p>
+    <p class="lnk"><a href="https://x.com/mubeitech/status/2065225593117892762" target="_blank">查看原文 ↗</a></p>
+  </div>
+
+  <div class="foot">
+    数据抓取自 @JaceHoiX 的 X 时间线「为你推荐」+「正在关注」两个标签，时间窗口为运行时刻前约 12 小时；已剔除广告与零信息生活/段子帖。相对时间以抓取时刻（06-12 10:05 港时）为基准。本页为信息聚合与梳理，不构成任何投资建议。<br>
+    X 时间线简报 · 自动生成于 2026-06-12 10:00（港时）
+  </div>
+
+</div>
+</body>
+</html>
