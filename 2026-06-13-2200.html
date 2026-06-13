@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>X 时间线简报 · 2026-06-13 22:05（港时）</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiByeD0iNSIgZmlsbD0iIzAwMCIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xOC4yNDQgMi4yNWgzLjMwOGwtNy4yMjcgOC4yNiA4LjUwMiAxMS4yNEgxNi4xN2wtNS4yMTQtNi44MTdMNC45OSAyMS43NUgxLjY4bDcuNzMtOC44MzVMMS4yNTQgMi4yNUg4LjA4bDQuNzEzIDYuMjMxem0tMS4xNjEgMTcuNTJoMS44MzNMNy4wODQgNC4xMjZINS4xMTd6Ii8+PC9zdmc+">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  :root{
+    --bg:#2d2c2a; --panel:#393734; --border:#4a4744; --text:#d9d4ca; --muted:#9c958a;
+    --green:#8f9c7f; --red:#b58c80; --yellow:#c2a978; --blue:#8c9aa2; --mauve:#a08e9a;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    line-height:1.7; font-size:16px; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:860px; margin:0 auto; padding:32px 22px 60px}
+  header h1{font-size:25px; margin:0 0 6px; letter-spacing:.3px; font-weight:680}
+  header .sub{color:var(--muted); font-size:14px; margin-bottom:24px}
+  header .sub b{color:var(--text); font-weight:600}
+
+  .callout{
+    background:var(--panel); border-left:4px solid var(--blue);
+    border-radius:10px; padding:16px 18px; margin:0 0 26px;
+  }
+  .callout .tag{
+    display:inline-block; font-size:12px; letter-spacing:.5px; color:var(--blue);
+    font-weight:700; margin-bottom:6px;
+  }
+  .callout p{margin:0; font-size:15px}
+  .callout .hi-green{color:var(--green); font-weight:600}
+  .callout .hi-red{color:var(--red); font-weight:600}
+
+  h2.section{
+    font-size:16px; margin:34px 0 14px; padding-bottom:8px;
+    border-bottom:1px solid var(--border); color:var(--text); font-weight:650;
+  }
+  h2.section .dot{color:var(--mauve); margin-right:7px}
+
+  /* 判断表 */
+  .tablewrap{overflow-x:auto; margin:6px 0 8px; border-radius:10px; border:1px solid var(--border)}
+  table.judge{border-collapse:collapse; width:100%; min-width:680px; font-size:14px}
+  table.judge th,table.judge td{padding:10px 12px; text-align:left; vertical-align:top; border-bottom:1px solid var(--border)}
+  table.judge thead th{background:#403e3a; color:var(--muted); font-weight:600; white-space:nowrap; font-size:13px}
+  table.judge tbody tr:nth-child(odd){background:#34322f}
+  table.judge tbody tr:nth-child(even){background:#3b3935}
+  table.judge .tk{font-weight:650; white-space:nowrap}
+  table.judge .pos{color:var(--green)}
+  table.judge .neg{color:var(--red)}
+  table.judge td.dash{color:var(--muted); text-align:center}
+  .lean{white-space:nowrap; font-weight:650}
+  .lean.long{color:var(--green)}
+  .lean.short{color:var(--red)}
+  .lean.mix{color:var(--yellow)}
+  .ref{color:var(--muted); font-size:12.5px; white-space:nowrap}
+  .disc{font-size:12.5px; color:var(--muted); margin:12px 2px 0; line-height:1.6}
+
+  /* 明细 */
+  .item{background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:13px 16px; margin-bottom:12px}
+  .item .meta{font-size:13px; color:var(--muted); margin-bottom:5px}
+  .item .meta .num{
+    display:inline-block; min-width:22px; height:22px; line-height:22px; text-align:center;
+    background:#46443f; color:var(--blue); border-radius:6px; font-weight:700; font-size:12.5px; margin-right:8px;
+  }
+  .item .meta .who{color:var(--text); font-weight:600}
+  .item .meta .t{margin-left:6px}
+  .item .sum{font-size:15px; margin:3px 0 5px}
+  .item .cmt{font-size:13.5px; color:var(--muted)}
+  .item .cmt b{color:var(--mauve); font-weight:600}
+  .item .flag{color:var(--yellow); font-weight:600}
+  .item a.src{color:var(--blue); text-decoration:none; font-size:13px; border-bottom:1px dotted var(--blue)}
+  .item a.src:hover{opacity:.8}
+
+  footer{margin-top:38px; padding-top:16px; border-top:1px solid var(--border); color:var(--muted); font-size:12.5px}
+  footer a{color:var(--blue); text-decoration:none}
+
+  @media (max-width:600px){
+    .wrap{padding:22px 14px 48px}
+    body{font-size:15px}
+    header h1{font-size:21px}
+    .callout p{font-size:14px}
+    .item .sum{font-size:14.5px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>X 时间线简报 · 2026-06-13 22:05（港时）</h1>
+    <div class="sub">覆盖窗口 <b>10:05–22:05 港时</b>（实际约 10:30–22:00）· 来源：@JaceHoiX「为你推荐」+「正在关注」· 实选 <b>23</b> 条（本窗口被两大头条高度集中，去重去广告后未硬凑满 30 条）</div>
+  </header>
+
+  <div class="callout">
+    <span class="tag">⚑ 一句话全局判断</span>
+    <p>风险偏好呈<b>事件驱动的结构性分化</b>，而非单边 risk-on/off。两大<b>已证实</b>的硬冲击主导今日时间线：①美国商务部出口管制令迫使 Anthropic 将旗舰模型 <b>Fable 5 / Mythos 5 全面下架</b>（含美国本土用户），中心化美系 AI 算力链承压，<span class="hi-green">去中心化 AI（$TAO 日内 +17.2%）与开源叙事受益</span>；②中国收紧钨出口，致日本 WF6（占全球约 25%）<span class="hi-red">7 月 1 日起停产</span>，存储/逻辑芯片成本端遭冲击、韩国特气厂受益。叠加 <b>SpaceX（$SPCX）历史性 IPO</b> 点燃风险情绪。主线：AI 监管 + 半导体断供双杀「算力/存储」，资金向商业航天、加密叙事与逆向防御（伯里加仓）轮动。</p>
+  </div>
+
+  <h2 class="section"><span class="dot">◆</span>个股 / 加密 利好·利空 判断表</h2>
+  <div class="tablewrap">
+    <table class="judge">
+      <thead>
+        <tr><th>标的（代码）</th><th>🟢 利好</th><th>🔴 利空</th><th>净倾向</th><th>条目</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="tk">Bittensor（$TAO）</td>
+          <td class="pos">Fable 5 下架推升去中心化 AI 替代需求，coingecko 录日内 +17.2%</td>
+          <td class="dash">—</td>
+          <td><span class="lean long">🟢 偏多</span></td>
+          <td class="ref">14</td>
+        </tr>
+        <tr>
+          <td class="tk">NVIDIA（NVDA）</td>
+          <td class="pos">算力大战核心仍是「电力+GPU」，需求叙事未改</td>
+          <td class="neg">美 AI 出口管制升级、旗舰模型以国安理由被强制下架，板块监管不确定性骤升</td>
+          <td><span class="lean mix">🟡 多空交织</span></td>
+          <td class="ref">1 · 2 · 11</td>
+        </tr>
+        <tr>
+          <td class="tk">SK 海力士（000660）</td>
+          <td class="dash">—</td>
+          <td class="neg">日本 WF6 7/1 停产，DRAM/HBM/NAND 关键耗材断供、成本飙升</td>
+          <td><span class="lean short">🔴 偏空</span></td>
+          <td class="ref">9</td>
+        </tr>
+        <tr>
+          <td class="tk">三星电子（005930）</td>
+          <td class="dash">—</td>
+          <td class="neg">同 WF6 断供，存储制程耗材风险</td>
+          <td><span class="lean short">🔴 偏空</span></td>
+          <td class="ref">9</td>
+        </tr>
+        <tr>
+          <td class="tk">台积电（TSM / 2330）</td>
+          <td class="dash">—</td>
+          <td class="neg">WF6 全球约 25% 供应消失，逻辑制程钨膜耗材承压</td>
+          <td><span class="lean short">🔴 偏空</span></td>
+          <td class="ref">9</td>
+        </tr>
+        <tr>
+          <td class="tk">Foosung（093370）</td>
+          <td class="pos">韩国本土 WF6 / 特种气体国产替代直接受益</td>
+          <td class="dash">—</td>
+          <td><span class="lean long">🟢 偏多</span></td>
+          <td class="ref">9</td>
+        </tr>
+        <tr>
+          <td class="tk">SpaceX（$SPCX）</td>
+          <td class="pos">历史性 IPO 上市点燃风险偏好，Saylor 等公开祝贺</td>
+          <td class="neg">估值过高、早期员工股多轮稀释，回报倍数被高估</td>
+          <td><span class="lean mix">🟡 多空交织</span></td>
+          <td class="ref">10 · 12 · 13 · 15</td>
+        </tr>
+        <tr>
+          <td class="tk">Strategy（MSTR）</td>
+          <td class="pos">Saylor 称 Mag8 已 25% 在资产负债表持 BTC，强化企业配置叙事</td>
+          <td class="dash">—</td>
+          <td><span class="lean long">🟢 偏多</span></td>
+          <td class="ref">15</td>
+        </tr>
+        <tr>
+          <td class="tk">PayPal（PYPL）</td>
+          <td class="pos">迈克尔·伯里据 Substack 披露加仓</td>
+          <td class="dash">—</td>
+          <td><span class="lean long">🟢 偏多</span></td>
+          <td class="ref">21</td>
+        </tr>
+        <tr>
+          <td class="tk">Adobe（ADBE）</td>
+          <td class="pos">伯里同步加仓</td>
+          <td class="dash">—</td>
+          <td><span class="lean long">🟢 偏多</span></td>
+          <td class="ref">21</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="disc">免责声明：上表为「事件→个股暴露」的客观梳理，<b>不构成投资建议</b>，本简报非持牌投顾。多空方向基于推文逻辑与已知供需关系，非价格预测；部分标的（如 NVDA）为事件映射而非推文直接点名。单一窗口仅出现单边信号的标的不强凑另一面；小道/未证实消息已在明细标注「待证实」。</p>
+
+  <h2 class="section"><span class="dot">🅐</span>AI 监管地震 — Fable 5 / Mythos 5 被强制下架（已证实）</h2>
+
+  <div class="item">
+    <div class="meta"><span class="num">1</span><span class="who">@nft_hu</span><span class="t">· 约 6 小时前</span></div>
+    <div class="sum">头条详情：美国商务部以出口管制指令强制 Anthropic 下架 Fable 5 与 Mythos 5，所有用户（含美国本土）失去访问权限，三天上线即遭封杀。</div>
+    <div class="cmt"><b>简评：</b>已获 CNBC / NBC / Axios 及 Anthropic 官方声明证实，触发点为另一公司声称越狱 Mythos 引发国安担忧。这是今日全局风险定价的最大变量——监管以「国安」之名直接令商用模型断供，中心化美系 AI 估值逻辑被打开缺口。 <a class="src" href="https://x.com/nft_hu/status/2065710216583557622" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <div class="item">
+    <div class="meta"><span class="num">2</span><span class="who">@qinbafrank</span><span class="t">· 约 12 分钟前</span></div>
+    <div class="sum">「主权 AI 从可选项变必选项」：Fable 5/Mythos 5 上线三天即被一纸命令全球切断，Anthropic 公开表示不认同但仍须执行，释放两大残酷信号。</div>
+    <div class="cmt"><b>简评：</b>点出本次事件的中期含义——模型即战略资产，地缘可随时熔断算力供给，利空跨境 AI 部署、利好本土化与去中心化路线。 <a class="src" href="https://x.com/qinbafrank/status/2065794791108161926" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <div class="item">
+    <div class="meta"><span class="num">3</span><span class="who">@SemiAnalysis_</span><span class="t">· 约 11 小时前</span></div>
+    <div class="sum">权威半导体分析账号侧面确认：「我们听说 fable 被封了」。</div>
+    <div class="cmt"><b>简评：</b>来自高可信度产业账号的早期信号，与后续官方声明吻合，可作为事件时间线的交叉印证。 <a class="src" href="https://x.com/SemiAnalysis_/status/2065627871343698300" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <div class="item">
+    <div class="meta"><span class="num">4</span><span class="who">@Scobleizer</span><span class="t">· 约 9 小时前</span></div>
+    <div class="sum">称 Anthropic 投资者对 CEO Dario Amodei 的领导颇有不满，「看不出他怎么再熬过一周」。</div>
+    <div class="cmt"><b>简评：</b><span class="flag">待证实</span>——个人观点/小道，无信源；但反映下架事件后市场对 Anthropic 治理与商业前景的负面情绪正在发酵。 <a class="src" href="https://x.com/Scobleizer/status/2065658849772929045" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <div class="item">
+    <div class="meta"><span class="num">5</span><span class="who">@yacineMTB</span><span class="t">· 约 11 小时前</span></div>
+    <div class="sum">「记住，开源模型现在仅落后约 4 个月。」</div>
+    <div class="cmt"><b>简评：</b>监管熔断闭源旗舰之际，开源相对价值上升——利好开源生态与可自托管算力需求，是去中心化 AI 叙事的另一面。 <a class="src" href="https://x.com/yacineMTB/status/2065623731146240113" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <div class="item">
+    <div class="meta"><span class="num">6</span><span class="who">@abskoop</span><span class="t">· 约 6 小时前</span></div>
+    <div class="sum">字节「豆包」拿下 2026 年高考数学满分，「有点东西」。</div>
+    <div class="cmt"><b>简评：</b>国产模型能力追赶的注脚；在美系旗舰受限的窗口期，非美/国产模型的相对竞争位置改善。 <a class="src" href="https://x.com/abskoop/status/2065706781331030150" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <div class="item">
+    <div class="meta"><span class="num">7</span><span class="who">@tiger_web3</span><span class="t">· 约 5 小时前</span></div>
+    <div class="sum">「我这 Fable5 好像还能用……来来来，任务带跑搞起来。」</div>
+    <div class="cmt"><b>简评：</b>下架后的用户调侃，侧证封禁执行存在缓存/灰度滞后；情绪面信息，市场含义有限。 <a class="src" href="https://x.com/tiger_web3/status/2065717808827154600" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <div class="item">
+    <div class="meta"><span class="num">8</span><span class="who">@0xcryptowizard</span><span class="t">· 约 10 小时前</span></div>
+    <div class="sum">真实受影响案例：用 fable 优化产业链卡点图时被提示「模型不可用」，吐槽「政府连个模型都控制」。</div>
+    <div class="cmt"><b>简评：</b>下架对真实生产力工作流的即时冲击，解释了用户为何快速转向替代/去中心化方案。 <a class="src" href="https://x.com/0xcryptowizard/status/2065637895202086925" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <h2 class="section"><span class="dot">🅑</span>半导体供应链冲击 — 钨出口管制 / WF6（已证实）</h2>
+
+  <div class="item">
+    <div class="meta"><span class="num">9</span><span class="who">@aleabitoreddit</span><span class="t">· 约 4 小时前</span></div>
+    <div class="sum">中国对日本钨出口管制致 WF₆ 供应链中断，SK 海力士、三星、$TSM 所需的全球约 25% 供应就此消失；韩国 Foosung（093370，约 $1.2B 市值）被点名为潜在大赢家。</div>
+    <div class="cmt"><b>简评：</b>已获 TrendForce / The Elec / wccftech 等多源证实——日企 Kanto Denka、Central Glass 通知 7/1 起停产 WF6，4 月 WF6 价已环比 +203%。<b>存储与逻辑制程成本端集体承压（利空 SK海力士/三星/台积电），韩国本土特气厂（Foosung）国产替代受益。</b> <a class="src" href="https://x.com/aleabitoreddit/status/2065736884752703865" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <h2 class="section"><span class="dot">🅒</span>SpaceX IPO 与商业航天</h2>
+
+  <div class="item">
+    <div class="meta"><span class="num">10</span><span class="who">@0xTodd</span><span class="t">· 约 5 小时前</span></div>
+    <div class="sum">SpaceX 打新经由 xStocks 受阻；拆解 Kraken xStocks（列支敦士登合规、证券代币＝价格敞口无投票权）与 Binance bStocks（阿布扎比 ADGM）机制差异。</div>
+    <div class="cmt"><b>简评：</b>代币化股票成散户参与一级热门标的的新通道，但「价格敞口≠股权」的合规边界值得警惕；利好链上券商叙事，亦埋下错配风险。 <a class="src" href="https://x.com/0xTodd/status/2065721878954582378" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <div class="item">
+    <div class="meta"><span class="num">11</span><span class="who">@mubeitech</span><span class="t">· 约 4 小时前</span></div>
+    <div class="sum">称 SpaceX 一个月内成「全球第四大云」、超越甲骨文；并指 AI 算力大战本质拼两件事——电力与 GPU。</div>
+    <div class="cmt"><b>简评：</b>「一月超甲骨文」<span class="flag">数据夸张/待证实</span>，宜打折看待；但「电力+GPU」框架对 NVDA 等算力链是中期需求支撑逻辑。 <a class="src" href="https://x.com/mubeitech/status/2065737192559792423" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <div class="item">
+    <div class="meta"><span class="num">12</span><span class="who">@TingHu888</span><span class="t">· 约 6 分钟前</span></div>
+    <div class="sum">SpaceX IPO 回报稀释测算：表面似近 30 倍，但经多年多轮稀释，按现市值实际约几倍到十几倍。</div>
+    <div class="cmt"><b>简评：</b>给 IPO 狂热泼冷水的理性视角——早期估值倍数需扣除稀释，是 $SPCX 估值面的利空提醒。 <a class="src" href="https://x.com/TingHu888/status/2065796318044492087" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <div class="item">
+    <div class="meta"><span class="num">13</span><span class="who">@ApoStructura</span><span class="t">· 约 2.5 小时前</span></div>
+    <div class="sum">盛赞 SpaceX 总裁 Gwynne Shotwell，称若非为马斯克工作她早被誉为航空航天最有权势的女性，媒体却沉默。</div>
+    <div class="cmt"><b>简评：</b>情绪/人物向，强化 SpaceX 管理层叙事，对 IPO 风险偏好有边际加成。 <a class="src" href="https://x.com/ApoStructura/status/2065760741089497154" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <h2 class="section"><span class="dot">🅓</span>加密 & 链上</h2>
+
+  <div class="item">
+    <div class="meta"><span class="num">14</span><span class="who">@coingecko</span><span class="t">· 约 1.6 小时前</span></div>
+    <div class="sum">$TAO 飙升 17.2%，部分原因是 Claude 的 Fable 5 暂停后，对去中心化 AI 替代方案的需求日益增长。</div>
+    <div class="cmt"><b>简评：</b>本窗口最干净的「事件→标的」传导：监管熔断闭源旗舰 → 资金涌入去中心化 AI（Bittensor）。利好明确但属事件驱动，需防消息消化后回吐。 <a class="src" href="https://x.com/coingecko/status/2065773452313743576" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <div class="item">
+    <div class="meta"><span class="num">15</span><span class="who">@Cointelegraph</span><span class="t">· 约 5 分钟前</span></div>
+    <div class="sum">Michael Saylor 祝贺 @ElonMusk 与 $SPCX 历史性 IPO，并称「Mag8 中已有 25% 在资产负债表上持有比特币」。</div>
+    <div class="cmt"><b>简评：</b>企业级 BTC 配置叙事再获背书，利好 MSTR 与 BTC 储备主题；同时把 SpaceX IPO 与加密情绪绑定，强化今日 risk-on 一侧。 <a class="src" href="https://x.com/Cointelegraph/status/2065796493873733874" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <div class="item">
+    <div class="meta"><span class="num">16</span><span class="who">@wublockchain12</span><span class="t">· 约 1.5 小时前</span></div>
+    <div class="sum">吴说：Alliance 联创 Imran 指出，合规预测市场平台 Kalshi 对「链上流动性」具净负面效应，每上线新品都在把交易流从链上虹吸至链下闭环。</div>
+    <div class="cmt"><b>简评：</b>对链上 DEX / 预测市场赛道是结构性利空提醒——合规中心化平台正分流链上流动性，关注链上交易量趋势。 <a class="src" href="https://x.com/wublockchain12/status/2065775625840013343" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <div class="item">
+    <div class="meta"><span class="num">17</span><span class="who">@xincctnnq</span><span class="t">· 约 5 小时前</span></div>
+    <div class="sum">「2025 信仰最深的项目伤我最深」：bmp 创始人直接跑路、此前仓库还被黑，损失约 2.5 万美元。</div>
+    <div class="cmt"><b>简评：</b>散户情绪与风险警示——meme/信仰盘的尾部风险，提示仓位管理；情绪面信息。 <a class="src" href="https://x.com/xincctnnq/status/2065719131740274815" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <div class="item">
+    <div class="meta"><span class="num">18</span><span class="who">@BullTheoryio</span><span class="t">· 约 2.2 小时前</span></div>
+    <div class="sum">Logan Paul 2021 年以 62.3 万美元买入的 NFT，今天价值不足 130 美元。</div>
+    <div class="cmt"><b>简评：</b>周期顶部资产的极端均值回归案例，对当前 IPO/meme 狂热是一记冷静注脚。 <a class="src" href="https://x.com/BullTheoryio/status/2065764231103013162" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <h2 class="section"><span class="dot">🅔</span>宏观 & 中国</h2>
+
+  <div class="item">
+    <div class="meta"><span class="num">19</span><span class="who">@BTCdayu</span><span class="t">· 约 1.1 小时前</span></div>
+    <div class="sum">摩根大通上海/深圳楼市最新调研：①2000 万以上豪宅销售强劲、明显回暖，500–1000 万改善盘不好卖；②深圳南山/福田回暖、其他区域仍跌，分化明显；③沪深新豪宅热销。</div>
+    <div class="cmt"><b>简评：</b>结构性而非全面回暖——高端韧性、中端疲弱，分化加剧。对内房与中国消费的判断应区分价格带，避免一刀切。 <a class="src" href="https://x.com/BTCdayu/status/2065781060873642346" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <div class="item">
+    <div class="meta"><span class="num">20</span><span class="who">@0xLoki_Zeng</span><span class="t">· 约 4.9 小时前</span></div>
+    <div class="sum">称伊朗要求美国解冻 200 亿美元冻结资产，特朗普只给 1 亿，还「拉了个内幕群让伊朗自己开单赢 200 亿」。</div>
+    <div class="cmt"><b>简评：</b><span class="flag">待证实</span>——带调侃成分的地缘段子，无正式信源；仅作中东风险情绪温度计，勿当事实交易。 <a class="src" href="https://x.com/0xLoki_Zeng/status/2065724065914982875" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <h2 class="section"><span class="dot">🅕</span>情绪面 & 仓位</h2>
+
+  <div class="item">
+    <div class="meta"><span class="num">21</span><span class="who">@burrytracker</span><span class="t">· 约 49 分钟前</span></div>
+    <div class="sum">突发：迈克尔·伯里据其 Substack 加仓 $PYPL 与 $ADBE。</div>
+    <div class="cmt"><b>简评：</b>知名逆向投资者的价值型加仓，利好两只标的的情绪面；但伯里以早择时著称，<span class="flag">信号需配合基本面与节奏验证</span>，非追涨理由。 <a class="src" href="https://x.com/burrytracker/status/2065785286093615428" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <div class="item">
+    <div class="meta"><span class="num">22</span><span class="who">@raycat2021</span><span class="t">· 约 49 分钟前</span></div>
+    <div class="sum">贝佐斯论「打造厚重的公司」：亚马逊股价在互联网泡沫破裂时从 $113 跌至 $6，但每月客户数、毛利、各项业务指标却在持续改善。</div>
+    <div class="cmt"><b>简评：</b>长期主义的经典叙事——价格与基本面可短期严重背离。当下 AI/航天热潮中，提醒以业务指标而非股价情绪锚定判断。 <a class="src" href="https://x.com/raycat2021/status/2065785383380746493" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <div class="item">
+    <div class="meta"><span class="num">23</span><span class="who">@MerlinEgalite</span><span class="t">· 约 1.9 小时前</span></div>
+    <div class="sum">Morpho 团队五周年线下聚会，创始人表达对团队与 DeFi 借贷长期前景的信心。</div>
+    <div class="cmt"><b>简评：</b>DeFi 蓝筹团队的正向情绪，对 Morpho 生态是软性利好；信息量有限，归入仓位/情绪观察。 <a class="src" href="https://x.com/MerlinEgalite/status/2065769271071039580" target="_blank">原文 ↗</a></div>
+  </div>
+
+  <footer>
+    本简报基于 @JaceHoiX 的 X 时间线（「为你推荐」+「正在关注」）近 12 小时内容自动整理，已剔除广告与纯生活帖；两大头条经多家外媒交叉证实，标注「待证实」者为未经核实之小道/段子。<b>不构成投资建议。</b><br>
+    门户：<a href="https://x.jacexie.com/" target="_blank">x.jacexie.com</a> · 生成时间 2026-06-13 22:05（港时）
+  </footer>
+</div>
+</body>
+</html>
