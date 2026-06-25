@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>X 时间线简报 · 2026-06-25 22:06（港时）</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiByeD0iNSIgZmlsbD0iIzAwMCIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xOC4yNDQgMi4yNWgzLjMwOGwtNy4yMjcgOC4yNiA4LjUwMiAxMS4yNEgxNi4xN2wtNS4yMTQtNi44MTdMNC45OSAyMS43NUgxLjY4bDcuNzMtOC44MzVMMS4yNTQgMi4yNUg4LjA4bDQuNzEzIDYuMjMxem0tMS4xNjEgMTcuNTJoMS44MzNMNy4wODQgNC4xMjZINS4xMTd6Ii8+PC9zdmc+">
+<style>
+:root{
+  --bg:#2d2c2a; --panel:#393734; --border:#4a4744; --text:#d9d4ca; --muted:#9c958a;
+  --green:#8f9c7f; --red:#b58c80; --yellow:#c2a978; --blue:#8c9aa2; --mauve:#a08e9a;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{
+  background:var(--bg); color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  line-height:1.7; font-size:16px; -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:860px; margin:0 auto; padding:32px 22px 64px;}
+h1{font-size:25px; font-weight:700; margin:0 0 6px; letter-spacing:.3px; color:#e7e2d8;}
+.sub{color:var(--muted); font-size:14px; margin:0 0 26px; line-height:1.6;}
+.sub b{color:var(--text); font-weight:600;}
+
+/* 全局判断 callout */
+.callout{
+  background:var(--panel); border-left:4px solid var(--blue);
+  border-radius:10px; padding:16px 18px; margin:0 0 26px;
+}
+.callout .tag{font-size:12px; color:var(--blue); font-weight:700; letter-spacing:1px; text-transform:uppercase; display:block; margin-bottom:6px;}
+.callout p{margin:0; font-size:15.5px;}
+.callout .ro{color:var(--red); font-weight:700;}
+
+/* section titles */
+h2{
+  font-size:15px; font-weight:700; color:#e7e2d8; margin:34px 0 14px;
+  padding-bottom:8px; border-bottom:1px solid var(--border);
+}
+h2 .dot{display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:9px; vertical-align:middle;}
+.d-blue{background:var(--blue);} .d-mauve{background:var(--mauve);} .d-green{background:var(--green);}
+.d-red{background:var(--red);} .d-yellow{background:var(--yellow);}
+
+/* 判断表 */
+.tablewrap{overflow-x:auto; margin:0 0 14px; border-radius:10px; border:1px solid var(--border);}
+table{border-collapse:collapse; width:100%; min-width:680px; font-size:14px;}
+thead th{
+  background:#403d39; color:#e7e2d8; font-weight:600; text-align:left;
+  padding:11px 13px; border-bottom:1px solid var(--border); white-space:nowrap;
+}
+tbody td{padding:10px 13px; border-bottom:1px solid var(--border); vertical-align:top;}
+tbody tr:nth-child(even){background:#34322f;}
+tbody tr:last-child td{border-bottom:none;}
+td.sym{font-weight:600; color:#e7e2d8; white-space:nowrap;}
+td.good{color:var(--green);} td.bad{color:var(--red);}
+td.net{font-weight:700; white-space:nowrap;}
+.net-g{color:var(--green);} .net-r{color:var(--red);} .net-y{color:var(--yellow);}
+td.ref{color:var(--muted); white-space:nowrap; font-size:13px;}
+
+.disc{font-size:12.5px; color:var(--muted); margin:0 0 8px; line-height:1.6;}
+
+/* items */
+.item{
+  background:var(--panel); border:1px solid var(--border); border-radius:10px;
+  padding:13px 16px; margin:0 0 11px;
+}
+.item .hd{font-size:13px; color:var(--muted); margin-bottom:5px;}
+.item .num{display:inline-block; min-width:22px; height:22px; line-height:22px; text-align:center;
+  background:#46433f; color:#e7e2d8; border-radius:6px; font-size:12px; font-weight:700; margin-right:8px;}
+.item .acct{color:var(--blue); font-weight:600;}
+.item .time{color:var(--muted);}
+.item .sm{margin:4px 0 0; font-size:15px;}
+.item .cm{margin:6px 0 0; font-size:13.5px; color:var(--muted);}
+.item .cm b{color:var(--mauve); font-weight:600;}
+.item a.src{color:var(--blue); text-decoration:none; font-size:13px; border-bottom:1px dotted var(--blue);}
+.item a.src:hover{color:var(--text);}
+.foot{margin-top:40px; padding-top:16px; border-top:1px solid var(--border); color:var(--muted); font-size:12.5px; line-height:1.7;}
+.foot a{color:var(--blue); text-decoration:none;}
+@media (max-width:600px){
+  .wrap{padding:22px 14px 48px;}
+  h1{font-size:21px;} body{font-size:15px;}
+  .callout p{font-size:14.5px;} .item .sm{font-size:14.5px;}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>X 时间线简报 · 2026-06-25 22:06（港时）</h1>
+  <p class="sub">覆盖窗口：<b>06-25 10:06 – 22:06（港时，约12小时）</b> · 实际收录 <b>30 条</b> · 来源：仅「为你推荐」（「正在关注」流为空，账号未关注任何人）· 已剔除广告与超窗旧帖</p>
+
+  <div class="callout">
+    <span class="tag">一句话全局判断</span>
+    <p><span class="ro">风险偏好 risk-off</span>。主线一：<b>加密盘中急挫</b>——BTC一度跌至约 <b>$58,000</b>、被指创21个月新低，60分钟内约 <b>4.5–5亿美元</b> 杠杆多头被清算（数据源自 KOL，<b>待证实</b>）；资金从港股科技/加密向美股 AI 与半导体回流，纳指相对抗跌。主线二：<b>存储/内存成本飙升</b> 推动苹果全线涨价，整机组装端（苹果、小米）利润率承压，而内存上游（海力士、三星、美光）受益于涨价超级周期。</p>
+  </div>
+
+  <h2><span class="dot d-yellow"></span>个股 / 加密 利好利空判断表</h2>
+  <div class="tablewrap">
+    <table>
+      <thead>
+        <tr><th>标的（代码）</th><th>🟢 利好</th><th>🔴 利空</th><th>净倾向</th><th>条目</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="sym">苹果 (AAPL)</td>
+          <td class="good">提价转嫁成本、品牌定价权强</td>
+          <td class="bad">芯片/内存成本飙升被迫全线涨价，硬件利润率承压</td>
+          <td class="net net-y">🟡 多空交织</td>
+          <td class="ref">#6 #7 #8</td>
+        </tr>
+        <tr>
+          <td class="sym">SK海力士 (000660)</td>
+          <td class="good">内存/存储价格飙升，存储超级周期，需求激增</td>
+          <td class="bad">—</td>
+          <td class="net net-g">🟢 偏多</td>
+          <td class="ref">#6 #7 #9</td>
+        </tr>
+        <tr>
+          <td class="sym">三星电子 (005930)</td>
+          <td class="good">同享内存涨价超级周期红利</td>
+          <td class="bad">—</td>
+          <td class="net net-g">🟢 偏多</td>
+          <td class="ref">#6 #9</td>
+        </tr>
+        <tr>
+          <td class="sym">美光 (MU)</td>
+          <td class="good">DRAM/NAND 涨价直接受益</td>
+          <td class="bad">—</td>
+          <td class="net net-g">🟢 偏多</td>
+          <td class="ref">#6 #9</td>
+        </tr>
+        <tr>
+          <td class="sym">小米集团 (1810.HK)</td>
+          <td class="good">汽车 SU7 销冠、生态级估值溢价（多头辩护）</td>
+          <td class="bad">存储涨价致硬件利润承压、恒科资金整体抛售</td>
+          <td class="net net-y">🟡 多空交织（短期偏空）</td>
+          <td class="ref">#9 #10 #11</td>
+        </tr>
+        <tr>
+          <td class="sym">IBM (IBM)</td>
+          <td class="good">公布 0.7nm 最先进芯片（近千亿晶体管），盘前 +8%</td>
+          <td class="bad">—</td>
+          <td class="net net-g">🟢 偏多（待证实）</td>
+          <td class="ref">#12</td>
+        </tr>
+        <tr>
+          <td class="sym">英伟达 (NVDA)</td>
+          <td class="good">DGX B300 需求火爆、国内现高溢价，AI 竞赛白热</td>
+          <td class="bad">—</td>
+          <td class="net net-g">🟢 偏多</td>
+          <td class="ref">#13</td>
+        </tr>
+        <tr>
+          <td class="sym">比特币 (BTC)</td>
+          <td class="good">—</td>
+          <td class="bad">60分钟清算约5亿美元多头，跌至 $58,000 创21个月新低；熊市或再跌30%</td>
+          <td class="net net-r">🔴 偏空</td>
+          <td class="ref">#1 #2 #3 #5</td>
+        </tr>
+        <tr>
+          <td class="sym">Strategy (MSTR)</td>
+          <td class="good">不会破产/清仓（现金流与安全垫辩护）、熊市低点布局观点</td>
+          <td class="bad">BTC 暴跌拖累代理标的</td>
+          <td class="net net-y">🟡 多空交织</td>
+          <td class="ref">#17 #18 #1</td>
+        </tr>
+        <tr>
+          <td class="sym">Circle (CRCL)</td>
+          <td class="good">RWA 代币化敞口扩张（CRCLon 上链）</td>
+          <td class="bad">现阶段非好买点、随加密 risk-off 走弱</td>
+          <td class="net net-r">🔴 偏空</td>
+          <td class="ref">#16 #20</td>
+        </tr>
+        <tr>
+          <td class="sym">Hyperliquid (HYPE)</td>
+          <td class="good">组合保证金 beta 上线、资本效率提升</td>
+          <td class="bad">加密整体 risk-off 拖累</td>
+          <td class="net net-y">🟡 多空交织</td>
+          <td class="ref">#19 #1</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="disc">※ 上表为「事件 → 个股暴露」的客观梳理，<b>不构成投资建议</b>，作者非持牌投顾。多空判断基于推文逻辑而非价格预测；突发 / 未经证实消息（如 BTC 价位、清算金额、IBM 制程、苹果价目）已标注「待证实」，请以官方与一手数据为准。</p>
+
+  <h2><span class="dot d-red"></span>明细 · 加密闪崩 &amp; 行情</h2>
+
+  <div class="item">
+    <div class="hd"><span class="num">1</span><span class="acct">@KobeissiLetter</span> · <span class="time">约6分钟前</span></div>
+    <p class="sm">突发：加密市场60分钟内清算约 4.5 亿美元杠杆多头，比特币跌至 $58,000，被称创 21 个月新低。</p>
+    <p class="cm"><b>简评：</b>本窗口最大风险事件，去杠杆速度极快，确认短线 risk-off；价位与金额待官方数据证实。 <a class="src" target="_blank" href="https://x.com/KobeissiLetter/status/2070146528824467493">原文 ↗</a></p>
+  </div>
+  <div class="item">
+    <div class="hd"><span class="num">2</span><span class="acct">@WatcherGuru</span> · <span class="time">约12分钟前</span></div>
+    <p class="sm">过去 60 分钟，加密市场约 5 亿美元仓位被清算。</p>
+    <p class="cm"><b>简评：</b>与 Kobeissi 口径相互印证，清算集中在多头，典型杀多行情。 <a class="src" target="_blank" href="https://x.com/WatcherGuru/status/2070146110929203539">原文 ↗</a></p>
+  </div>
+  <div class="item">
+    <div class="hd"><span class="num">3</span><span class="acct">@Bitwux</span>（BITWU.ETH） · <span class="time">约18分钟前</span></div>
+    <p class="sm">"昨天也是这个点开始跌！哪个时区在砸盘？" 附 BTC/USDT 约 58,695、-4.36%。</p>
+    <p class="cm"><b>简评：</b>盘口情绪贴，暗示固定时段抛压，交易员警惕同一时区的砸盘节奏。 <a class="src" target="_blank" href="https://x.com/Bitwux/status/2070144596529827925">原文 ↗</a></p>
+  </div>
+  <div class="item">
+    <div class="hd"><span class="num">4</span><span class="acct">@crypto_condom</span> · <span class="time">约6分钟前</span></div>
+    <p class="sm">维持 $BTC 空头 / $BB（黑莓）多头 的配对交易，"总有某个地方存在牛市"。</p>
+    <p class="cm"><b>简评：</b>逆势做空 BTC 者本轮占优；BB 盘中曾大涨，资金向冷门正股轮动避险的一例。 <a class="src" target="_blank" href="https://x.com/crypto_condom/status/2070145438238294195">原文 ↗</a></p>
+  </div>
+  <div class="item">
+    <div class="hd"><span class="num">5</span><span class="acct">@bobbyong</span>（CoinGecko） · <span class="time">约6小时前</span></div>
+    <p class="sm">引研究：参照 2019/2023 周期，当前熊市或还有约 5 个月、再跌约 30%。</p>
+    <p class="cm"><b>简评：</b>与今日闪崩呼应，提示周期底部未必到位，中期空间仍偏空。 <a class="src" target="_blank" href="https://x.com/bobbyong/status/2070058365951361224">原文 ↗</a></p>
+  </div>
+
+  <h2><span class="dot d-blue"></span>明细 · 存储涨价 &amp; 苹果全线提价</h2>
+
+  <div class="item">
+    <div class="hd"><span class="num">6</span><span class="acct">@_FORAB</span>（AB Kuai.Dong） · <span class="time">约1小时前</span></div>
+    <p class="sm">苹果因芯片/内存成本飙升全线涨价（美元）：MacBook Neo $599→$699、Air 512G $1099→$1299、Pro 1T $1699→$1999、iPad Air $599→$749、iPad Pro $999→$1199。</p>
+    <p class="cm"><b>简评：</b>成本端硬性传导，提价普遍 15–25%，验证内存超级周期；利好上游、抑制整机需求。 <a class="src" target="_blank" href="https://x.com/_FORAB/status/2070133851742179549">原文 ↗</a></p>
+  </div>
+  <div class="item">
+    <div class="hd"><span class="num">7</span><span class="acct">@pengchujin</span>（酱紫表） · <span class="time">约1.1小时前</span></div>
+    <p class="sm">国行同步涨价：Mac Mini→5999、MacBook Neo→5499、MacBook Air→9999 元。</p>
+    <p class="cm"><b>简评：</b>中国区定价跟涨，需求侧或受抑制；利好内存上游、压制整机出货量。 <a class="src" target="_blank" href="https://x.com/pengchujin/status/2070130322235372005">原文 ↗</a></p>
+  </div>
+  <div class="item">
+    <div class="hd"><span class="num">8</span><span class="acct">@williamlab</span>（陳威廉） · <span class="time">约1.5小时前</span></div>
+    <p class="sm">"直接全部涨价 20%，如果连苹果的利润率都扛不住，其他企业更惨。"</p>
+    <p class="cm"><b>简评：</b>点出涨价背后是成本失控，对议价能力弱的中小硬件厂商更致命。 <a class="src" target="_blank" href="https://x.com/williamlab/status/2070125532751245413">原文 ↗</a></p>
+  </div>
+
+  <h2><span class="dot d-mauve"></span>明细 · 小米 &amp; 恒科估值</h2>
+
+  <div class="item">
+    <div class="hd"><span class="num">9</span><span class="acct">@Web3Feng</span>（风无向） · <span class="time">约2.8小时前</span></div>
+    <p class="sm">小米下跌主因存储涨价致硬件利润承压、整个恒科资金被抛售、资金转向 AI，非个股问题；汽车 SU7 国内销冠。</p>
+    <p class="cm"><b>简评：</b>把下跌归因为板块 beta + 成本，而非基本面恶化，多头视角。 <a class="src" target="_blank" href="https://x.com/Web3Feng/status/2070105523970539659">原文 ↗</a></p>
+  </div>
+  <div class="item">
+    <div class="hd"><span class="num">10</span><span class="acct">@traderxiaoxia</span>（小侠） · <span class="time">约1.8小时前</span></div>
+    <p class="sm">质疑小米估值：理想账上现金 1000 亿、估值仅 1000 亿港币，小米刨去汽车其他业务也就值现价。</p>
+    <p class="cm"><b>简评：</b>空头视角，强调汽车业务变现与整体估值的倒挂。 <a class="src" target="_blank" href="https://x.com/traderxiaoxia/status/2070120617568080153">原文 ↗</a></p>
+  </div>
+  <div class="item">
+    <div class="hd"><span class="num">11</span><span class="acct">@Web3Feng</span>（风无向） · <span class="time">约1.8小时前</span></div>
+    <p class="sm">"纯车企和生态级企业估值没法比，小虾不懂小米。"</p>
+    <p class="cm"><b>简评：</b>多空隔空交锋，反映恒科估值分歧加大。 <a class="src" target="_blank" href="https://x.com/Web3Feng/status/2070121050382492122">原文 ↗</a></p>
+  </div>
+
+  <h2><span class="dot d-green"></span>明细 · AI &amp; 半导体</h2>
+
+  <div class="item">
+    <div class="hd"><span class="num">12</span><span class="acct">@BullTheoryio</span>（Bull Theory） · <span class="time">约1.3小时前</span></div>
+    <p class="sm">突发：$IBM 盘前 +8%，公布 0.7nm 最先进芯片，指甲盖大小集成近 1000 亿晶体管，约为当今领先密度两倍。</p>
+    <p class="cm"><b>简评：</b>半导体制程叙事强化，利好先进封装/算力链；具体良率与量产时点待证实。 <a class="src" target="_blank" href="https://x.com/BullTheoryio/status/2070127423585485147">原文 ↗</a></p>
+  </div>
+  <div class="item">
+    <div class="hd"><span class="num">13</span><span class="acct">@williamlab</span>（陳威廉） · <span class="time">约1.5小时前</span></div>
+    <p class="sm">一台 AI 机器（NVIDIA DGX B300）在国内据称能卖到一千万一台，"AI 竞赛都疯了"。</p>
+    <p class="cm"><b>简评：</b>算力溢价与稀缺，侧面印证 NVDA 高端需求与出口受限下的国内溢价。 <a class="src" target="_blank" href="https://x.com/williamlab/status/2070124351790457232">原文 ↗</a></p>
+  </div>
+  <div class="item">
+    <div class="hd"><span class="num">14</span><span class="acct">@foxshuo</span>（阚夕） · <span class="time">约1.5小时前</span></div>
+    <p class="sm">Anthropic 创始人 Amodei 谈百度渊源：称 2014 年百度 GPU 管够、与吴恩达共事是其 AI 起点。</p>
+    <p class="cm"><b>简评：</b>行业八卦，反映算力资源历来是 AI 竞争的核心变量。 <a class="src" target="_blank" href="https://x.com/foxshuo/status/2070125403537383744">原文 ↗</a></p>
+  </div>
+
+  <h2><span class="dot d-blue"></span>明细 · 美股 &amp; 宏观</h2>
+
+  <div class="item">
+    <div class="hd"><span class="num">15</span><span class="acct">@KobeissiLetter</span> · <span class="time">约24分钟前</span></div>
+    <p class="sm">"女士们先生们，纳斯达克 100，多么漂亮的图表"（附 NQ 期货走势）。</p>
+    <p class="cm"><b>简评：</b>在加密崩盘同时强调纳指抗跌，凸显资金从加密/港股回流美股的跷跷板效应。 <a class="src" target="_blank" href="https://x.com/KobeissiLetter/status/2070144551960928521">原文 ↗</a></p>
+  </div>
+  <div class="item">
+    <div class="hd"><span class="num">16</span><span class="acct">@LuYao_Trader</span>（路遥 Trader） · <span class="time">约2.6小时前</span></div>
+    <p class="sm">CRCL 是好股，但现阶段明显不是好买点，劝退满仓梭哈单吊。</p>
+    <p class="cm"><b>简评：</b>对 Circle 短线偏谨慎，估值与情绪透支，建议等回调。 <a class="src" target="_blank" href="https://x.com/LuYao_Trader/status/2070107864476385785">原文 ↗</a></p>
+  </div>
+
+  <h2><span class="dot d-yellow"></span>明细 · MSTR &amp; 数字资产财库</h2>
+
+  <div class="item">
+    <div class="hd"><span class="num">17</span><span class="acct">@ohxiyu</span>（xiyu） · <span class="time">约6.6小时前</span></div>
+    <p class="sm">MSTR 分析：年息仅 3500 万美元、软件现金流可覆盖，优先股为软索偿，资产对债务有厚安全垫，不会破产 / 不会清仓。</p>
+    <p class="cm"><b>简评：</b>基本面派为 MSTR 辩护，缓解"被迫卖币"担忧；但前提是 BTC 不极端崩盘。 <a class="src" target="_blank" href="https://x.com/ohxiyu/status/2070048853303099399">原文 ↗</a></p>
+  </div>
+  <div class="item">
+    <div class="hd"><span class="num">18</span><span class="acct">@798_eth</span>（798.eth） · <span class="time">约2.9小时前</span></div>
+    <p class="sm">"熊市低点买入 MSTR 是不是比抄底 BTC 更划算？"</p>
+    <p class="cm"><b>简评：</b>提出杠杆代理标的的择时命题，反映抄底情绪在酝酿。 <a class="src" target="_blank" href="https://x.com/798_eth/status/2070104434022170714">原文 ↗</a></p>
+  </div>
+
+  <h2><span class="dot d-mauve"></span>明细 · DeFi &amp; 链上</h2>
+
+  <div class="item">
+    <div class="hd"><span class="num">19</span><span class="acct">@HyperliquidX</span> · <span class="time">约10.3小时前</span></div>
+    <p class="sm">投资组合保证金进入 beta 并提高限额，账户价值 &lt;2500 万美元用户可用 BTC/HYPE 作抵押交易永续/现货/预测市场。</p>
+    <p class="cm"><b>简评：</b>提升资本效率，利好 HYPE 生态活跃度与交易量。 <a class="src" target="_blank" href="https://x.com/HyperliquidX/status/2069992300114296839">原文 ↗</a></p>
+  </div>
+  <div class="item">
+    <div class="hd"><span class="num">20</span><span class="acct">@PancakeSwap</span> · <span class="time">约24分钟前</span></div>
+    <p class="sm">Ondo 代币化美股/ETF 6 种上线 PancakeSwap、基于 BNB Chain 24/7 交易：SPYon、QQQon、CRCLon、NVDAon、TSLAon、GOOGLon。</p>
+    <p class="cm"><b>简评：</b>RWA 代币化加速，链上美股敞口扩张，与加密弱势形成对照。 <a class="src" target="_blank" href="https://x.com/PancakeSwap/status/2070142456272973945">原文 ↗</a></p>
+  </div>
+  <div class="item">
+    <div class="hd"><span class="num">21</span><span class="acct">@lista_dao</span> · <span class="time">约4.7小时前</span></div>
+    <p class="sm">Lista 周报：每周 $LISTA 回购 219,684 枚、超 2 万 $SPCXB 已存入、Binance Wallet DeFi 升级 AMA。</p>
+    <p class="cm"><b>简评：</b>协议数据稳健，回购 + 治理活跃，BNB 链 DeFi 一角。 <a class="src" target="_blank" href="https://x.com/lista_dao/status/2070077160887394576">原文 ↗</a></p>
+  </div>
+  <div class="item">
+    <div class="hd"><span class="num">22</span><span class="acct">@lista_dao</span> · <span class="time">约2.1小时前</span></div>
+    <p class="sm">把 bStocks 投入 Lista 可同时复利 + 抵押 + 借贷，SPCXB 抵押宣称年化 47%。</p>
+    <p class="cm"><b>简评：</b>RWA + DeFi 收益叠加；高息须关注底层资产与可持续性（<b>待证实</b>）。 <a class="src" target="_blank" href="https://x.com/lista_dao/status/2070116043503386946">原文 ↗</a></p>
+  </div>
+  <div class="item">
+    <div class="hd"><span class="num">23</span><span class="acct">@BlockBeatsAsia</span>（BlockBeats） · <span class="time">约6小时前</span></div>
+    <p class="sm">Animoca Brands 战略投资稳定币支付基础设施 AllScale，并探索代理式（AI agent）支付合作。</p>
+    <p class="cm"><b>简评：</b>稳定币支付赛道持续吸金，机构看好链上支付 + Agent 结算。 <a class="src" target="_blank" href="https://x.com/BlockBeatsAsia/status/2070057178841469152">原文 ↗</a></p>
+  </div>
+  <div class="item">
+    <div class="hd"><span class="num">24</span><span class="acct">@colinwu</span>（吴说） · <span class="time">约2.1小时前</span></div>
+    <p class="sm">加密 VC 转向有真实用户/收入的传统项目，发币套利项目遇冷，"良币驱逐劣币"。</p>
+    <p class="cm"><b>简评：</b>一级市场风格切换，从发币套利转向基本面，长期对行业 healthy。 <a class="src" target="_blank" href="https://x.com/colinwu/status/2070116405090099434">原文 ↗</a></p>
+  </div>
+  <div class="item">
+    <div class="hd"><span class="num">25</span><span class="acct">@banteg</span> · <span class="time">约2.5小时前</span></div>
+    <p class="sm">将 solo 验证器迁至家庭本地服务器，分享门槛：约 6TB/月带宽、4TB 快速 NVMe、64GB 内存、16 线程 CPU。</p>
+    <p class="cm"><b>简评：</b>以太坊去中心化质押的实务参考，硬件/带宽门槛仍偏高。 <a class="src" target="_blank" href="https://x.com/banteg/status/2070110893984116769">原文 ↗</a></p>
+  </div>
+
+  <h2><span class="dot d-red"></span>明细 · 安全</h2>
+
+  <div class="item">
+    <div class="hd"><span class="num">26</span><span class="acct">@gnosispay</span>（Gnosis Pay） · <span class="time">约3.5小时前</span></div>
+    <p class="sm">Gnosis 主 X 账户已被入侵，另行通知前请勿与其互动。</p>
+    <p class="cm"><b>简评：</b>账号安全事件，谨防钓鱼链接/假空投；与 #28 开源钱包叙事形成对照。 <a class="src" target="_blank" href="https://x.com/gnosispay/status/2070095503283605989">原文 ↗</a></p>
+  </div>
+
+  <h2><span class="dot d-yellow"></span>明细 · 情绪面 &amp; 仓位</h2>
+
+  <div class="item">
+    <div class="hd"><span class="num">27</span><span class="acct">@TingHu888</span> · <span class="time">约36分钟前</span></div>
+    <p class="sm">吐槽：基金回撤堪比熊市，既踏空 AI 又困于"价值投资"巨亏，质疑价值投资能否回血。</p>
+    <p class="cm"><b>简评：</b>典型情绪宣泄，反映成长/价值风格撕裂下的焦虑。 <a class="src" target="_blank" href="https://x.com/TingHu888/status/2070138982831407146">原文 ↗</a></p>
+  </div>
+  <div class="item">
+    <div class="hd"><span class="num">28</span><span class="acct">@Lucas168</span>（Lucas） · <span class="time">约24分钟前</span></div>
+    <p class="sm">"别说市场上的钱不投 Crypto"，怀疑是项目方砸盘加密去买美股。</p>
+    <p class="cm"><b>简评：</b>为今日资金外流提供叙事：加密 → 美股的轮动假说。 <a class="src" target="_blank" href="https://x.com/Lucas168/status/2070143081106866529">原文 ↗</a></p>
+  </div>
+  <div class="item">
+    <div class="hd"><span class="num">29</span><span class="acct">@daidaibtc</span>（带带带比特） · <span class="time">约8.3小时前</span></div>
+    <p class="sm">谈赌财报的 +EV 交易逻辑与平仓纪律：提前跌 20% 后赔率改善，但要区分长短线、不死等目标价。</p>
+    <p class="cm"><b>简评：</b>交易心态贴，强调赔率与仓位管理，方法论可取。 <a class="src" target="_blank" href="https://x.com/daidaibtc/status/2070022418249478583">原文 ↗</a></p>
+  </div>
+  <div class="item">
+    <div class="hd"><span class="num">30</span><span class="acct">@ohyishi</span>（Yishi / OneKey） · <span class="time">约4小时前</span></div>
+    <p class="sm">强调 OneKey 全开源、可复现构建（Reproduce）建立信任，App 与固件源码全公开。</p>
+    <p class="cm"><b>简评：</b>硬件钱包安全叙事（含自荐成分），与 #26 Gnosis 被黑恰成对照。 <a class="src" target="_blank" href="https://x.com/ohyishi/status/2070072414931992611">原文 ↗</a></p>
+  </div>
+
+  <div class="foot">
+    数据抓取自 @JaceHoiX 的 X 时间线「为你推荐」（「正在关注」流为空）。窗口外旧帖、广告（含 Scorechain / FTMO / MEXC / LiquidManzana / 日本不动产基金等）与纯生活/体育帖已剔除。多项突发数据（BTC 价位、清算额、IBM 制程、苹果价目）源自 KOL 转述，<b>待官方证实</b>。本简报为信息整理，<b>不构成投资建议</b>。<br>
+    门户：<a href="https://x.jacexie.com/" target="_blank">x.jacexie.com</a> · 生成时间 2026-06-25 22:06（港时）
+  </div>
+
+</div>
+</body>
+</html>
