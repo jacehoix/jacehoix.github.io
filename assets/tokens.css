@@ -1,0 +1,78 @@
+/* jacexie 平台 —— 共享设计 token
+ *
+ * 契约：
+ *   1. 所有面板的底色、字体、圆角、阴影来自这里，视觉才是一套。
+ *   2. 强调色（--accent / --pos / --neg）在这里给默认值，
+ *      面板可以在自己的 stylesheet 里覆盖 —— 交易面板需要更高彩度。
+ *   3. 每个语义色都有一个 -ink 变体：小号正文用 -ink（对 --surface 达 WCAG AA
+ *      4.5:1），大号数字和图表用本色。暗色下两者相同，因为对比度已经足够。
+ *      实测比值由 scripts/test/platform.sh 守住，改色值会被它拦下。
+ *      注意 --muted（3.43:1）刻意不达 AA —— 它是"要退到后面去"的次要文字
+ *      （日期、表头、脚注），正文永远别用它。需要可读的弱化文字用 --ink-soft（5.05:1）。
+ *   4. 主题切换靠 <html data-theme>，键统一为 'theme'（见 theme.js）。
+ *      不用 prefers-color-scheme 媒体查询做覆盖 —— theme.js 在 CSS 之前
+ *      把系统偏好写进 data-theme，只留一条真值路径。
+ */
+
+:root{
+  color-scheme:light;
+
+  /* 面 */
+  --bg:#E9E5DE; --bg2:#E3DDD4;
+  --surface:#F5F2EC; --surface2:#FBF9F5;
+  --topbar:rgba(245,242,236,.86);
+  --table-head:#EDE7DC; --row-alt:rgba(237,231,220,.45);
+  --line:#D9D2C7; --chip:#EDE7DC;
+
+  /* 字 */
+  --ink:#463F38; --ink-soft:#6E665C; --muted:#8A8175;
+
+  /* 调色板 */
+  --sage:#8E9B83; --sage-d:#6E7C61;
+  --blue:#7E92A0; --blue-d:#5C7383;
+  --rose:#B58E80; --rose-d:#9A6F61;
+  --gold:#BBA678; --gold-ink:#7C682E;   /* 比 defi 原值 #8A7536 更暗：那个只有 4.02:1 */
+
+  /* 语义色：本色用于图表与大号数字，-ink 用于小号正文 */
+  --accent:#5C7383;   --accent-ink:#4A5F6E;
+  --pos:#6E8E63;      --pos-ink:#4C7642;
+  --neg:#B27A70;      --neg-ink:#A05548;
+  --warn:#BBA678;     --warn-ink:#7C682E;
+  --warn-bg:#F0E8D7;  --warn-line:#CDBC93;
+
+  /* 外形 */
+  --shadow:0 1px 3px rgba(70,63,56,.06),0 6px 24px rgba(70,63,56,.05);
+  --shadow-lift:0 8px 30px rgba(70,63,56,.13);
+  --radius:16px; --radius-sm:12px; --radius-xs:8px;
+
+  /* 字体 */
+  --serif:"Noto Serif SC",Georgia,"Songti SC",serif;
+  --sans:"Noto Sans SC",-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,monospace;
+}
+
+:root[data-theme="dark"]{
+  color-scheme:dark;
+
+  --bg:#201E1B; --bg2:#191715;
+  --surface:#2A2724; --surface2:#322E2A;
+  --topbar:rgba(31,29,26,.86);
+  --table-head:#332F2A; --row-alt:rgba(255,250,242,.035);
+  --line:#3C3833; --chip:#332F2A;
+
+  --ink:#E9E3D8; --ink-soft:#BCB3A4; --muted:#8C8474;
+
+  --sage:#A6B394; --sage-d:#A6B394;
+  --blue:#94ABB9; --blue-d:#94ABB9;
+  --rose:#CCA496; --rose-d:#CCA496;
+  --gold:#CFBA8A; --gold-ink:#CFBA8A;
+
+  --accent:#94ABB9;   --accent-ink:#94ABB9;
+  --pos:#90AE82;      --pos-ink:#90AE82;
+  --neg:#CB978E;      --neg-ink:#CB978E;
+  --warn:#CFBA8A;     --warn-ink:#CFBA8A;
+  --warn-bg:#322C1D;  --warn-line:#574E31;
+
+  --shadow:0 1px 3px rgba(0,0,0,.32),0 6px 24px rgba(0,0,0,.26);
+  --shadow-lift:0 8px 30px rgba(0,0,0,.42);
+}

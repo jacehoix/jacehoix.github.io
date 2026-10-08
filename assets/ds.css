@@ -1,0 +1,526 @@
+/* jacexie 设计规范 v2 ——「比特币 DeFi」风格。规范全文：docs/design.md
+ *
+ * 用法：在 tokens.css 与 base.css【之后】引入，面板自己的 style.css 在它之后：
+ *   <link rel="stylesheet" href="platform/ds.css?v=__V__">
+ * 引入即生效，分三层：
+ *   1. 把平台 token 重映射到新调色板 —— base.css 里的外壳、卡片、表格、徽章自动换装；
+ *   2. 覆盖少数结构性样式：字体、1px 边框、玻璃顶栏、渐隐的网格背景；
+ *   3. 新部件，一律 ds- 前缀：发光数字卡、胶囊分段按钮、实时脉冲点、渐变标题字、图表……
+ *
+ * 只有暗色 —— 规范的核心就是「虚空」底色上的橙金发光。不管 data-theme 是什么都按暗色画
+ * （门户切到浅色时，内嵌的新规范面板仍是暗的，这是有意的）。页面不需要 theme.js。
+ *
+ * 面板里【只许用这里和 tokens.css 定义过的 token】：字号只用 --fs-*、间距只用 --sp-*、
+ * 颜色只用 --ds-* / --series-*。platform.sh 会拦硬编码的色值、字号和间距。
+ */
+
+/* ================================================================ 1. token */
+/* :root[data-theme] 与 tokens.css 的 :root[data-theme="dark"] 优先级相同，后加载者胜 ——
+ * 所以本文件必须在 tokens.css 之后引入，才能在任何主题值下都盖住它。 */
+:root, :root[data-theme] {
+  color-scheme: dark;
+
+  /* ---- 规范原色 ---- */
+  --ds-void: #030304;        /* 真空：页面底 */
+  --ds-matter: #0F1115;      /* 暗物质：卡片面（图表配色按它校验） */
+  --ds-matter-hi: #161922;   /* 浮起一层 */
+  --ds-light: #FFFFFF;       /* 主文字（对卡片面 18.9:1） */
+  --ds-mist: #CBD5E1;        /* 次一级文字（12.6:1） */
+  --ds-stardust: #94A3B8;    /* 说明、元数据（7.4:1，正文可用） */
+  --ds-dim: #64748B;         /* 坐标刻度（4.0:1）—— 只给另有途径读数的地方，正文不许用 */
+  --ds-orange: #F7931A;      /* 比特币橙：主强调、链接、激活态（8.2:1） */
+  --ds-burnt: #EA580C;       /* 焦橙：渐变起点 */
+  --ds-gold: #FFD600;        /* 数字金：高亮、价值、提醒（13.4:1） */
+  --ds-up: #34D399;          /* 上涨文字（9.8:1） */
+  --ds-down: #FB7185;        /* 下跌文字（7.0:1） */
+
+  /* ---- 线与面 ---- */
+  --ds-line: rgba(255, 255, 255, .10);       /* 静止时的 1px 边界 */
+  --ds-line-hi: rgba(255, 255, 255, .22);
+  --ds-line-orange: rgba(247, 147, 26, .50); /* 悬停 */
+  --ds-wash: rgba(255, 255, 255, .04);       /* 悬停底、行高亮 */
+  --ds-glass: rgba(3, 3, 4, .55);            /* 玻璃：配 backdrop-filter */
+  --ds-tip-bg: rgba(15, 17, 21, .92);        /* 图表读数框 */
+  --ds-net: rgba(30, 41, 59, .45);           /* 背景网格线 */
+
+  /* ---- 渐变：签名 ---- */
+  --ds-grad-fire: linear-gradient(90deg, #EA580C, #F7931A);
+  --ds-grad-gold: linear-gradient(90deg, #F7931A, #FFD600);
+
+  /* ---- 发光：阴影一律带橙/金色，没有纯黑阴影 ---- */
+  --ds-glow: 0 0 20px -5px rgba(234, 88, 12, .5);
+  --ds-glow-card: 0 0 30px -10px rgba(247, 147, 26, .22);
+  --ds-lift: inset 0 1px 0 rgba(255, 255, 255, .04);   /* 卡片顶沿的一丝高光 */
+
+  /* ---- 字体（全部自托管，见 scripts/fetch-fonts.sh；中文落到 Noto）---- */
+  --ds-font-heading: "Space Grotesk", "Noto Sans SC", system-ui, sans-serif;
+  --ds-font-body: "Inter", "Noto Sans SC", system-ui, -apple-system, sans-serif;
+  --ds-font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, "Noto Sans SC", monospace;
+
+  /* ---- 字号：只有这 7 档 ---- */
+  --fs-xs: 11px;       /* 大写等宽标签、坐标刻度、表格小注 */
+  --fs-sm: 12px;       /* 说明、图例、涨跌 */
+  --fs-base: 14px;     /* 正文、表格数字 */
+  --fs-md: 16px;       /* 卡片标题 */
+  --fs-lg: 20px;       /* 区块标题 */
+  --fs-xl: 28px;       /* 数字卡的数值 */
+  --fs-display: clamp(34px, 4.6vw, 56px);   /* 页面标题 —— 一页只有一个 */
+
+  /* ---- 间距：只有这 8 档 ---- */
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px;
+  --sp-5: 24px; --sp-6: 32px; --sp-7: 48px; --sp-8: 64px;
+
+  /* ---- 圆角 ---- */
+  --ds-r-sm: 8px; --ds-r-md: 12px; --ds-r-lg: 16px; --ds-r-pill: 999px;
+
+  /* ---- 动效：快、准、有目的 ---- */
+  --ds-ease: cubic-bezier(.2, .8, .2, 1);
+  --ds-fast: 200ms;
+  --ds-slow: 300ms;
+
+  /* ---- 图表 ----
+   * 分类色：八个色相、固定顺序、同一亮度（等响度），对着 --ds-matter 用 dataviz 校验器验过：
+   * 最差相邻色盲 ΔE 11.4、常视 ΔE 21.1、对底色全部 ≥3:1。比特币橙打头。
+   * 【按顺序分配、跟着实体走】—— 不许跳着挑、不许现编第九个色；要改先重跑校验（docs/design.md §4）。 */
+  --series-1: #dd7303;   /* 橙 */
+  --series-2: #9e75fa;   /* 紫 */
+  --series-3: #ba8c01;   /* 金 */
+  --series-4: #4194f9;   /* 蓝 */
+  --series-5: #e750b1;   /* 品红 */
+  --series-6: #27af57;   /* 绿 */
+  --series-7: #06a0dd;   /* 天青 */
+  --series-8: #f2575c;   /* 红 */
+  /* 顺序色阶（分档、密度这种「多少」的量）：单色相、亮度单调，暗底上【越大越亮】。
+   * 用天青色相，避开前三个分类色（橙 / 紫 / 金）—— 同一页里既有类别又有分档时不会看混。
+   * 校验（--ordinal，暗色，对 --ds-matter）：亮度单调、相邻 ΔL ≥ 0.06、最暗一阶 2.45:1，全过。 */
+  --ramp-1: #12587f; --ramp-2: #3d92cc; --ramp-3: #8fd0f5;
+  /* 发散（流入 / 流出、进 / 出这种两极）：蓝↔红，相邻色盲 ΔE 23.4、常视 32.3、对底色都 ≥3:1。
+   * 【别用涨跌色】—— --ds-up / --ds-down 是文字色，留给涨跌本身。 */
+  --flow-in: #4194f9; --flow-out: #f2575c;
+  --ds-grid: rgba(255, 255, 255, .06);   /* 网格线：1px 实线、退后 */
+  --ds-axis: rgba(255, 255, 255, .24);   /* 基线 / 参照线 */
+  --ds-context: #64748B;                 /* 背景参照数据（灰带、中位线）：给主角让位 */
+
+  /* ---- 平台 token 重映射：base.css 的部件据此自动换装 ---- */
+  --bg: var(--ds-void); --bg2: var(--ds-void);
+  --surface: var(--ds-matter); --surface2: var(--ds-matter-hi);
+  --topbar: var(--ds-glass);
+  --table-head: transparent; --row-alt: var(--ds-wash);
+  --line: var(--ds-line); --chip: var(--ds-wash);
+  --ink: var(--ds-light); --ink-soft: var(--ds-mist); --muted: var(--ds-stardust);
+  --accent: var(--ds-orange); --accent-ink: var(--ds-orange);
+  --pos: var(--ds-up); --pos-ink: var(--ds-up);
+  --neg: var(--ds-down); --neg-ink: var(--ds-down);
+  --warn: var(--ds-gold); --warn-ink: var(--ds-gold);
+  --warn-bg: rgba(255, 214, 0, .06); --warn-line: rgba(255, 214, 0, .32);
+  --gold: var(--ds-gold); --gold-ink: var(--ds-gold);
+  --sage: var(--ds-orange); --sage-d: var(--ds-orange);
+  --blue: var(--ds-stardust); --blue-d: var(--ds-stardust);
+  --rose: var(--ds-orange); --rose-d: var(--ds-orange);
+  --shadow: none; --shadow-lift: var(--ds-glow-card);
+  --radius: var(--ds-r-lg); --radius-sm: var(--ds-r-md); --radius-xs: var(--ds-r-sm);
+  --sans: var(--ds-font-body); --serif: var(--ds-font-heading); --mono: var(--ds-font-mono);
+}
+
+/* ================================================================ 2. 基础 */
+/* 中文标题要 600，而自托管的 Noto Sans SC 只到 500 —— 不许浏览器用描边伪造粗体（中文会糊） */
+html { font-synthesis: none; }
+body {
+  background: var(--ds-void);
+  color: var(--ds-light);
+  font-family: var(--ds-font-body);
+  font-size: var(--fs-base);
+  font-weight: 400;
+  line-height: 1.6;
+}
+/* 虚空里的网络：渐隐的网格 + 右上角一团橙色能量场。固定在视口，不随内容滚。
+ * 纯 CSS 渐变，不引外部纹理图（国内拉不到，也是第三方依赖）。 */
+body::before, body::after {
+  content: ""; position: fixed; z-index: -1; pointer-events: none;
+}
+body::before {
+  inset: 0;
+  background-image:
+    linear-gradient(to right, var(--ds-net) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--ds-net) 1px, transparent 1px);
+  background-size: 50px 50px;
+  -webkit-mask-image: radial-gradient(ellipse 90% 70% at 50% 0%, #000 25%, transparent 100%);
+          mask-image: radial-gradient(ellipse 90% 70% at 50% 0%, #000 25%, transparent 100%);
+}
+body::after {
+  top: -320px; right: -220px; width: 760px; height: 760px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(247, 147, 26, .12), rgba(234, 88, 12, .045) 40%, transparent 68%);
+}
+
+h1, h2, h3 {
+  font-family: var(--ds-font-heading);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -.01em;
+  color: var(--ds-light);
+}
+h2 { font-size: var(--fs-lg); margin: var(--sp-6) 0 var(--sp-3); }
+h3, .card h3 { font-size: var(--fs-md); margin: 0 0 var(--sp-2); }
+a { color: var(--ds-orange); }
+a:hover { color: var(--ds-gold); text-decoration: underline; text-underline-offset: 3px; }
+::selection { background: rgba(247, 147, 26, .35); color: var(--ds-light); }
+:focus-visible { outline: 2px solid var(--ds-orange); outline-offset: 2px; }
+
+.wrap { max-width: 1280px; padding: 0 var(--sp-5); }
+
+.sub { font-size: var(--fs-sm); color: var(--ds-stardust); }
+.pos { color: var(--ds-up); }
+.neg { color: var(--ds-down); }
+.num { font-family: var(--ds-font-mono); }
+.eyebrow {
+  font-family: var(--ds-font-mono); font-size: var(--fs-xs); letter-spacing: .2em; color: var(--ds-stardust);
+}
+.kv .v, .metric .v { font-family: var(--ds-font-mono); font-weight: 500; }
+
+/* ---- 顶栏：玻璃 ---- */
+.topbar {
+  background: var(--ds-glass);
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
+          backdrop-filter: blur(16px) saturate(150%);
+  border-bottom: 1px solid var(--ds-line);
+}
+.topbar .wrap { height: 56px; }
+.brand { font-family: var(--ds-font-heading); font-size: var(--fs-md); font-weight: 700; letter-spacing: 0; }
+/* base.css 的 .dot 是状态圆点，品牌里那个句号也叫 .dot —— 在这里还原成一个橙色字符，
+ * 否则它会被画成一个灰色圆片（面板再给 .dot 写点样式，它还会跑位）。 */
+.brand .dot {
+  display: inline; position: static; width: auto; height: auto; transform: none;
+  border-radius: 0; background: none; box-shadow: none; color: var(--ds-orange);
+}
+.brand a:hover { color: var(--ds-orange); }
+.topnav a {
+  font-family: var(--ds-font-mono); font-size: var(--fs-sm); letter-spacing: .12em;
+  text-transform: uppercase; color: var(--ds-stardust);
+  transition: color var(--ds-fast) var(--ds-ease);
+}
+.topnav a:hover { color: var(--ds-orange); text-decoration: none; }
+
+/* ---- 卡片（区块）：静止时只有 1px 边界；能点的才浮起 ---- */
+.card {
+  background: var(--ds-matter);
+  border: 1px solid var(--ds-line);
+  border-radius: var(--ds-r-lg);
+  padding: var(--sp-5);
+  box-shadow: var(--ds-lift);
+}
+/* 页面主体里一张张往下排的卡片：间距统一在这里，面板不用各写一遍 */
+.wrap > .card { margin: 0 0 var(--sp-5); }
+.card.link, .ds-lift {
+  transition: transform var(--ds-slow) var(--ds-ease), border-color var(--ds-slow) var(--ds-ease),
+              box-shadow var(--ds-slow) var(--ds-ease);
+}
+.card.link:hover, .ds-lift:hover {
+  transform: translateY(-4px);
+  border-color: var(--ds-line-orange);
+  box-shadow: var(--ds-lift), var(--ds-glow-card);
+}
+
+/* ---- 表格：表头是大写等宽小字，数字等宽 ---- */
+table { font-size: var(--fs-base); }
+th, td { padding: var(--sp-3) var(--sp-4); border-bottom: 1px solid var(--ds-line); }
+th {
+  font-family: var(--ds-font-mono); font-size: var(--fs-xs); font-weight: 500;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--ds-stardust); background: none;
+}
+td { font-family: var(--ds-font-mono); font-size: var(--fs-base); color: var(--ds-mist); }
+td:first-child { font-family: var(--ds-font-body); color: var(--ds-light); }
+td b { font-weight: 500; color: var(--ds-light); }
+tbody tr { transition: background-color var(--ds-fast) var(--ds-ease); }
+tbody tr:hover { background: var(--ds-wash); }
+
+/* ---- 徽章：胶囊、等宽大写 ---- */
+.badge {
+  font-family: var(--ds-font-mono); font-size: var(--fs-xs); letter-spacing: .1em;
+  text-transform: uppercase; border-radius: var(--ds-r-pill); padding: 2px var(--sp-3);
+  background: var(--ds-wash); border: 1px solid var(--ds-line); color: var(--ds-mist);
+}
+
+/* ---- 折叠区：橙色折角箭头 ---- */
+details > summary {
+  cursor: pointer; list-style: none; display: flex; align-items: center; gap: var(--sp-3);
+  font-family: var(--ds-font-heading); font-size: var(--fs-md); font-weight: 600;
+}
+details > summary::-webkit-details-marker { display: none; }
+details > summary::before {
+  content: ""; width: 7px; height: 7px; flex: none; margin: 0 2px;
+  border-right: 1.5px solid var(--ds-orange); border-bottom: 1.5px solid var(--ds-orange);
+  transform: rotate(-45deg); transition: transform var(--ds-fast) var(--ds-ease);
+}
+details[open] > summary::before { transform: rotate(45deg); }
+details[open] > summary { margin-bottom: var(--sp-4); }
+
+/* ================================================================ 3. 部件（ds-） */
+
+/* ---- 页面标题区 ---- */
+.ds-head { margin: var(--sp-7) 0 var(--sp-6); }
+.ds-eyebrow {
+  display: flex; align-items: center; gap: var(--sp-3); margin: 0 0 var(--sp-4);
+  font-family: var(--ds-font-mono); font-size: var(--fs-xs); letter-spacing: .2em;
+  text-transform: uppercase; color: var(--ds-stardust);
+}
+.ds-title { font-size: var(--fs-display); line-height: 1.05; letter-spacing: -.03em; margin: 0; }
+/* 签名：标题最后一两个词、被选中的关键数字，用橙→金渐变字 */
+.ds-grad-text {
+  background: var(--ds-grad-gold);
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent; color: transparent;
+}
+.ds-lede { margin: var(--sp-4) 0 0; max-width: 72ch; font-size: var(--fs-md); color: var(--ds-stardust); }
+.ds-meta {
+  margin: 0; font-family: var(--ds-font-mono); font-size: var(--fs-xs); letter-spacing: .06em;
+  text-transform: uppercase; color: var(--ds-stardust);
+}
+.ds-lede + .ds-meta { margin-top: var(--sp-3); }
+/* 不许在中间折行的短语（「美元 / GPU·小时」）：中文每两个字之间都是合法断点 */
+.ds-nw { white-space: nowrap; }
+
+/* ---- 实时脉冲点：数据活着就跳；陈旧（.warn）/ 故障（.bad）不跳，只变色 ----
+ * 它只是装饰：状态必须另有文字说明（旁边的提醒条），颜色不单独传信息。 */
+.ds-live {
+  position: relative; display: inline-block; flex: none;
+  width: 8px; height: 8px; border-radius: 50%; background: var(--ds-orange);
+}
+.ds-live::after {
+  content: ""; position: absolute; inset: 0; border-radius: 50%; background: inherit;
+  opacity: .75; animation: ds-ping 1.8s cubic-bezier(0, 0, .2, 1) infinite;
+}
+.ds-live.warn { background: var(--ds-gold); }
+.ds-live.bad { background: var(--ds-down); }
+.ds-live.warn::after, .ds-live.bad::after { display: none; }
+@keyframes ds-ping { 75%, 100% { transform: scale(2.8); opacity: 0; } }
+
+/* ---- 提醒条 ---- */
+.ds-callout {
+  margin: var(--sp-4) 0 0; padding: var(--sp-3) var(--sp-4); border-radius: var(--ds-r-md);
+  font-size: var(--fs-sm); color: var(--ds-mist);
+  background: var(--ds-wash); border: 1px solid var(--ds-line);
+}
+.ds-callout.warn { color: var(--ds-gold); background: var(--warn-bg); border-color: var(--warn-line); }
+
+/* ---- 工具条：筛选控件在所有图之上、一行 ---- */
+.ds-toolbar {
+  display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-3) var(--sp-4);
+  margin: 0 0 var(--sp-5);
+}
+
+/* ---- 胶囊分段按钮：激活态是橙色渐变 + 发光 ---- */
+.ds-seg {
+  display: inline-flex; align-items: center; gap: var(--sp-1); padding: var(--sp-1);
+  border: 1px solid var(--ds-line); border-radius: var(--ds-r-pill); background: var(--ds-wash);
+}
+.ds-seg button {
+  min-height: 36px; padding: 0 var(--sp-4); border: 0; border-radius: var(--ds-r-pill);
+  background: transparent; color: var(--ds-stardust); cursor: pointer;
+  font-family: var(--ds-font-mono); font-size: var(--fs-sm); font-weight: 500; letter-spacing: .06em;
+  transition: color var(--ds-fast) var(--ds-ease), background-color var(--ds-fast) var(--ds-ease),
+              box-shadow var(--ds-fast) var(--ds-ease);
+}
+.ds-seg button:hover { color: var(--ds-light); background: var(--ds-wash); }
+.ds-seg button[aria-pressed="true"] { color: var(--ds-light); background: var(--ds-grad-fire); box-shadow: var(--ds-glow); }
+
+/* ---- 数字卡：标签 / 数值 / 涨跌 / 迷你走势，槽位固定，同一行等高 ----
+ * 用 <button> 时就是选择器（aria-pressed）；只读的用 <div>，不浮起。 */
+.ds-kpis {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--sp-4); margin: 0 0 var(--sp-5);
+}
+.ds-kpi {
+  position: relative; display: flex; flex-direction: column; gap: var(--sp-2); min-width: 0;
+  padding: var(--sp-4) var(--sp-4) var(--sp-3); text-align: left; font: inherit; color: var(--ds-light);
+  background: var(--ds-matter); border: 1px solid var(--ds-line); border-radius: var(--ds-r-lg);
+  box-shadow: var(--ds-lift);
+}
+button.ds-kpi {
+  cursor: pointer;
+  transition: transform var(--ds-slow) var(--ds-ease), border-color var(--ds-slow) var(--ds-ease),
+              box-shadow var(--ds-slow) var(--ds-ease);
+}
+button.ds-kpi:hover { transform: translateY(-4px); border-color: var(--ds-line-orange); box-shadow: var(--ds-lift), var(--ds-glow-card); }
+/* 选中 =「被选中的节点」：橙色边界 + 发光 + 左上 / 右下两个角标 + 数值变渐变字 */
+.ds-kpi[aria-pressed="true"] { border-color: var(--ds-orange); box-shadow: var(--ds-lift), var(--ds-glow-card); }
+.ds-kpi[aria-pressed="true"]::before, .ds-kpi[aria-pressed="true"]::after {
+  content: ""; position: absolute; width: 12px; height: 12px; border: 2px solid var(--ds-orange);
+  pointer-events: none;
+}
+.ds-kpi[aria-pressed="true"]::before { top: 6px; left: 6px; border-right: 0; border-bottom: 0; border-top-left-radius: 6px; }
+.ds-kpi[aria-pressed="true"]::after { right: 6px; bottom: 6px; border-left: 0; border-top: 0; border-bottom-right-radius: 6px; }
+.ds-kpi[aria-pressed="true"] .v b {
+  background: var(--ds-grad-gold); -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent; color: transparent;
+}
+.ds-kpi .k {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0 var(--sp-2); min-width: 0;
+  font-family: var(--ds-font-mono); font-size: var(--fs-xs); font-weight: 500;
+  letter-spacing: .1em; text-transform: uppercase; color: var(--ds-mist);
+}
+.ds-kpi .k .dim { color: var(--ds-stardust); font-weight: 400; }
+.ds-kpi .v {
+  font-family: var(--ds-font-mono); font-size: var(--fs-xl); line-height: 1.1; letter-spacing: -.03em;
+  white-space: nowrap;
+}
+.ds-kpi .v b { font-weight: 500; }
+.ds-kpi .v small { margin-left: 2px; font-size: var(--fs-sm); letter-spacing: 0; color: var(--ds-stardust); }
+.ds-kpi .d {
+  display: flex; flex-wrap: wrap; gap: 0 var(--sp-3);
+  font-family: var(--ds-font-mono); font-size: var(--fs-sm); color: var(--ds-stardust);
+}
+.ds-kpi .d span { white-space: nowrap; }
+.ds-kpi .spark { display: block; width: 100%; height: 40px; margin-top: auto; overflow: visible; }
+.ds-kpi .spark .l {
+  fill: none; stroke-width: 1.5; vector-effect: non-scaling-stroke; stroke-linejoin: round; stroke-linecap: round;
+}
+
+/* ---- 头条数字：整页唯一的一个大数（有它就别再放第二个）。字号不在 7 档里 ——
+ * 它是这一页的「答案」，比 --fs-xl 再大一档，随宽度收放。 ---- */
+.ds-hero { display: flex; flex-direction: column; gap: var(--sp-1); margin: 0 0 var(--sp-5); }
+.ds-hero .k {
+  font-family: var(--ds-font-mono); font-size: var(--fs-xs); font-weight: 500;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--ds-stardust);
+}
+.ds-hero .v {
+  font-family: var(--ds-font-mono); font-size: clamp(34px, 3.6vw, 46px); font-weight: 500;
+  line-height: 1.05; letter-spacing: -.03em; color: var(--ds-light);
+}
+.ds-hero .v small { margin-left: var(--sp-2); font-size: var(--fs-md); font-weight: 400; letter-spacing: 0; color: var(--ds-stardust); }
+.ds-hero .s { font-size: var(--fs-sm); color: var(--ds-stardust); }
+.ds-hero .s b { font-family: var(--ds-font-mono); font-weight: 500; color: var(--ds-mist); }
+.ds-hero .s b.pos { color: var(--ds-up); }
+.ds-hero .s b.neg { color: var(--ds-down); }
+
+/* ---- 序列标识：短色条。文字永远用文字色，身份靠旁边这根色条 ---- */
+.ds-key { display: inline-block; flex: none; width: 12px; height: 3px; border-radius: 2px; vertical-align: middle; }
+.ds-key.sq { width: 10px; height: 10px; border-radius: 2px; }   /* 柱 / 堆叠用方块，线用色条 */
+td .ds-key { margin-right: var(--sp-2); }
+
+/* ---- 卡片标题行：左标题，右单位 / 口径 ---- */
+.ds-card-head {
+  display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between;
+  gap: var(--sp-1) var(--sp-4); margin: 0 0 var(--sp-3);
+}
+.ds-card-head h2 { margin: 0; font-size: var(--fs-md); }
+
+/* ---- 图例：色条 + 名称 + 数值（数值用文字色，不染序列色）---- */
+.ds-legend {
+  display: flex; flex-wrap: wrap; gap: var(--sp-2) var(--sp-5); margin: 0 0 var(--sp-4);
+  font-size: var(--fs-sm); color: var(--ds-stardust);
+}
+/* 放不下时，尾巴上的补充说明（.sub）整段掉到下一行，而不是在旁边挤成一根窄柱 */
+.ds-legend .lg { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 2px var(--sp-2); white-space: nowrap; }
+.ds-legend .lg b { font-family: var(--ds-font-mono); font-weight: 500; color: var(--ds-light); }
+
+/* ---- 图表：y 轴 | 绘图区 / x 轴 三块 HTML，SVG 只占绘图区 ----
+ * SVG 用 preserveAspectRatio="none" 横向拉伸填满，所以文字和圆点【不放进 SVG】
+ * （<text> 会被压扁、<circle> 会变椭圆）：轴标签、圆点、十字线、读数框都是叠在上面的 HTML，
+ * 按百分比定位。画法见 platform/web/ds-chart.js 的 DSChart.draw()。 */
+.ds-chart {
+  display: grid; grid-template-columns: 48px minmax(0, 1fr); grid-template-rows: var(--ds-chart-h, 280px) 24px;
+  border-radius: var(--ds-r-sm); outline-offset: var(--sp-1);
+}
+.ds-chart .ds-empty { grid-column: 1 / -1; margin: auto; color: var(--ds-stardust); }
+.ds-yaxis, .ds-xaxis {
+  position: relative; font-family: var(--ds-font-mono); font-size: var(--fs-xs); line-height: 1;
+  color: var(--ds-dim);
+}
+.ds-yaxis span { position: absolute; right: 10px; transform: translateY(-50%); white-space: nowrap; }
+.ds-xaxis { grid-column: 2; }
+.ds-xaxis span { position: absolute; top: 10px; transform: translateX(-50%); white-space: nowrap; }
+.ds-xaxis span.first { transform: none; }
+.ds-xaxis span.last { transform: translateX(-100%); }
+.ds-plot { position: relative; min-width: 0; touch-action: pan-y; cursor: crosshair; }
+.ds-plot svg { display: block; width: 100%; height: 100%; overflow: visible; }
+
+/* SVG 是拉伸的：线宽不随拉伸变形要靠 non-scaling-stroke */
+.ds-line, .ds-glow, .ds-grid, .ds-base, .ds-whisker { fill: none; vector-effect: non-scaling-stroke; }
+.ds-line { stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.ds-line.thin { stroke-width: 1.5; }
+/* 主角线的光晕：同一路径垫一条宽而淡的底线（不用 blur 滤镜 —— 拉伸的 SVG 里滤镜会横竖不等） */
+.ds-glow { stroke-width: 8; stroke-opacity: .13; stroke-linejoin: round; stroke-linecap: round; }
+.ds-area { stroke: none; }
+/* 平涂的面积（没用渐变时，比如逐期的增速图）：压到一层淡光，不许是灰块 */
+.ds-area.flat { fill-opacity: .14; }
+.ds-grid { stroke: var(--ds-grid); stroke-width: 1; }
+.ds-base { stroke: var(--ds-axis); stroke-width: 1; }
+.ds-band { fill: color-mix(in srgb, var(--ds-context) 22%, transparent); stroke: none; }
+.ds-whisker { stroke: var(--ds-context); stroke-width: 3; stroke-linecap: round; stroke-opacity: .5; }
+
+/* 柱 / 堆叠柱（逐日这种离散的量）。方头：横向拉伸的 SVG 里圆角会变形。
+ * 堆叠段之间留 2px 底色缝由画的人负责（见 panels/ponspad 的 drawChart）。
+ * .ghost = 还没走完的那一期（今天），淡到不参与比较；.on = 悬停中的那一根。 */
+.ds-bar { opacity: .82; }
+.ds-bar.ghost { opacity: .3; }
+.ds-bar.on { opacity: 1; }
+/* 事件标注线（「v2 上线」这种）：虚线 + 一个小标签 */
+.ds-mark { stroke: var(--ds-axis); stroke-width: 1; stroke-dasharray: 3 3; vector-effect: non-scaling-stroke; }
+.ds-marklab {
+  position: absolute; top: 2px; transform: translateX(4px); white-space: nowrap;
+  padding: 0 3px; border-radius: var(--ds-r-sm);
+  font-family: var(--ds-font-mono); font-size: var(--fs-xs); line-height: 1.4;
+  color: var(--ds-stardust); background: var(--ds-matter);
+}
+.ds-marklab.flip { transform: translateX(calc(-100% - 4px)); }
+/* 警示标注（统计口径断层这种「这里的数不可比」）：实线 + 金色 */
+.ds-mark.warn { stroke: var(--ds-gold); stroke-width: 1.5; stroke-dasharray: none; }
+.ds-marklab.warn { color: var(--ds-gold); }
+
+.ds-marks, .ds-cursor { position: absolute; inset: 0; pointer-events: none; }
+/* 数据点：颜色由内联 --c 给；2px 卡片底色环让它压在线上也清楚，外加一圈同色光 */
+.ds-pt {
+  position: absolute; width: 8px; height: 8px; border-radius: 50%; transform: translate(-50%, -50%);
+  background: var(--c); box-shadow: 0 0 0 2px var(--ds-matter), 0 0 12px var(--c);
+}
+.ds-hair { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--ds-line-hi); pointer-events: none; }
+.ds-tip {
+  position: absolute; top: var(--sp-2); z-index: 2; min-width: 140px; pointer-events: none;
+  transform: translateX(14px); padding: var(--sp-2) var(--sp-3);
+  font-size: var(--fs-sm); color: var(--ds-stardust);
+  background: var(--ds-tip-bg); border: 1px solid var(--ds-line-hi); border-radius: var(--ds-r-md);
+  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); box-shadow: var(--ds-glow-card);
+}
+.ds-tip.flip { transform: translateX(calc(-100% - 14px)); }
+.ds-tip .day {
+  margin: 0 0 var(--sp-1); font-family: var(--ds-font-mono); font-size: var(--fs-xs);
+  letter-spacing: .06em; color: var(--ds-stardust);
+}
+.ds-tip .row { display: flex; align-items: center; gap: var(--sp-2); white-space: nowrap; line-height: 1.6; }
+.ds-tip .row b { min-width: 48px; font-family: var(--ds-font-mono); font-weight: 500; color: var(--ds-light); }
+
+/* ---- 表格里值下面的小注（「空闲 12/40」「09-20 的读数」）---- */
+.ds-cellsub {
+  display: block; margin-top: 2px; font-family: var(--ds-font-mono); font-size: var(--fs-xs);
+  color: var(--ds-stardust);
+}
+
+/* ---- 口径说明卡：每个面板页底一张 ---- */
+.ds-notes h2 { margin: 0 0 var(--sp-3); font-size: var(--fs-md); }
+.ds-notes ul { margin: 0; padding-left: var(--sp-5); font-size: var(--fs-sm); color: var(--ds-stardust); }
+.ds-notes li { margin: 0 0 var(--sp-2); line-height: 1.75; }
+.ds-notes li::marker { color: var(--ds-orange); }
+.ds-notes li b { font-weight: 500; color: var(--ds-mist); }
+
+/* ---- 入场：卡片错落浮现，只在首屏一次（--i 由页面给每张卡设序号）----
+ * 填充方式必须是 backwards：写成 both 的话，动画结束后停在 transform:none 上，
+ * 会压过 :hover 的上浮（动画层级高于普通声明），悬停就再也浮不起来。 */
+.ds-rise { animation: ds-rise .5s var(--ds-ease) backwards; animation-delay: calc(var(--i, 0) * 60ms); }
+@keyframes ds-rise { from { opacity: 0; transform: translateY(10px); } }
+
+/* ================================================================ 4. 窄屏 */
+@media (max-width: 640px) {
+  .wrap { padding: 0 var(--sp-4); }
+  .card { padding: var(--sp-4); }
+  .ds-head { margin: var(--sp-6) 0 var(--sp-5); }
+  .ds-kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--sp-3); }
+  .ds-kpi .v { font-size: var(--fs-lg); }
+  .ds-chart { --ds-chart-h: 210px; grid-template-columns: 40px minmax(0, 1fr); }
+  th, td { padding: var(--sp-2) var(--sp-3); }
+}
+
+/* ================================================================ 5. 减弱动效 */
+@media (prefers-reduced-motion: reduce) {
+  .ds-live::after, .ds-rise { animation: none; }
+  .card.link:hover, .ds-lift:hover, button.ds-kpi:hover { transform: none; }
+}
