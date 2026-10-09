@@ -1,0 +1,371 @@
+{
+ "slot": "2026-10-09T18:00+08:00",
+ "window": "12:00–18:00 HKT",
+ "headline": "BTC 现货 ETF 两日流出约 7.3 亿美元、MARA 转出 996 BTC，BTC 一度逼近 8 万美元，24 小时爆仓超 10 亿美元",
+ "summary": [
+  "这期最大的事：美国 BTC 现货 ETF 10/7、10/8 两天合计净流出约 7.3 亿美元，矿企 MARA 被链上追踪到转出 996 BTC（是否出售待确认），BTC 一度跌到 8.03 万美元附近、24 小时爆仓约 11 亿美元。BTC 本身基本面没变，压力来自机构资金流出和政府、矿企的潜在卖盘，ETF 资金流转正前 8 万美元一带主要靠现货承接。",
+  "DeFi：代币化美股开始当抵押品用，Aave 在 Base 上接 Coinbase 代币化股票，Lista 支持用美股借 USD1/USDC，给借贷协议带来新的抵押和利息来源，但收盘后的定价和清算深度是新风险。",
+  "监管与机构：泰国 BTC/ETH 现货 ETF 10/16 开始交易；DWF Labs 关联公司起诉 BitGo 索赔 1.41 亿美元，指控托管锁仓代币被提前出售（未证实）。",
+  "AI：OpenAI 营收口径落差继续压芯片股（甲骨文跌 5.48%，费城半导体跌 3.39%）；FT 称 SpaceX 洽谈约 400 亿美元债务买英伟达芯片；Anthropic 发布 Claude Haiku 5.5。"
+ ],
+ "sections": [
+  {
+   "id": "crypto",
+   "title": "加密",
+   "items": [
+    {
+     "title": "更新：BTC 现货 ETF 两日净流出约 7.3 亿美元，MARA 转出 996 BTC，24 小时多头爆仓超 10 亿美元",
+     "body": "10 月 8 日美国 BTC 现货 ETF 净流出 2.44 亿美元（约 2,987 BTC），前一日流出约 4.85 亿美元；ETH 现货 ETF 再流出 7,254 万美元，只有 XRP ETF 净流入 817 万美元。Lookonchain 称矿企 MARA 转出 996 BTC（约 8,113 万美元），但有回复指出目前只看到转账、未见交易所成交确认。BTC 盘中从约 8.7 万美元跌到 8.03 万美元附近，随后回到 8.2 万美元上方，24 小时全网爆仓约 11 亿美元，其中 ETH 爆仓 3.56 亿美元多于 BTC 的 2.98 亿美元。",
+     "impact": "high",
+     "value_note": "本期没有出现改变 BTC 协议基本面的消息，压力来自资金流：ETF 机构资金连续流出，叠加美政府地址归集到 Coinbase Prime、矿企可能卖币，边际卖盘集中。ETF 资金流转正之前，8 万美元一带的支撑主要靠现货承接；MARA 若确认是出售，说明矿企在当前币价下开始动用储备，矿业股的 BTC 持仓逻辑也要重估。",
+     "tickers": [
+      "BTC",
+      "ETH",
+      "MARA"
+     ],
+     "sources": [
+      {
+       "label": "X 新闻：BTC ETF 10/8 净流出 2.44 亿美元",
+       "url": "https://x.com/i/trending/2108485217480540523"
+      },
+      {
+       "label": "@WuBlockchain",
+       "url": "https://x.com/WuBlockchain/status/2108432238069387308"
+      },
+      {
+       "label": "@lookonchain（MARA）",
+       "url": "https://x.com/lookonchain/status/2108435153458733250"
+      },
+      {
+       "label": "X 新闻：爆仓超 10 亿美元",
+       "url": "https://x.com/i/trending/2108457279611699378"
+      }
+     ],
+     "metrics": "lookonchain MARA 帖约 4.1 万展示 / 213 赞",
+     "is_update": true
+    },
+    {
+     "title": "泰国 SEC 批准 BTC、ETH 现货 ETF，10 月 16 日起在泰国证交所交易",
+     "body": "泰国 SEC 于 10 月 8 日发布规则：现货 BTC、ETH ETF 可在泰国证交所上市，须至少 80% 资产持有单一币种、使用本地受监管托管、被动管理且不能做保证金交易，泰国本地基金也可投资这些产品。",
+     "impact": "medium",
+     "value_note": "为东南亚散户和本地基金打开合规入口，属增量需求渠道；规模短期有限，但与欧美 ETF 正在流出形成对照。",
+     "tickers": [
+      "BTC",
+      "ETH"
+     ],
+     "sources": [
+      {
+       "label": "X 新闻：Thailand approves BTC/ETH ETFs",
+       "url": "https://x.com/i/trending/2108420359754330486"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "DWF Labs 关联公司在伦敦起诉 BitGo，索赔 1.41 亿美元",
+     "body": "据 FT，DWF Labs 旗下 DWF Maas 与 Falcon Digital 在伦敦高等法院起诉托管机构 BitGo，指控其让被锁定的代币提前出售，索赔 1.41 亿美元。目前只是原告单方面的指控，BitGo 的回应尚未在 X 上看到。",
+     "impact": "medium",
+     "value_note": "如果指控成立，说明托管机构对锁仓代币的控制可能失效，项目方锁仓承诺的可信度和托管商的赔付风险都会被重新审视；目前只是诉讼阶段，未证实。",
+     "tickers": [
+      "BTGO"
+     ],
+     "sources": [
+      {
+       "label": "@WuBlockchain",
+       "url": "https://x.com/WuBlockchain/status/2108420972739244529"
+      },
+      {
+       "label": "@PANewsCN",
+       "url": "https://x.com/PANewsCN/status/2108431892445900914"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "更新：Glassnode 称 626 万枚 BTC 公钥已暴露，ZEC 借「抗量子/抗 AI」叙事回到约 1,220 美元",
+     "body": "Glassnode 联创 Rafael 统计约 626 万 BTC（占总量 31.2%）存放在公钥已公开的地址上，2021 年初这一比例为 24.8%；其中 433 万来自地址复用、194 万来自 P2PK 和 Taproot 等脚本，交易所地址上有 179 万。此前以太坊基金会 Justin Drake 提出的「AI 可能更快攻破 ECDSA」讨论继续发酵，ZEC 在 1,118 美元低点后回到约 1,220 美元；Zcash 官方同时宣传 Tachyon，称用 PIR 技术把 8TB 数据压到不到 10MB。",
+     "impact": "medium",
+     "value_note": "把「公钥暴露」从抽象风险变成了可量化的存量（近三分之一 BTC），后续若 BTC 社区推进迁移或抗量子签名提案，将直接影响这部分币的安全假设；ZEC 的上涨目前是叙事驱动，尚无新的收入或采用数据支撑。",
+     "tickers": [
+      "BTC",
+      "ZEC"
+     ],
+     "sources": [
+      {
+       "label": "@WuBlockchain（Glassnode）",
+       "url": "https://x.com/WuBlockchain/status/2108413269769847264"
+      },
+      {
+       "label": "X 新闻：6.26M BTC exposed",
+       "url": "https://x.com/i/trending/2108486853842362589"
+      },
+      {
+       "label": "@Zcash",
+       "url": "https://x.com/Zcash/status/2108474857608585338"
+      },
+      {
+       "label": "X 新闻：ZEC ~$1,220",
+       "url": "https://x.com/i/trending/2108470801850880206"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "更新：Starknet 考虑转做独立 L1 后 STRK 逆势涨超 40%，但仍较高点跌约 98.5%",
+     "body": "PANews 汇总：StarkWare 联创以应对量子和 AI 密码学风险为由，提出 Starknet 可能需要独立掌控底层安全升级。消息刺激 STRK 逆势涨超 40%，但币价仍较历史高点跌去约 98.5%，TVL 也较峰值腰斩。",
+     "impact": "low",
+     "value_note": "脱离以太坊意味着放弃继承 L1 安全，需要自建验证者和经济安全预算，STRK 的代币用途会从 L2 治理/费用转向质押安全；目前只是讨论，尚无提案时间表。",
+     "tickers": [
+      "STRK"
+     ],
+     "sources": [
+      {
+       "label": "@PANewsCN",
+       "url": "https://x.com/PANewsCN/status/2108465933476126774"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "Solana 目标出块时间从 250ms 降到 200ms；Sui 现场演示 4,060 万 TPS",
+     "body": "The Defiant 报道 Solana 定于 10 月 9 日把目标 slot 时间从 250ms 缩短到 200ms，同时缩小每个 slot 的工作量上限，每秒执行容量大致不变。Sui 在新加坡 Basecamp 用链下 tunnels 做压测，峰值 4,060 万 TPS（此前纪录 610 万），CertiK 验证。",
+     "impact": "low",
+     "value_note": "Solana 这次主要降低确认延迟，对交易类应用体验有帮助，不直接改变吞吐或费用收入；Sui 的数字来自链下 tunnels，不能等同于链上结算能力。",
+     "tickers": [
+      "SOL",
+      "SUI"
+     ],
+     "sources": [
+      {
+       "label": "@DefiantNews",
+       "url": "https://x.com/DefiantNews/status/2108421699666694471"
+      },
+      {
+       "label": "X 新闻：Sui 40.6M TPS",
+       "url": "https://x.com/i/trending/2108457279565472209"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "Binance 给 BICO、CVC 加监控标签",
+     "body": "Binance 宣布自 10 月 9 日起将 Biconomy（BICO）和 Civic（CVC）加入监控标签名单，这类代币被视为波动和风险较高，后续可能面临下架评估。",
+     "impact": "low",
+     "tickers": [
+      "BICO",
+      "CVC"
+     ],
+     "sources": [
+      {
+       "label": "@WuBlockchain",
+       "url": "https://x.com/WuBlockchain/status/2108475461454172161"
+      }
+     ],
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "defi",
+   "title": "DeFi",
+   "items": [
+    {
+     "title": "代币化美股开始进入 DeFi 借贷：Aave 在 Base 上接入 Coinbase 代币化股票，Lista 支持用美股借 USD1/USDC",
+     "body": "Aave 创始人 Stani 称 Coinbase 代币化股票正在接入 Aave：有以股票抵押的借款、Dialectic/Makina 的股票收益金库、Superform 和 Zyfai 的股票理财，均只对非美国用户开放，基于 Aave 和 Base。Lista DAO 同期推广用 SPY、QQQ、TSLA、Circle、SNDK 等代币化股票借 USD1 或 USDC。Token Terminal 统计代币化英伟达敞口已达 1.508 亿美元，分布在 16 个资产、14 个发行方和 14 条链上。另据 Bitbond 等转述，Ondo 已把三套 BlackRock 设计的模型组合各自做成单一代币（未在 Ondo 官方账号本窗口内找到原帖）。",
+     "impact": "medium",
+     "value_note": "股票成为链上抵押品，给 Aave、Lista 等借贷协议带来新的抵押资产和利息收入来源，也为稳定币创造借款需求；风险在于美股非交易时段的预言机定价和清算深度，IMF 报告已提示代币化股票过半成交发生在美股收盘后。",
+     "tickers": [
+      "AAVE",
+      "LISTA",
+      "ONDO"
+     ],
+     "sources": [
+      {
+       "label": "@StaniKulechov",
+       "url": "https://x.com/StaniKulechov/status/2108445823491272855"
+      },
+      {
+       "label": "@lista_dao",
+       "url": "https://x.com/lista_dao/status/2108475546455998774"
+      },
+      {
+       "label": "@tokenterminal",
+       "url": "https://x.com/tokenterminal/status/2108476615395332457"
+      },
+      {
+       "label": "@Bitbond（Ondo × BlackRock）",
+       "url": "https://x.com/Bitbond/status/2108491173547667675"
+      }
+     ],
+     "metrics": "Stani 帖约 5.6k 展示 / 102 赞",
+     "is_update": false
+    },
+    {
+     "title": "Hyperliquid：HIP-3 部署方 trade.xyz 累计收入约 3,400 万美元，同额进入援助基金回购 HYPE（社区统计）",
+     "body": "社区账号引用 Loris Tools 数据称，HIP-3 部署方 trade.xyz 累计收入超过 3,400 万美元，同等金额流入 Hyperliquid 援助基金用于回购 HYPE；另有社区统计称过去约 24 小时协议收入约 395 万美元、回购销毁 4.61 万 HYPE。下跌周里 Hyperliquid 未平仓合约规模仍居永续 DEX 首位。以上数字均来自社区账号，未见官方确认。",
+     "impact": "low",
+     "value_note": "如果数字属实，HIP-3 第三方市场把收入导向 HYPE 回购，扩大了 HYPE 的价值捕获面，不再只依赖主站交易手续费；需等官方或链上数据核实。",
+     "tickers": [
+      "HYPE"
+     ],
+     "sources": [
+      {
+       "label": "@ricardo_jorge（未证实）",
+       "url": "https://x.com/ricardo_jorge/status/2108411865055273007"
+      },
+      {
+       "label": "@THRIGGAR（未证实）",
+       "url": "https://x.com/THRIGGAR/status/2108450338445340995"
+      }
+     ],
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "title": "AI",
+   "items": [
+    {
+     "title": "更新：OpenAI 营收口径落差继续拖累芯片股，甲骨文跌 5.48%，费城半导体指数跌 3.39%",
+     "body": "PANews 汇总：投资者文件显示 OpenAI 年化营收接近 500 亿美元，而不是此前流传的 700 亿美元，主要是统计口径差异（不含云伙伴分成）。叠加 AI 巨头持续举债扩张，甲骨文跌 5.48%，英伟达跌近 3%，费城半导体指数跌 3.39%。",
+     "impact": "medium",
+     "value_note": "市场开始按真实收入重估 AI 资本开支能否回本，受影响最大的是靠 OpenAI 订单撑估值的云和算力供应商；口径澄清后若后续季度增长兑现，这次下跌可能被视为过度反应。",
+     "tickers": [
+      "ORCL",
+      "NVDA",
+      "SOX"
+     ],
+     "sources": [
+      {
+       "label": "@PANewsCN",
+       "url": "https://x.com/PANewsCN/status/2108463707877511639"
+      },
+      {
+       "label": "X 新闻：OpenAI revenue revelation",
+       "url": "https://x.com/i/trending/2108241885051662727"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "FT：SpaceX 洽谈约 400 亿美元债务融资，用于采购英伟达 AI 芯片",
+     "body": "据 FT 报道，SpaceX 正在早期洽谈约 400 亿美元债务融资，由 Apollo 牵头，资金用途是大批采购英伟达 AI 芯片；同周 Broadcom、Oracle 也被报道在安排大额私募债为 AI 芯片融资。",
+     "impact": "medium",
+     "value_note": "AI 基础设施越来越依赖举债而不是经营现金流，这对英伟达是订单利好，但也让整条链条对利率和收入兑现更敏感。",
+     "tickers": [
+      "NVDA"
+     ],
+     "sources": [
+      {
+       "label": "@Kisalay_（转述 FT）",
+       "url": "https://x.com/Kisalay_/status/2108414652501922050"
+      },
+      {
+       "label": "@TFNBreakingNews",
+       "url": "https://x.com/TFNBreakingNews/status/2108472085714792710"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "Anthropic 发布 Claude Haiku 5.5，主打高频智能体子任务",
+     "body": "Anthropic 推出 Claude Haiku 5.5，定位在 Opus 5.5 和 Sonnet 之下，面向子智能体、分类等高并发、低成本任务；开发者实测与 Gemini 3.8 Flash、GPT-6 Luna 等便宜模型对比的帖子在 X 上集中出现，评价分化。",
+     "impact": "low",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "X 新闻：GPT-6.1 Ultrafast & Haiku 5.5",
+       "url": "https://x.com/i/trending/2108455326022602968"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "USA Today 等 19 家媒体起诉 OpenAI，索赔超 2.5 亿美元",
+     "body": "USA Today 及旗下 19 家地方媒体 10 月 8 日在曼哈顿联邦法院起诉 OpenAI，称其用超过 8.3 万篇 USA Today 文章训练模型，索赔超过 2.5 亿美元并要求停止复制，与纽约时报等案件并行。",
+     "impact": "low",
+     "value_note": "版权诉讼越积越多，训练数据授权成本可能成为模型公司的长期成本项。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "X 新闻：USA Today sues OpenAI",
+       "url": "https://x.com/i/trending/2108424533002854700"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "摩根大通 Dimon：Anthropic Mythos 出现后网络安全风险「上升 10 倍」",
+     "body": "据彭博社，Jamie Dimon 在伦敦摩根大通科技峰会上表示，Anthropic 的 Mythos 模型出现后网络安全风险上升了 10 倍；另据路透社，被指用于韩国银行攻击的开源 AI 渗透测试工具 ARTEX 已转为闭源。",
+     "impact": "low",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@PANewsCN（Dimon）",
+       "url": "https://x.com/PANewsCN/status/2108439614377824410"
+      },
+      {
+       "label": "@PANewsCN（ARTEX）",
+       "url": "https://x.com/PANewsCN/status/2108483342815654146"
+      }
+     ],
+     "is_update": false
+    }
+   ]
+  }
+ ],
+ "watchlist_hits": [
+  {
+   "handle": "Zcash",
+   "text": "★ Zcash 官方：Tachyon 用 PIR 技术把约 8TB 数据压到不到 10MB，回应抗量子与扩容讨论。",
+   "url": "https://x.com/Zcash/status/2108474857608585338"
+  },
+  {
+   "handle": "lista_dao",
+   "text": "★ Lista DAO：可用 SPY、QQQ、TSLA、Circle 等代币化股票抵押借 USD1/USDC。",
+   "url": "https://x.com/lista_dao/status/2108475546455998774"
+  },
+  {
+   "handle": "tokenterminal",
+   "text": "★ Token Terminal：代币化英伟达敞口 1.508 亿美元，覆盖 16 个资产、14 个发行方、14 条链。",
+   "url": "https://x.com/tokenterminal/status/2108476615395332457"
+  },
+  {
+   "handle": "boros_fi",
+   "text": "★ Boros：HL 与 OKX 的 ETH 资金费率价差锁定 4.5%，11.7 倍杠杆下年化约 49.6%（至 10/30），属于固定利率套利示例，有杠杆风险。",
+   "url": "https://x.com/boros_fi/status/2108477203596103819"
+  },
+  {
+   "handle": "lookonchain",
+   "text": "Lookonchain：MARA 转出 996 BTC（约 8,113 万美元）；另一胜率 100% 的聪明钱 0x2371 在下跌后开 20 倍多 12,000 ETH（约 2,988 万美元）。",
+   "url": "https://x.com/lookonchain/status/2108435153458733250"
+  },
+  {
+   "handle": "WuBlockchain",
+   "text": "吴说：10/8 BTC 现货 ETF 净流出 2.44 亿美元，仅 Franklin EZBC 净流入。",
+   "url": "https://x.com/WuBlockchain/status/2108432238069387308"
+  },
+  {
+   "handle": "StaniKulechov",
+   "text": "Stani：Coinbase 代币化股票接入 Aave（股票抵押借款、收益金库），仅限非美国用户。",
+   "url": "https://x.com/StaniKulechov/status/2108445823491272855"
+  },
+  {
+   "handle": "DefiantNews",
+   "text": "The Defiant：Solana 10/9 起目标出块时间 250ms 降至 200ms。",
+   "url": "https://x.com/DefiantNews/status/2108421699666694471"
+  },
+  {
+   "handle": "PANewsCN",
+   "text": "PANews：STRK 涨超 40% 但较高点仍跌约 98.5%，TVL 较峰值腰斩。",
+   "url": "https://x.com/PANewsCN/status/2108465933476126774"
+  }
+ ],
+ "stats": {
+  "x_calls_used": 25,
+  "posts_scanned": 302,
+  "news_stories": 75
+ },
+ "_generated_at": "2026-10-09 17:38 HKT"
+}
