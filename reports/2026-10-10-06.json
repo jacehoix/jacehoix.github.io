@@ -1,0 +1,511 @@
+{
+ "slot": "2026-10-10T06:00+08:00",
+ "window": "10-09 18:00 – 10-10 06:00 HKT（隔夜）",
+ "headline": "Ledger 东南亚经销商被盗案扩大到约 9,290 万美元、311 个钱包，Tether 冻结部分赃款，Ledger 仍未公布赔付",
+ "summary": [
+  "这期最大的事：Ledger 授权经销商 CryptoBilis 渠道的设备被盗案继续扩大，Bitquery 统计约 9,290 万美元、311 个钱包，Tether 冻结了部分相关 USDT，但 Ledger 还没公布赔付或定性。没有协议代币直接受损，打击的是硬件钱包的授权分销信任；USDT 的冻结权这次帮了受害者，同一晚却也不打招呼冻结了 THORChain 金库，DeFi 协议持有 USDT 的单点风险要算进去（昨晚已两次提前提醒）。",
+  "DeFi 里最改代币经济的是 Aero：Aerodrome 与 Velodrome 合并的升级页上线，公布兑换比例，10 月 21 日 7 链上线；Maple 按 9 月收入 20% 回购 SYRUP，Sky 拿到标普和穆迪双评级。",
+  "资金面仍弱：10 月 9 日 BTC ETF 再流出 2.83 亿美元、ETH 流出 9,620 万美元，Polymarket 上 BTC 年内到 10 万美元的概率降到 33%。",
+  "监管：美财长称本周可能查扣约 10 亿美元伊朗相关加密资产；CFTC 主席要不等国会给现货交易所立规；DTCC 与 Chainlink 的抵押品链定在 2027 年一季度。",
+  "AI：DeepSeek V4.1 Flash 以约二十分之一的单任务成本逼近 Opus；Anthropic 发布 Fable/Mythos 5.1；Axios 称 AI 公司高管在推演灾难性事件。"
+ ],
+ "sections": [
+  {
+   "id": "crypto",
+   "title": "加密",
+   "items": [
+    {
+     "title": "【第 2 天】Ledger 东南亚经销商被盗案：链上统计升到约 9,290 万美元、311 个钱包，Tether 冻结部分 USDT",
+     "body": "昨晚 21:40 和 22:50 已两次提前提醒过，这里只写新进展。Bitquery 统计到 TRON、BTC、ETH、BNB Chain、Polygon 上 311 个钱包合计被盗约 9,290 万美元，高于最初报的 8,600 万美元，受害者集中在通过 CryptoBilis（Ledger 在印尼、马来西亚、菲律宾的授权经销商）买设备的用户。MistTrack 称 Tether 已冻结与盗窃地址相关的 USDT（The Defiant 转述，冻结只阻止转移、不等于赔付）。Lookonchain 举例：一名用户把 80 枚 BTC（约 520 万美元买入）存进刚从 CryptoBilis 买的 Ledger 后被全部转走；另一人存入 700 万 USDT 后被清空。截至本期，X 上没有看到 Ledger 宣布赔付方案，原因仍未官方定性。",
+     "impact": "high",
+     "value_note": "没有协议或代币直接受损，但它改变了「冷钱包=安全」的前提：风险出在授权渠道的供应链上，买家 90 天内的设备都要当作不可信。对 Ledger（非上市）的品牌和授权分销模式是实打实的打击，对 USDT 则再次说明发行方冻结能力是双刃剑——这次帮受害者拦住了一部分，但同样的权力也能冻结 DeFi 协议（见下条 THORChain）。",
+     "tickers": [
+      "BTC",
+      "USDT",
+      "TRX"
+     ],
+     "sources": [
+      {
+       "label": "@Bitquery_io（9,290 万美元 / 311 钱包）",
+       "url": "https://x.com/Bitquery_io/status/2108633599184622010"
+      },
+      {
+       "label": "@DefiantNews（Tether 冻结，MistTrack）",
+       "url": "https://x.com/DefiantNews/status/2108582006556876887"
+      },
+      {
+       "label": "@lookonchain（80 BTC 受害者）",
+       "url": "https://x.com/lookonchain/status/2108585005635301427"
+      },
+      {
+       "label": "@lookonchain（700 万 USDT 受害者）",
+       "url": "https://x.com/lookonchain/status/2108581741732790539"
+      },
+      {
+       "label": "X 新闻：Ledger 调查 CryptoBilis",
+       "url": "https://x.com/i/trending/2108544718074175618"
+      }
+     ],
+     "metrics": "lookonchain 80 BTC 帖约 18 万展示 / 1,210 赞",
+     "is_update": true
+    },
+    {
+     "title": "【第 2 天】ETF 继续失血：10 月 9 日 BTC 现货 ETF 再流出 2.83 亿美元，ETH 流出 9,620 万美元",
+     "body": "Lookonchain 数据：10 月 9 日 BTC ETF 净流出 3,412 BTC（约 2.83 亿美元），7 日累计流出 6,747 BTC（约 5.59 亿美元）；ETH ETF 单日流出 38,576 ETH（约 9,620 万美元），7 日累计 5.15 亿美元。BTC 在 8.0–8.3 万美元区间反复，X 新闻汇总称 24 小时爆仓仍超 10 亿美元。Polymarket 上「BTC 今年到 10 万美元」的概率降到 33%（9 月 22 日为 46%）。今天也是 2025 年 10·10 大爆仓一周年，社区在复盘。",
+     "impact": "medium",
+     "value_note": "仍是资金面压力，不是基本面变化：机构经 ETF 持续减仓，ETH ETF 7 日流出规模已接近 BTC，ETH 承压更明显。",
+     "tickers": [
+      "BTC",
+      "ETH"
+     ],
+     "sources": [
+      {
+       "label": "@lookonchain（10/9 ETF 数据）",
+       "url": "https://x.com/lookonchain/status/2108554904654819507"
+      },
+      {
+       "label": "X 新闻：Polymarket BTC 10 万概率 33%",
+       "url": "https://x.com/i/trending/2108597288016761150"
+      },
+      {
+       "label": "X 新闻：BTC 在 8.3 万附近震荡",
+       "url": "https://x.com/i/trending/2108524427323347445"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "美财长 Bessent：美国本周可能查扣约 10 亿美元与伊朗有关的加密资产",
+     "body": "据 Newsmax，Bessent 在华盛顿 NPolicy 峰会上说美国「可能」在本周查扣约 10 亿美元伊朗相关加密资产，「我们知道它在哪」，属于切断伊朗金融通道的「绝对孤立」行动。具体钱包和币种未公布。",
+     "impact": "medium",
+     "value_note": "此前已有报道称 USDT 在伊朗规避制裁中扮演角色（参议员 Blumenthal 也在追问 Cantor 与 Tether 的关系）。若查扣主要落在 TRON 上的 USDT，Tether 的配合度与合规形象会再次被检视；对 BTC 等无发行方资产影响有限。",
+     "tickers": [
+      "USDT",
+      "TRX"
+     ],
+     "sources": [
+      {
+       "label": "@CoinDesk",
+       "url": "https://x.com/CoinDesk/status/2108600970066186301"
+      },
+      {
+       "label": "@WuBlockchain",
+       "url": "https://x.com/WuBlockchain/status/2108577654513479719"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "Tether 冻结 THORChain 4 个 TRON 金库约 145 万 USDT，3 小时后解冻",
+     "body": "Tether 把 THORChain 在 TRON 上的 4 个金库地址拉黑，约 145 万 USDT 被冻结，THORChain 只得暂停 TRON 相关兑换和 LP 操作（全局交易未停）。联合创始人 Chad Barraford 称事前没收到任何通知；约 3 小时后 Tether 解除拉黑，The Defiant 链上确认。另有 19 个地址仍在黑名单上，Tether 未解释原因。同期 X 上热议 USDT 合约里自 2017 年就有的 destroyBlackFunds 功能（可把黑名单地址余额清零后重新铸造）。",
+     "impact": "medium",
+     "value_note": "直接影响持有 USDT 的跨链/DeFi 协议：发行方可以不打招呼冻结协议金库，等于协议的 USDT 流动性存在单点风险。对 RUNE 和所有以 USDT 为核心资产的协议，是需要计入的中心化风险。",
+     "tickers": [
+      "USDT",
+      "RUNE"
+     ],
+     "sources": [
+      {
+       "label": "@DefiantNews（冻结）",
+       "url": "https://x.com/DefiantNews/status/2108581502917513342"
+      },
+      {
+       "label": "@DefiantNews（解冻）",
+       "url": "https://x.com/DefiantNews/status/2108588329981952169"
+      },
+      {
+       "label": "X 新闻：Tether 冻结 THORChain 金库",
+       "url": "https://x.com/i/trending/2108584133844742306"
+      },
+      {
+       "label": "X 新闻：destroyBlackFunds 讨论",
+       "url": "https://x.com/i/trending/2108643215733559684"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "CFTC 主席 Selig：不等国会，用现有权限给加密现货交易所立规",
+     "body": "X 新闻汇总称，CFTC 主席 Mike Selig 表示将用现有权限推出加密现货交易所监管框架，要求客户资产隔离、市场监控等，以防 FTX 式挪用。此前 CLARITY Act 在国会卡住（前纽约州长 Cuomo 在 OKX 活动上称失败原因「基本就是政治」）。",
+     "impact": "medium",
+     "value_note": "若落地，美国现货交易所会有一条不依赖立法的合规路径，利好合规交易所和美国本土流动性回流；但没有国会授权，规则可能面临法律挑战，确定性低于立法。",
+     "tickers": [
+      "COIN"
+     ],
+     "sources": [
+      {
+       "label": "X 新闻：CFTC 计划自行监管现货交易所",
+       "url": "https://x.com/i/trending/2108587416311255090"
+      },
+      {
+       "label": "@CoinDesk（Cuomo 谈 CLARITY）",
+       "url": "https://x.com/CoinDesk/status/2108528249038864706"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "法国议会委员会通过 2027 预算修正案：对稳定币交易征税、加密退出税",
+     "body": "法国议会一个委员会通过提案：对稳定币交易征税、对加密持仓征收退出税，另允许加密亏损结转 10 年，并从 2027 年 1 月 1 日起对加密换稳定币征税。目前只是委员会阶段，还需议会进一步表决，尚未成为法律。",
+     "impact": "low",
+     "value_note": "与 ESMA 2027-01-08 下架不合规稳定币叠加，欧洲稳定币使用成本上升；仍是提案，先观察。",
+     "tickers": [
+      "USDT",
+      "USDC"
+     ],
+     "sources": [
+      {
+       "label": "X 新闻：法国稳定币交易税",
+       "url": "https://x.com/i/trending/2108520558585340240"
+      }
+     ],
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "defi",
+   "title": "DeFi",
+   "items": [
+    {
+     "title": "Aerodrome 与 Velodrome 合并为 Aero：升级页上线，公布最后一个 epoch 和代币兑换比例，10 月 21 日在 7 条链上线",
+     "body": "Aero 官方上线 Upgrade Hub，说明 Aerodrome 和 Velodrome 最后一个 epoch、AERO/VELO 换成新代币的兑换比例和上线时间表。据分析师 andrew.moh，Aero 将在 Base、Ethereum、OP Mainnet、Arc、Ink、Robinhood Chain、Arbitrum 7 条链上线，AERO 和 VELO 合成一个代币；Aerodrome 9 月成交 138.2 亿美元，激励支出比 2025 年 1 月少约 80%。Aero 还称 Coinbase 代币化股票在 Aerodrome 上第二个 10 亿美元成交只用了第一个的一半时间。",
+     "impact": "high",
+     "value_note": "直接改代币经济：两个代币合一、排放和投票体系重置，兑换比例决定 AERO 与 VELO 持有人的价值分配，建议持有人直接看官方兑换比例。激励减少约 80% 而成交仍有百亿级，说明费用/激励比在改善；多链部署能扩大费用来源，但也会摊薄单链流动性。",
+     "tickers": [
+      "AERO",
+      "VELO"
+     ],
+     "sources": [
+      {
+       "label": "★@aeroxyz（Upgrade Hub）",
+       "url": "https://x.com/aeroxyz/status/2108660384018403640"
+      },
+      {
+       "label": "@andrewmoh（7 链 / 9 月数据）",
+       "url": "https://x.com/andrewmoh/status/2108605203125858664"
+      },
+      {
+       "label": "★@aeroxyz（代币化股票成交）",
+       "url": "https://x.com/aeroxyz/status/2108605929323377090"
+      }
+     ],
+     "metrics": "代币化股票帖约 1.1 万展示 / 242 赞",
+     "is_update": false
+    },
+    {
+     "title": "DTCC 与 Chainlink 在 Sibos 展示抵押品 AppChain，计划 2027 年一季度上线；同晚约 1,412 万 LINK 转入币安",
+     "body": "DTCC 的 Dan Doney 与 Chainlink 的 Sergey Nazarov 在 Sibos 2026 演示：DTCC Collateral AppChain 用 Chainlink 运行环境（CRE）做系统编排、用 CCIP 转移资产，实现 7×24 近实时抵押品管理，目标覆盖回购、证券借贷等每天 20 万亿美元以上的交易，计划 2027 年一季度上线。另据 Whale Alert，HKT 凌晨 03:54–05:08 有 5 笔共约 1,412 万 LINK（约 1.8 亿美元）从未知钱包转入币安，转出方身份不明。",
+     "impact": "medium",
+     "value_note": "DTCC 是美国证券结算核心，若 AppChain 按期上线并按用量付费，LINK 有望获得机构级的长期需求来源；但收入如何回流到 LINK 代币还没披露。大额转入交易所可能是卖压，也可能是做市/托管调仓，未证实。",
+     "tickers": [
+      "LINK"
+     ],
+     "sources": [
+      {
+       "label": "★@chainlink",
+       "url": "https://x.com/chainlink/status/2108607717963391419"
+      },
+      {
+       "label": "X 新闻：DTCC × Chainlink",
+       "url": "https://x.com/i/trending/2108666317997801488"
+      },
+      {
+       "label": "@whale_alert（400 万 LINK 转入币安）",
+       "url": "https://x.com/whale_alert/status/2108649410976469268"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "Maple 完成 9 月 SYRUP 回购：31.4 万美元买入 137 万枚，占 9 月协议收入 157 万美元的 20%",
+     "body": "Maple 官方称按 MIP-021 规则，用 9 月协议收入（157 万美元）的 20% 即 314,116 美元，以均价 0.229 美元回购 1,371,166 枚 SYRUP，并强调这不是分红或利润分成。",
+     "impact": "medium",
+     "value_note": "收入挂钩的规则化回购，月收入 157 万美元、年化约 1,900 万美元量级；按 20% 比例，回购力度取决于收入增长，是 SYRUP 估值可直接对照的现金流指标。",
+     "tickers": [
+      "SYRUP"
+     ],
+     "sources": [
+      {
+       "label": "★@maplefinance",
+       "url": "https://x.com/maplefinance/status/2108556752740565165"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "Sky 成为首个同时获得标普和穆迪评级的稳定币协议；Spark Savings V2 接近 10 亿美元",
+     "body": "Sky 称获得 S&P Global 和穆迪两家独立评估，给机构配置者现成的信用框架。同一生态的 Spark 称 Savings V2 存款接近 10 亿美元，过去一个月增长 27.5%，其中 USDT 增长近 70% 至 6 亿美元以上、占 60%；SparkLend 过去 90 天 222 笔 500 万 USDS 以上的大额借款中，88% 在两分钟内利率回到原水平。",
+     "impact": "medium",
+     "value_note": "双评级降低机构持有 USDS 的门槛，属于储备/信用层面的加分，利于 SKY 的长期规模；Spark 存款增长主要来自 USDT，说明需求在、但资产结构对 Tether 依赖上升。",
+     "tickers": [
+      "SKY",
+      "USDS",
+      "SPK"
+     ],
+     "sources": [
+      {
+       "label": "★@SkyEcosystem",
+       "url": "https://x.com/SkyEcosystem/status/2108561554954420500"
+      },
+      {
+       "label": "★@sparkfinance（Savings V2）",
+       "url": "https://x.com/sparkfinance/status/2108517339452813513"
+      },
+      {
+       "label": "★@sparkfinance（SparkLend 流动性）",
+       "url": "https://x.com/sparkfinance/status/2108581718236004400"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "【第 2 天】代币化股票继续扩张：Securitize Stocks 在 Solana 上线，Uniswap 30 天成交超其他 DEX 总和",
+     "body": "Securitize Stocks 已在 Solana 上线、以 USDC 结算，NYSE 正在搭 7×24 数字交易场所接入。Uniswap 称过去 30 天代币化股票成交超过所有其他 DEX 之和；Solana 称 9 月链上代币化股票持有钱包突破 100 万、成交 44 亿美元；Kamino 的 xStocks 金库已接入 Kraken Wallet。Token Terminal 数据：泽西岛、BVI、阿联酋注册的发行方占代币化股票市值 80.5%，美国发行方占 10.7%。",
+     "impact": "medium",
+     "value_note": "成交在向 Uniswap、Aerodrome 等 DEX 和 Solana 集中，直接增加这些协议的手续费；但发行方大多在离岸司法区，监管一旦收紧，存量资产的合规风险集中。",
+     "tickers": [
+      "UNI",
+      "SOL",
+      "KMNO",
+      "ONDO"
+     ],
+     "sources": [
+      {
+       "label": "★@Securitize",
+       "url": "https://x.com/Securitize/status/2108579972851933230"
+      },
+      {
+       "label": "★@Uniswap",
+       "url": "https://x.com/Uniswap/status/2108645143804866584"
+      },
+      {
+       "label": "★@solana",
+       "url": "https://x.com/solana/status/2108587858500161689"
+      },
+      {
+       "label": "★@kamino",
+       "url": "https://x.com/kamino/status/2108596336870240370"
+      },
+      {
+       "label": "★@tokenterminal",
+       "url": "https://x.com/tokenterminal/status/2108571302059704400"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "ether.fi 推出自家稳定币（基于 Ethena Whitelabel），团队在 TOKEN2049 同台宣讲",
+     "body": "ether.fi 宣布通过 Ethena Whitelabel 发行自家稳定币，并与 Ethena 同台介绍。据 KOL 整理，ether.fi 平台已有 3 亿美元以上稳定币存款、累计卡消费近 10 亿美元、活跃卡 11.4 万张以上（非官方口径）。",
+     "impact": "low",
+     "value_note": "对 ETHFI 是新增收入线（稳定币储备收益），对 ENA 是第一个「新银行」类白标客户，扩大 Ethena 的分销；储备结构和收益分成条款还没公开，是判断价值的关键。",
+     "tickers": [
+      "ETHFI",
+      "ENA"
+     ],
+     "sources": [
+      {
+       "label": "★@ether_fi",
+       "url": "https://x.com/ether_fi/status/2108667568672170039"
+      },
+      {
+       "label": "@Leon_Defi（平台数据）",
+       "url": "https://x.com/Leon_Defi/status/2108140446996394413"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "CoinDesk 独家：Robinhood Chain 考虑引入 Arbitrum 的付费优先排序（Priority Gas Auctions）",
+     "body": "据 CoinDesk，Robinhood Chain 正评估 Arbitrum 9 月 24 日上线的 Priority Gas Auctions，允许交易者付更高费用换更快执行；目前链上按先到先得排序。Robinhood Chain 本周满 100 天。",
+     "impact": "low",
+     "value_note": "若采用，排序费会成为链的新收入，但专业做市/套利方获得付费速度优势，散户成交质量可能变差，属于链上经济模型的取舍。",
+     "tickers": [
+      "HOOD",
+      "ARB"
+     ],
+     "sources": [
+      {
+       "label": "@CoinDesk",
+       "url": "https://x.com/CoinDesk/status/2108664212742721670"
+      }
+     ],
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "title": "AI",
+   "items": [
+    {
+     "title": "DeepSeek 发布 V4.1 Flash：接近 Claude Opus 水平、单任务成本约 0.27 美元",
+     "body": "X 新闻汇总称，DeepSeek V4.1 Flash 基准成绩接近 Claude Opus，速度快约 3 倍、单任务成本约 0.27 美元（Opus Max 约 5.98 美元），吞吐最高约 217 token/秒，已在 OpenRouter 等平台走红。同期 Gavin Baker 与 Ara Kharazian 在 X 上争论：开源模型 token 份额 9 月中已到 78%，但支出在下降，到底利好算力还是压低模型层利润。",
+     "impact": "medium",
+     "value_note": "便宜的开源权重模型持续压价，对 OpenAI、Anthropic 的单 token 毛利是压力；对 Nvidia 等算力方，按 Baker 的观点是用量上升的利好，结论分歧明显。",
+     "tickers": [
+      "NVDA"
+     ],
+     "sources": [
+      {
+       "label": "X 新闻：DeepSeek V4.1 Flash",
+       "url": "https://x.com/i/trending/2108669505350271324"
+      },
+      {
+       "label": "X 新闻：开源模型与算力需求之争",
+       "url": "https://x.com/i/trending/2108542444497437173"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "Anthropic 发布 Fable 5.1 与 Mythos 5.1：同一底层模型，按安全护栏和访问权限区分",
+     "body": "Anthropic 推出 Fable 5.1 和 Mythos 5.1，两者底层是同一个模型，差别在安全护栏和谁能用（Mythos 偏向防御方/受限访问）；编程表现据称强于 Opus 5.5。有 X 用户转述 Anthropic 工程师称 Claude Code 系统提示词因此砍掉了 80%（二手转述，未证实）。",
+     "impact": "medium",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "X 新闻：Fable 5.1 / Mythos 5.1",
+       "url": "https://x.com/i/trending/2108626072829141334"
+      },
+      {
+       "label": "@0xwhrrari（拆解）",
+       "url": "https://x.com/0xwhrrari/status/2108543038368743561"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "Axios：OpenAI、Anthropic 等公司高管私下推演「灾难性 AI 事件」后的公众与政治反弹",
+     "body": "据 Axios，多家 AI 公司高管在做内部演练，假设大规模网络攻击扰乱金融、互联网、电力、供水等关键设施后如何应对舆论和立法；多位业内人士预计 6–12 个月内会发生一起重大事件。",
+     "impact": "medium",
+     "value_note": "一旦发生，监管收紧的速度会远快于现在的讨论，前沿模型公司的合规成本和上线节奏都会受影响。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "X 新闻：AI 公司推演灾难事件",
+       "url": "https://x.com/i/trending/2108516535379894567"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "a16z 领投 TypeSafe AI 约 8.7 亿美元，投后估值 75 亿美元",
+     "body": "AI「决策」模型 Jev 的开发商 TypeSafe AI 完成约 8.7 亿美元融资，投后估值 75 亿美元，a16z 领投、红杉等参与；Jev 发布几周即走红。",
+     "impact": "low",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@PANewsCN",
+       "url": "https://x.com/PANewsCN/status/2108548213288645004"
+      }
+     ],
+     "is_update": false
+    }
+   ]
+  }
+ ],
+ "watchlist_hits": [
+  {
+   "handle": "aeroxyz",
+   "text": "★ Aero Upgrade Hub 上线：Aerodrome/Velodrome 最后 epoch、代币兑换比例和上线时间表",
+   "url": "https://x.com/aeroxyz/status/2108660384018403640"
+  },
+  {
+   "handle": "chainlink",
+   "text": "★ DTCC × Chainlink 抵押品 AppChain 在 Sibos 演示，2027 Q1 上线",
+   "url": "https://x.com/chainlink/status/2108607717963391419"
+  },
+  {
+   "handle": "maplefinance",
+   "text": "★ 9 月 SYRUP 回购完成：31.4 万美元买入 137 万枚（9 月收入的 20%）",
+   "url": "https://x.com/maplefinance/status/2108556752740565165"
+  },
+  {
+   "handle": "SkyEcosystem",
+   "text": "★ Sky 获标普与穆迪双评级，首个稳定币协议",
+   "url": "https://x.com/SkyEcosystem/status/2108561554954420500"
+  },
+  {
+   "handle": "sparkfinance",
+   "text": "★ Spark Savings V2 接近 10 亿美元，USDT 占 60%",
+   "url": "https://x.com/sparkfinance/status/2108517339452813513"
+  },
+  {
+   "handle": "Securitize",
+   "text": "★ Securitize Stocks 在 Solana 上线，USDC 结算，NYSE 搭 7×24 场所",
+   "url": "https://x.com/Securitize/status/2108579972851933230"
+  },
+  {
+   "handle": "Uniswap",
+   "text": "★ 过去 30 天代币化股票成交超其他 DEX 总和",
+   "url": "https://x.com/Uniswap/status/2108645143804866584"
+  },
+  {
+   "handle": "solana",
+   "text": "★ 9 月代币化股票持有钱包破 100 万、成交 44 亿美元",
+   "url": "https://x.com/solana/status/2108587858500161689"
+  },
+  {
+   "handle": "ether_fi",
+   "text": "★ 自家稳定币（Ethena 白标）在 TOKEN2049 同台介绍",
+   "url": "https://x.com/ether_fi/status/2108667568672170039"
+  },
+  {
+   "handle": "kamino",
+   "text": "★ xStocks 金库接入 Kraken Wallet；商品贸易融资金库近两月平均 7.6% APY",
+   "url": "https://x.com/kamino/status/2108596336870240370"
+  },
+  {
+   "handle": "tokenterminal",
+   "text": "★ 离岸（泽西/BVI/阿联酋）发行方占代币化股票市值 80.5%",
+   "url": "https://x.com/tokenterminal/status/2108571302059704400"
+  },
+  {
+   "handle": "aave",
+   "text": "★ Aave MCP 接入 MetaMask Agent Wallet，代理可直接调用 Aave",
+   "url": "https://x.com/aave/status/2108559774946398568"
+  },
+  {
+   "handle": "lista_dao",
+   "text": "★ lisASTER 升级中，暂停新存款，存量不受影响",
+   "url": "https://x.com/lista_dao/status/2108600308809015319"
+  },
+  {
+   "handle": "uponrh",
+   "text": "★ up. 销毁 42.5 万枚 UP（约 8.5 万美元，LP 放弃的流动排放）",
+   "url": "https://x.com/uponrh/status/2108513798646559207"
+  },
+  {
+   "handle": "lookonchain",
+   "text": "Ledger 受害者案例（80 BTC、700 万 USDT）和 10/9 ETF 资金流",
+   "url": "https://x.com/lookonchain/status/2108585005635301427"
+  },
+  {
+   "handle": "DefiantNews",
+   "text": "Tether 冻结并 3 小时后解冻 THORChain 金库；冻结 Ledger 案相关 USDT",
+   "url": "https://x.com/DefiantNews/status/2108588329981952169"
+  },
+  {
+   "handle": "CoinDesk",
+   "text": "独家：Robinhood Chain 考虑付费优先排序；Bessent 称将查扣 10 亿美元伊朗相关加密资产",
+   "url": "https://x.com/CoinDesk/status/2108664212742721670"
+  },
+  {
+   "handle": "whale_alert",
+   "text": "约 1,412 万 LINK 分 5 笔从未知钱包转入币安",
+   "url": "https://x.com/whale_alert/status/2108649410976469268"
+  },
+  {
+   "handle": "PANewsCN",
+   "text": "a16z 领投 TypeSafe AI 8.7 亿美元",
+   "url": "https://x.com/PANewsCN/status/2108548213288645004"
+  }
+ ],
+ "stats": {
+  "x_calls_used": 23,
+  "posts_scanned": 330,
+  "news_stories": 60
+ },
+ "_generated_at": "2026-10-10 05:37 HKT"
+}
