@@ -1,0 +1,466 @@
+{
+ "slot": "2026-10-15T06:00+08:00",
+ "window": "2026-10-14 06:00 – 2026-10-15 05:45 HKT（约 24h）",
+ "headline": "HEX/PulseChain 创始人 Richard Heart 在伊斯坦布尔被拘：芬兰 Interpol 红色通缉涉税，HEX 当日跌超 50%；Ledger 德国抽检暂未发现植入",
+ "summary": [
+  "这期最大的事：HEX 与 PulseChain 创始人 Richard Heart（本名 Richard James Schueler）于 10 月 14 日在伊斯坦布尔被土耳其情报与警方拘留，依据是芬兰 2024 年 Interpol 红色通缉（加重逃税等）。多家土耳其媒体与 The Block、Watcher.Guru、CoinMarketCap 报道称搜出约 60 万–400 万美元现金、枪支、无人机、奢侈品手表等；社区称 HEX/PLS 当日跌幅约 50%。暂无官方英文确认，属突发跟进（昨夜已提醒）。对价值的影响：项目高度依赖创始人个人品牌的代币，监管跨境执法一旦落地，流通盘与叙事都会瞬间重定价。",
+  "【第 7 天】Ledger：Donjon 称抽检德国零售与分销库存未见篡改、德国个案暂无资金损失；东南亚/香港仍要求经销商下架；MediaMarktSaturn 继续停售；Trezor 预防性收缩经销网络。",
+  "行情：美国 9 月 CPI 年率 3.7% 超预期，BTC 一度跌破 8.3 万；现货 ETF 10/13 净流入约 1.76 亿美元（FBTC+IBIT 领头）结束连日失血，但 7 日仍净流出约 6 亿美元。Strive 再买 2,822 枚 BTC，总持仓约 3.56 万枚。",
+  "监管与稳定币：EBA 将 Circle USDC 定为欧盟首个「重要」电子货币代币，11 月 12 日起直接监管储备；渣打在阿联酋为合格客户开通 BTC/ETH 账户内交易；37 家欧银 backing 的 Qivalis 获荷兰电子货币牌照拟发欧元稳定币；法国拟 2027 年起对兑 MiCA 稳定币征 31.4% 税。",
+  "DeFi：Aave×Babylon 提案让原生 BTC 作 V4 抵押；Ondo TVL 破 40 亿美元；StonkFun 10/13 收入约 12.1 万美元；Aero 合并倒计时，Frax 等计划迁流动性；Papertrade 7 日收入仍居前列。"
+ ],
+ "sections": [
+  {
+   "id": "crypto",
+   "title": "加密",
+   "items": [
+    {
+     "title": "突发跟进：Richard Heart 在伊斯坦布尔被拘，HEX/PLS 暴跌约五成",
+     "body": "土耳其媒体（Sözcü、Habertürk 等）与 The Block、Watcher.Guru、Mario Nawfal、CoinMarketCap 报道：HEX/PulseChain 创始人 Richard Heart（Richard James Schueler）因芬兰 Interpol 红色通缉于 10/14 在伊斯坦布尔被 MİT 与警方拘留，妻子同行；报道称查获大量现金（说法从约 60 万到约 400 万美元不等）、多部手机与电脑、枪支、无人机与奢侈手表。此前他曾被 SEC 指控募资超 10 亿美元。社区称 HEX、PulseChain 相关代币当日跌超 50%。暂无土耳其或芬兰官方英文确认，细节仍可能变动。",
+     "impact": "high",
+     "value_note": "高度依赖创始人的代币，跨境执法落地会同时冲击价格、流动性与治理可信度；与协议基本面脱钩的「人设币」风险再次暴露。",
+     "tickers": [
+      "HEX",
+      "PLS",
+      "PLSX"
+     ],
+     "sources": [
+      {
+       "label": "@WatcherGuru",
+       "url": "https://x.com/WatcherGuru/status/2110368165985493137"
+      },
+      {
+       "label": "@TheBlockCo",
+       "url": "https://x.com/TheBlockCo/status/2110386680779952567"
+      },
+      {
+       "label": "@BitcoinNewsCom",
+       "url": "https://x.com/BitcoinNewsCom/status/2110369479729299872"
+      },
+      {
+       "label": "@CoinMarketCap",
+       "url": "https://x.com/CoinMarketCap/status/2110451841108525183"
+      }
+     ],
+     "metrics": "WatcherGuru ~91 万浏览 / 8000+ 赞",
+     "is_update": false
+    },
+    {
+     "title": "【第 7 天】Ledger：德国抽检暂清，东南亚下架仍在继续",
+     "body": "Ledger Donjon 更新：针对德国单一个人报告，团队检查了全国零售与分销库存（含被点名门店），未见篡改迹象，且德国个案暂无资金损失。此前已要求印尼、新加坡、泰国、菲律宾、越南、马来西亚、香港等市场经销商暂停销售；MediaMarktSaturn 在德国等地继续停售。Trezor 宣布 2027 年 1 月起终止部分经销商授权（称无证据显示自家设备被植入）。CTO 会谈方称目前不像是「全球大规模同款植入」。",
+     "impact": "high",
+     "value_note": "供应链信任仍未完全修复：德国暂清不等于其他渠道安全；「官网直购」与经销商通道的风险差继续扩大。",
+     "tickers": [
+      "BTC",
+      "ETH"
+     ],
+     "sources": [
+      {
+       "label": "@Ledger",
+       "url": "https://x.com/Ledger/status/2110416915835338942"
+      },
+      {
+       "label": "@Ledger 东南亚下架",
+       "url": "https://x.com/Ledger/status/2110129361382994076"
+      },
+      {
+       "label": "@BitcoinNewsCom MediaMarkt",
+       "url": "https://x.com/BitcoinNewsCom/status/2110453318103310514"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "【第 7 天】CPI 超预期压风险资产，BTC ETF 10/13 回流约 1.76 亿美元",
+     "body": "美国 9 月 CPI 年率 3.7%（预期 3.6%），为 5 月以来最高，BTC 一度跌破 8.3 万美元。lookonchain：BTC 现货 ETF 单日净流入约 2,033 枚（约 +1.68 亿美元），但 7 日仍净流出约 7,502 枚（约 −6.18 亿美元）；ETH ETF 7 日仍大幅净流出。另有统计称 10/13 净流入约 1.76 亿美元（FBTC +1.03 亿、IBIT +0.66 亿）。Glassnode：ETF 成本线约 8.15 万美元附近已多次守住，跌破可能触发被动卖压。",
+     "impact": "high",
+     "value_note": "宏观定价权仍在：单日 ETF 回流难改 7 日失血；8.15 万成本带是短期结构性支撑。",
+     "tickers": [
+      "BTC",
+      "ETH"
+     ],
+     "sources": [
+      {
+       "label": "@lookonchain",
+       "url": "https://x.com/lookonchain/status/2110361008032333843"
+      },
+      {
+       "label": "@glassnode",
+       "url": "https://x.com/glassnode/status/2110407638366515477"
+      },
+      {
+       "label": "@PANewsCN CPI",
+       "url": "https://x.com/PANewsCN/status/2110351138273067124"
+      },
+      {
+       "label": "新闻摘要 ETF",
+       "url": "https://x.com/i/trending/2110259473352921369"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "【第 3 天】财库分化：Strive 再买 2,822 枚 BTC 升至约 3.56 万枚；Bitmine 接近 5% ETH 目标将停增",
+     "body": "lookonchain / WuBlockchain：Strive 过去两天再购 2,822 枚 BTC（约 2.35 亿美元，均价约 8.33 万），总持仓约 35,595 枚，不到两个月累计买入约 1.4 万枚。PANews：Bitmine 持有约 602.9 万枚 ETH（约占总供应 4.9%），Tom Lee 称达到 5% 后将停止增持——ETH 最大企业买家可能踩刹车。",
+     "impact": "medium",
+     "value_note": "BTC 侧仍有企业买盘接力；ETH 侧最大买家接近目标后买盘结构可能变弱。",
+     "tickers": [
+      "BTC",
+      "ETH",
+      "ASST"
+     ],
+     "sources": [
+      {
+       "label": "@lookonchain Strive",
+       "url": "https://x.com/lookonchain/status/2110346635859595477"
+      },
+      {
+       "label": "@PANewsCN Bitmine",
+       "url": "https://x.com/PANewsCN/status/2110325433304768937"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "渣打阿联酋开通账户内 BTC/ETH 交易；白宫谈扩大战略比特币储备",
+     "body": "Standard Chartered 成为阿联酋首家为合格专业投资者在银行 App 内直接买卖 BTC/ETH 的国际银行，封闭回路、Zodia 托管、VARA 牌照。Cointelegraph 另引渣打预期稳定币市场规模 2030 年或达 2 万亿美元。白宫相关官员 Patrick Witt 表示在保管现有约 32.8 万枚 BTC 储备之外，正研究以预算中性方式扩大战略比特币储备的选项。",
+     "impact": "medium",
+     "value_note": "TradFi 通道继续打开，但战略储备扩表仍偏表态，落地需立法或预算安排。",
+     "tickers": [
+      "BTC",
+      "ETH"
+     ],
+     "sources": [
+      {
+       "label": "@Cointelegraph 渣打 UAE",
+       "url": "https://x.com/Cointelegraph/status/2110287095562448954"
+      },
+      {
+       "label": "@CoinDesk StanChart",
+       "url": "https://x.com/CoinDesk/status/2110400511459377601"
+      },
+      {
+       "label": "新闻摘要战略储备",
+       "url": "https://x.com/i/trending/2110470993693319241"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "Polygon 完成收购 Coinme；迪拜 DIFC 法院文书上链 Avalanche",
+     "body": "WuBlockchain：Polygon Labs 完成收购 Coinme，把受监管的美国汇款能力并入 Open Money Stack，覆盖约 48 个州。CoinDesk：迪拜 DIFC 法院把法院命令放到 Avalanche 上，使国际商用法院文书可在链上秒级核验。",
+     "impact": "medium",
+     "value_note": "合规支付与司法存证是公链「机构可用性」的两条平行线，短期更利好叙事与合作伙伴收入，而非代币直接分红。",
+     "tickers": [
+      "POL",
+      "AVAX"
+     ],
+     "sources": [
+      {
+       "label": "@WuBlockchain Polygon",
+       "url": "https://x.com/WuBlockchain/status/2110358193058763164"
+      },
+      {
+       "label": "@CoinDesk DIFC",
+       "url": "https://x.com/CoinDesk/status/2110415606964949343"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "法国拟对兑 MiCA 稳定币征 31.4% 税；币安下架 EPIC/QUICK",
+     "body": "CoinDesk：法国国民议会财政委员会通过修正案，拟自 2027 年 1 月 1 日起把加密资产兑付受监管稳定币视为应税事件，税率 31.4%，尚需全会表决。币安公告将于 10 月 28 日下架 Epic Chain（EPIC）与 QuickSwap（QUICK）现货，价格应声大跌。",
+     "impact": "medium",
+     "value_note": "欧盟稳定币合规在加强的同时，成员国税收可能推高「暂存稳定币」成本；小市值币失去头部交易所通道后流动性风险陡升。",
+     "tickers": [
+      "USDC",
+      "USDT",
+      "QUICK",
+      "EPIC"
+     ],
+     "sources": [
+      {
+       "label": "@CoinDesk 法国税",
+       "url": "https://x.com/CoinDesk/status/2110430698309886234"
+      },
+      {
+       "label": "新闻摘要币安下架",
+       "url": "https://x.com/i/trending/2110323656127824091"
+      }
+     ],
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "defi",
+   "title": "DeFi",
+   "items": [
+    {
+     "title": "★Aave×Babylon：提案让原生 BTC 作 V4 抵押，无需包装或托管",
+     "body": "Aave 官方与 Babylon Labs 在治理论坛提交 ARFC：通过 Trustless Bitcoin Vaults，用户把原生 BTC 锁在比特币链上的 Taproot 金库，即可在 Aave V4 借稳定币等资产；引入 Babylon Spoke 与 BTCVault Swap Spoke 处理借款与清算。Stani 转发称「Native Bitcoin collateral coming to Aave」。仍需 DAO 批准与风险参数落地。",
+     "impact": "high",
+     "value_note": "若落地，可能把大量「不愿 wrap」的 BTC 带进借贷需求端，提高 Aave 抵押品多样性，同时引入 BTC 链上清算与流动性桥接的新风险面。",
+     "tickers": [
+      "AAVE",
+      "BTC"
+     ],
+     "sources": [
+      {
+       "label": "★@aave",
+       "url": "https://x.com/aave/status/2110385918653710539"
+      },
+      {
+       "label": "@babylonlabs_io",
+       "url": "https://x.com/babylonlabs_io/status/2110380535927427174"
+      },
+      {
+       "label": "@StaniKulechov",
+       "url": "https://x.com/StaniKulechov/status/2110384402492760211"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "★USDC 成欧盟首个「重要」电子货币代币；Qivalis 获欧元稳定币牌照",
+     "body": "欧洲银行管理局（EBA）将 Circle 的 USDC 定为 MiCA 下首个 significant e-money token（45 个已通知代币中唯一），自 11 月 12 日起直接监管储备、自有资金、流动性与兑付计划，法国 ACPR 仍负责部分治理。另：37 家欧洲银行 backing 的 Qivalis 获荷兰央行电子货币机构牌照，计划数月内发行 1:1 欧元稳定币（不直接对零售）。",
+     "impact": "high",
+     "value_note": "规模换来「第二监管层」：合规溢价上升，也可能抬高运营成本；欧元稳定币牌照是对美元稳定币主导地位的结构性挑战。",
+     "tickers": [
+      "USDC",
+      "EURC"
+     ],
+     "sources": [
+      {
+       "label": "@Cointelegraph USDC",
+       "url": "https://x.com/Cointelegraph/status/2110401335715652095"
+      },
+      {
+       "label": "@WuBlockchain Qivalis",
+       "url": "https://x.com/WuBlockchain/status/2110337031561949608"
+      },
+      {
+       "label": "新闻摘要 EBA",
+       "url": "https://x.com/i/trending/2110452545298813407"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "★Ondo TVL 突破 40 亿美元，并公布多国合作伙伴",
+     "body": "Ondo 宣布 TVL 达 40 亿美元：代币化股票与 ETF 逾 13 亿美元，并称在国债等品类保持领先。随后发帖列出尼日利亚 Busha、日本 SBI、泰国 KUB、印尼 Pintu/FLOQ、瑞士 SeturionX 等合作，强调「tokenization going global」。",
+     "impact": "medium",
+     "value_note": "从单一美债产品扩到全球分销网络，收入与 AUM 弹性上升，但合规与本地托管伙伴质量决定可持续性。",
+     "tickers": [
+      "ONDO"
+     ],
+     "sources": [
+      {
+       "label": "★@Ondo $4B TVL",
+       "url": "https://x.com/Ondo/status/2110378961129652608"
+      },
+      {
+       "label": "★@Ondo 全球合作",
+       "url": "https://x.com/Ondo/status/2110424898170454414"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "★【第 6 天】StonkFun：10/13 收入约 12.1 万美元；上线 Broadcom $AVGO 配对",
+     "body": "官方：10 月 13 日收入 120,996 美元，回购 73,458 美元，销毁约 61.2 万枚 $STONK——较高峰日（约 200 万美元级）显著回落。同日宣布可与 Broadcom（$AVGO，Sunrise/Backpack 发行）配对发币。累计收入口径社区称约 3,460 万美元、回购约 2,067 万美元。",
+     "impact": "medium",
+     "value_note": "收入与发射热度高度绑定；日收入跌至约 12 万后，回购对币价的支撑力明显减弱。",
+     "tickers": [
+      "STONK",
+      "AVGO"
+     ],
+     "sources": [
+      {
+       "label": "★@LaunchOnSF 收入",
+       "url": "https://x.com/LaunchOnSF/status/2110220026058014735"
+      },
+      {
+       "label": "★@LaunchOnSF AVGO",
+       "url": "https://x.com/LaunchOnSF/status/2110373600385761781"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "★【第 6 天】Aero 合并倒计时：代币化股票成交占比超 57%，Frax 等计划迁流动性",
+     "body": "MSB Intel：Aerodrome 在 10 月 10 日处理了以太坊及其 L2 上逾 57% 的代币化股票成交，超过其他 DEX 合计。Castle Labs 等称 Aerodrome+Velodrome 终身收入约 5.3 亿美元，合并后 Aero 将于 10/21 登陆 7 条链。报道称 Frax、Beefy、Renzo、Liquity 等计划在上线时迁入流动性。",
+     "impact": "medium",
+     "value_note": "合并若顺利，可扩地址空间与手续费池；迁移窗口也是流动性与空投/积分博弈高发期。",
+     "tickers": [
+      "AERO",
+      "VELO"
+     ],
+     "sources": [
+      {
+       "label": "@MSBIntel 成交占比",
+       "url": "https://x.com/MSBIntel/status/2110128446181425250"
+      },
+      {
+       "label": "★@aeroxyz",
+       "url": "https://x.com/aeroxyz/status/2110448011465932891"
+      },
+      {
+       "label": "@MSBIntel Frax 等",
+       "url": "https://x.com/MSBIntel/status/2110453085130694949"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "【第 5 天】Papertrade：7 日收入仍居 DefiLlama 前列，争议在「庄家抽成」可持续性",
+     "body": "DefiLlama 展示近 7 日收入 Top10 合计逾 8,000 万美元，讨论帖指 Papertrade 约 3,630 万美元领跑。社区有人认为 house take 在首日「游戏化 ICO」后仍强，也有人提醒收入来自交易员亏损、边缘账户抽取能力下降。非协议官方披露，口径需交叉验证。",
+     "impact": "medium",
+     "value_note": "高收入若可持续，说明预测市场/纸交易产品有真实需求；若主要来自新手亏损，衰减会很快。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "★@DefiLlama Top10 收入",
+       "url": "https://x.com/DefiLlama/status/2110467849915703793"
+      },
+      {
+       "label": "@563defi",
+       "url": "https://x.com/563defi/status/2110403408288993447"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "★Uniswap 上线 VolatilePair Hook；Robinhood Chain 出现 Pair Tokens 实验",
+     "body": "Uniswap 发布 VolatilePair Hook：按价格涨跌动态调整买卖费率，并在剧烈波动后对「推回价格」的交易收临时费；ETH/USDC 池已上线并有 Merkl 激励。另有开发者在 Robinhood Chain 把 Uniswap v4 LP 包装成可交易的 Pair Tokens（如 ETHNVDA），属生态实验，需自行辨识风险。",
+     "impact": "medium",
+     "value_note": "动态费率有望改善波动对 LP 的损耗；包装 LP 成 ERC-20 提高可组合性，也叠加智能合约与挂钩资产风险。",
+     "tickers": [
+      "UNI",
+      "ETH"
+     ],
+     "sources": [
+      {
+       "label": "★@Uniswap VolatilePair",
+       "url": "https://x.com/Uniswap/status/2110404950199296395"
+      },
+      {
+       "label": "新闻摘要 Pair Tokens",
+       "url": "https://x.com/i/trending/2110456217663357242"
+      }
+     ],
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "title": "AI",
+   "items": [
+    {
+     "title": "Anthropic 在新加坡开第五个亚太办公室，并与政府签 AI 安全备忘录",
+     "body": "Anthropic 官方宣布新加坡办公室开业（继东京、班加罗尔、首尔、悉尼之后），并与新加坡数码发展与新闻部签署非约束性谅解备忘录，聚焦安全评估、事件响应与经济影响。当地 Builder Summit 与社区活动吸引数百名开发者。",
+     "impact": "medium",
+     "value_note": "亚太商务与政府采购通道加宽，利于企业合同；对短期模型能力无直接跳变。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@AnthropicAI",
+       "url": "https://x.com/AnthropicAI/status/2110289695888511368"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "OpenAI：欧盟中小企业 AI Agent 周活半年涨约 8 倍",
+     "body": "OpenAI 经济研究报告称，欧盟 ChatGPT 企业/商业客户中，逾一半产出已与 Agent 类工具相关；200 人以下客户的 Agent 周活自 5 月初基线升至约 8.1 倍（至 10 月初）。各国强度差异大（报道举例斯洛文尼亚约 22%、立陶宛约 85%）。",
+     "impact": "medium",
+     "value_note": "需求侧从聊天转向「能办事」的 Agent，利好 API/工具链收入结构，也抬高对可靠性与可观测性的要求。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@OpenAI",
+       "url": "https://x.com/OpenAI/status/2110442001749659890"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "【第 4 天】Anthropic IPO/财务路演叙事延续；Claude Opus 5.5 对比讨论升温",
+     "body": "新闻摘要继续跟踪 Anthropic 向机构披露三季度财务、潜在超大 IPO 估值讨论；开发者圈对比 Claude Opus 5.5 与 GPT-6.1 Sol 在长程编程上的表现，多数帖偏向 Opus 5.5，但属主观评测。另有 OpenTelemetry traces 公测等产品更新被转发。无新的官方定价或招股文件。",
+     "impact": "low",
+     "value_note": "IPO 预期定价情绪，不等于已上市；算力长约与亏损结构仍是机构尽调焦点。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "新闻摘要 IPO",
+       "url": "https://x.com/i/trending/2110111167175626828"
+      },
+      {
+       "label": "新闻摘要 Opus vs Sol",
+       "url": "https://x.com/i/trending/2110440621328810374"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "EasyA 估值为 11 亿美元，拟明年上半年直接上市",
+     "body": "CoinDesk 报道：区块链与 AI 应用构建平台 EasyA 获独立估值 11 亿美元，并准备明年上半年直接上市。属一级市场定价新闻，需关注后续招股材料。",
+     "impact": "low",
+     "value_note": "教育/开发者工具赛道仍能拿到高估值，反映「会用链+AI 的人」供给稀缺叙事。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@CoinDesk EasyA",
+       "url": "https://x.com/CoinDesk/status/2110424143510520226"
+      }
+     ],
+     "is_update": false
+    }
+   ]
+  }
+ ],
+ "watchlist_hits": [
+  {
+   "handle": "aave",
+   "text": "★ 原生 BTC 抵押提案上线 Aave V4 治理",
+   "url": "https://x.com/aave/status/2110385918653710539"
+  },
+  {
+   "handle": "Ondo",
+   "text": "★ TVL 破 40 亿美元，并公布多国合作",
+   "url": "https://x.com/Ondo/status/2110378961129652608"
+  },
+  {
+   "handle": "LaunchOnSF",
+   "text": "★ 10/13 收入 12.1 万美元；上线 AVGO 配对",
+   "url": "https://x.com/LaunchOnSF/status/2110220026058014735"
+  },
+  {
+   "handle": "aeroxyz",
+   "text": "★ Aero 合并前互动；代币化股票成交占比居前",
+   "url": "https://x.com/aeroxyz/status/2110448011465932891"
+  },
+  {
+   "handle": "Uniswap",
+   "text": "★ 上线 VolatilePair Hook",
+   "url": "https://x.com/Uniswap/status/2110404950199296395"
+  },
+  {
+   "handle": "DefiLlama",
+   "text": "★ 近 7 日收入 Top10 合计逾 8000 万美元",
+   "url": "https://x.com/DefiLlama/status/2110467849915703793"
+  },
+  {
+   "handle": "StaniKulechov",
+   "text": "★ 转发原生 BTC 抵押叙事",
+   "url": "https://x.com/StaniKulechov/status/2110384402492760211"
+  }
+ ],
+ "stats": {
+  "x_calls_used": 34,
+  "posts_scanned": 420,
+  "news_stories": 60
+ },
+ "_generated_at": "2026-10-15 05:37 HKT"
+}
