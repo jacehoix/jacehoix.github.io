@@ -1,0 +1,472 @@
+{
+ "slot": "2026-10-18T06:00+08:00",
+ "window": "2026-10-17 06:00 – 2026-10-18 06:00 HKT",
+ "headline": "土耳其司法部长确认 HEX 创始人 Richard Heart 在伊斯坦布尔被拘，查获 715 万美元现金与 6 个冷钱包；Visa 正式开通 USDC 跨境支付、BIS 指稳定币与银行存款互替",
+ "summary": [
+  "这期最大的事：土耳其司法部长正式确认 Richard Heart（HEX/PulseChain）于 10/14 在伊斯坦布尔被拘，警察在 15 处搜查中查获约 715 万美元现金、6 个冷钱包、7 支枪与 1400 发子弹——此前仅有媒体报道，现升为官方确认。对价值：HEX/PLS 相关资产法律与托管风险再抬升，属事件驱动而非基本面改善。",
+  "稳定币双线：Visa Direct 正式开通 USDC 近实时跨境打款（180+ 国，Inyo Global 为首批）；BIS 工作论文称稳定币与银行存款是直接替代品，存款利率每升 1bp，稳定币市值增速约放缓 3 个百分点（USDC 更敏感）。",
+  "代币化遇阻：CoreWeave、Broadcom、Verizon、UnitedHealth 等 9 家公司反对其股票在 OKXICE（OKX×ICE）代币化交易；Nasdaq 亦表示将选择退出自家股份被代币化。DTCC 服务仍定 10/28 上线。",
+  "市场与风险：【第 10 天】10/16 ETF BTC 净流出 8239 万、ETH 6968 万；Ledger 与 Karpelès 公开对骂、黑客向 Zcash 洗钱增多；★ StonkFun 10/16 收入 18.8 万、篮子 48h 成交 3200 万；★ Aero 合并倒计时至 10/21。",
+  "AI：DeepSeek 开源 V4.1-Flash-1017（MIT），自测多项超 Claude Opus 5；OpenCode 泄露约 1.4% 用户第三方 API Key；Anthropic 估值叙事与营收增速遭质疑。"
+ ],
+ "sections": [
+  {
+   "id": "crypto",
+   "title": "加密",
+   "items": [
+    {
+     "title": "【第 5 天】土耳其司法部长确认 Richard Heart 被拘：查获 715 万美元现金、6 冷钱包与枪支弹药",
+     "body": "The Block：土耳其司法部长确认 HEX 创始人 Richard Heart（Richard James Schueler）在伊斯坦布尔被拘；警察搜查约 15 处地址，查获约 715 万美元现金、6 个冷钱包、7 支枪与约 1400 发子弹。此前 Interpol 红色通缉与媒体报道已流传数日，本次为官方层面确认。社区称相关链上钱包有异动，LibertySwap 等推出隐私出入金工具；是否引渡仍待观察。",
+     "impact": "high",
+     "value_note": "从「未证实媒体报道」升级为司法部长确认，HEX/PulseChain 生态的法律与托管不确定性升档；对广泛 DeFi 无直接传染，但对高争议创始人项目是永久性折价因素。",
+     "tickers": [
+      "HEX",
+      "PLS"
+     ],
+     "sources": [
+      {
+       "label": "@TheBlockCo",
+       "url": "https://x.com/TheBlockCo/status/2111523353165213858"
+      },
+      {
+       "label": "X 讨论汇总",
+       "url": "https://x.com/yourfriendSOMMI/status/2111567164679540890"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "Visa Direct 正式开通 USDC 跨境支付：覆盖 180+ 国家",
+     "body": "WatcherGuru / CoinBureau：Visa 正式通过 Visa Direct 上线稳定币支付，使用 USDC 实现近实时全球打款，覆盖 180 余国；Inyo Global 为首批合作方之一。与 BIS 同日释放的「稳定币挤占银行存款」研究形成对照：一边是支付通道落地，一边是央行视角下与存款的替代关系被量化。",
+     "impact": "high",
+     "value_note": "稳定币从「链上结算」进一步嵌入全球卡组织打款网络，利好 USDC 流通与 Circle/合作银行；费率与合规边界仍决定实际分流银行存款的速度。",
+     "tickers": [
+      "USDC",
+      "CRCL"
+     ],
+     "sources": [
+      {
+       "label": "@WatcherGuru",
+       "url": "https://x.com/WatcherGuru/status/2111083472400093666"
+      },
+      {
+       "label": "X 新闻：Visa USDC",
+       "url": "https://x.com/i/trending/2111507552739705186"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "BIS：稳定币与银行存款互替；存款利率微升即可显著放缓稳定币增速",
+     "body": "WuBlockchain：国际清算银行工作论文分析美国 2019–2025 年中数据，认为稳定币与银行存款是直接的投资组合替代品；存款利率每上升 1 个基点，稳定币市值增速在约 10 周内约放缓 3 个百分点，USDC 敏感度高于 USDT。暗示银行若提高存款利率，可从需求侧压制稳定币扩张。",
+     "impact": "high",
+     "value_note": "把「降息利好稳定币、加息利好银行存款」写进央行研究框架；对 Circle 等收入高度依赖短期利率与规模的公司，宏观利率路径仍是估值核心变量。",
+     "tickers": [
+      "USDC",
+      "USDT"
+     ],
+     "sources": [
+      {
+       "label": "@WuBlockchain",
+       "url": "https://x.com/WuBlockchain/status/2111476632011804680"
+      },
+      {
+       "label": "X 新闻：BIS",
+       "url": "https://x.com/i/trending/2111487774352146817"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "9 家公司反对股票在 OKXICE 代币化；Nasdaq 拟退出自家股份被代币化",
+     "body": "The Block：包括 CoreWeave、Broadcom、Verizon、UnitedHealth 在内的 9 家公司反对其股票在 OKX×ICE 合资的 OKXICE 上以代币化形式交易；Nasdaq 亦称将选择退出自家股份在 SEC 框架下被代币化。按规则，发行方收到 30 天书面通知后及时反对即可禁止该场所上架。",
+     "impact": "high",
+     "value_note": "代币化股票从「技术能做」进入「发行方逐场所否决」阶段；利好有明确授权的 RWA（如 DTCC 镜像、获授权的 Ondo/xStocks），对无授权合成股是负面。",
+     "tickers": [
+      "OKX"
+     ],
+     "sources": [
+      {
+       "label": "@TheBlockCo",
+       "url": "https://x.com/TheBlockCo/status/2111549173330043159"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "【第 10 天】ETF：10/16 BTC 净流出 8239 万美元、ETH 6968 万；周度 ETH 流出仍超 BTC",
+     "body": "WuBlockchain：10/16（美东）现货 BTC ETF 净流出 8239 万美元（IBIT 单独流出 7178 万）；ETH ETF 净流出 6968 万。The Defiant：10/12–16 周度 ETH 基金流出约 3.201 亿、BTC 约 2.284 亿，ETH 连续周度失血更重。周末 BTC 仍在约 8.1–8.2 万美元窄幅震荡。",
+     "impact": "medium",
+     "value_note": "机构现货需求偏弱，ETH 相对更差；与企业财库买盘放缓叠加，短线仍缺「新增真金白银」。",
+     "tickers": [
+      "BTC",
+      "ETH"
+     ],
+     "sources": [
+      {
+       "label": "@WuBlockchain ETF",
+       "url": "https://x.com/WuBlockchain/status/2111314276149510635"
+      },
+      {
+       "label": "@DefiantNews 周度",
+       "url": "https://x.com/DefiantNews/status/2111366858939195831"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "【第 10 天】Ledger：CEO 嘲 Karpelès「你不是白骑士」；Karpelès 称 3 月已知植入仍预警不足",
+     "body": "前 Mt. Gox CEO Mark Karpelès（@MagicalTux）称 Ledger 早在 2026 年初已收到多起植入报告，3 月学院文章已展示自制与量产植入样式，但客户预警不足；Ledger CEO Pascal Gauthier 回复「Coming from Mt Gox CEO… You are no white knight」。Bitcoin News / Cointelegraph 转发对峙。同期 Ledger 继续推广 Atom 安全设备（Founders 约 849 美元、2027 夏发货）。",
+     "impact": "medium",
+     "value_note": "供应链攻击叙事从「排查中」转入品牌信任与危机公关战；硬件钱包赛道可能加速向「直销+授权经销+可验真」切换。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@MagicalTux",
+       "url": "https://x.com/MagicalTux/status/2111468639081906201"
+      },
+      {
+       "label": "@WuBlockchain Karpelès",
+       "url": "https://x.com/WuBlockchain/status/2111235129452728780"
+      },
+      {
+       "label": "@BitcoinNewsCom",
+       "url": "https://x.com/BitcoinNewsCom/status/2111516403190636635"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "黑客经 Zcash 洗钱增多；Bitget 终止俄白哈等用户服务",
+     "body": "WuBlockchain / Specter：继 ZachXBT 披露 Bitget 攻击者经 Zcash 屏蔽赃款后，更多威胁行为者开始把赃款转入 ZEC。另据 The Defiant，Bitget 更新英文用户条款，将俄罗斯、白俄罗斯、哈萨克斯坦等列入禁止司法辖区，将按账户通知停止服务并安排提现。",
+     "impact": "medium",
+     "value_note": "隐私币链上流入抬升可能招致交易所下架与监管关注；Bitget 收紧辖区是合规换规模的典型取舍。",
+     "tickers": [
+      "ZEC"
+     ],
+     "sources": [
+      {
+       "label": "@WuBlockchain Zcash",
+       "url": "https://x.com/WuBlockchain/status/2111447924563755035"
+      },
+      {
+       "label": "@WuBlockchain Bitget",
+       "url": "https://x.com/WuBlockchain/status/2111366830522871989"
+      },
+      {
+       "label": "@DefiantNews Bitget",
+       "url": "https://x.com/DefiantNews/status/2111329360318017830"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "宏观：美债利息支出 FY2026 达 1.36 万亿；KBW 银行指数 6 连周下跌",
+     "body": "Kobeissi：美国公共债务利息支出同比增 1440 亿美元（+12%）至创纪录的 1.36 万亿美元，连续第 6 年上升；KBW 银行指数连续 6 周下跌（2008 年以来最长），累计约 -11%。纽约餐厅数量同比减少约 2000 家，为至少 36 年来最大同比降幅。",
+     "impact": "medium",
+     "value_note": "利率支出与银行股疲软反映「高利率更久」对风险偏好与金融股的压力，与加密风险资产仍高度相关。",
+     "tickers": [
+      "BTC"
+     ],
+     "sources": [
+      {
+       "label": "@KobeissiLetter 利息",
+       "url": "https://x.com/KobeissiLetter/status/2111465223831916784"
+      },
+      {
+       "label": "@KobeissiLetter 银行",
+       "url": "https://x.com/KobeissiLetter/status/2111504585260982410"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "其他：Strive 定价 6.3 亿优先股扩 BTC；法国议会初审通过稳定币兑换税；Solana 上海实体注册",
+     "body": "Strive 上修发行 700 万股 15% Series A 永续优先股（约 6.3 亿美元）用于增持 BTC。法国国民议会以 38–37 初审通过：自 2027-01-01 起对私人投资者兑换单一货币稳定币的浮盈征税（尚未成法）。BlockBeats：上海索拉纳企业管理有限公司注册资本 500 万元，呼应其中国办公室落地。",
+     "impact": "low",
+     "tickers": [
+      "BTC",
+      "SOL"
+     ],
+     "sources": [
+      {
+       "label": "X 新闻：Strive",
+       "url": "https://x.com/i/trending/2110924590574714922"
+      },
+      {
+       "label": "@DefiantNews 法国税",
+       "url": "https://x.com/DefiantNews/status/2111544778651537592"
+      },
+      {
+       "label": "@BlockBeatsAsia Solana 上海",
+       "url": "https://x.com/BlockBeatsAsia/status/2111447421020729834"
+      }
+     ],
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "defi",
+   "title": "DeFi",
+   "items": [
+    {
+     "title": "【第 9 天】★ StonkFun：10/16 收入 18.8 万美元；首两篮子 48h 成交 3200 万美元；累计回购销毁超 100 万美元",
+     "body": "官方 @LaunchOnSF：10/16 收入 187,848 美元，回购 113,106 美元并销毁 100 万 STONK；称交易活动驱动 Top 10 Flywheel，累计回购销毁已超 100 万美元。另称由 DiversiFi 驱动的前两个篮子上线 48 小时成交约 3200 万美元。",
+     "impact": "medium",
+     "value_note": "收入与回购销毁闭环在加速，篮子产品验证「股票篮子报价发币」需求；仍属高波动 meme 基础设施，可持续性取决于成交能否在热度退去后留存。",
+     "tickers": [
+      "STONK"
+     ],
+     "sources": [
+      {
+       "label": "@LaunchOnSF 收入",
+       "url": "https://x.com/LaunchOnSF/status/2111252342834446609"
+      },
+      {
+       "label": "@LaunchOnSF 篮子",
+       "url": "https://x.com/LaunchOnSF/status/2111519763830874331"
+      },
+      {
+       "label": "@LaunchOnSF 回购销毁",
+       "url": "https://x.com/LaunchOnSF/status/2111473108691595662"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "【第 9 天】★ Aero：合并倒计时，自称占以太坊生态 11% 成交量；10/21 扩至 7 链",
+     "body": "@aeroxyz：Aerodrome/Velodrome 合并为 Aero 临近，官方称当前贡献以太坊生态约 11% 成交量、仅用约 11% 流动性；数日内将扩展至 7 条链（Base、ETH、Arb、OP、Arc、Ink、Robinhood Chain 等社区口径），目标可触达 TVL 约为现状 9 倍。Predictive Allocation 已预热。",
+     "impact": "medium",
+     "value_note": "跨链流动性聚合若落地，AERO 通证与费用分成逻辑重构；合并执行与 ve→sAERO 迁移是短期主要操作风险。",
+     "tickers": [
+      "AERO",
+      "VELO"
+     ],
+     "sources": [
+      {
+       "label": "@aeroxyz 11% 成交量",
+       "url": "https://x.com/aeroxyz/status/2111510074019750307"
+      },
+      {
+       "label": "@aeroxyz 倒计时",
+       "url": "https://x.com/aeroxyz/status/2111457265727451567"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "【第 2 天】★ Fables：Robinhood 代币快照已拍下，赎回 10/20 开放",
+     "body": "@fablesfi：针对 robinhood:0xb997… 的快照已在区块 91,198,392（10/17 20:09 UTC）完成；仅快照时钱包内持币计入，转出后无法赎回；赎回窗口周二 10/20 开放。另展示 Uniswap v4 动态费率 LP 案例（约 2k 仓位 17 小时累积约 200 美元手续费，历史快照非收益承诺）。",
+     "impact": "medium",
+     "value_note": "空投/赎回规则明确降低歧义；动态费率 LP 是差异化卖点，但需警惕营销仓位与无常损失。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@fablesfi 快照完成",
+       "url": "https://x.com/fablesfi/status/2111550226557215000"
+      },
+      {
+       "label": "@fablesfi 窗口开启",
+       "url": "https://x.com/fablesfi/status/2111245857840361858"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "★ Pendle 梳理其 RWA 收益市场版图；★ Lighter 定 10/21 开 Q3 投资者电话会",
+     "body": "@pendle_fi 列出其已做收益市场的 RWA 类别：代币化股票、私募股权、再保险、美债、结构化信贷、AI 基建、私募信贷、HELOC 等，并强调代币化资产需 DeFi 可组合性才能释放潜力。@Lighter_xyz 宣布 10/21 13:30 ET 举行 Q3 Investor Call，创始人 Vladimir Novakovski 更新进展并 Q&A。",
+     "impact": "medium",
+     "value_note": "Pendle 继续绑定 TradFi 收益分发；Lighter 电话会或释放期权/EVM 商业化时间表，属事件驱动。",
+     "tickers": [
+      "PENDLE",
+      "LIT"
+     ],
+     "sources": [
+      {
+       "label": "@pendle_fi RWA",
+       "url": "https://x.com/pendle_fi/status/2111359060432060579"
+      },
+      {
+       "label": "@Lighter_xyz Call",
+       "url": "https://x.com/Lighter_xyz/status/2111481510230675531"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "★ ether.fi 卡累计消费破 10 亿美元；★ Kamino 扩招；bStocks AUM 破 10 亿",
+     "body": "@ether_fi：信用卡累计消费达 10 亿美元，覆盖 199 国、131 种法币、超 1260 万笔（含大量餐饮出行）。@kamino 转发扩招 10 个岗位。PancakeSwap 转推：币安 bStocks 代币化股票 AUM 四个月内破 10 亿美元。",
+     "impact": "low",
+     "value_note": "消费卡与代币化股票 AUM 证明「链上金融入口」在扩张，但竞争激烈、利润率未必随规模线性上升。",
+     "tickers": [
+      "ETHFI",
+      "KMNO",
+      "CAKE"
+     ],
+     "sources": [
+      {
+       "label": "@ether_fi 10 亿消费",
+       "url": "https://x.com/ether_fi/status/2111549926832549983"
+      },
+      {
+       "label": "@PancakeSwap bStocks",
+       "url": "https://x.com/PancakeSwap/status/2111302640672075918"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "其他：NUVA HOME 住房信贷 vault；Pentiv 在 Injective 代币化超 10 亿按揭；Celestia Eden AI 链",
+     "body": "NUVA 推出 HOME vault，非美合资格用户最低 1 USDC 可参与美国 HELOC 组合（目标政策利率约 7%、5% 一损缓冲）。Pentiv（原 Pineapple）称已在 Injective 上代币化超 10 亿美元真实按揭记录。Celestia 推出面向 AI agent 的 Eden EVM 链，TIA 短期大涨（需区分叙事与数据可用性基本面）。",
+     "impact": "low",
+     "tickers": [
+      "INJ",
+      "TIA"
+     ],
+     "sources": [
+      {
+       "label": "X 新闻：NUVA HOME",
+       "url": "https://x.com/i/trending/2111500791030907042"
+      },
+      {
+       "label": "X 新闻：Pentiv",
+       "url": "https://x.com/i/trending/2111555828935426502"
+      },
+      {
+       "label": "@DefiantNews TIA",
+       "url": "https://x.com/DefiantNews/status/2111337412542812604"
+      }
+     ],
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "title": "AI",
+   "items": [
+    {
+     "title": "DeepSeek 开源 V4.1-Flash-1017：MIT 权重，自测多项超 Claude Opus 5",
+     "body": "@deepseek_ai：发布 DeepSeek-V4.1-Flash-1017，称相对前版更快完成任务、输出更短、性能与成本帕累托改进；官网/App/API 已切换，Hugging Face / ModelScope 开源权重（MIT）。社区称其在部分 agent/编程基准上超过 GLM 与 GPT-5.6-Sol；同期开放 Search & Fetch API（约 0.75 美元/千次）。",
+     "impact": "high",
+     "value_note": "开源侧再次压缩闭源溢价；对云厂商与 API 中转商是价格压力，对依赖高价 frontier 的编码 agent 产品是替代选项增多。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@deepseek_ai 发布",
+       "url": "https://x.com/deepseek_ai/status/2111375640717033777"
+      },
+      {
+       "label": "@deepseek_ai 开源权重",
+       "url": "https://x.com/deepseek_ai/status/2111375653069259247"
+      },
+      {
+       "label": "@PANewsCN",
+       "url": "https://x.com/PANewsCN/status/2111381961361244291"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "OpenCode 安全事件：约 1.4% Console 用户第三方 API Key 暴露",
+     "body": "OpenCode 称被弃用的旧系统遭未授权访问，约 1.4% Console 用户绑定的 OpenAI/Anthropic/Google 等第三方 API Key 可能暴露；已邮件通知轮换密钥。安全研究员与用户报告出现异常高额账单。凸显把密钥存在第三方开发工具中的系统性风险。",
+     "impact": "medium",
+     "value_note": "对 AI 编程工具供应链是信任打击；企业更倾向自托管密钥或短时凭证。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "X 新闻：OpenCode",
+       "url": "https://x.com/i/trending/2111504421448257665"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "Anthropic：估值叙事遇冷；Claude 解开 NIST P-256 种子来源（与破解比特币无关）",
+     "body": "社区讨论 Anthropic 潜在 IPO 估值从约 2 万亿美元预期下修，同时 Q2→Q3 收入增速放缓、Replit 默认伙伴转向 OpenAI。另：Claude 在约半小时内将 NIST 椭圆曲线种子匹配到 1997–98 年 Unix 时间戳与 lrand48，排除蓄意后门叙事；PANews 强调与破解比特币无关（BTC 用 secp256k1）。Mythos 量子电路进展仍在传播。",
+     "impact": "medium",
+     "value_note": "AI 龙头从「叙事估值」更多切回收入与份额验证；密码学考古属声誉正面但无直接产品收入。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "X 新闻：Anthropic 估值",
+       "url": "https://x.com/i/trending/2111395890850316325"
+      },
+      {
+       "label": "@PANewsCN NIST",
+       "url": "https://x.com/PANewsCN/status/2111475830975336891"
+      },
+      {
+       "label": "X 新闻：NIST 种子",
+       "url": "https://x.com/i/trending/2111182349765390528"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "其他：Mysten Labs 设 AI 部门、Kevin Boon 任 CEO；AI 基建股债务担忧延续",
+     "body": "The Defiant：Mysten Labs 任命 Kevin Boon 为 CEO，Evan Cheng 留任 CTO 并领导新 AI 业务（智能体信任/限额内自主）。BlockBeats：美股继续交易「AI 债务与 ROI」逻辑，半导体连跌与 CoreWeave 债券收益率冲高被反复提及；Tom Lee 称加密/芯片/Neocloud 或近反弹位置（观点非事实）。",
+     "impact": "low",
+     "tickers": [
+      "SUI"
+     ],
+     "sources": [
+      {
+       "label": "@DefiantNews Mysten",
+       "url": "https://x.com/DefiantNews/status/2111245304955863428"
+      },
+      {
+       "label": "@BlockBeatsAsia AI 债务",
+       "url": "https://x.com/BlockBeatsAsia/status/2111294160628318379"
+      }
+     ],
+     "is_update": false
+    }
+   ]
+  }
+ ],
+ "watchlist_hits": [
+  {
+   "handle": "LaunchOnSF",
+   "text": "StonkFun 10/16 收入 18.8 万；篮子 48h 成交 3200 万；累计回购销毁超 100 万",
+   "url": "https://x.com/LaunchOnSF/status/2111252342834446609"
+  },
+  {
+   "handle": "aeroxyz",
+   "text": "Aero 称占 ETH 生态 11% 成交量，合并扩 7 链倒计时",
+   "url": "https://x.com/aeroxyz/status/2111510074019750307"
+  },
+  {
+   "handle": "fablesfi",
+   "text": "Robinhood 代币快照已完成，10/20 开放赎回",
+   "url": "https://x.com/fablesfi/status/2111550226557215000"
+  },
+  {
+   "handle": "pendle_fi",
+   "text": "梳理 RWA 收益市场类别（股票/私募/再保险/美债/HELOC 等）",
+   "url": "https://x.com/pendle_fi/status/2111359060432060579"
+  },
+  {
+   "handle": "Lighter_xyz",
+   "text": "Q3 投资者电话会定于 10/21 13:30 ET",
+   "url": "https://x.com/Lighter_xyz/status/2111481510230675531"
+  },
+  {
+   "handle": "ether_fi",
+   "text": "信用卡累计消费破 10 亿美元",
+   "url": "https://x.com/ether_fi/status/2111549926832549983"
+  },
+  {
+   "handle": "PancakeSwap",
+   "text": "转推 bStocks AUM 破 10 亿；讨论代币化股票",
+   "url": "https://x.com/PancakeSwap/status/2111302640672075918"
+  }
+ ],
+ "stats": {
+  "x_calls_used": 73,
+  "posts_scanned": 420,
+  "news_stories": 44
+ },
+ "_generated_at": "2026-10-18 05:44 HKT"
+}
