@@ -1,0 +1,504 @@
+{
+ "slot": "2026-10-19T06:00+08:00",
+ "window": "2026-10-18 06:00 – 2026-10-19 06:00 HKT",
+ "headline": "Anthropic 设公益基金：起步 5% 股份、连同创始人与员工承诺合计约 20%；周末山寨币重挫，BTC 主导率 60.8%",
+ "summary": [
+  "这期最大的事：Anthropic 成立全资公益基金，起步注入 5% 股份，公司价值每较基准涨 50% 可再追加最多 2%；连同联创承诺捐 80% 股权和员工捐赠匹配，约 20% 股份承诺给公共利益。对价值：IPO 前把部分股权价值锁定给公益，未来投资者要计入追加注股，同时强化公益公司治理叙事。",
+  "加密：周末山寨币普遍跌超 5%，BTC 主导率升至 60.8%，ETH 插针 2,356 美元；Kraken 母公司签约收购立陶宛 Saldo Bank 拿欧盟银行牌照（待批，2027 完成）；台湾法院以选举赌博为由封锁 Coinbase 与 Kalshi。",
+  "DeFi：★ Pons 累计手续费破 2 亿美元、PONS 已销毁 32.5%；★ StonkFun 10/17 收入降至 10.8 万美元；Hyperliquid 链上 USDC 首超 Solana（社区数据）；Papertrade 收入降 83%，PAPER 筹码高度集中。",
+  "安全：Qubic 1,404 钱包因弱种子被盗约 130 万美元、网络暂停并拟恢复返还；Cysic 跨链桥被未授权增发 1,000 万 CYS，约 72.7 万美元已桥走。",
+  "AI：Anthropic 向国会推销前沿 AI 法案草案（损失超 10 亿或 ≥50 人伤亡才可干预）；OpenAI 高管称中国模型进步约一半靠蒸馏。"
+ ],
+ "sections": [
+  {
+   "id": "crypto",
+   "title": "加密",
+   "items": [
+    {
+     "title": "周末山寨币重挫：典型山寨跌超 5%，BTC 主导率升到 60.8%",
+     "impact": "medium",
+     "body": "glassnode 指美股避险情绪外溢，典型山寨币周末跌超 5%，若按此收盘将是 4 月以来最大周末跌幅；X 新闻汇总称 BTC 主导率升至约 60.8%，为一年多新高，BTC 在 8.1 万美元附近。ETH 周日凌晨插针至 2,356 美元，一个 4,890 ETH 的杠杆多单在最低点被清算（EmberCN）；Hyperliquid 上另有约 1,356 BTC（约 1.1 亿美元）的 40 倍多单，清算价约 80,035 美元，挂了 80,500 美元止损（lookonchain）。",
+     "value_note": "属情绪与杠杆驱动，不涉及项目基本面；但资金向 BTC 集中、山寨流动性变薄，周一美股开盘（社媒在炒“黑色星期一”）前后波动风险偏高。",
+     "tickers": [
+      "BTC",
+      "ETH"
+     ],
+     "sources": [
+      {
+       "label": "@glassnode",
+       "url": "https://x.com/glassnode/status/2111873917941907617"
+      },
+      {
+       "label": "@EmberCN",
+       "url": "https://x.com/EmberCN/status/2111622423015780397"
+      },
+      {
+       "label": "@lookonchain",
+       "url": "https://x.com/lookonchain/status/2111654266419204194"
+      },
+      {
+       "label": "X 新闻：BTC 主导率 60.8%",
+       "url": "https://x.com/i/trending/2111918969258905789"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "Kraken 母公司 Payward 签约收购立陶宛 Saldo Bank，拿欧盟银行牌照",
+     "impact": "medium",
+     "body": "Payward 已签署具约束力协议收购 Saldo Bank（立陶宛持牌，经营存款、中小企贷款、卡与 BaaS，覆盖立陶宛、芬兰、瑞典、德国等），需监管批准，预计 2027 年完成，条款未披露。多家报道称这是加密公司首宗收购欧洲银行。",
+     "value_note": "若获批，Kraken 可自持存款与支付通道，减少对合作银行依赖，并扩展到存贷利差收入；对其上市估值是结构性加分，但落地要到 2027。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@PANewsCN",
+       "url": "https://x.com/PANewsCN/status/2111789874550645126"
+      },
+      {
+       "label": "Bitcoin Magazine 转述",
+       "url": "https://x.com/dr9_Kat/status/2111832129193599405"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "【第 4 天】Strategy/MSCI：Saylor 称被踢出指数“影响不大”，周日再发增持暗示",
+     "impact": "medium",
+     "body": "Saylor 接受彭博采访称，MSCI 拟把比特币财库公司剔出指数对 Strategy 没那么重要，因跟踪资金规模小，但这是对比特币的偏见。X 新闻汇总称新规 11/30 后生效、11/11 公布最终名单，被动卖盘估约 28 亿美元；MSTR 10/16 收 136.83 美元。Saylor 周日又发“We found room for more orange”，过往这类帖常在周一公布增持（未证实）。",
+     "value_note": "剔除会带来一次性被动抛售并抬高融资成本（MSTR 靠增发与优先股买币），是其“溢价飞轮”的关键风险。",
+     "tickers": [
+      "MSTR",
+      "BTC"
+     ],
+     "sources": [
+      {
+       "label": "@PANewsCN",
+       "url": "https://x.com/PANewsCN/status/2111728938557083992"
+      },
+      {
+       "label": "X 新闻：MSCI 剔除风险",
+       "url": "https://x.com/i/trending/2111571554811207976"
+      },
+      {
+       "label": "X 新闻：Saylor 增持暗示",
+       "url": "https://x.com/i/trending/2111804794600091828"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "亚洲监管周报：台湾法院封锁 Coinbase 与 Kalshi，俄罗斯拟禁个人 P2P",
+     "impact": "medium",
+     "body": "吴说亚洲周报：俄罗斯拟禁止个人 P2P 加密交易；韩国筹备 2027 年加密税细则；渣打在阿联酋推出加密交易；Kakao 推进韩元稳定币支付。台湾方面，新北地院以涉嫌违反选罢法（选举赌博）裁定 DNS 封锁 Coinbase 与 Kalshi，10/14 起台湾用户无法访问，有用户反映 App 无法提款；此前 Polymarket 已被封。",
+     "value_note": "台湾封锁主要针对预测市场与选举赌盘（11/28 地方选举前），对 Coinbase 收入影响有限，但显示交易所因上架预测市场而承担额外地区监管风险。",
+     "tickers": [
+      "COIN"
+     ],
+     "sources": [
+      {
+       "label": "@WuBlockchain 亚洲周报",
+       "url": "https://x.com/WuBlockchain/status/2111799821472543070"
+      },
+      {
+       "label": "@OdailyChina",
+       "url": "https://x.com/OdailyChina/status/2110698854643630181"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "美国：OCC 报告确认大银行系统性“去银行化”，CFTC 拟议 Reg CM",
+     "impact": "low",
+     "body": "CoinDesk：OCC 审阅 10 万宗投诉，认定美国大银行在 2020–2025 年系统性拒绝为合法企业服务，数字资产位列受影响最多的前六个行业。另有 CFTC 主席顾问介绍拟议的 Reg CM 框架，让加密交易所可自愿选择纳入联邦统一监管，业界是否接受仍未定。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@CoinDesk OCC",
+       "url": "https://x.com/CoinDesk/status/2111604420630753771"
+      },
+      {
+       "label": "@CoinDesk Reg CM",
+       "url": "https://x.com/CoinDesk/status/2111906662156247082"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "【第 11 天】ETF：10/12–16 当周 BTC 净流出约 2.28 亿、ETH 约 3.2 亿",
+     "impact": "low",
+     "body": "社区按 Farside 数据汇总：当周美国现货 BTC ETF 净流出约 2.28 亿美元、ETH ETF 约 3.2 亿美元，加密 ETF 合计约 6.1 亿美元，连续第二周净流出，但较前一周约 12.9 亿已减半；ETH ETF 十月累计流出近 9.55 亿美元（社区汇总，未与发行方逐一核对）。",
+     "tickers": [
+      "BTC",
+      "ETH"
+     ],
+     "sources": [
+      {
+       "label": "X 新闻：BTC 回落至 8.1 万",
+       "url": "https://x.com/i/trending/2111691648103268859"
+      },
+      {
+       "label": "@Stockmanking",
+       "url": "https://x.com/Stockmanking/status/2111678510674874565"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "其他：孙宇晨称已卖出 80–90% ETH；Abstract L2 关停；12 年休眠钱包转出 417 BTC",
+     "impact": "low",
+     "body": "孙宇晨受访称在 3,600–4,000 美元卖出 80–90% ETH，转买美股，仍称会再投 WLFI（吴说）。Pudgy Penguins 母公司 Igloo 关停以太坊 L2 Abstract，用户需在 12/15 前桥出，不发币，资源转回 PENGU。两个休眠 12 年以上的钱包转出 417 BTC（约 3,385 万美元，lookonchain）。萨尔瓦多 BTC 储备增至 7,808 枚。",
+     "tickers": [
+      "ETH",
+      "PENGU"
+     ],
+     "sources": [
+      {
+       "label": "@WuBlockchain 孙宇晨",
+       "url": "https://x.com/WuBlockchain/status/2111737300946460760"
+      },
+      {
+       "label": "X 新闻：Abstract 关停",
+       "url": "https://x.com/i/trending/2111473624670703907"
+      },
+      {
+       "label": "@lookonchain",
+       "url": "https://x.com/lookonchain/status/2111645166281089495"
+      }
+     ],
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "defi",
+   "title": "DeFi",
+   "items": [
+    {
+     "title": "★ Pons：累计手续费破 2 亿美元，PONS 已销毁 32.5% 总供应",
+     "impact": "medium",
+     "body": "Pons 官方称平台累计手续费超 2 亿美元，其中 1.4 亿美元在 3 个月内分给发币者与社区；另称已销毁超过 32.5% 的 PONS 总供应（约 9,100 万美元），协议收入的 80% 用于回购 PONS。",
+     "value_note": "收入 80% 回购并销毁，持有人价值与平台成交直接挂钩；销毁比例持续上升是供给端实质收缩。",
+     "tickers": [
+      "PONS"
+     ],
+     "sources": [
+      {
+       "label": "@ponsdotfamily 手续费",
+       "url": "https://x.com/ponsdotfamily/status/2111914602946531837"
+      },
+      {
+       "label": "@ponsdotfamily 销毁",
+       "url": "https://x.com/ponsdotfamily/status/2111583138413711544"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "【第 10 天】★ StonkFun：10/17 收入 10.8 万美元，较前日降约 43%；累计销毁 21%",
+     "impact": "medium",
+     "body": "StonkFun 官方：10/17 收入 107,651 美元（10/16 为 18.8 万），回购 64,379 美元、销毁 60.19 万 STONK；另称 STONK 总供应已销毁 21%。",
+     "value_note": "回购约占当日收入六成，机制照常；但收入环比明显回落，需看篮子（Baskets）能否把成交拉回。",
+     "tickers": [
+      "STONK"
+     ],
+     "sources": [
+      {
+       "label": "@LaunchOnSF 日收入",
+       "url": "https://x.com/LaunchOnSF/status/2111615579971023031"
+      },
+      {
+       "label": "@LaunchOnSF 销毁 21%",
+       "url": "https://x.com/LaunchOnSF/status/2111856082553606499"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "★ Ondo TVL 破 40 亿美元，代币化股票/ETF 超 13 亿；★ Kamino 固定利率贷款破 5,500 万",
+     "impact": "medium",
+     "body": "Ondo 官方：TVL 突破 40 亿美元，其中代币化股票与 ETF 超 13 亿美元，各产品累计持有人超 100 万；同帖汇总高盛称代币化可扩大交易业务、大摩计划 2027 年一季度在 ATS 支持代币化股票、BNY 与 Citadel 用代币化美债做隔夜融资抵押。Kamino 周报：固定利率借贷活跃贷款超 5,500 万美元，AUTO 市场规模破 1.5 亿，代币化股票供应破 5,000 万，在 NEAR 上推出 Gauntlet 管理的机密 SOL 收益金库，并扩充美国机构团队。",
+     "value_note": "Ondo TVL 约三分之一来自代币化股票，结构从国债产品向股票扩展；Kamino 固定利率与股票抵押品增长推高借贷规模与费用基础。",
+     "tickers": [
+      "ONDO",
+      "KMNO"
+     ],
+     "sources": [
+      {
+       "label": "@Ondo",
+       "url": "https://x.com/Ondo/status/2111862462739833190"
+      },
+      {
+       "label": "@kamino",
+       "url": "https://x.com/kamino/status/2111905710346846311"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "【第 10 天】★ Aero 喊话做“整个以太坊的统一流动性层”；【第 3 天】★ Fables 积分窗口今早关闭",
+     "impact": "low",
+     "body": "Aero 官方称 AERO 将成为整个以太坊的统一流动性层，10/21 合并与扩链继续倒计时，本期无新数据。Fables 提醒积分兑换与选择于 10/19 02:00 UTC（HKT 10:00）截止，赎回按上期所述 10/20 开放。",
+     "tickers": [
+      "AERO"
+     ],
+     "sources": [
+      {
+       "label": "@aeroxyz",
+       "url": "https://x.com/aeroxyz/status/2111829408822804638"
+      },
+      {
+       "label": "@fablesfi",
+       "url": "https://x.com/fablesfi/status/2111880393951744095"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "Hyperliquid 链上 USDC 首次超过 Solana（社区数据）",
+     "impact": "medium",
+     "body": "多个社区账号称 Hyperliquid 上的 USDC 供应首次超过 Solana（约 69.3 亿 vs 69.0 亿美元）。@TheDeFinvestor 等称 Hyperliquid 是唯一从自身 USDC 储备赚收益的主要 L1，相关收入每天约 50 万美元以上用于回购 HYPE；另有帖称下一次分成约 11/2、约 1,600 万美元（均为社区说法，未见官方证实）。",
+     "value_note": "若属实，储备利息是一条不依赖交易量的 HYPE 回购资金来源，在成交萎缩期更稳定；但收益随美元利率下行而缩水。",
+     "tickers": [
+      "HYPE",
+      "USDC"
+     ],
+     "sources": [
+      {
+       "label": "@TheDeFinvestor",
+       "url": "https://x.com/TheDeFinvestor/status/2111438953207169409"
+      },
+      {
+       "label": "@HL_Radar",
+       "url": "https://x.com/HL_Radar/status/2111662962846880073"
+      },
+      {
+       "label": "@Hyperliquid_Hub",
+       "url": "https://x.com/Hyperliquid_Hub/status/2111660943998632093"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "【第 9 天】Papertrade 退烧：10/17 收入降 83%；PAPER 永续上线后 150 个地址持 61%",
+     "impact": "medium",
+     "body": "律动：10/17 Papertrade 单日收入 89 万美元，环比降 83%；成交 542 亿美元，较 10/10 高点回撤约 90%，新增账户仅 622 个。PAPER 永续在 Hyperliquid HIP-3 上线两小时一度涨 180%；链上看 150 个地址持有 61% 供应，约 85.5 亿总量中约 84.8 亿仍在质押、暂不可自由转账。",
+     "value_note": "激励期热度消退、收入骤降，而筹码高度集中且多数尚未流通，转账开放后存在集中抛压风险。",
+     "tickers": [
+      "PAPER",
+      "HYPE"
+     ],
+     "sources": [
+      {
+       "label": "@BlockBeatsAsia 收入",
+       "url": "https://x.com/BlockBeatsAsia/status/2111689835442307501"
+      },
+      {
+       "label": "@BlockBeatsAsia 筹码",
+       "url": "https://x.com/BlockBeatsAsia/status/2111816968445546965"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "安全：Qubic 1,404 钱包被盗后拟“回滚”返还；Cysic 跨链桥被增发 1,000 万 CYS",
+     "impact": "medium",
+     "body": "Qubic 官方：10/17 23:42–10/18 01:26 UTC，1,404 个钱包被盗约 2.94 万亿 QU（约 130 万美元），原因是部分 iPhone/iPad、Mac Safari 及旧版 iOS App 生成的种子随机性不足；网络已暂停，87.1% 赃款在链上冻结、12.9% 被 MEXC 冻结，已发修复版 4.26.4。团队在 Discord 称社区投票 167:5 选择以恢复状态重启、受害者申领返还（未见官号确认）。Cysic 称攻击者经桥相关数据库未授权在 BNB 链铸造 1,000 万 CYS，卖出约 720 万枚、约 72.7 万美元桥到以太坊，剩余 280 万枚被拉黑冻结，桥暂停待外部审查。XPR Network 的 16 个 LOAN 借贷市场仍暂停，67 个账户仍有未清欠款。",
+     "value_note": "Qubic 靠暂停网络与“恢复状态”救回资金，会削弱其不可篡改性；Cysic 的未授权增发直接稀释 CYS 流通，桥恢复前跨链流动性受限。",
+     "tickers": [
+      "QUBIC",
+      "CYS",
+      "XPR"
+     ],
+     "sources": [
+      {
+       "label": "@_Qubic_",
+       "url": "https://x.com/_Qubic_/status/2111796725677715474"
+      },
+      {
+       "label": "@cysic_xyz",
+       "url": "https://x.com/cysic_xyz/status/2111769101723218106"
+      },
+      {
+       "label": "@DefiantNews Qubic",
+       "url": "https://x.com/DefiantNews/status/2111838715471708672"
+      },
+      {
+       "label": "@xprcore",
+       "url": "https://x.com/xprcore/status/2111765975184146507"
+      },
+      {
+       "label": "@BaierMiroslav（恢复方案，未证实）",
+       "url": "https://x.com/BaierMiroslav/status/2111882951793287206"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "其他：代币化基金一周增 3.81 亿；★ Zcash 上线后量子不可关联兑换；★ Solana 周报",
+     "impact": "low",
+     "body": "RWA Foundation：前十大发行方代币化基金市值一周增 3.81 亿美元（Spiko +8,640 万、Sky +6,170 万、Aave +5,470 万、Maple +4,470 万、Ondo +4,020 万）。Zcash 推出基于一次性查看密钥的后量子不可关联兑换地址，并发布 Zakura P2Pv2 网络层。Solana 周报：Western Union 的 USDPT 稳定币在墨西哥 Bitso 开放零售交易，Alpenglow 仍定 10/21 上主网；9 月稳定币转账 5.57 亿笔居各链之首。",
+     "tickers": [
+      "ZEC",
+      "SOL"
+     ],
+     "sources": [
+      {
+       "label": "@RWAFoundation_",
+       "url": "https://x.com/RWAFoundation_/status/2111781362029994275"
+      },
+      {
+       "label": "@Zcash",
+       "url": "https://x.com/Zcash/status/2111775762135085182"
+      },
+      {
+       "label": "@solana 周报",
+       "url": "https://x.com/solana/status/2111837474079293847"
+      },
+      {
+       "label": "@solana 稳定币",
+       "url": "https://x.com/solana/status/2111672368452251890"
+      }
+     ],
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "title": "AI",
+   "items": [
+    {
+     "title": "Anthropic 设公益基金：起步 5% 股份，连同创始人与员工承诺合计约 20%",
+     "impact": "high",
+     "body": "Anthropic 官方宣布成立全资子实体 Anthropic Public Benefit Fund，起步注入 5% 公司股份；公司价值每较基准上涨 50%，董事会可酌情再追加最多 2%。加上联合创始人已承诺捐出 80% 股权、约半数员工参与捐赠匹配，官方称约 20% 股份将用于公共利益。X 新闻汇总称基金不做游说或政治支出，资助非营利、科研和受 AI 冲击的社区。",
+     "value_note": "在 IPO 前把一部分股权价值锁定给公益用途，未来投资者需计入潜在追加注股；同时强化其公益公司治理叙事，可能影响上市估值讨论。",
+     "tickers": [],
+     "metrics": "官方帖约 8,000 赞",
+     "sources": [
+      {
+       "label": "@AnthropicAI",
+       "url": "https://x.com/AnthropicAI/status/2111881963657412903"
+      },
+      {
+       "label": "X 新闻：公益基金",
+       "url": "https://x.com/i/trending/2111886822477570470"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "Anthropic 向国会推销前沿 AI 法案草案：损失超 10 亿或 ≥50 人伤亡才可干预",
+     "impact": "medium",
+     "body": "据 POLITICO（吴说转述），Anthropic 向议员推销一份未公开草案：只有模型构成“可预见且迫近”的风险（超 10 亿美元损失或至少 50 人死亡/重伤，或生物武器、模型逃逸、网络攻击等）时，政府才可限制其发布或使用；独立评估机构需在商务部登记，风险须 72 小时内上报，只有商务部可向法院申请叫停，并会优先于部分州法。批评者认为门槛过高。",
+     "value_note": "若成法，联邦统一标准会压缩各州更严规则的空间，降低头部实验室合规不确定性。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@WuBlockchain",
+       "url": "https://x.com/WuBlockchain/status/2111813696179823071"
+      },
+      {
+       "label": "X 新闻：Anthropic 法案草案",
+       "url": "https://x.com/i/trending/2111801627355013163"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "OpenAI 高管：中国模型追近约一半靠蒸馏；OpenCode 称防御时被模型护栏拒答",
+     "impact": "medium",
+     "body": "X 新闻汇总称，OpenAI 战略未来负责人 Dean Ball 表示，内部信息让他把“中国模型基准进步来自蒸馏”的估计从 30% 上调到约 50%（个人估计）。OpenCode 事件更新：联合创始人称遭持续 48 小时以上攻击时，前沿模型分析到一半开始以安全为由拒答，获批 OpenAI Daybreak Blue 层级后才恢复。",
+     "value_note": "蒸馏指控若推动更严的 API 风控或出口限制，会抬高中国开源模型获取前沿输出的成本；也凸显安全护栏对防守方的副作用。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "X 新闻：蒸馏估计",
+       "url": "https://x.com/i/trending/2111863244294119425"
+      },
+      {
+       "label": "X 新闻：OpenCode 护栏",
+       "url": "https://x.com/i/trending/2111929026377867453"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "其他：OpenAI API 短暂出现 aurora 图像模型；Tether 参投 AI 代理支付网络 AIsa",
+     "impact": "low",
+     "body": "开发者在 OpenAI 公开 API 列表中看到 aurora-red/green/blue-alpha 三个图像生成模型，数小时后撤下，官方未回应。Tether 参投 AIsa 种子轮（总融资超 900 万美元，阿里巴巴等参投），AIsa 称支持 25 万个活跃代理、单接口接入 5,000 个 API 并可用稳定币按次付费。美银策略师警告 AI 资本开支一年内预测从 3,300 亿升到 1 万亿美元，类似铁路与互联网泡沫周期。",
+     "tickers": [
+      "USDT"
+     ],
+     "sources": [
+      {
+       "label": "X 新闻：aurora 泄露",
+       "url": "https://x.com/i/trending/2111667716293587199"
+      },
+      {
+       "label": "X 新闻：Tether×AIsa",
+       "url": "https://x.com/i/trending/2111881219793363012"
+      },
+      {
+       "label": "X 新闻：美银 AI 警告",
+       "url": "https://x.com/i/trending/2111504423935471647"
+      }
+     ],
+     "is_update": false
+    }
+   ]
+  }
+ ],
+ "watchlist_hits": [
+  {
+   "handle": "ponsdotfamily",
+   "text": "累计手续费破 2 亿美元；PONS 已销毁 32.5% 总供应，收入 80% 回购",
+   "url": "https://x.com/ponsdotfamily/status/2111914602946531837"
+  },
+  {
+   "handle": "LaunchOnSF",
+   "text": "10/17 收入 107,651 美元、回购 64,379 美元；STONK 累计销毁 21%",
+   "url": "https://x.com/LaunchOnSF/status/2111615579971023031"
+  },
+  {
+   "handle": "Ondo",
+   "text": "TVL 破 40 亿美元，代币化股票/ETF 超 13 亿",
+   "url": "https://x.com/Ondo/status/2111862462739833190"
+  },
+  {
+   "handle": "kamino",
+   "text": "固定利率贷款破 5,500 万、AUTO 市场破 1.5 亿、代币化股票供应破 5,000 万",
+   "url": "https://x.com/kamino/status/2111905710346846311"
+  },
+  {
+   "handle": "aeroxyz",
+   "text": "称将做整个以太坊的统一流动性层，10/21 合并倒计时",
+   "url": "https://x.com/aeroxyz/status/2111829408822804638"
+  },
+  {
+   "handle": "fablesfi",
+   "text": "积分兑换/选择 10/19 02:00 UTC 截止",
+   "url": "https://x.com/fablesfi/status/2111880393951744095"
+  },
+  {
+   "handle": "Zcash",
+   "text": "后量子不可关联兑换地址；Zakura P2Pv2 网络层",
+   "url": "https://x.com/Zcash/status/2111775762135085182"
+  },
+  {
+   "handle": "solana",
+   "text": "周报：USDPT 上 Bitso、港第二只 SOL ETF、Alpenglow 10/21",
+   "url": "https://x.com/solana/status/2111837474079293847"
+  },
+  {
+   "handle": "BNBCHAIN",
+   "text": "USDC、USD1、U 转账免 gas 至 10/31（营销）",
+   "url": "https://x.com/BNBCHAIN/status/2111608225250316729"
+  }
+ ],
+ "stats": {
+  "x_calls_used": 33,
+  "posts_scanned": 270,
+  "news_stories": 120
+ },
+ "_generated_at": "2026-10-19 05:41 HKT"
+}
