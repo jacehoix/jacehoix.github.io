@@ -1,0 +1,753 @@
+{
+ "slot": "2026-10-21T06:00+08:00",
+ "window": "2026-10-20 06:00 – 2026-10-21 05:45 HKT",
+ "headline": "Papertrade 改代币规则：PAPER 不开放转账、铸造曲线和手续费都改，Aster 下架其盘前合约",
+ "summary": [
+  "这期最大的事：Papertrade 官方宣布 PAPER 不开放合约外转账，理由是可做空 PAPER 会放大操纵攻击；手续费改两档、只针对开仓价附近的小额获利单，社区称供应上限改为持续铸造。对价值：PAPER 变成不能卖、只能分收入的凭证，持续铸造还会摊薄分成。",
+  "代币化股票遭发行方抵制：微软、Alphabet、高盛等 7 家新加入，反对在 OKXICE 交易的发行方已有 16 家；★ xStocks 一年累计成交 450 亿美元，TSLA 上 Solana。",
+  "风险：合成美元 Neutrl 策略亏损，NUSD 只能按约 0.51 美元赎回，Lulo Boost 回撤约 6.4%；★ StonkFun 10/19 收入 17.6 万美元，翻倍；★ Aero 今天合并上线；★ Aave 推出散户储蓄 App。",
+  "比特币 ETF 单日净流入约 6.6 亿美元，抹平 10 月流出；AI：Anthropic 招股书草稿显示上半年收入 163 亿美元、算力承诺约 4,500 亿；SpaceX 三季度收入 146 亿美元。"
+ ],
+ "sections": [
+  {
+   "id": "crypto",
+   "title": "加密",
+   "items": [
+    {
+     "title": "【第 13 天】ETF 资金回流：10/20 比特币现货 ETF 单日净流入约 6.6 亿美元，全部进 IBIT；以太坊 ETF 仍流出",
+     "impact": "medium",
+     "body": "glassnode 称 10/20 美国现货比特币 ETF 净流入 6.63 亿美元，是 9 月以来最大单日流入，全部进了贝莱德 IBIT，一天就抹平了 10 月的累计净流出；lookonchain 统计为 +7,103 BTC（约 5.78 亿美元），7 日累计转为净流入约 4.04 亿美元。以太坊 ETF 单日净流出 42,349 ETH（约 1.01 亿美元），7 日累计流出约 3.42 亿美元。glassnode 认为 8.7 万至 8.78 万美元的阻力区仍在压制价格，短期偏整理。同期：贝莱德申报带下跌保护、上涨封顶的比特币 ETF（代码 PBIT），瑞士 FINMA 批准首只面向散户的比特币基金，摩根大通资管首次把 BTC 写进长期回报假设（未来十年年化约 10%）。",
+     "value_note": "连续两周的流出第一次被一天的大额流入抵消；要连续几天流入才算需求回来。ETH 的机构资金仍在走。",
+     "tickers": [
+      "BTC",
+      "ETH",
+      "IBIT"
+     ],
+     "sources": [
+      {
+       "label": "@glassnode ETF 流入",
+       "url": "https://x.com/glassnode/status/2112549461016928439"
+      },
+      {
+       "label": "@lookonchain ETF",
+       "url": "https://x.com/lookonchain/status/2112537818212012539"
+      },
+      {
+       "label": "@glassnode 阻力位",
+       "url": "https://x.com/glassnode/status/2112563301204840915"
+      },
+      {
+       "label": "@CoinDesk PBIT",
+       "url": "https://x.com/CoinDesk/status/2112478175531769857"
+      },
+      {
+       "label": "@CoinDesk FINMA",
+       "url": "https://x.com/CoinDesk/status/2112593766548725903"
+      },
+      {
+       "label": "@WuBlockchain 摩根大通",
+       "url": "https://x.com/WuBlockchain/status/2112414184738804118"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "【第 4 天】代币化股票遭发行方抵制：微软、Alphabet、高盛等再有 7 家反对在 OKXICE 交易，总数到 16 家",
+     "impact": "high",
+     "body": "OKX 与纽交所母公司 ICE 合办的代币化股票平台 OKXICE 新增 7 家发行方正式反对第三方代币化其股票：微软、Alphabet、高盛、高通、卡特彼勒、麦当劳、西部数据，总数从几天前的 9 家升到 16 家。按 SEC 9 月 17 日的豁免令，平台上线非关联方代币化股票前须给发行方 30 天通知期，发行方及时反对就不能交易；Laura Shin 统计初始 62 家名单里已有 15 家反对。另：花旗把 Securitize 评级下调到中性，理由是代币化会普及，但发行和服务方能收多少钱是个大问题。",
+     "value_note": "大市值科技股和投行带头拒绝，美国合规场内代币化股票的可交易名单会被明显压缩，流量和手续费预期要打折。目前只适用于走 SEC 豁免的这类平台；xStocks、Ondo 等海外发行是否受影响，本期没看到说明。",
+     "tickers": [
+      "MSFT",
+      "GOOGL",
+      "GS"
+     ],
+     "sources": [
+      {
+       "label": "@wiretrading 16 家",
+       "url": "https://x.com/wiretrading/status/2112628890598588543"
+      },
+      {
+       "label": "@laurashin 15/62",
+       "url": "https://x.com/laurashin/status/2112555691529617847"
+      },
+      {
+       "label": "@zubiqo 30 天通知期",
+       "url": "https://x.com/zubiqo/status/2112570625156124939"
+      },
+      {
+       "label": "@CoinDesk 早报",
+       "url": "https://x.com/CoinDesk/status/2112609795673137522"
+      },
+      {
+       "label": "@CoinDesk 花旗下调 Securitize",
+       "url": "https://x.com/CoinDesk/status/2112624894898798757"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "安全：Drift 黑客再洗 6,156 万美元 ETH；Liquid 储备缺口约 600 BTC 将补齐；Ledger 硬件植入件成本不到 20 美元",
+     "impact": "medium",
+     "body": "4 月盗走 Drift 约 2.85 亿美元的黑客沉寂两个月后，10/20 分批向 Tornado Cash 存入 25,700 ETH（约 6,156 万美元），手里还有 81,864 ETH（约 1.95 亿美元）。Liquid 网络恢复 L-BTC 与比特币的半自动兑换，但直接从储备提款仍冻结；10/20 储备覆盖率 85.8%，缺口约 603 BTC，Samson Mow 称联盟将在几天内补齐约 600 BTC。前 Mt.Gox CEO Mark Karpelès 拆机演示 Ledger Nano X 被植入窃密芯片：三个焊点、零件成本不到 20 美元，此类植入件与 9,000 多万美元的盗币有关。Bitget 回应 PingCAP 数据库泄露，称只存过公开成交日志、两个多月前已停用。",
+     "value_note": "Liquid 缺口若按承诺补上，L-BTC 才能恢复 1:1 信用；买二手或来路不明的硬件钱包的风险被具体化了。",
+     "tickers": [
+      "ETH",
+      "L-BTC"
+     ],
+     "sources": [
+      {
+       "label": "@lookonchain Drift",
+       "url": "https://x.com/lookonchain/status/2112475259907846217"
+      },
+      {
+       "label": "@EmberCN Drift",
+       "url": "https://x.com/EmberCN/status/2112523543892074964"
+      },
+      {
+       "label": "@DefiantNews Liquid",
+       "url": "https://x.com/DefiantNews/status/2112530021646766190"
+      },
+      {
+       "label": "@BitcoinNewsCom 补 600 BTC",
+       "url": "https://x.com/BitcoinNewsCom/status/2112543893837271283"
+      },
+      {
+       "label": "@DefiantNews Ledger 植入",
+       "url": "https://x.com/DefiantNews/status/2112647002072707195"
+      },
+      {
+       "label": "@BlockBeatsAsia Bitget",
+       "url": "https://x.com/BlockBeatsAsia/status/2112518410420752503"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "政策：【第 7 天】法国稳定币兑换税表决推迟到 11 月 3 日；犹他州起诉 Kalshi 和 Susquehanna",
+     "impact": "medium",
+     "body": "法国议会把预算收入部分的表决改到 11 月 3 日；该条款拟从 2027 年 1 月起，对私人投资者换成单一货币稳定币的收益征税（CoinDesk 写税率 31.4%），还需参议院通过和预算协调。犹他州起诉预测市场 Kalshi 和 Susquehanna 旗下公司，称做市方靠对赌非法投注获利，要求禁止该州用户访问体育等事件合约并追回利润。Hyperliquid 政策中心致信 CFTC，要求批准 GPU 租金、AI 推理服务等算力衍生品；CoW DAO 支持 Blockworks 致 SEC 的信，提议设立独立的链上披露代理（QODA）。MEXC 将停止服务俄罗斯和白俄罗斯用户。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@DefiantNews 法国",
+       "url": "https://x.com/DefiantNews/status/2112513914160455815"
+      },
+      {
+       "label": "@CoinDesk 31.4%",
+       "url": "https://x.com/CoinDesk/status/2112525559666221563"
+      },
+      {
+       "label": "@DefiantNews Kalshi",
+       "url": "https://x.com/DefiantNews/status/2112592934696857629"
+      },
+      {
+       "label": "X 新闻：HL 算力衍生品",
+       "url": "https://x.com/i/trending/2112585549961994313"
+      },
+      {
+       "label": "@CoWSwap QODA",
+       "url": "https://x.com/CoWSwap/status/2112588398275740063"
+      },
+      {
+       "label": "@DefiantNews MEXC",
+       "url": "https://x.com/DefiantNews/status/2112538576571539658"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "其他：以太坊质押创新高、收益率降到 2.63%；花旗预计 Strategy 今年 BTC 收益为负；爱尔兰执法方动 500 枚沉睡 BTC",
+     "impact": "low",
+     "body": "Bitwise：三季度末以太坊质押量 4,380 万 ETH，占供应 35.9%，连续第六个季度创新高；毛年化收益从 2.81% 降到 2.63%。花旗预计 Strategy 2026 年的“比特币收益率”为负，原因是建现金储备并在不利价位卖过币。Token Terminal：Strategy 的代币化普通股和优先股链上市值约 4.73 亿美元，其中 xStocks 占 55%。爱尔兰毒贩 Clifton Collins 当年弄丢私钥的 6,000 枚 BTC 中，有 500 枚（约 4,150 万美元）在沉睡 10 多年后转入 Coinbase Prime，EmberCN 推测是执法方恢复了钱包。XRP 14 年来首次有官方 X 账号；Revolut 欧洲大面积宕机。",
+     "tickers": [
+      "ETH",
+      "MSTR",
+      "BTC",
+      "XRP"
+     ],
+     "sources": [
+      {
+       "label": "@WuBlockchain 质押",
+       "url": "https://x.com/WuBlockchain/status/2112534936695755014"
+      },
+      {
+       "label": "@CoinDesk 花旗 Strategy",
+       "url": "https://x.com/CoinDesk/status/2112649808846450862"
+      },
+      {
+       "label": "@tokenterminal Strategy",
+       "url": "https://x.com/tokenterminal/status/2112521298866000101"
+      },
+      {
+       "label": "@lookonchain 500 BTC",
+       "url": "https://x.com/lookonchain/status/2112552957803897339"
+      },
+      {
+       "label": "@EmberCN 执法方",
+       "url": "https://x.com/EmberCN/status/2112567984116146283"
+      },
+      {
+       "label": "@CoinDesk XRP",
+       "url": "https://x.com/CoinDesk/status/2112502037355417620"
+      }
+     ],
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "defi",
+   "title": "DeFi",
+   "items": [
+    {
+     "title": "【第 11 天】Papertrade 改代币规则：PAPER 不开放转账，铸造曲线和手续费都改；Aster 下架 PAPER 盘前合约",
+     "impact": "high",
+     "body": "Papertrade 官方 10/20 06:30 HKT 发长文：PAPER 一旦能在外部永续市场做空，攻击者可以“做空金库偿付能力”再操纵价格，攻击成本和收益会被放大，所以目前没有开放合约外转账的计划，Hyperliquid 盘前市场也已关闭。手续费改为工作时段和非工作时段两档，只针对在开仓价附近平仓的小额获利单，用来压缩高频刷单机器人的优势。社区总结称原先约 120 亿枚的供应上限改成持续铸造、早期持有者会被稀释（官方原文被截断，这一条未逐字核对）。Aster 已把 PAPER 盘前永续设为只减仓并下架。IOSG 研究员统计：上线 9 天交易者净亏约 6,320 万美元，真实充值约 3.35 亿美元、约 2.3 万个地址。",
+     "value_note": "PAPER 变成不能卖、只能质押分收入的凭证，持有人的退出路径基本没了；它的价值只剩协议收入分成，而供应改成持续铸造会摊薄这部分分成。好处是金库被操纵攻击的风险降低。",
+     "tickers": [
+      "PAPER",
+      "HYPE"
+     ],
+     "sources": [
+      {
+       "label": "@papertrade_xyz 官方长文",
+       "url": "https://x.com/papertrade_xyz/status/2112310325521399982"
+      },
+      {
+       "label": "@zicoyz 改动摘要",
+       "url": "https://x.com/zicoyz/status/2112438532241334610"
+      },
+      {
+       "label": "@bitcoinduke 供应上限",
+       "url": "https://x.com/bitcoinduke/status/2112409291244109894"
+      },
+      {
+       "label": "@Aster_DEX 下架",
+       "url": "https://x.com/Aster_DEX/status/2112357881064636834"
+      },
+      {
+       "label": "@PANewsCN IOSG 数据",
+       "url": "https://x.com/PANewsCN/status/2112386587271241818"
+      },
+      {
+       "label": "@BlockBeatsAsia 解读",
+       "url": "https://x.com/BlockBeatsAsia/status/2112454421540143462"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "风险：合成美元 Neutrl 策略亏损，NUSD 只能按约 0.51 美元赎回；Lulo Boost 存款回撤约 6.4%",
+     "impact": "high",
+     "body": "Solana 收益平台 Lulo 称其 Boost 产品因敞口于以太坊上的合成美元协议 Neutrl，存款将回撤约 6.4%；Neutrl 的策略头寸亏损、储备流动性受损，已开放按约 0.51 USDC/NUSD 赎回，持有人大约只能拿回一半。Lulo 强调这不是黑客或合约漏洞，Protected 存款不受影响（Boost 按设计先承担损失）。The Defiant 估计这次损失可能抹掉 Boost 一年多的超额收益。Neutrl 的总规模和其他受影响方本期没查到。",
+     "value_note": "又一个“合成美元靠交易策略赚收益”的模式在压力下打折一半，类似结构的收益型稳定币要重新看储备和策略透明度。",
+     "tickers": [
+      "NUSD"
+     ],
+     "sources": [
+      {
+       "label": "@uselulo",
+       "url": "https://x.com/uselulo/status/2112561532328411461"
+      },
+      {
+       "label": "@DefiantNews",
+       "url": "https://x.com/DefiantNews/status/2112565504321970371"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "★ 【第 12 天】StonkFun：10/19 收入 17.6 万美元，比前一天翻倍；上线 TRUMP3 篮子配对",
+     "impact": "medium",
+     "body": "StonkFun 官方：10/19 收入 175,902 美元（10/18 为 85,850 美元），回购 105,265 美元、销毁 98.24 万 STONK。新上线 TRUMP3 篮子（含两只链上代币和 DJT），可作为报价资产发币，由 DiversiFi 提供。",
+     "value_note": "回购约占收入六成，收入回升直接带动销毁；但单日翻倍还看不出趋势，前一周周收入已降约八成。",
+     "tickers": [
+      "STONK"
+     ],
+     "sources": [
+      {
+       "label": "@LaunchOnSF 收入",
+       "url": "https://x.com/LaunchOnSF/status/2112339738350993612"
+      },
+      {
+       "label": "@LaunchOnSF TRUMP3",
+       "url": "https://x.com/LaunchOnSF/status/2112653186712641818"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "★ 【第 3 天】Robinhood Chain：TVL 约 11.3 亿美元，Pons 协议收入重回第一；Yield Fields 30 秒卖光 3,333 块地",
+     "impact": "medium",
+     "body": "社区按 DefiLlama 整理的 Robinhood Chain 日报：10/20（UTC）TVL 约 11.31 亿美元，30 日 +12.6%；24 小时现货量约 9.12 亿美元，Uniswap 占 7.43 亿。Pons 成交仅 660 万美元，但协议收入 6.8 万美元重回链上第一；Fables（TGE 后第一天）成交约 4,150 万美元。另一社区日报把 FABLES 等几个代币的成交标为疑似刷量（单一来源，未证实）。Pons 官号只发了欢迎各团队迁到 Robinhood Chain 的帖。PANews：链游 Yield Fields 3,333 块土地 30 秒售罄，按公开价约 830 万美元；官方称 Founding Deeds 在 10/22 22:00 HKT 自动揭晓。",
+     "value_note": "Pons 收入能重回第一，说明 Launchpad 手续费还在；但上周已有研究者质疑部分销毁不来自收入，回购可持续性仍要看后续周数据。",
+     "tickers": [
+      "PONS",
+      "FABLES"
+     ],
+     "sources": [
+      {
+       "label": "@Levi1124 链上日报",
+       "url": "https://x.com/Levi1124/status/2112380412156838289"
+      },
+      {
+       "label": "@ValeriusLabs 刷量标记",
+       "url": "https://x.com/ValeriusLabs/status/2112333626574602312"
+      },
+      {
+       "label": "@ponsdotfamily",
+       "url": "https://x.com/ponsdotfamily/status/2112636313266446794"
+      },
+      {
+       "label": "@PANewsCN Yield Fields",
+       "url": "https://x.com/PANewsCN/status/2112434014326038719"
+      },
+      {
+       "label": "@YieldFields_RH",
+       "url": "https://x.com/YieldFields_RH/status/2112597025162481856"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "★ 【第 12 天】Aero 今天上线：Aerodrome 与 Velodrome 合并到 7 条链，官方称持有者收入居现货交易所之首",
+     "impact": "medium",
+     "body": "Aero 官方 10/21 02:24 HKT 发“明天上线”，并预告 Slipstream V3 同步上线：协议层捕获 MEV、动态手续费、可编程手续费返还；官方称代币化股票成交已达 30 亿美元，并称过去 30 天、年初至今和历史累计的持有者收入都高于任何现货交易所。社区清单：AERO 1:1 换新 AERO，VELO 按 0.044 换，veAERO/veVELO 转为 sAERO 并保留剩余锁仓期，上线时间写作 10/22 00:00 UTC（即 10/22 08:00 HKT），与官方“明天”口径差一天，以官方为准。DefiLlama 与 Trueo 的预测市场给出 70.2% 概率本周 Aero 收入高于 Uniswap。",
+     "value_note": "合并后收入和排放统一到一个代币，VELO 持有人按固定比例换入；能否把收入更多分给 sAERO，是这次合并的核心看点。",
+     "tickers": [
+      "AERO",
+      "VELO"
+     ],
+     "sources": [
+      {
+       "label": "@aeroxyz 明天上线",
+       "url": "https://x.com/aeroxyz/status/2112610952780865920"
+      },
+      {
+       "label": "@aeroxyz Slipstream V3",
+       "url": "https://x.com/aeroxyz/status/2112548467528925236"
+      },
+      {
+       "label": "@aeroxyz 持有者收入",
+       "url": "https://x.com/aeroxyz/status/2112639073450111367"
+      },
+      {
+       "label": "@patron4eg 换币清单",
+       "url": "https://x.com/patron4eg/status/2112447516503396444"
+      },
+      {
+       "label": "@DefiLlama 预测市场",
+       "url": "https://x.com/DefiLlama/status/2112632795055145043"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "★ 借贷：Aave 推出面向散户的储蓄 App；Kamino 固定利率 AUTO 市场三周涨到 1.35 亿；Jupiter Lend 周收入创新高",
+     "impact": "medium",
+     "body": "Aave 官方发布 Aave App，主打储蓄（“这一代人的储蓄失败了”），Stani 称“把储蓄带回来”；花旗研究报告把 Aave 定位为代币化资本市场的“抵押品流动”协议。Token Terminal：Aave V4 已是 Base 上 Coinbase 代币化股票最大的 DeFi 场所，存款 1,010 万美元，占约 53%。Kamino：与 Figure 合作的固定利率 AUTO 市场三周从 1,000 万涨到 1.35 亿美元，头两周固定利率借款超 4,000 万，FT 有报道（Chainlink CCIP 定为跨链抵押品标准一事已在 01:46 提醒过）。Fluid：Jupiter Lend 周收入创新高，环比 +19%、12 周 +54%，年化 610 万美元，Fluid 与 Jupiter 各分一半。ether.fi 推出自有稳定币 ether.fi USD（用 Ethena 白标），称平台上 3 亿多美元稳定币此前闲置。",
+     "value_note": "Aave 直接做散户入口，若带来新存款，DAO 收入会受益；Jupiter Lend 收入对 Fluid 和 JUP 都是实打实的分成。",
+     "tickers": [
+      "AAVE",
+      "KMNO",
+      "FLUID",
+      "JUP",
+      "ETHFI"
+     ],
+     "sources": [
+      {
+       "label": "@aave App",
+       "url": "https://x.com/aave/status/2112587499075781093"
+      },
+      {
+       "label": "@StaniKulechov",
+       "url": "https://x.com/StaniKulechov/status/2112591213765288238"
+      },
+      {
+       "label": "@aave 花旗报告",
+       "url": "https://x.com/aave/status/2112316934557732931"
+      },
+      {
+       "label": "@tokenterminal Aave V4",
+       "url": "https://x.com/tokenterminal/status/2112634574820016527"
+      },
+      {
+       "label": "@kamino AUTO",
+       "url": "https://x.com/kamino/status/2112542369954300170"
+      },
+      {
+       "label": "@0xfluid Jupiter Lend",
+       "url": "https://x.com/0xfluid/status/2112493570280317239"
+      },
+      {
+       "label": "@ether_fi USD",
+       "url": "https://x.com/ether_fi/status/2112520846841401476"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "★ 【第 10 天】代币化股票：xStocks 一年累计成交 450 亿美元；TSLA 上 Solana；特斯拉加 SpaceX 链上市值 4.03 亿",
+     "impact": "medium",
+     "body": "xStocks 称一年内成交从 10 亿做到 450 亿美元，覆盖 1,000 多个资产、150 多个集成。Backpack Securities 在 Solana 发行可 1:1 赎回、可转回传统券商的 TSLA（经 Sunrise）。Ondo 的 450 多只股票和 ETF 接入 1inch（Solana）与 Jumper（四条链）。Token Terminal：特斯拉和 SpaceX 代币化股票链上市值 4.032 亿美元，BNB 链 1.853 亿已超过 Solana 的 1.081 亿；持有地址超 90 万，SPCXb 一只就有 27.4 万；Circle 代币化股票 3.733 亿美元，币安 bStocks 已是最大发行方。SpaceX 财报前 Lista 提醒用 SPCXB 抵押的用户检查健康度。Ondo Perps 从 10/26 起把每周 USDC 奖励拆成做市、吃单等三个池。",
+     "tickers": [
+      "TSLA",
+      "SPCX",
+      "CRCL",
+      "ONDO"
+     ],
+     "sources": [
+      {
+       "label": "@xStocksFi 450 亿",
+       "url": "https://x.com/xStocksFi/status/2112482206858039332"
+      },
+      {
+       "label": "@BackpackOnchain TSLA",
+       "url": "https://x.com/BackpackOnchain/status/2112621911436103876"
+      },
+      {
+       "label": "@Ondo 1inch",
+       "url": "https://x.com/Ondo/status/2112546939073892746"
+      },
+      {
+       "label": "@Ondo Jumper",
+       "url": "https://x.com/Ondo/status/2112586213739954215"
+      },
+      {
+       "label": "@tokenterminal 4.03 亿",
+       "url": "https://x.com/tokenterminal/status/2112523561210724855"
+      },
+      {
+       "label": "@tokenterminal 持有人",
+       "url": "https://x.com/tokenterminal/status/2112526908353380787"
+      },
+      {
+       "label": "@lista_dao 提醒",
+       "url": "https://x.com/lista_dao/status/2112562980533809625"
+      },
+      {
+       "label": "@OndoPerps 奖励",
+       "url": "https://x.com/OndoPerps/status/2112574307305980041"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "★ 回购与销毁：CAKE 周净减 20.8 万枚；Sushi 第 7 次回购；Aster 推 bStocks 活动",
+     "impact": "low",
+     "body": "PancakeSwap 上周 CAKE 净减少 20.8 万枚（约 45.6 万美元），产品销毁 35.8 万枚（约 78.5 万美元），环比 -32%，主要因 AMM 成交下降。SushiSwap 完成第 7 次周回购，买入 13,318 SUSHI 放进战略储备，回购资金为协议和永续手续费的 4%，累计 64,015 枚。BNB Chain 称还剩约 3,150 万枚 BNB 待销毁。Aster 与 BNB Chain 推 bStocks 交易和持有活动（10/20–31，最高 7 万美元奖励）。WLFI 称 USD1 加入币安奖励池第二阶段，最多 250 万 USD1。",
+     "tickers": [
+      "CAKE",
+      "SUSHI",
+      "BNB",
+      "ASTER",
+      "WLFI"
+     ],
+     "sources": [
+      {
+       "label": "@PancakeSwap 周报",
+       "url": "https://x.com/PancakeSwap/status/2112423568105779444"
+      },
+      {
+       "label": "@SushiSwap 回购",
+       "url": "https://x.com/SushiSwap/status/2112380123802407234"
+      },
+      {
+       "label": "@BNBCHAIN",
+       "url": "https://x.com/BNBCHAIN/status/2112574717353709923"
+      },
+      {
+       "label": "@Aster_DEX 活动",
+       "url": "https://x.com/Aster_DEX/status/2112366828643295340"
+      },
+      {
+       "label": "@worldlibertyfi",
+       "url": "https://x.com/worldlibertyfi/status/2112544088935559334"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "其他：Solana Alpenglow 今晚切换，确认时间从约 12.8 秒降到约 150 毫秒；Extended 结算从 Starknet 迁到 Arc",
+     "impact": "low",
+     "body": "Solana 官方称 Alpenglow 共识升级 10/21 上线，社区帖称约 14:00 UTC（22:00 HKT）切换，最终确认时间从约 12.8 秒降到约 150 毫秒，用户无需操作，“迁移代币”私信都是诈骗。永续交易所 Extended 10/22 起把结算从 Starknet 迁到 Arc，持有超过 1 美元 USDT 或 wBTC 的子账户须确认转换或提走，否则可能被强平。Mantle 10/28 把排序器从 Geth 换成 Reth。Arcus 永续 10/23 调整费率。COMP 24 小时涨 27.3%，原因不明，TVL 比一个月前低 8.7%。Pendle 称今年新开的 100 多个 RWA 市场已占其 TVL 约 85%。DefiLlama 与 Trueo 上线按 DefiLlama 数据结算的协议收入和被黑概率预测市场。",
+     "tickers": [
+      "SOL",
+      "COMP",
+      "PENDLE",
+      "MNT"
+     ],
+     "sources": [
+      {
+       "label": "@solana Alpenglow",
+       "url": "https://x.com/solana/status/2112586539024712138"
+      },
+      {
+       "label": "@Grinch7777 时间",
+       "url": "https://x.com/Grinch7777/status/2112626937210323393"
+      },
+      {
+       "label": "@DefiantNews Extended",
+       "url": "https://x.com/DefiantNews/status/2112624140519940415"
+      },
+      {
+       "label": "@Mantle_Official Reth",
+       "url": "https://x.com/Mantle_Official/status/2112513033339842704"
+      },
+      {
+       "label": "@DefiantNews COMP",
+       "url": "https://x.com/DefiantNews/status/2112598219830198557"
+      },
+      {
+       "label": "@pendle_fi RWA",
+       "url": "https://x.com/pendle_fi/status/2112474084785504460"
+      },
+      {
+       "label": "@DefiLlama Trueo",
+       "url": "https://x.com/DefiLlama/status/2112611129809658093"
+      }
+     ],
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "title": "AI",
+   "items": [
+    {
+     "title": "【第 10 天】Anthropic 招股书草稿曝光：上半年收入 163 亿美元、净亏 807 亿；算力承诺约 4,500 亿美元",
+     "impact": "high",
+     "body": "据 WSJ 看到的 S-1 草稿：Anthropic 2026 年上半年收入约 163 亿美元（去年同期 11 亿美元），净亏损 807 亿美元，主要来自过往融资的会计调整；上半年算力和基础设施支出近 90 亿美元，已超过 2025 全年。未来 7–10 年云计算合同约 4,500 亿美元、大多不可取消，对谷歌、AWS、微软等的总承诺超过 6,000 亿美元，并称未来几年可能为算力花到 7,500 亿美元；近期约五分之一收入来自两个客户。路透：OpenAI 正加速约 300 亿美元融资、估值超 1.4 万亿美元，想赶在 Anthropic 预计 11 月中旬上市前锁定投资人，称年化收入已到 500 亿美元。",
+     "value_note": "收入增速极快，但长期不可取消的算力账单和客户集中度是招股书里最大的风险；两家抢同一批长线资金，估值定价会互相影响。",
+     "tickers": [
+      "ANTHROPIC",
+      "OPENAI"
+     ],
+     "sources": [
+      {
+       "label": "@IPONewsroom_ 招股书",
+       "url": "https://x.com/IPONewsroom_/status/2112628368449659281"
+      },
+      {
+       "label": "@SawyerMerritt 7,500 亿",
+       "url": "https://x.com/SawyerMerritt/status/2112629511695090036"
+      },
+      {
+       "label": "X 新闻：招股书",
+       "url": "https://x.com/i/trending/2112633705877340245"
+      },
+      {
+       "label": "@BlockBeatsAsia OpenAI 融资",
+       "url": "https://x.com/BlockBeatsAsia/status/2112352520702218603"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "SpaceX 三季度收入 146 亿美元、增 161%，AI 业务 75.6 亿；净利 44 亿美元",
+     "impact": "medium",
+     "body": "SpaceX（SPCX）三季度收入 146 亿美元，同比 +161%，其中“超级智能”（AI）业务 75.6 亿美元（+830%）、Starlink 连接 52.5 亿、发射 17.7 亿；净利润 44 亿美元，去年同期亏损 11 亿。Starlink 用户 1,360 万、覆盖 174 个国家，Starship 首次执行有收入的任务。盘后股价上涨。律动引巴克莱：SpaceX 与特斯拉可能在年底前公布合并（分析师推演，未证实）。",
+     "value_note": "SPCX 是持有地址最多的代币化股票，财报超预期会直接带动 xStocks、bStocks 等平台的成交和抵押需求。",
+     "tickers": [
+      "SPCX",
+      "TSLA"
+     ],
+     "sources": [
+      {
+       "label": "@CoinDesk 财报",
+       "url": "https://x.com/CoinDesk/status/2112637122415047027"
+      },
+      {
+       "label": "@KobeissiLetter",
+       "url": "https://x.com/KobeissiLetter/status/2112636186309406789"
+      },
+      {
+       "label": "X 新闻：SpaceX 财报",
+       "url": "https://x.com/i/trending/2112637290938061012"
+      },
+      {
+       "label": "@BlockBeatsAsia 合并推演",
+       "url": "https://x.com/BlockBeatsAsia/status/2112538685434662943"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "算力与资金：中国大厂下单超 300 万张 RTX PRO 5500；对冲基金创纪录抛售科技股；微软退出英国 20 亿英镑数据中心",
+     "impact": "medium",
+     "body": "字节、阿里、腾讯合计下单超 300 万张英伟达 RTX PRO 5500，总额超 350 亿美元，但英伟达预计 2027 年该型号全球产量不超过 300 万张。截至 10/15 的 5 个交易日，对冲基金抛售全球科技股创 2016 年以来最多；9 月甲骨文、SpaceX、Alphabet、Meta、英伟达等债券的 CDS 周成交超 90 亿美元，是 7 月的四倍多。微软因英国电网接入要到下一个十年，退出 Nscale 在 Loughton 的 20 亿英镑数据中心项目。",
+     "tickers": [
+      "NVDA",
+      "MSFT"
+     ],
+     "sources": [
+      {
+       "label": "@BlockBeatsAsia 中国订单",
+       "url": "https://x.com/BlockBeatsAsia/status/2112502182696349926"
+      },
+      {
+       "label": "@KobeissiLetter 对冲基金",
+       "url": "https://x.com/KobeissiLetter/status/2112618421904949489"
+      },
+      {
+       "label": "X 新闻：AI 债务 CDS",
+       "url": "https://x.com/i/trending/2112620331987062878"
+      },
+      {
+       "label": "X 新闻：微软退出",
+       "url": "https://x.com/i/trending/2112117628160414015"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "其他：OpenAI 收购 Orchestra Bio；Claude 设计蝎毒结合蛋白；前 OpenAI 研究主管的 Arda 估值 15 亿",
+     "impact": "low",
+     "body": "OpenAI 收购药物研发协作平台 Orchestra Bio，并入其生命科学模型 Rosalind；OpenAI 另称新模型提升了 COBOL、Fortran 等老语言的代码能力。Anthropic 科学博客：用 Claude 设计针对蝎毒神经毒素的结合蛋白。Bob McGrew 的 AI 制造创业公司 Arda 完成 2.3 亿美元融资、估值 15 亿美元。谷歌 DeepMind 展示 Gemini 4 Argon 生成 3D 元素周期表。被控在 OpenAI 会议室装窃听器的前工程师案件曝出沙特背景，法官拒绝保释。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@OpenAI Orchestra",
+       "url": "https://x.com/OpenAI/status/2112607347688583586"
+      },
+      {
+       "label": "@OpenAI COBOL",
+       "url": "https://x.com/OpenAI/status/2112310345863930168"
+      },
+      {
+       "label": "@AnthropicAI",
+       "url": "https://x.com/AnthropicAI/status/2112579251555721573"
+      },
+      {
+       "label": "@TheRundownAI Arda",
+       "url": "https://x.com/TheRundownAI/status/2112565899945562596"
+      },
+      {
+       "label": "@GoogleDeepMind",
+       "url": "https://x.com/GoogleDeepMind/status/2112557925264752930"
+      },
+      {
+       "label": "@BlockBeatsAsia 窃听案",
+       "url": "https://x.com/BlockBeatsAsia/status/2112364355388125637"
+      }
+     ],
+     "is_update": false
+    }
+   ]
+  }
+ ],
+ "watchlist_hits": [
+  {
+   "handle": "LaunchOnSF",
+   "text": "10/19 收入 17.6 万美元、回购 10.5 万；上线 TRUMP3 篮子",
+   "url": "https://x.com/LaunchOnSF/status/2112339738350993612"
+  },
+  {
+   "handle": "aeroxyz",
+   "text": "Aero 今天上线，Slipstream V3 同步；称持有者收入居现货交易所之首",
+   "url": "https://x.com/aeroxyz/status/2112610952780865920"
+  },
+  {
+   "handle": "aave",
+   "text": "发布散户储蓄 Aave App；花旗报告看好其抵押品流动定位",
+   "url": "https://x.com/aave/status/2112587499075781093"
+  },
+  {
+   "handle": "kamino",
+   "text": "固定利率 AUTO 市场三周到 1.35 亿美元；CCIP 定为跨链抵押品标准",
+   "url": "https://x.com/kamino/status/2112542369954300170"
+  },
+  {
+   "handle": "0xfluid",
+   "text": "Jupiter Lend 周收入新高，年化 610 万美元",
+   "url": "https://x.com/0xfluid/status/2112493570280317239"
+  },
+  {
+   "handle": "ether_fi",
+   "text": "推出 ether.fi USD 稳定币（Ethena 白标）",
+   "url": "https://x.com/ether_fi/status/2112520846841401476"
+  },
+  {
+   "handle": "xStocksFi",
+   "text": "一年累计成交 450 亿美元",
+   "url": "https://x.com/xStocksFi/status/2112482206858039332"
+  },
+  {
+   "handle": "BackpackOnchain",
+   "text": "在 Solana 发行可 1:1 赎回的 TSLA",
+   "url": "https://x.com/BackpackOnchain/status/2112621911436103876"
+  },
+  {
+   "handle": "Ondo",
+   "text": "450+ 只股票接入 1inch 和 Jumper；Ondo Summit 2027 定于 2/18",
+   "url": "https://x.com/Ondo/status/2112546939073892746"
+  },
+  {
+   "handle": "OndoPerps",
+   "text": "10/26 起 USDC 奖励拆成三个池",
+   "url": "https://x.com/OndoPerps/status/2112574307305980041"
+  },
+  {
+   "handle": "Aster_DEX",
+   "text": "PAPER 盘前合约只减仓并下架；bStocks 活动",
+   "url": "https://x.com/Aster_DEX/status/2112357881064636834"
+  },
+  {
+   "handle": "solana",
+   "text": "Alpenglow 今晚上线；TSLA 上 Solana",
+   "url": "https://x.com/solana/status/2112586539024712138"
+  },
+  {
+   "handle": "PancakeSwap",
+   "text": "上周 CAKE 净减 20.8 万枚，销毁环比 -32%",
+   "url": "https://x.com/PancakeSwap/status/2112423568105779444"
+  },
+  {
+   "handle": "SushiSwap",
+   "text": "第 7 次周回购 13,318 SUSHI",
+   "url": "https://x.com/SushiSwap/status/2112380123802407234"
+  },
+  {
+   "handle": "tokenterminal",
+   "text": "特斯拉+SpaceX 代币化股票 4.03 亿，BNB 链超 Solana",
+   "url": "https://x.com/tokenterminal/status/2112523561210724855"
+  },
+  {
+   "handle": "YieldFields_RH",
+   "text": "Founding Deeds 10/22 22:00 HKT 揭晓",
+   "url": "https://x.com/YieldFields_RH/status/2112597025162481856"
+  },
+  {
+   "handle": "ponsdotfamily",
+   "text": "欢迎各团队迁到 Robinhood Chain（无实质新消息）",
+   "url": "https://x.com/ponsdotfamily/status/2112636313266446794"
+  },
+  {
+   "handle": "Mantle_Official",
+   "text": "10/28 排序器从 Geth 换 Reth",
+   "url": "https://x.com/Mantle_Official/status/2112513033339842704"
+  },
+  {
+   "handle": "lista_dao",
+   "text": "SpaceX 财报前提醒 SPCXB 抵押仓位",
+   "url": "https://x.com/lista_dao/status/2112562980533809625"
+  },
+  {
+   "handle": "pendle_fi",
+   "text": "RWA 市场占 TVL 约 85%",
+   "url": "https://x.com/pendle_fi/status/2112474084785504460"
+  },
+  {
+   "handle": "worldlibertyfi",
+   "text": "USD1 加入币安奖励池二期",
+   "url": "https://x.com/worldlibertyfi/status/2112544088935559334"
+  }
+ ],
+ "stats": {
+  "x_calls_used": 30,
+  "posts_scanned": 428,
+  "news_stories": 120
+ },
+ "_generated_at": "2026-10-21 05:39 HKT"
+}
