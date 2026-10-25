@@ -1,0 +1,376 @@
+{
+ "slot": "2026-10-26T06:00+08:00",
+ "window": "2026-10-25 06:00 – 2026-10-26 06:00 HKT",
+ "headline": "韩国总统府拟第四次推迟 22% 加密税（2027→讨论约2029）；CZ「多链一币」确认 BNB Chain 并行新高速 L1",
+ "summary": [
+  "这期最大的事：韩国总统府倾向再次推迟虚拟资产所得税（含地方税合计约 22%，原定 2027-01-01），朝野草案有指向约 2029（对接美国加入 OECD CARF）；此为 2020 以来第四次延期。韩元现货约占全球三成、其中约 85% 为山寨——征税节奏直接影响全球山寨流动性预期。",
+  "CZ 转发「Multiple chains, one coins」呼应 BNB Chain 文档更新的 New L1：与 BSC 并存、不发新币、BNB 作 Gas/质押，目标约 200ms 出块、测试网年底/主网 2027 初；冲着高频交易与链上订单簿。",
+  "安全：Electrum 4.8.3 修高危 RBF 费率上调劫持（恶意服务器调包未确认交易，已有用户受损）；CoinDCX 确认旧钱包再损约 $16M USDT（公司自担）；【第3天】Initia 仍停链，Noble 侧 USDC 桥储备曾降至约 $63。",
+  "★ DeFi：StonkFun 10/24 日收入约 $6.13 万、销毁约 31.9 万 STONK（累计收入约 $3817 万）；Hayes 清仓续抛，24h 合计约 $2880 万、利润约 $665 万。",
+  "AI：Claude Code 核心 Thariq 与桌面版作者 Anthony Morris 接连离职（临近传中的 IPO 窗口）；OpenRouter 上 Anthropic 用量自 Opus 5.5 后约涨 3.6 倍、日峰值近 3T tokens。"
+ ],
+ "sections": [
+  {
+   "id": "crypto",
+   "title": "加密",
+   "items": [
+    {
+     "title": "韩国拟第四次推迟 22% 加密税：总统府倾向再延，讨论指向约 2029",
+     "body": "Cointelegraph 等援引报道：韩国总统府正推进推迟原定 2027-01-01 开征的虚拟资产所得税（年收益扣约 250 万韩元后含地方税合计约 22%），为 2020 年以来第四次延期；执政党法案有指向约 2029，理由包括境外交易所征管数据缺口及美国要到 2029 才接 OECD CARF。多方称韩元现货约占全球三成、国内成交约 85% 为山寨币。法律仍待国会修订，预计 11 月前后有立法动作。",
+     "impact": "high",
+     "value_note": "监管/流动性：全球第二大法币入金市场的征税时间表，直接改变韩系零售风险偏好与山寨深度预期。",
+     "tickers": [
+      "BTC",
+      "KRW"
+     ],
+     "sources": [
+      {
+       "label": "@Cointelegraph 总统府再延",
+       "url": "https://x.com/Cointelegraph/status/2114439548226682987"
+      },
+      {
+       "label": "X 新闻：韩国税延期",
+       "url": "https://x.com/i/trending/2114245096623239658"
+      },
+      {
+       "label": "@CryptoTweets JUST IN",
+       "url": "https://x.com/CryptoTweets/status/2114299174904557650"
+      },
+      {
+       "label": "@DooridooriX 韩元现货占比",
+       "url": "https://x.com/DooridooriX/status/2114227592803045727"
+      }
+     ],
+     "metrics": "Cointelegraph ~2.9万浏览",
+     "is_update": false
+    },
+    {
+     "title": "CZ「多链一币」：BNB Chain 文档披露并行 New L1（约 200ms 出块，不发新币）",
+     "body": "BNB Chain 官方文档（约 10/22 更新）披露 New L1：与现有 BSC 并存、经原生桥连接，名称 TBD；不发行新币，继续用 BNB 作 Gas/质押/治理；目标约 200ms 出块、约 20ms 预确认，内部多验证者开发网已跑，公开测试网目标 2026 年底、主网 2027 年初。CZ 发帖「Multiple chains, one coins」并引用社区解读，帖浏览破 22 万。定位冲高频交易、链上订单簿与支付。",
+     "impact": "high",
+     "value_note": "代币经济学：双链共用 BNB 作燃料，若新 L1 承接更多交易则强化 BNB 需求叙事，而非另发币稀释。",
+     "tickers": [
+      "BNB"
+     ],
+     "sources": [
+      {
+       "label": "@cz_binance Multiple chains",
+       "url": "https://x.com/cz_binance/status/2114442971768647881"
+      },
+      {
+       "label": "@KuiGas New L1 解读",
+       "url": "https://x.com/KuiGas/status/2114326670035603612"
+      },
+      {
+       "label": "X 新闻：BNB 新 L1",
+       "url": "https://x.com/i/trending/2114463227304136745"
+      }
+     ],
+     "metrics": "CZ 帖 ~22.7万浏览/1193赞",
+     "is_update": false
+    },
+    {
+     "title": "Electrum 4.8.3：修复已被利用的 RBF「费率上调」劫持漏洞，官方催更",
+     "body": "Electrum 官方发布 4.8.3 并披露：恶意服务器可拦截刚广播的交易、在钱包历史中换成付给攻击者且末四位相似的假交易；用户若对假交易做 RBF 加费即签名转出。低于 4.8.3 均受影响（高危），已有损失报告。官方另提醒从官网校验多签 GPG。Defiant 等在窗口内续报，强调即使加费也要核对完整地址与金额。",
+     "impact": "high",
+     "value_note": "安全：轻钱包依赖外部服务器的经典风险落地为真实盗币路径；持币者需立刻升级并自建节点优先。",
+     "tickers": [
+      "BTC"
+     ],
+     "sources": [
+      {
+       "label": "@ElectrumWallet 4.8.3",
+       "url": "https://x.com/ElectrumWallet/status/2113935057656369564"
+      },
+      {
+       "label": "@ElectrumWallet 漏洞披露",
+       "url": "https://x.com/ElectrumWallet/status/2114017128542257156"
+      },
+      {
+       "label": "@DefiantNews 加费核对",
+       "url": "https://x.com/DefiantNews/status/2114407147174064628"
+      },
+      {
+       "label": "X 新闻：Electrum 漏洞",
+       "url": "https://x.com/i/trending/2114325101969539153"
+      }
+     ],
+     "metrics": "官方发版帖 ~10.3万浏览",
+     "is_update": false
+    },
+    {
+     "title": "CoinDCX 确认旧钱包再损约 $16M USDT；Tether 已冻部分相关地址",
+     "body": "印度交易所 CoinDCX 确认约 1599 万美元 USDT 自 7 月 2025 黑客事件后「退役」的旧充值钱包被转出（约 10/21）；称自动归集故障导致用户充值仍进旧地址，损失由公司承担，用户余额与提现正常。CEO 此前曾称「假警报」。Cointelegraph 点名报道；PANews 等称 Tether 已将相关地址列入黑名单、冻结约 221 万美元量级 USDT。",
+     "impact": "medium",
+     "value_note": "托管运营：旧基础设施未彻底隔离即可造成二次损失；对用户无直接缺口，但信任与透明度成本高于账面金额。",
+     "tickers": [
+      "USDT"
+     ],
+     "sources": [
+      {
+       "label": "@Cointelegraph $15.99M",
+       "url": "https://x.com/Cointelegraph/status/2114349198992617863"
+      },
+      {
+       "label": "X 新闻：CoinDCX 确认",
+       "url": "https://x.com/i/trending/2114416610823831643"
+      },
+      {
+       "label": "@PANewsCN Tether 冻结",
+       "url": "https://x.com/PANewsCN/status/2114247509031977192"
+      },
+      {
+       "label": "@cryptothedoggy Tether freeze",
+       "url": "https://x.com/cryptothedoggy/status/2114122262756438438"
+      }
+     ],
+     "metrics": "Cointelegraph ~5.0万浏览",
+     "is_update": true
+    },
+    {
+     "title": "【第3天】Initia：L1/Rollup 仍停；桥侧 USDC 储备曾降至约 $63",
+     "body": "官方近 24h 无新重启时间表。社区据 Bitquery 等称攻击窗口 Noble 上 Initia USDC 桥储备自约 $100 万级跌至约 $63，普通提现失败约 55 笔；此前口径仍为 MoveVM script caching 铸未抵押资产、桥出约 $2.7M 换成约 1135 ETH。补丁「几天内」审计说法未变，Upbit 等仍暂停 INIT 存取。",
+     "impact": "high",
+     "value_note": "安全/跨链：停链进入第 3 日且桥储备枯竭细节强化「无重启日=持续折价」；追回与补丁审计仍是收敛关键。",
+     "tickers": [
+      "INIT"
+     ],
+     "sources": [
+      {
+       "label": "社区 Bitquery 桥储备",
+       "url": "https://x.com/CLEXER1/status/2114470004519231962"
+      },
+      {
+       "label": "@spendnode 桥耗尽",
+       "url": "https://x.com/spendnode/status/2114449367365017608"
+      },
+      {
+       "label": "X 新闻续：Initia",
+       "url": "https://x.com/i/trending/2114040161508159895"
+      }
+     ],
+     "metrics": "官方窗口内无新帖",
+     "is_update": true
+    },
+    {
+     "title": "Hayes 清仓续抛：再售 1400 万 ENA；24h 合计约 $2880 万、利润约 $665 万",
+     "body": "lookonchain：Hayes 再转出 1400 万 ENA（约 $273 万）；过去 24 小时合计抛售约 $2880 万代币，利润约 $665 万，利润主要来自 ETH/ENA，UNI/ETHFI/AERO/PENDLE/ZAMA 大致打平。EmberCN/BlockBeats 口径：转入各所约 $2881 万，已提回约 1415 万 USDC。属仓位执行续报，非新叙事。",
+     "impact": "medium",
+     "value_note": "仓位信号：头部交易员降风险仍在兑现，对 ENA 等有短期抛压，不改协议基本面。",
+     "tickers": [
+      "ENA",
+      "ETH",
+      "UNI",
+      "PENDLE"
+     ],
+     "sources": [
+      {
+       "label": "@lookonchain 再抛 ENA",
+       "url": "https://x.com/lookonchain/status/2114185406774468958"
+      },
+      {
+       "label": "@EmberCN 2881万",
+       "url": "https://x.com/EmberCN/status/2114151812119093587"
+      },
+      {
+       "label": "@BlockBeatsAsia 清仓中",
+       "url": "https://x.com/BlockBeatsAsia/status/2114175411815116911"
+      }
+     ],
+     "metrics": "lookonchain ~7.3万浏览",
+     "is_update": true
+    },
+    {
+     "title": "Solana 稳定币持有地址破 1400 万；周末 BTC 仍在约 8 万美元上下",
+     "body": "Solana 官方：稳定币持有地址逾 1400 万。Cointelegraph/CryptoQuant 口径：BTC 前日收约 $80,500 附近创 30 日收盘低，随后回到 8 万上方；现货 ETF 周四约 $6.36 亿流出等续被转述，周末无 ETF 承接。属持有分布与价格巩固并陈，非单边崩盘新因。",
+     "impact": "medium",
+     "value_note": "采用/资金面：Solana 上美元分布扩大 vs BTC 整数关口拉锯，短期仍看 ETF 与宏观。",
+     "tickers": [
+      "SOL",
+      "BTC"
+     ],
+     "sources": [
+      {
+       "label": "@solana 14M+ holders",
+       "url": "https://x.com/solana/status/2114128183197147383"
+      },
+      {
+       "label": "@Cointelegraph BTC 80500",
+       "url": "https://x.com/Cointelegraph/status/2114287850879365471"
+      },
+      {
+       "label": "X 新闻：BTC/金同弱",
+       "url": "https://x.com/i/trending/2114419240530743622"
+      }
+     ],
+     "metrics": "Solana 官帖 ~10.6万浏览",
+     "is_update": true
+    }
+   ]
+  },
+  {
+   "id": "defi",
+   "title": "DeFi",
+   "items": [
+    {
+     "title": "★ StonkFun 10/24 日收入约 $6.13 万、销毁约 31.9 万 STONK（较大回落）",
+     "body": "官方 @LaunchOnSF：10/24 日收入 $61,299，销毁 319.18K STONK；累计收入约 $38.17M、持有人奖励约 $97.65M。对比此前 10/23 约 $17.0 万日收入，单日收入明显回落。另有社区报 Pons 近 24h 收入约 $3.7 万量级（低粉来源，标未充分交叉验证）。",
+     "impact": "medium",
+     "value_note": "收入/回购：发射台日费是 STONK 销毁燃料；收入台阶下移会直接削弱回购节奏。",
+     "tickers": [
+      "STONK"
+     ],
+     "sources": [
+      {
+       "label": "★ @LaunchOnSF 10/24 日报",
+       "url": "https://x.com/LaunchOnSF/status/2114197414458642769"
+      }
+     ],
+     "metrics": "~1.9万浏览/379赞",
+     "is_update": true
+    },
+    {
+     "title": "★ WuBlockchain 亚洲周报：韩国稳定币支付监管、汇丰 RedCoin、香港代币化落地",
+     "body": "WuBlockchain 亚洲周 TOP10：韩国将稳定币纳入支付手段监管讨论、中国推进国家级区块链网络、汇丰经 PayMe 推出港元稳定币 RedCoin（约 330 万用户可启用、10 万+ 商户）、香港代币化进入部署阶段、Robinhood 获迪拜许可等。RedCoin 跑在汇丰许可链、现阶段多在 PayMe 闭环。",
+     "impact": "medium",
+     "value_note": "合规稳定币：银行把 HKD 稳定币塞进存量支付 App，验证「无感开户」的零售路径，但跨链/可组合性仍受限。",
+     "tickers": [
+      "HKD"
+     ],
+     "sources": [
+      {
+       "label": "@WuBlockchain 亚洲周报",
+       "url": "https://x.com/WuBlockchain/status/2114287006754984371"
+      },
+      {
+       "label": "X 新闻：HSBC RedCoin",
+       "url": "https://x.com/i/trending/2114336794854469866"
+      }
+     ],
+     "metrics": "Wu 帖 ~1.7万浏览",
+     "is_update": false
+    },
+    {
+     "title": "Pons 近 24h 数据回落（社区口径，未证实）",
+     "body": "低粉账户转述 Pons 近 24h：成交约 $2500 万（-22%）、费用约 $25.8 万、收入约 $3.7 万（-33%）、新发射约 1100；回购销毁约 19.7 万 PONS。单一来源、未与 DefiLlama/官号交叉，仅作观察。",
+     "impact": "low",
+     "value_note": "收入：若属实则与 StonkFun 同步降温，发射台赛道费收波动大。",
+     "tickers": [
+      "PONS"
+     ],
+     "sources": [
+      {
+       "label": "@RealAlexBob Pons 24h（未证实）",
+       "url": "https://x.com/RealAlexBob/status/2114461887324696996"
+      }
+     ],
+     "metrics": "来源粉约 777",
+     "is_update": true
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "title": "AI",
+   "items": [
+    {
+     "title": "【更新】Claude Code 再失一人：桌面版作者 Anthony Morris 与 Thariq 同日前后离职",
+     "body": "继 Thariq Shihipar 后，Claude Code 桌面版作者 Anthony Morris 宣布离开 Anthropic，两人均正面感谢团队、称先休息。时间点靠近外界传的中旬 IPO 窗口。BlockBeats/PANews 中文圈广泛转述。同周有报道称 OpenAI 以折扣抢回部分企业编程负载（如 Rippling）。",
+     "impact": "medium",
+     "value_note": "组织/产品：旗舰编程产品连续失核心贡献者，短期更影响士气与路线解读，不等于模型能力立刻下滑。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@BlockBeatsAsia 双离职",
+       "url": "https://x.com/BlockBeatsAsia/status/2114229548468551952"
+      },
+      {
+       "label": "@PANewsCN Claude Code 离职",
+       "url": "https://x.com/PANewsCN/status/2114231496089428020"
+      },
+      {
+       "label": "X 新闻：工程师离开",
+       "url": "https://x.com/i/trending/2113813788738936986"
+      }
+     ],
+     "metrics": "",
+     "is_update": true
+    },
+    {
+     "title": "OpenRouter：Anthropic 用量自 Claude 5.5/Opus 5.5 后约涨 3.6 倍，日峰值近 3T tokens",
+     "body": "社区据 OpenRouter 曲线：Anthropic 模型 7 日均 token 自 Opus 5.5（约 9 月下旬）上线后大幅抬升，有口径自约 0.75T 抬向日峰值近 3T、约 3.6 倍。与「降价+能力」抢份额叙事一致；另有帖称 OpenAI 以最高约 9 折企业折扣反抢。属第三方路由数据，非官方财报。",
+     "impact": "medium",
+     "value_note": "需求验证：第三方聚合器用量是 API 收入代理指标，支撑「Claude 5.5 在编程/Agent 侧抢份额」判断。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@NFT_Chen OpenRouter 3.6x",
+       "url": "https://x.com/NFT_Chen/status/2114403200241672636"
+      },
+      {
+       "label": "X 新闻：Claude 5.5 用量",
+       "url": "https://x.com/i/trending/2114377216171880917"
+      },
+      {
+       "label": "@vorpal_onchain 3.6x",
+       "url": "https://x.com/vorpal_onchain/status/2114449388302979325"
+      }
+     ],
+     "metrics": "",
+     "is_update": false
+    },
+    {
+     "title": "AI 挖洞加速：PHP2Shell 等持续发酵；OpenAI 离线训练/围堵叙事续传",
+     "body": "窗口内继续热议 AI 辅助发现的 PHP 远程代码执行漏洞（社区称 PHP2Shell）与「漏洞披露速度超过修补」；另有 stealmybitcoin.com 悬赏实验称漏洞机放比特币逾十余小时未被取走。OpenAI 侧离线沙箱/训练围堵为前几日话题续温，无重大新官宣。",
+     "impact": "low",
+     "value_note": "安全外部性：模型能力外溢到攻防两侧，推高全行业补丁节奏与硬件密钥需求。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "X 新闻：PHP2Shell",
+       "url": "https://x.com/i/trending/2114372943283355851"
+      },
+      {
+       "label": "X 新闻：AI 挖洞",
+       "url": "https://x.com/i/trending/2114059501561160085"
+      },
+      {
+       "label": "X 新闻：OpenAI 离线世界",
+       "url": "https://x.com/i/trending/2114237188758028663"
+      }
+     ],
+     "metrics": "",
+     "is_update": true
+    }
+   ]
+  }
+ ],
+ "watchlist_hits": [
+  {
+   "handle": "LaunchOnSF",
+   "text": "★ StonkFun 10/24 日收入 $61,299 / 销毁 319.18K STONK",
+   "url": "https://x.com/LaunchOnSF/status/2114197414458642769"
+  },
+  {
+   "handle": "lookonchain",
+   "text": "Hayes 再抛 14M ENA；24h 合计约 $28.8M",
+   "url": "https://x.com/lookonchain/status/2114185406774468958"
+  },
+  {
+   "handle": "WuBlockchain",
+   "text": "亚洲周报：韩国稳定币监管、HSBC RedCoin 等",
+   "url": "https://x.com/WuBlockchain/status/2114287006754984371"
+  },
+  {
+   "handle": "solana",
+   "text": "稳定币持有地址 14M+",
+   "url": "https://x.com/solana/status/2114128183197147383"
+  }
+ ],
+ "stats": {
+  "x_calls_used": 41,
+  "posts_scanned": 420,
+  "news_stories": 100
+ },
+ "_generated_at": "2026-10-26 05:36 HKT"
+}
