@@ -1,0 +1,367 @@
+{
+ "slot": "2026-10-28T06:00+08:00",
+ "window": "2026-10-27 06:00 – 2026-10-28 06:00 HKT",
+ "headline": "Ripple 获 OCC 终批 National Trust Bank（管 RLUSD 储备）；★ Ondo 代币化股票上线 Robinhood Chain + Uniswap StablePair",
+ "summary": [
+  "这期最大的事：Ripple 获 OCC 对 Ripple National Trust Bank 的最终批准（信托牌照，非吸存放贷），可联邦监管下管理 RLUSD（市值约 $25 亿）储备并做托管；同日扩展 BNY 托管 XRP/RLUSD、与 Robinhood 深化 RLUSD 分发与 Treasury 合作。",
+  "★ DeFi：Ondo 15 只代币化股票/ETF 上线 Robinhood Chain，配 11 个 Uniswap StablePair（与 RH Stock Tokens 1:1）；★ Pons 可在 Robinhood 发现/发射。★ Pendle 回购累计破 300 万枚（约为 V2 排放 6 倍）；★ Aave V4 活跃借款破 $5 亿。",
+  "安全：Predict.fun 约 29–40 万 USDT 钱包被抽（第三方 API 文档站疑遭植入），官方称核心合约未破、承诺全额退款；【第5天】Initia 官宣补丁已起草并送外部审计，仍无重启日。CFTC 再查 Polymarket 是否违反 2022 和解（未证实执法落地）。",
+  "AI：Anthropic 官宣与 6 家药企/组织深度合作并自研药物发现；OpenAI/Anthropic 同日称模型独立挑战 Exponential Time Hypothesis（3-SAT 亚指数，待同行评议）。Google DeepMind 发布 Genie 4 交互世界模型。",
+  "资金：lookonchain 10/27 BTC ETF 单日约 +1,359 BTC（+$1.09 亿），7 日仍净流出；ETH ETF 续流出。BlackRock×SBI 探索 BUIDL 对接日元稳定币 JPYSC。"
+ ],
+ "sections": [
+  {
+   "id": "crypto",
+   "title": "加密",
+   "items": [
+    {
+     "title": "Ripple 获 OCC 最终批准 National Trust Bank；同日加深 Robinhood 与 BNY 合作",
+     "body": "OCC 于约 10/26 对 Ripple National Trust Bank 给予最终批准（此前 2025-12 有条件批准）。信托牌照可联邦监管下管理 RLUSD 储备、做受托托管，不可吸存或商业放贷；RLUSD 市值口径约 $25 亿。CoinDesk：与 Robinhood 战略合作，把 RLUSD 带到零售/机构平台并接入 Ripple Treasury；BNY 在机构平台增加 XRP/RLUSD 托管，并探索与 C2FO 在 XRPL 做代币化贸易融资。Swell 2026 同期开幕。属从被诉到联邦信托牌的监管叙事转折。",
+     "impact": "high",
+     "value_note": "监管/稳定币：联邦信托壳抬高 RLUSD 合规与托管可信度，利于机构分发；不等于商业银行牌照，也不自动抬升 XRP 刚性需求。",
+     "tickers": [
+      "XRP",
+      "RLUSD"
+     ],
+     "sources": [
+      {
+       "label": "@CoinDesk Ripple×Robinhood",
+       "url": "https://x.com/CoinDesk/status/2115145251824570459"
+      },
+      {
+       "label": "@CoinDesk Ripple×BNY",
+       "url": "https://x.com/CoinDesk/status/2115107503566668180"
+      },
+      {
+       "label": "@CoinDesk 信托牌+Keystone 摘要",
+       "url": "https://x.com/CoinDesk/status/2115188350659309574"
+      },
+      {
+       "label": "X 新闻：OCC 信托牌",
+       "url": "https://x.com/i/trending/2114863059504078850"
+      }
+     ],
+     "metrics": "CoinDesk Robinhood 帖 ~2.4万浏览/431赞；BNY 帖 ~3.4万浏览/716赞",
+     "is_update": false
+    },
+    {
+     "title": "Predict.fun：约 29–40 万 USDT 用户钱包被抽；官方称第三方文档站疑遭植入、承诺全额退款",
+     "body": "BNB Chain 预测市场 Predict.fun 窗口内出现多波用户钱包未授权转出。Bitquery 等口径：约 10/22–27 有 29 个账户合计约 397,708 USDT 被抽，签名来自钱包密钥、核心合约未破；资金经 Relay 跨链入 Tornado Cash。The Defiant：平台称初步指向第三方 API 文档站被植入恶意脚本，已下线该站并承诺对直接损失全额退款。金额低于主流协议重大黑客阈值，但属预测市场热钱包/前端供应链风险提醒。",
+     "impact": "medium",
+     "value_note": "安全：合约未破≠用户资金安全——文档站/前端供应链可间接盗签；全额自赔可降用户损失，信任与保险成本仍上升。",
+     "tickers": [
+      "USDT"
+     ],
+     "sources": [
+      {
+       "label": "@DefiantNews 承诺退款",
+       "url": "https://x.com/DefiantNews/status/2115125372341878834"
+      },
+      {
+       "label": "@Bitquery_io ~397k USDT",
+       "url": "https://x.com/Bitquery_io/status/2115126436155846672"
+      },
+      {
+       "label": "X 新闻：Predict.fun ~400k",
+       "url": "https://x.com/i/trending/2115068555171438881"
+      },
+      {
+       "label": "@beincrypto ~$300k",
+       "url": "https://x.com/beincrypto/status/2115082435646161024"
+      }
+     ],
+     "metrics": "新闻故事持续更新至 10/27 晚",
+     "is_update": false
+    },
+    {
+     "title": "【第5天】Initia：官方称安全补丁已起草并送外部审计；仍无重启时间表",
+     "body": "官方 @initia：针对 10/23 MoveVM 漏洞的修复方案已起草，正与安全伙伴审计；审计完成后将公布受影响资产恢复与有序重启计划。社区仍复读约 $2.6–2.7M 抽出、桥侧枯竭等旧口径。属有程序进展、无具体重启日的第 5 日续报。",
+     "impact": "medium",
+     "value_note": "安全/跨链：补丁进审计是收敛前置步骤；重启日与资产回补计划才是估值关键。",
+     "tickers": [
+      "INIT"
+     ],
+     "sources": [
+      {
+       "label": "@initia 补丁送审",
+       "url": "https://x.com/initia/status/2114998062682636376"
+      }
+     ],
+     "metrics": "官帖 ~1.1万浏览/88赞",
+     "is_update": true
+    },
+    {
+     "title": "CFTC 再查 Polymarket 是否违反 2022 和解（美用户准入）；Reuters 口径",
+     "body": "WuBlockchain 转 Reuters：CFTC 调查 Polymarket 是否未充分阻止美国用户访问其离岸平台，覆盖地理围栏、对美广告及美国平台客户入驻；CFTC 与 DOJ 2025 年类似调查曾无起诉结案。双方拒评。属问询级，尚未见执法落地。另：Polymarket 美区上线 BTC/ETH/SOL/XRP 5 分钟涨跌盘；NBA 与 Kalshi/Polymarket 官方数据合作（NFL 仍抵制）。",
+     "impact": "medium",
+     "value_note": "监管：预测市场合规边界再被审视；调查≠处罚，但可能影响美区产品节奏与广告策略。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@WuBlockchain Reuters/CFTC",
+       "url": "https://x.com/WuBlockchain/status/2115138099206611017"
+      },
+      {
+       "label": "X 新闻：CFTC×Polymarket",
+       "url": "https://x.com/i/trending/2115171955313688638"
+      },
+      {
+       "label": "@DefiantNews 5 分钟盘",
+       "url": "https://x.com/DefiantNews/status/2115182749527253493"
+      }
+     ],
+     "metrics": "Wu 帖 ~1.2万浏览",
+     "is_update": false
+    },
+    {
+     "title": "BTC ETF 单日转流入、7 日仍净流出；BlackRock×SBI 探索对接日元稳定币；26 家公司反对 OKX–ICE 代币化股票",
+     "body": "lookonchain 10/27：BTC ETF 单日约 +1,359 BTC（+$1.09 亿），7 日约 -2,399 BTC；ETH ETF 单日约 -3.83 万 ETH，7 日约 -8.18 万 ETH。CoinDesk：BlackRock 与日本 SBI 签 MOU，探索把代币化货基与 SBI 日元稳定币 JPYSC 连接。另：Intel/Oracle/IBM 等加入反对 OKX–ICE 代币化美股计划，反对发行人累计约 26 家、总市值口径约 $13.9 万亿。",
+     "impact": "medium",
+     "value_note": "资金面/产品：单日回流难改周度流出；日元稳定币×代币化货基是亚洲结算入口叙事；发行人 opt-out 抬高「无授权代币化股票」摩擦。",
+     "tickers": [
+      "BTC",
+      "ETH"
+     ],
+     "sources": [
+      {
+       "label": "@lookonchain ETF 10/27",
+       "url": "https://x.com/lookonchain/status/2115073152162365478"
+      },
+      {
+       "label": "@CoinDesk BlackRock×SBI",
+       "url": "https://x.com/CoinDesk/status/2115038850913284112"
+      },
+      {
+       "label": "@CoinDesk OKX–ICE 反对",
+       "url": "https://x.com/CoinDesk/status/2115152055589289999"
+      },
+      {
+       "label": "X 新闻：IBIT +$110M",
+       "url": "https://x.com/i/trending/2114954704258314514"
+      }
+     ],
+     "metrics": "lookonchain ~4.3万浏览；SBI 帖 ~5.5万浏览/630赞",
+     "is_update": true
+    }
+   ]
+  },
+  {
+   "id": "defi",
+   "title": "DeFi",
+   "items": [
+    {
+     "title": "★ Ondo Stocks 上线 Robinhood Chain：15 只代币化股票 + 11 个 Uniswap StablePair",
+     "body": "官方 @Ondo：15 只 Ondo 代币化股票/ETF 可从 Ethereum/BNB Chain 桥至 Robinhood Chain；新增 11 个 Uniswap StablePair，把 Ondo Stocks 与 Robinhood Stock Tokens 按约 1:1 配对，强调 24/7 流动性与周末套利（RH 铸造暂停时 Ondo 侧仍可交易）。Uniswap/Hayden 确认 StablePair Hook 首次用于稳定币之外的同类股票对。属 protected 名单上的 RWA 分发里程碑。",
+     "impact": "high",
+     "value_note": "TVL/分发：券商 L2 + 双发行商 1:1 池降低跨平台摩擦，可能放大代币化美股成交与 LP 费；注意暴露≠股权所有权及合规资格限制。",
+     "tickers": [
+      "ONDO"
+     ],
+     "sources": [
+      {
+       "label": "★ @Ondo 官宣",
+       "url": "https://x.com/Ondo/status/2115104282609336659"
+      },
+      {
+       "label": "X 新闻：Ondo×RH Chain",
+       "url": "https://x.com/i/trending/2115124915653198083"
+      },
+      {
+       "label": "@Uniswap StablePair",
+       "url": "https://x.com/Uniswap/status/2115108283078070407"
+      }
+     ],
+     "metrics": "官帖 ~7.4万浏览/799赞/101转",
+     "is_update": false
+    },
+    {
+     "title": "★ Pons 现可在 Robinhood 发现：手机端可在 Robinhood Chain 发射与交易",
+     "body": "官方 @ponsdotfamily：宣布可在 Robinhood 发现，可在 Robinhood Chain 上从手机发射与交易代币。属 02:50 突发提醒的日报收录；主流券商钱包发现入口可能扩大零售发射量与交易流。",
+     "impact": "medium",
+     "value_note": "分发/收入：发现位次接近 Uniswap 等入口时，发射量与手续费回购叙事可被放大；需观察可持续日收入而非一次性曝光。",
+     "tickers": [
+      "PONS"
+     ],
+     "sources": [
+      {
+       "label": "★ @ponsdotfamily 可发现",
+       "url": "https://x.com/ponsdotfamily/status/2115148227066417268"
+      }
+     ],
+     "metrics": "官帖 ~1.7万浏览/390赞",
+     "is_update": false
+    },
+    {
+     "title": "★ Pendle 回购累计破 300 万枚；★ Aave V4 活跃借款破 $5 亿；★ Kamino 支持多 xStocks 交叉抵押借 USDC",
+     "body": "官方 @pendle_fi：sPENDLE 上线约 8 个月后累计回购超 300 万 PENDLE，回购约为 V2 排放的 6 倍，买回部分分配给 staker。官方 @aave：Aave V4 活跃借款突破 $5 亿，近两月翻倍有余。官方 @kamino：xStocksFi 市场支持多只 xStocks 作一篮子抵押借 USDC（交叉保证金）。三条均为 protected/核心 DeFi 的收入或 TVL 进展。",
+     "impact": "medium",
+     "value_note": "代币经济/TVL：回购>排放强化稀缺叙事；V4 借款台阶反映利用率；多资产抵押降低单一股票爆仓摩擦、扩大借款需求。",
+     "tickers": [
+      "PENDLE",
+      "AAVE",
+      "USDC"
+     ],
+     "sources": [
+      {
+       "label": "★ @pendle_fi 300万回购",
+       "url": "https://x.com/pendle_fi/status/2114998045511483656"
+      },
+      {
+       "label": "★ @aave V4 $500M",
+       "url": "https://x.com/aave/status/2115124599180636495"
+      },
+      {
+       "label": "★ @kamino 多 xStocks",
+       "url": "https://x.com/kamino/status/2115120942720671992"
+      }
+     ],
+     "metrics": "Pendle ~1.0万浏览/211赞；Aave ~1.1万浏览",
+     "is_update": true
+    },
+    {
+     "title": "★ StonkFun：可用 $CAKE（Cheesecake/Backpack/Sunrise）作报价资产发币",
+     "body": "官方 @LaunchOnSF：宣布可用 Backpack Securities 发行、Sunrise 上线的 $CAKE（1:1 可兑 The Cheesecake Factory 股票）在 StonkFun 配对发币。属新增报价资产/产品增强，非 Baskets 级收入台阶；窗口内未见新的日收入官宣。",
+     "impact": "low",
+     "value_note": "产品：更多 RWA 报价资产可拓宽发射场景；收入影响取决于实际采用量。",
+     "tickers": [
+      "STONK",
+      "CAKE"
+     ],
+     "sources": [
+      {
+       "label": "★ @LaunchOnSF $CAKE",
+       "url": "https://x.com/LaunchOnSF/status/2115133967230005419"
+      }
+     ],
+     "metrics": "官帖 ~1.1万浏览/228赞",
+     "is_update": true
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "title": "AI",
+   "items": [
+    {
+     "title": "Anthropic：与 6 家药企/组织合作药物发现；并公布自研早期结果",
+     "body": "官方 @AnthropicAI：过去数月与 Bristol Myers Squibb、Generate Biomedicines 等六家组织深度合作，并启动自有药物发现；博客称 Claude 可覆盖靶点到实验多阶段，个案口径含审评时间大幅缩短、抗体设计规模化等（仍需临床试验验证）。时点紧挨 S-1，强化「上市叙事=企业 API + 垂直科学」双线。",
+     "impact": "high",
+     "value_note": "估值/产品：生命科学垂直若能转化为付费工作流，可支撑 IPO 文件中的高净收入留存与客单价故事；早期结果≠上市药。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@AnthropicAI 药物发现",
+       "url": "https://x.com/AnthropicAI/status/2115178675050307942"
+      },
+      {
+       "label": "X 新闻：药物合作",
+       "url": "https://x.com/i/trending/2115187301261423089"
+      }
+     ],
+     "metrics": "官帖 ~20.8万浏览/2636赞",
+     "is_update": true
+    },
+    {
+     "title": "OpenAI 与 Anthropic 同日称模型挑战 Exponential Time Hypothesis（3-SAT）；待同行评议",
+     "body": "社区/媒体广泛转述：OpenAI 与 Anthropic 均称内部模型于约 10/16 独立找到 3-SAT/#3-SAT 亚指数算法，挑战约 2001 年 Exponential Time Hypothesis；Anthropic 侧口径含约 1400 万输出 token、无人类输入核心思路，并附 Lean 4 形式化。专家呼吁独立验证；强调非 P=NP、亦非实用加速。属前沿模型「做原创理论 CS」叙事，未审稿前宜标未证实。",
+     "impact": "medium",
+     "value_note": "能力边界：若验证成立，强化 frontier 实验室科研产出叙事，间接支撑估值；未评议前勿当作已证定理。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "X 新闻：Claude×ETH",
+       "url": "https://x.com/i/trending/2115190369487073404"
+      },
+      {
+       "label": "@TheRundownAI 摘要",
+       "url": "https://x.com/TheRundownAI/status/2115113176693969059"
+      },
+      {
+       "label": "@deedydas 综述",
+       "url": "https://x.com/deedydas/status/2115028333356548605"
+      }
+     ],
+     "metrics": "deedydas ~3.8万浏览/719赞",
+     "is_update": false
+    },
+    {
+     "title": "Google DeepMind 发布 Genie 4：可实时交互、带声音的世界模型",
+     "body": "官方 @GoogleDeepMind：Genie 4 为迄今最真实、可交互的世界模型，可用自然语言探索动态环境，含声音、物理与角色反应；面向可信测试者研究预览，后续或扩至订阅档。The Rundown 等同步报道。",
+     "impact": "medium",
+     "value_note": "产品：世界模型进实时交互+音频，利好仿真/游戏/机器人训练入口竞争。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@GoogleDeepMind Genie 4",
+       "url": "https://x.com/GoogleDeepMind/status/2115114028338962672"
+      },
+      {
+       "label": "X 新闻：Genie 4",
+       "url": "https://x.com/i/trending/2115116228721471867"
+      }
+     ],
+     "metrics": "官帖 ~118万浏览/1.2万赞",
+     "is_update": false
+    }
+   ]
+  }
+ ],
+ "watchlist_hits": [
+  {
+   "handle": "Ondo",
+   "text": "★ 15 只 Ondo Stocks 上线 Robinhood Chain + Uniswap StablePair",
+   "url": "https://x.com/Ondo/status/2115104282609336659"
+  },
+  {
+   "handle": "ponsdotfamily",
+   "text": "★ Pons 可在 Robinhood 发现/发射",
+   "url": "https://x.com/ponsdotfamily/status/2115148227066417268"
+  },
+  {
+   "handle": "pendle_fi",
+   "text": "★ 回购累计破 300 万 PENDLE（约为排放 6x）",
+   "url": "https://x.com/pendle_fi/status/2114998045511483656"
+  },
+  {
+   "handle": "aave",
+   "text": "★ Aave V4 活跃借款破 $5 亿",
+   "url": "https://x.com/aave/status/2115124599180636495"
+  },
+  {
+   "handle": "kamino",
+   "text": "★ 多 xStocks 交叉抵押借 USDC",
+   "url": "https://x.com/kamino/status/2115120942720671992"
+  },
+  {
+   "handle": "LaunchOnSF",
+   "text": "★ 可用 $CAKE 作报价资产发币",
+   "url": "https://x.com/LaunchOnSF/status/2115133967230005419"
+  },
+  {
+   "handle": "AnthropicAI",
+   "text": "药物发现合作六方 + 自研早期结果",
+   "url": "https://x.com/AnthropicAI/status/2115178675050307942"
+  },
+  {
+   "handle": "GoogleDeepMind",
+   "text": "Genie 4 交互世界模型",
+   "url": "https://x.com/GoogleDeepMind/status/2115114028338962672"
+  },
+  {
+   "handle": "lookonchain",
+   "text": "BTC ETF 单日流入、7 日仍流出",
+   "url": "https://x.com/lookonchain/status/2115073152162365478"
+  },
+  {
+   "handle": "WuBlockchain",
+   "text": "CFTC 再查 Polymarket；Robinhood Q3",
+   "url": "https://x.com/WuBlockchain/status/2115138099206611017"
+  }
+ ],
+ "stats": {
+  "x_calls_used": 18,
+  "posts_scanned": 220,
+  "news_stories": 145
+ },
+ "_generated_at": "2026-10-28 05:43 HKT"
+}
