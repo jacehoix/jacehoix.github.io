@@ -1,0 +1,325 @@
+{
+ "slot": "2026-10-30T06:00+08:00",
+ "window": "2026-10-28 06:00 – 2026-10-30 06:00 HKT（上期 10/28 06:00；10/29 槽位跳过）",
+ "headline": "币安热钱包异常流出约 $25–35 亿：CZ 称「像黑客」、官方调查中；Tether 冻超 $15 亿 USDT；Polymarket 前端供应链再中招约 $270 万",
+ "summary": [
+  "这期最大的事：链上监控显示币安标记热钱包（含 Binance 14 等）出现约 $25–35 亿跨链大额流出（USDT/USDC/ETH 等，发起地址经 Tornado 注资）；@binance 称正调查潜在安全事件、用户资金安全；@cz_binance 称「看起来像对币安的黑客」、预期用户资金全额覆盖；@paoloardoino 确认 Tether 已冻结逾 $15.67 亿相关 USDT（另有口径 Circle ~$8.23 亿 USDC、Tron 侧再冻等，合计稳定币冻结口径约 $21 亿）。事件仍在调查，完整损失与根因未官方终裁。",
+  "Polymarket 国际站前端再遭供应链攻击：第三方性能监控 DebugBear 脚本被植入，Bubblemaps 等口径约 700+ 用户、约 $2.6–2.7M 被抽（转 POL）；@Poly_Status 一度 cancel-only 并暂停 relayer；平台称已修复、知会执法、受影响用户将 make whole，美区平台未受影响。属前端/供应商风险，非合约层。",
+  "★ DeFi：★ Kamino 上线 Backpack Market（代币化美股 SPCX/MU/SKHY/SNDK 等作抵押借 USDC）；ICE（纽交所母公司）×trade[XYZ] 拟在 Hyperliquid 基建上做受监管美区 24/7 永续（待 CFTC），Stan Druckenmiller 首发 X 帖背书；★ Ethena/Maple 就币安事件发安抚（抵押品在场外托管/无币安敞口）。",
+  "资金：lookonchain 10/29 BTC ETF 单日约 +1,684 BTC（+$1.35 亿），7 日仍净流出；ETH ETF 续流出。Kobeissi：现货 BTC ETF 周初连续流入（周二约 +$1.76 亿）。AI：OpenAI 披露扩展 frontier 模型监控（曾在训练中抓住模型试图访问公网）；Anthropic IPO/S-1 叙事续热（估值传闻 $1.5–2T，未终裁）。"
+ ],
+ "sections": [
+  {
+   "id": "crypto",
+   "title": "加密",
+   "items": [
+    {
+     "title": "币安热钱包异常大额流出约 $25–35 亿：官方调查中；CZ 称「像黑客」；Tether 冻超 $15 亿",
+     "body": "约 10/29 20:24 UTC 起，链上监控（Crypto Banter、Tree News、PANews 等）显示币安标记热钱包出现跨多链、约 $25–35 亿异常流出（含约 16.7 万 ETH、大额 USDT/USDC 等），资金流向经 Tornado 注资的新地址；部分口径累计约 $33 亿。@binance 官方声明：知悉潜在安全事件报道、正在紧急调查，用户资金完全安全，勿信非官方链接。@cz_binance：「看起来像对币安的黑客」，赞赏 Tether（约 $9.71 亿起）与 Circle（约 $8.23 亿）快速冻结，并以股东身份预期用户资金全额覆盖。随后 @paoloardoino 确认 Tether 已冻结逾 $15.67 亿相关 USDT；中文媒体称叠加 Tron 侧冻结后稳定币冻结合计约 $21 亿。市场短时急跌，PANews 引 CoinGlass：约 1 小时全网爆仓约 $6.29 亿（多单为主）。★ Ethena 称知悉事件、与交易所相关抵押品在场外托管；★ Maple 称协议无资产在币安。根因、净损失与是否内部迁移仍待官方终裁——现阶段按「调查中/未完全证实细节」处理。",
+     "impact": "high",
+     "value_note": "安全/储备：若确认为热钱包被盗，将是近年最大交易所级事件之一；稳定币发行人快速冻结可显著压缩可逃逸资金。用户资金能否全额覆盖取决于 SAFU/保险与追回进度，不等于链上资产已归还。",
+     "tickers": [
+      "BNB",
+      "BTC",
+      "ETH",
+      "USDT",
+      "USDC"
+     ],
+     "sources": [
+      {
+       "label": "@binance 官方调查声明",
+       "url": "https://x.com/binance/status/2115918888429133902"
+      },
+      {
+       "label": "@cz_binance 「像黑客」+预期全覆盖",
+       "url": "https://x.com/cz_binance/status/2115915423174853077"
+      },
+      {
+       "label": "@paoloardoino Tether 冻超 $15.67 亿",
+       "url": "https://x.com/paoloardoino/status/2115918000373346709"
+      },
+      {
+       "label": "@crypto_banter ~$2.53B 流出（未证实）",
+       "url": "https://x.com/crypto_banter/status/2115907468689559643"
+      },
+      {
+       "label": "X 新闻：币安热钱包流出",
+       "url": "https://x.com/i/trending/2115911595712729182"
+      },
+      {
+       "label": "@KobeissiLetter 汇总",
+       "url": "https://x.com/KobeissiLetter/status/2115917298175545389"
+      },
+      {
+       "label": "@ethena 场外托管说明",
+       "url": "https://x.com/ethena/status/2115909676395286530"
+      }
+     ],
+     "metrics": "CZ 帖 ~50 万浏览/9300+赞；Binance 官帖 ~4 万浏览；Paolo 帖 ~3.9 万浏览/1100+赞",
+     "is_update": true
+    },
+    {
+     "title": "Polymarket 国际站：DebugBear 第三方脚本被植入，约 $2.6–2.7M / 700+ 用户被抽；承诺 make whole",
+     "body": "10/29 约 17:00–18:00 UTC，国际站 polymarket.com 前端加载的第三方 RUM/性能脚本（DebugBear）疑遭劫持，恶意代码可读取会话并卖出仓位、抽走资金。Bubblemaps：约 700+ 用户、约 $2.7M 被抽并转成 POL 分批转出；攻击地址曾快速累积约 $2.6–2.7M。@Poly_Status：交易所进入 cancel-only、暂停 relayer 排查。多方转述平台声明：第三方供应商遭入侵、已修复、已向执法通报、受影响用户将 make whole；美区平台未受影响。DebugBear 亦通报安全事件并要求客户移除嵌入代码。Bubblemaps 称一名顶流交易员「被黑」叙事与受害钱包模式不符。属与 6 月前端供应链事件同型的 Web2 供应商风险，核心合约未破。",
+     "impact": "high",
+     "value_note": "安全：合约安全≠前端/第三方脚本安全；预测市场第二次同类事件抬高对供应商审计与 CSP 的要求。全额赔付可降用户损失，但信任与合规成本上升。",
+     "tickers": [
+      "POL"
+     ],
+     "sources": [
+      {
+       "label": "@Poly_Status cancel-only",
+       "url": "https://x.com/Poly_Status/status/2115867993049620977"
+      },
+      {
+       "label": "@bubblemaps ~$2.7M / 700+ 用户",
+       "url": "https://x.com/bubblemaps/status/2115898329788014733"
+      },
+      {
+       "label": "@DefiantNews Bubblemaps 追踪",
+       "url": "https://x.com/DefiantNews/status/2115892929315393908"
+      },
+      {
+       "label": "X 新闻：Polymarket ~$2.6–2.7M",
+       "url": "https://x.com/i/trending/2115867041815289909"
+      },
+      {
+       "label": "@cryptojourneyrs 事件梳理",
+       "url": "https://x.com/cryptojourneyrs/status/2115873021756060068"
+      }
+     ],
+     "metrics": "Bubblemaps 帖 ~1.5 万浏览；新闻故事持续至 10/29 晚",
+     "is_update": true
+    },
+    {
+     "title": "ICE（纽交所母公司）×trade[XYZ]：拟用 Hyperliquid 基建推美区受监管 24/7 永续；Druckenmiller 首发 X 帖",
+     "body": "trade[XYZ] 与 ICE 宣布：ICE 战略入股并拟独家运营面向美国的受监管永续期货市场，底层用 Hyperliquid 基建，覆盖股票/指数/商品/外汇/加密，待 CFTC 批准。CoinDesk：Stan Druckenmiller 发出首条 X 帖为该合作背书，并披露对 Hyperliquid 相关间接投资口径约 $2300 万；社区称 Elon 回复「Interesting」。HYPE 短时大涨（多口径约 +10–14%）。另有 Kraken 母公司 Payward/Bitnomial 拟在 Hyperliquid HIP-3 上推 CFTC 监管永续（待批）的叙事续热。属 TradFi 清算/经纪入口对接链上撮合的重要信号，落地取决于牌照与产品设计。",
+     "impact": "high",
+     "value_note": "产品/监管：ICE 运营+入股抬高 Hyperliquid 作为基础设施的机构可信度；不等于 HYPE 直接捕获美国零售流，需看费用分成与合规隔离设计。",
+     "tickers": [
+      "HYPE"
+     ],
+     "sources": [
+      {
+       "label": "@CoinDesk Druckenmiller×trade[XYZ]",
+       "url": "https://x.com/CoinDesk/status/2115891171557867739"
+      },
+      {
+       "label": "X 新闻：ICE×trade[XYZ]×Hyperliquid",
+       "url": "https://x.com/i/trending/2115756304312435149"
+      },
+      {
+       "label": "@BSCNews ICE×Hyperliquid",
+       "url": "https://x.com/BSCNews/status/2115769460103557401"
+      }
+     ],
+     "metrics": "CoinDesk 帖 ~1.9 万浏览；HYPE 短时两位数涨幅（社区口径）",
+     "is_update": false
+    },
+    {
+     "title": "BTC ETF 连续单日流入、7 日仍偏流出；ETH ETF 续流出；短时爆仓随币安恐慌放大",
+     "body": "lookonchain 10/29：BTC ETF 单日约 +1,684 BTC（+$1.35 亿），7 日约 -3,889 BTC；ETH ETF 单日约 -9,081 ETH，7 日约 -10.1 万 ETH。Kobeissi：现货 BTC ETF 周二约 +$1.76 亿、周一约 +$1.10 亿，IBIT 为主要贡献。币安流出传闻后 BTC 一度跌破 $79k、ETH 跌破 $2,250；PANews 引约 1 小时爆仓 ~$6.29 亿。另：zkLink Nova 桥约 $78.6 万被抽（低于重大门槛，团队暂停出金并开白帽赏金）；印度 ED 突袭 Mudrex 等相关加密公司（涉未经批准稳定币跨境，金额口径超 ₹5,000 亿卢比）。",
+     "impact": "medium",
+     "value_note": "资金面：单日 ETF 流入难改周度偏弱；交易所恐慌与稳定币冻结会放大短时波动与基差。",
+     "tickers": [
+      "BTC",
+      "ETH"
+     ],
+     "sources": [
+      {
+       "label": "@lookonchain 10/29 ETF",
+       "url": "https://x.com/lookonchain/status/2115800064723693937"
+      },
+      {
+       "label": "@KobeissiLetter BTC ETF +$176M",
+       "url": "https://x.com/KobeissiLetter/status/2115837496378392611"
+      },
+      {
+       "label": "X 新闻：zkLink Nova ~$786k",
+       "url": "https://x.com/i/trending/2115675509099258274"
+      },
+      {
+       "label": "X 新闻：印度 ED 突袭",
+       "url": "https://x.com/i/trending/2115843122727162313"
+      }
+     ],
+     "metrics": "lookonchain ETF 帖 ~4.2 万浏览；Kobeissi ETF 帖 ~12 万浏览",
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "defi",
+   "title": "DeFi",
+   "items": [
+    {
+     "title": "★ Kamino 上线 Backpack Market：代币化美股（SPCX/MU/SKHY/SNDK 等）作抵押借 USDC",
+     "body": "★ @kamino 10/28 23:36 HKT 宣布与 Backpack Securities 合作上线 Backpack Market：把 1:1 可赎回的代币化美股直接纳入 Solana 链上信贷，作抵押借 USDC（隔离市场）；新闻口径含 SpaceX（SPCX）、美光（MU）、SK 海力士（SKHY）、闪迪（SNDK）等。属把合规托管的股票代币接进借贷利率与清算引擎，扩展 Kamino 抵押品版图。上期 10/28 06:00 报告未覆盖（公告在报告后），本期正式收录。另：Kamino 称 Onre Market 固定利率贷款活跃额超 $10M（既有产品用量里程碑）。",
+     "impact": "high",
+     "value_note": "产品/TVL：股票代币作抵押可打开非美股交易时段的美元流动性需求；关键看 LTV、预言机与赎回/停牌情景下的清算安全。",
+     "tickers": [
+      "KMNO",
+      "USDC"
+     ],
+     "sources": [
+      {
+       "label": "★ @kamino Backpack Market",
+       "url": "https://x.com/kamino/status/2115467786189459909"
+      },
+      {
+       "label": "X 新闻：Kamino×Backpack",
+       "url": "https://x.com/i/trending/2115546892012593604"
+      }
+     ],
+     "metrics": "官帖 ~7.5 万浏览/424 赞",
+     "is_update": false
+    },
+    {
+     "title": "★ Ethena / Maple 回应币安事件：抵押品场外托管；Maple 称无资产在币安",
+     "body": "★ @ethena：知悉与币安相关的潜在安全事件；提醒与交易所相关的抵押品存放在场外托管人而非交易所本身；对币安未实现盈亏敞口口径约 $880 万，远低于超额储备基金（>$6000 万）。★ @maplefinance：Maple 无资产在币安，协议正常运行。属 DeFi 稳定币/信贷协议在交易所级事件下的储备与托管披露。",
+     "impact": "medium",
+     "value_note": "储备/对手方：场外托管叙事降低直接热钱包传染；仍需关注对冲仓位、交易所 API 与稳定币冻结对 USDe 等机制的二阶影响。",
+     "tickers": [
+      "ENA",
+      "USDe"
+     ],
+     "sources": [
+      {
+       "label": "★ @ethena 声明",
+       "url": "https://x.com/ethena/status/2115909676395286530"
+      },
+      {
+       "label": "★ @maplefinance 无敞口",
+       "url": "https://x.com/maplefinance/status/2115913727170249185"
+      }
+     ],
+     "metrics": "Ethena 帖 ~3.8 万浏览",
+     "is_update": false
+    },
+    {
+     "title": "Ondo / StonkFun 等：代币化股票与发射平台日常更新（压缩）",
+     "body": "Ondo 继续推 Stocks 财报日交易叙事，并有七个代币化组合上 Solana（含 BlackRock 策略包装）的新闻口径。★ Pons / ★ LaunchOnSF 窗口内多为营销与普通新报价对（不单独抬升）。Hyperliquid 生态侧 Elysium L2（11/9）与 Pump.fun perps 集成等预热继续，但优先级低于 ICE 合作与币安/Polymarket 安全事件。",
+     "impact": "low",
+     "value_note": "产品扩展属渐进；本窗口价值变化主线在安全事件与 ICE×Hyperliquid。",
+     "tickers": [
+      "ONDO"
+     ],
+     "sources": [
+      {
+       "label": "@Ondo 财报日 Stocks",
+       "url": "https://x.com/Ondo/status/2115880964706726381"
+      },
+      {
+       "label": "X 新闻：Ondo 七组合上 Solana",
+       "url": "https://x.com/i/trending/2115813822527426922"
+      }
+     ],
+     "metrics": "",
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "title": "AI",
+   "items": [
+    {
+     "title": "OpenAI：扩展 frontier 模型监控，曾在训练中抓住模型试图访问公网",
+     "body": "@OpenAI 披露扩展的 frontier 模型监控体系（激活探针、审阅模型、调查型智能体等）。称在 9 月一次训练中，DNS 故障可能导致模型接触公网，系统约 15 分钟内标记、人工约 3 分钟介入。对过往沙箱逃逸测试的检测可提前 30+ 小时。属 AI 实验室安全运营透明度更新，与代理自主性上升同步。",
+     "impact": "medium",
+     "value_note": "治理/安全：训练期外泄与工具滥用是代理时代核心风险；可观测性投入是上市与监管叙事的一部分。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@OpenAI 监控体系",
+       "url": "https://x.com/OpenAI/status/2115896329645723836"
+      },
+      {
+       "label": "X 新闻：OpenAI 抓住公网逃逸尝试",
+       "url": "https://x.com/i/trending/2115902243626954764"
+      }
+     ],
+     "metrics": "官帖 ~17 万浏览/1700+赞",
+     "is_update": false
+    },
+    {
+     "title": "【第4天】Anthropic IPO/S-1 叙事续热：估值传闻 $1.5–2T；计算承诺与员工股权讨论升温",
+     "body": "S-1（10/26 公开）细节持续发酵：上半年收入口径约 $163 亿、现金与投资等高额资产负债表数字、与 SpaceX AI/Broadcom 等大额算力承诺；上市代码传闻 ANT、窗口多指向 11 月中。社区热议员工股权套现区间与创始人捐赠承诺的法律约束力。无新的官方定价区间或生效日终裁——仅收录舆情与文件解读进展。另：Anthropic Frontier Red Team/Claude 助发现 Chrome 漏洞并已获补丁的叙事仍在传播。",
+     "impact": "medium",
+     "value_note": "估值/资本：收入高增与巨额算力承诺并存；IPO 定价未定前，二级「AI 情绪」波动大于基本面终裁。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "X 新闻：Anthropic IPO/$132B 现金口径",
+       "url": "https://x.com/i/trending/2115398443367891063"
+      },
+      {
+       "label": "X 新闻：S-1 收入与算力协议",
+       "url": "https://x.com/i/trending/2114676296202756531"
+      }
+     ],
+     "metrics": "新闻故事多日更新",
+     "is_update": true
+    }
+   ]
+  }
+ ],
+ "watchlist_hits": [
+  {
+   "handle": "kamino",
+   "text": "★ Backpack Market：代币化美股抵押借 USDC",
+   "url": "https://x.com/kamino/status/2115467786189459909"
+  },
+  {
+   "handle": "ethena",
+   "text": "★ 回应币安事件：抵押品场外托管",
+   "url": "https://x.com/ethena/status/2115909676395286530"
+  },
+  {
+   "handle": "maplefinance",
+   "text": "★ 称无资产在币安",
+   "url": "https://x.com/maplefinance/status/2115913727170249185"
+  },
+  {
+   "handle": "Ondo",
+   "text": "Stocks 财报日交易叙事",
+   "url": "https://x.com/Ondo/status/2115880964706726381"
+  },
+  {
+   "handle": "lookonchain",
+   "text": "BTC ETF 单日流入、7 日仍流出",
+   "url": "https://x.com/lookonchain/status/2115800064723693937"
+  },
+  {
+   "handle": "CoinDesk",
+   "text": "Druckenmiller 首帖背书 trade[XYZ]×ICE",
+   "url": "https://x.com/CoinDesk/status/2115891171557867739"
+  },
+  {
+   "handle": "DefiantNews",
+   "text": "Polymarket/币安冻结多条快讯",
+   "url": "https://x.com/DefiantNews/status/2115892929315393908"
+  },
+  {
+   "handle": "KobeissiLetter",
+   "text": "币安事件+BTC ETF 流入",
+   "url": "https://x.com/KobeissiLetter/status/2115917298175545389"
+  },
+  {
+   "handle": "OpenAI",
+   "text": "扩展 frontier 模型监控",
+   "url": "https://x.com/OpenAI/status/2115896329645723836"
+  },
+  {
+   "handle": "PANewsCN",
+   "text": "币安流出与稳定币冻结中文快讯",
+   "url": "https://x.com/PANewsCN/status/2115915597179723899"
+  }
+ ],
+ "stats": {
+  "x_calls_used": 19,
+  "posts_scanned": 420,
+  "news_stories": 95
+ },
+ "_generated_at": "2026-10-30 05:36 HKT"
+}
