@@ -1,0 +1,402 @@
+{
+ "slot": "2026-10-31T06:00+08:00",
+ "window": "2026-10-30 06:00–2026-10-31 06:00 HKT",
+ "headline": "【第2天】币安确认热钱包被盗约 $6.3B：Update#2 拨备 $6.34B、约 $3B 已冻、目标约 34 小时内分阶段恢复提现；TRM/Chainalysis/ZachXBT 高置信度指向朝方 TraderTraitor",
+ "summary": [
+  "这期最大的事（【第2天】）：@binance 发布 Security Incident Update #2——确认约 2026-10-29 20:05 UTC 热钱包遭未授权提现，损失约 $6.3B；公司将用 SAFU+公司金库全额吸收，已拨备逾 $6.34B（其中约 $5B 已持有对应被盗代币，其余经 OTC/市场买入）；链上已冻约 $30 亿；提现仍暂停，目标约 34 小时内分阶段恢复；初判不止「被入侵笔记本」、另有更多突破点，尚无证据显示私钥泄露；计划约 12 小时内做 PoR 快照、周一 11/2 出结果，约 48 小时内再发技术细节。CoinDesk：配合 FBI/特勤局追回剩余约 $3.3B 未冻资金。CZ：已开始资产回填；美元计是史上最大，但 BTC 计仍小于 Mt.Gox。",
+  "归因（未官方终裁）：@chainalysis 称与上月 Bitget ~$388M 被盗资金合流、对朝方（DPRK）责任有「高度信心」；@zachxbt 确认 Binance 与 Bitget 资金经 THORChain 汇入同一地址，Bitget 案曾归因 TraderTraitor；@elliptic 称相信朝方关联、已核实约 $2.84B（44%）冻结并发布免费 blocklist。币安官方尚未点名攻击者。",
+  "★ DeFi 联动：★ @aave 宣布 V3/V4 全部市场已解冻（合约未受影响，部分稳定币等临时 LTV=0）；★ @kamino 确认 SOL/BTC 市场借款已恢复、协议未受直接影响；★ @maplefinance 更新 PoR（Network Firm 验证），抵押品不在币安，$2.05B 抵押 vs $1.23B 贷款；★ @ethena 紧急出具 USDe PoR。DefiLlama：10/30 DeFi TVL 跌 5.3% 至约 $83.95B。",
+  "资金与产品：lookonchain 10/30 BTC ETF 单日约 +395 BTC（+$3047 万）、7 日转净流入；ETH ETF 续流出。Tether Q3 鉴证：净经营利润约 $15 亿，超额储备近翻倍至 $79.5 亿，流通 USDT 约 $1835 亿。Polymarket：赔付推进（新闻口径约 726 用户、含交易损失合计约 $3.9M；超 $1 万需签免责/禁评协议——未完全证实细节）；另上线 15 分钟金银合约（Chainlink 预言机）。Grayscale：Hyperliquid 9 月收入约 $1.05 亿。",
+  "AI：Kobeissi/FT 口径——Blackstone 告知投资者 Anthropic IPO 后或获「高垃圾级」评级（BB 区间），可能早至 11 月；OpenAI 推出 Private Intelligence（企业数据控制）。"
+ ],
+ "sections": [
+  {
+   "id": "crypto",
+   "title": "加密",
+   "items": [
+    {
+     "title": "【第2天】币安 Update#2：确认约 $6.3B 热钱包被盗；拨备 $6.34B；约 $3B 已冻；目标约 34h 分阶段恢复提现",
+     "body": "相较昨夜突发，官方事实层明显推进：@binance Update#2（Co-CEO Yi/Richard）写明约 10/29 20:05 UTC 热钱包遭未授权提现、损失约 $6.3B；承诺用户不受损，用 SAFU+公司金库覆盖；已拨备逾 $6.34B，其中约 $5B 已是被盗对应币种（USDC/USDT/BTC/ETH/BNB 等），其余正 OTC/市场买入（约覆盖 80%）；与执法/发行人/情报机构协作，链上已冻约 $30 亿；提现暂停、存款等业务仍开，目标约 34 小时内分阶段恢复提现；调查显示不止初始「笔记本被入侵」、另有更多突破点，尚无私钥泄露证据；约 12 小时内做 PoR 快照、计划 11/2 公布，约 48 小时内再发技术发现。另有官方帖与 @_RichardTeng 视频更新、称已开始为用户回填资产。CoinDesk：配合 FBI 与特勤局追查剩余约 $3.3B。CZ：美元口径史上最大、BTC 口径仍小于 Mt.Gox（65 万 BTC）；强调平台自行承担 vs 用户全损。提现是否按时恢复、净损失与根因终裁仍待官方后续。",
+     "impact": "high",
+     "value_note": "安全/储备：史上最大美元计价交易所失窃；SAFU+金库全额覆盖承诺与约半额链上冻结显著压缩用户侧永久损失，但提现恢复节奏、追回效率与是否另有攻击面决定信任修复速度。",
+     "tickers": [
+      "BNB",
+      "BTC",
+      "ETH",
+      "USDT",
+      "USDC"
+     ],
+     "sources": [
+      {
+       "label": "@binance Update#2 全文",
+       "url": "https://x.com/binance/status/2116258356109496479"
+      },
+      {
+       "label": "@binance 已开始回填+$6.34B 拨备",
+       "url": "https://x.com/binance/status/2116121748555153621"
+      },
+      {
+       "label": "@binance 调查更新（多突破点/$3B 冻）",
+       "url": "https://x.com/binance/status/2116089661408108712"
+      },
+      {
+       "label": "@_RichardTeng 视频更新",
+       "url": "https://x.com/_RichardTeng/status/2116176335722913865"
+      },
+      {
+       "label": "@CoinDesk FBI/特勤局+$6.34B",
+       "url": "https://x.com/CoinDesk/status/2116215227704283235"
+      },
+      {
+       "label": "@cz_binance Mt.Gox 对比",
+       "url": "https://x.com/cz_binance/status/2116198836729520420"
+      },
+      {
+       "label": "@DefiLlama 史上最大黑客",
+       "url": "https://x.com/DefiLlama/status/2116216812669210921"
+      }
+     ],
+     "metrics": "Update#2 ~39 万浏览；回填官帖 ~217 万浏览/1 万+赞；CZ 帖 ~98 万浏览",
+     "is_update": true
+    },
+    {
+     "title": "归因进展（未官方终裁）：Chainalysis/Elliptic/ZachXBT 高置信度指向朝方 TraderTraitor，与 Bitget 案资金合流",
+     "body": "@chainalysis：观察到上月 Bitget 被盗资金与币安被盗资金合流，对朝方（DPRK）责任有「高度信心」；另称洗钱模式罕见、短时数千笔自动化循环转账。@zachxbt：币安 ~$6.3B 与 Bitget ~$388M 经 THORChain 汇入同一地址，表明很可能同一攻击者；Bitget 案此前归因朝方关联 TraderTraitor；另披露 Arbitrum 安全委员会冻约 $3050 万。@elliptic：相信朝方关联、核实约 $2.84B（44%）已冻，并发布含 48 地址的免费 blocklist。币安官方尚未点名攻击者——按「情报机构高置信、官方未终裁」处理。",
+     "impact": "high",
+     "value_note": "安全/合规：若确认为朝方国家级团伙，将强化交易所对内部运维与跨所协作冻结的要求；不等于已司法定罪。",
+     "tickers": [
+      "BNB",
+      "BTC"
+     ],
+     "sources": [
+      {
+       "label": "@chainalysis 高置信朝方",
+       "url": "https://x.com/chainalysis/status/2116025255965999217"
+      },
+      {
+       "label": "@chainalysis 新型洗钱模式",
+       "url": "https://x.com/chainalysis/status/2116110357601095710"
+      },
+      {
+       "label": "@zachxbt 与 Bitget 合流",
+       "url": "https://x.com/zachxbt/status/2116030284261179538"
+      },
+      {
+       "label": "@elliptic 朝方+$2.84B 冻",
+       "url": "https://x.com/elliptic/status/2116114128989311048"
+      },
+      {
+       "label": "@lookonchain Lazarus 关联综述",
+       "url": "https://x.com/lookonchain/status/2116071971054334398"
+      },
+      {
+       "label": "@PANewsCN ZachXBT 合流",
+       "url": "https://x.com/PANewsCN/status/2116035936920424923"
+      }
+     ],
+     "metrics": "Chainalysis 洗钱帖 ~48.5 万浏览/3000+赞；ZachXBT 合流帖 ~41.6 万浏览",
+     "is_update": true
+    },
+    {
+     "title": "Tether Q3：净经营利润约 $15 亿；超额储备近翻倍至约 $79.5 亿；流通 USDT 约 $1835 亿",
+     "body": "@tether / @paoloardoino 发布经 BDO 编制的 Q3 2026 USDT 储备鉴证：当季净经营利润约 $15 亿；超额储备由 Q2 末约 $41 亿增至约 $79.5 亿；期末流通约 $1835 亿。CoinDesk 另称美债持仓约 $1324 亿、前九月累计盈利约 $45 亿。事件窗口内 Tether 亦参与冻结相关被盗 USDT——储备强度与冻结能力同属稳定币信用叙事。",
+     "impact": "medium",
+     "value_note": "储备：超额缓冲扩大强化兑付与协助执法冻结的能力；不等于 USDT 无其他风险。",
+     "tickers": [
+      "USDT"
+     ],
+     "sources": [
+      {
+       "label": "@tether Q3 利润与储备",
+       "url": "https://x.com/tether/status/2116213804828684789"
+      },
+      {
+       "label": "@paoloardoino 鉴证要点",
+       "url": "https://x.com/paoloardoino/status/2116219294195253377"
+      },
+      {
+       "label": "@CoinDesk Tether Q3",
+       "url": "https://x.com/CoinDesk/status/2116260117439992202"
+      },
+      {
+       "label": "@WuBlockchain Tether 综述",
+       "url": "https://x.com/WuBlockchain/status/2116218808780402703"
+      }
+     ],
+     "metrics": "Tether 官帖 ~2.8 万浏览；Paolo 帖 ~2.1 万浏览",
+     "is_update": false
+    },
+    {
+     "title": "Polymarket【更新】赔付推进+上线 15 分钟金银；超 $1 万索赔传需签禁评协议（部分未证实）",
+     "body": "相对上期供应链抽干：X 新闻口径称已向近全部约 726 名受影响用户退款，并另补约 $119 万交易损失、合计补偿约 $390 万；美区未受影响。PANews 引 CNBC/用户协议截图：超 $1 万美元赔付需签署放弃索赔、保密且不得公开批评平台的协议——细节属转述、按未完全证实处理。产品侧：@chainlink 宣布深化合作，Polymarket 上线黄金/白银 15 分钟涨跌合约，后续或扩至更多商品/股指/外汇。",
+     "impact": "medium",
+     "value_note": "安全/产品：赔付可降用户损失，但附条件协议与第三方脚本风险并存；金银短周期合约扩展预言机收入场景。",
+     "tickers": [
+      "POL"
+     ],
+     "sources": [
+      {
+       "label": "X 新闻：Polymarket 赔付约 $3.9M",
+       "url": "https://x.com/i/trending/2115867041815289909"
+      },
+      {
+       "label": "@PANewsCN 超$1万禁评协议",
+       "url": "https://x.com/PANewsCN/status/2116019863626109279"
+      },
+      {
+       "label": "@chainlink 金银 15 分钟预言机",
+       "url": "https://x.com/chainlink/status/2116235778346864887"
+      },
+      {
+       "label": "X 新闻：金银合约",
+       "url": "https://x.com/i/trending/2116246507070324848"
+      }
+     ],
+     "metrics": "Chainlink 宣布帖 ~7400 浏览/300+赞",
+     "is_update": true
+    },
+    {
+     "title": "资金面：BTC ETF 单日再流入、7 日转正；ETH ETF 续流出；黑客误转 ~$332 万进 NEWT 合约销毁；DefiLlama TVL -5.3%",
+     "body": "@lookonchain 10/30：BTC ETF 单日约 +395 BTC（+$3047 万），7 日约 +3503 BTC；ETH ETF 单日约 -2.79 万 ETH，7 日约 -11.0 万 ETH。黑客误将约 $332 万山寨币转入 $NEWT 代币合约且权限已弃——资金不可恢复。@DefiLlama：10/30 DeFi TVL 跌 5.3% 至约 $83.95B（8/21 以来低点），稳定币供应约 $2966 亿。另：Franklin Templeton 上线将股息再投比特币的股票 ETF（FBEQ/FIBT，新闻口径）。",
+     "impact": "medium",
+     "value_note": "资金面：BTC ETF 周度转正与黑客抛压并存；TVL 回撤反映风险偏好与抵押品计价。",
+     "tickers": [
+      "BTC",
+      "ETH",
+      "NEWT"
+     ],
+     "sources": [
+      {
+       "label": "@lookonchain 10/30 ETF",
+       "url": "https://x.com/lookonchain/status/2116160060716159167"
+      },
+      {
+       "label": "@lookonchain 黑客误转 NEWT",
+       "url": "https://x.com/lookonchain/status/2116159431679570229"
+      },
+      {
+       "label": "@DefiLlama TVL -5.3%",
+       "url": "https://x.com/DefiLlama/status/2116233170542624817"
+      },
+      {
+       "label": "@EmberCN NEWT 误转",
+       "url": "https://x.com/EmberCN/status/2116177695776411659"
+      },
+      {
+       "label": "X 新闻：Franklin BTC DRIP ETF",
+       "url": "https://x.com/i/trending/2115837481815851238"
+      }
+     ],
+     "metrics": "lookonchain NEWT 帖 ~17.6 万浏览；ETF 帖 ~4.6 万浏览",
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "defi",
+   "title": "DeFi",
+   "items": [
+    {
+     "title": "★ Aave：V3/V4 全部市场已解冻；合约未受币安事件影响，部分资产临时 LTV=0",
+     "body": "★ @aave 官方：作为预防措施曾冻结新存入与借款（取款/还款一直可用），现 V3 与 V4 全部市场已解冻；合约未受事件影响，仓位保持足额抵押。续帖：USDT/USDC/USDT0/POL/WAVAX/sAVAX/XAUT/PAXG/OP 等暂时 LTV=0，不可作新借款抵押。新闻口径：黑客曾向 Aave V3 以太坊注入约 $6000 万 USDT 并借约 $4460 万 WETH，协议冻结 16 网约 292 个储备作预防。属 DeFi 风险开关实战演练。",
+     "impact": "high",
+     "value_note": "风控：全网冻结→解冻证明应急能力；临时降 LTV 用流动性换波动缓冲，短时影响借入需求。",
+     "tickers": [
+      "AAVE",
+      "USDT",
+      "USDC"
+     ],
+     "sources": [
+      {
+       "label": "★ @aave 全部解冻",
+       "url": "https://x.com/aave/status/2116167595237720167"
+      },
+      {
+       "label": "★ @aave 部分资产 LTV=0",
+       "url": "https://x.com/aave/status/2116167597901107629"
+      },
+      {
+       "label": "X 新闻：Aave 重开借贷",
+       "url": "https://x.com/i/trending/2116190874069524758"
+      }
+     ],
+     "metrics": "解冻帖 ~7.3 万浏览/830+赞",
+     "is_update": true
+    },
+    {
+     "title": "★ Kamino：SOL/BTC 市场借款已恢复；排查期无即时风险",
+     "body": "★ @kamino：持续监控币安事件后，SOL/BTC 市场借款已恢复；暂停期间链上排查未发现对市场或用户的即时风险，协议本身未受直接影响；存取款与还款一直正常。属昨夜突发提醒后的官方收尾确认。",
+     "impact": "medium",
+     "value_note": "风控：预防性暂停→恢复降低连带恐慌，显示抵押品隔离有效。",
+     "tickers": [
+      "SOL",
+      "BTC",
+      "KMNO"
+     ],
+     "sources": [
+      {
+       "label": "★ @kamino 借款恢复",
+       "url": "https://x.com/kamino/status/2116181028939223478"
+      }
+     ],
+     "metrics": "~8000 浏览/160+赞",
+     "is_update": true
+    },
+    {
+     "title": "★ Maple 更新 PoR：抵押品不在币安；$2.05B 抵押 vs $1.23B 贷款；★ Ethena 紧急 USDe PoR",
+     "body": "★ @maplefinance：针对币安事件发布经 The Network Firm 验证的更新 PoR，明确抵押品不在币安；抵押合计 $20.5 亿对贷款 $12.3 亿（syrupUSDC 172.1% / syrupUSDT 144.1% / syrupUSDG 166.8%）。★ @ethena：事件后提前出具 USDe PoR（通常由 Chainlink/LlamaRisk 等周更）。市场对 CeFi 敞口敏感度上升。",
+     "impact": "medium",
+     "value_note": "储备/透明度：第三方验证 PoR 可降低「交易所传染」定价；不保证未来无敞口变化。",
+     "tickers": [
+      "SYRUP",
+      "USDe"
+     ],
+     "sources": [
+      {
+       "label": "★ @maplefinance 更新 PoR",
+       "url": "https://x.com/maplefinance/status/2116244858117742833"
+      },
+      {
+       "label": "★ @ethena 紧急 PoR",
+       "url": "https://x.com/ethena/status/2116023705939878311"
+      }
+     ],
+     "metrics": "Maple ~2600 浏览；Ethena ~3.4 万浏览",
+     "is_update": true
+    },
+    {
+     "title": "★ Pendle：Partners Group 基础设施基金进 Pendle；★ StonkFun 上线 Inverse Cramer 指数配对；Hyperliquid 9 月收入约 $1.05 亿（Grayscale）",
+     "body": "★ @pendle_fi：Partners Group（私募约 $1860 亿）Next Generation Infrastructure 基金相关代币化权益进入 Pendle（PT-NGI+ 叙事）。★ @LaunchOnSF：上线 $CRAMER Inverse Cramer Index 作为报价资产，可对吉姆·克拉默公开观点做反向篮子发币（DiversiFi）。@WuBlockchain 引 Grayscale：Hyperliquid 2026 年 9 月收入约 $1.05 亿、同比大致持平，收入来源更分散。★ @chainlink：10 月 Reserve 累增约 42.8 万 LINK（约 $530 万+），总持仓约 647.5 万 LINK。",
+     "impact": "medium",
+     "value_note": "产品/收入：TradFi 私募基础设施进收益拆分、发射台新报价资产、HL 收入稳定——均偏中长期基本面信号。",
+     "tickers": [
+      "PENDLE",
+      "HYPE",
+      "LINK"
+     ],
+     "sources": [
+      {
+       "label": "★ @pendle_fi Partners Group",
+       "url": "https://x.com/pendle_fi/status/2116009709895667970"
+      },
+      {
+       "label": "★ @LaunchOnSF Inverse Cramer",
+       "url": "https://x.com/LaunchOnSF/status/2116275645655421375"
+      },
+      {
+       "label": "@WuBlockchain HL $105M 收入",
+       "url": "https://x.com/WuBlockchain/status/2116232188333359500"
+      },
+      {
+       "label": "★ @chainlink Reserve 10 月",
+       "url": "https://x.com/chainlink/status/2116281490187108557"
+      }
+     ],
+     "metrics": "Pendle 帖 ~5800 浏览；StonkFun ~4800 浏览",
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "title": "AI",
+   "items": [
+    {
+     "title": "Anthropic IPO 叙事更新：Blackstone 称或获「高垃圾级」评级；可能早至 11 月上市",
+     "body": "@KobeissiLetter 引 FT：Blackstone 告知参与 Anthropic 约 $630 亿芯片融资的投资者——公司 IPO 后可能拿到「高垃圾级」（BB 区间）而非投资级，IPO 或早至 11 月。背景仍是 S-1/估值传闻（$1.5–2T 量级）与巨额算力承诺。属评级预期修正，非已正式定价。另有新闻称 Anthropic 为 SpaceX AI 算力大客户（未逐条核实）。",
+     "impact": "high",
+     "value_note": "融资成本：垃圾级意味着更高借贷成本、更窄机构买家；不影响产品收入轨迹，但影响 IPO 定价与后续债息。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@KobeissiLetter 高垃圾级评级",
+       "url": "https://x.com/KobeissiLetter/status/2116228648978055455"
+      },
+      {
+       "label": "X 新闻：Blackstone 评级展望",
+       "url": "https://x.com/i/trending/2116213100760170967"
+      },
+      {
+       "label": "X 新闻：Anthropic S-1/估值",
+       "url": "https://x.com/i/trending/2115398443367891063"
+      }
+     ],
+     "metrics": "Kobeissi 帖互动较高（当日宏观帖流中）",
+     "is_update": true
+    },
+    {
+     "title": "OpenAI：推出 Private Intelligence，强化企业数据控制；另发「多种未来」品牌帖",
+     "body": "@OpenAI：Privacy should advance as fast as intelligence——Private Intelligence 为企业在使用最强模型时提供更强数据控制，称与部分大客户共创。另发「There are many futures」品牌帖（高浏览）。属企业隐私产品线推进，细节以官帖为准。",
+     "impact": "medium",
+     "value_note": "产品：隐私可控部署有助于拿下受监管行业订单；不等于开源或本地部署。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@OpenAI Private Intelligence",
+       "url": "https://x.com/OpenAI/status/2116186509384815084"
+      },
+      {
+       "label": "@OpenAI Many futures",
+       "url": "https://x.com/OpenAI/status/2116253388883345623"
+      }
+     ],
+     "metrics": "Private Intelligence ~24 万浏览；futures 帖 ~29 万浏览",
+     "is_update": false
+    }
+   ]
+  }
+ ],
+ "watchlist_hits": [
+  {
+   "handle": "aave",
+   "text": "★ V3/V4 全部市场解冻；部分资产临时 LTV=0",
+   "url": "https://x.com/aave/status/2116167595237720167"
+  },
+  {
+   "handle": "kamino",
+   "text": "★ SOL/BTC 借款恢复，协议未受币安事件直接影响",
+   "url": "https://x.com/kamino/status/2116181028939223478"
+  },
+  {
+   "handle": "maplefinance",
+   "text": "★ 更新 PoR：抵押品不在币安，$2.05B vs $1.23B",
+   "url": "https://x.com/maplefinance/status/2116244858117742833"
+  },
+  {
+   "handle": "ethena",
+   "text": "★ 事件后紧急出具 USDe PoR",
+   "url": "https://x.com/ethena/status/2116023705939878311"
+  },
+  {
+   "handle": "pendle_fi",
+   "text": "★ Partners Group 基础设施基金相关产品进 Pendle",
+   "url": "https://x.com/pendle_fi/status/2116009709895667970"
+  },
+  {
+   "handle": "LaunchOnSF",
+   "text": "★ 上线 Inverse Cramer Index 报价资产",
+   "url": "https://x.com/LaunchOnSF/status/2116275645655421375"
+  },
+  {
+   "handle": "chainlink",
+   "text": "★ Polymarket 金银预言机；Reserve 10 月 +42.8 万 LINK",
+   "url": "https://x.com/chainlink/status/2116235778346864887"
+  },
+  {
+   "handle": "DefiLlama",
+   "text": "★ 确认币安案为史上最大黑客；TVL -5.3%",
+   "url": "https://x.com/DefiLlama/status/2116216812669210921"
+  },
+  {
+   "handle": "lookonchain",
+   "text": "ETF 流入；黑客误转 NEWT；Lazarus 关联综述",
+   "url": "https://x.com/lookonchain/status/2116160060716159167"
+  }
+ ],
+ "stats": {
+  "x_calls_used": 21,
+  "posts_scanned": 280,
+  "news_stories": 55
+ },
+ "_generated_at": "2026-10-31 05:36 HKT"
+}
