@@ -1,0 +1,382 @@
+{
+ "slot": "2026-11-02T06:00+08:00",
+ "window": "2026-11-01 06:00–2026-11-02 06:00 HKT",
+ "headline": "【第4天】币安 Update#4：回补升至约 95%；分阶段恢复提现（06:00 UTC 起，12:36 UTC 首批 15 网全开）；9.5h 净流出约 $36.4 亿（约 2.1% AUM）、CZ 称约 98% 用户留下；美特勤局/FBI 持续追赃；Chainalysis：TRON 中转约 $5 亿排空后洗钱转至 Solana",
+ "summary": [
+  "这期最大的事（【第4天】）：@binance Recovery Update #4——回补由约 90% 升至约 95%（剩余约 5% 为十大以外长尾币）；2026-11-01 06:00–09:00 UTC 启动第一阶段提现。官帖：至 12:36 UTC 首批 15 网络/资产已恢复；06:00–15:30 UTC 提现约 $46.49 亿、充值约 $10.10 亿，净流出约 $36.4 亿，约占 PoR 口径 AUM $1710 亿的 2.1%。@cz_binance：约 98% 用户选择留下。新 PoR 地址已更新，10/31 00:00 UTC 快照的 ZK 证明预计次日上线。用户侧损失仍由币安承担。",
+  "执法与洗钱：@SecretService 证实持续调查逾 $60 亿盗窃并已与 FBI/IRS-CI 等冻结部分赃款；@KobeissiLetter 转述 FBI 认定朝鲜 TraderTraitor。@chainalysis：TRON 中转地址约 $5 亿已排空，洗钱进入新阶段并转至 Solana（经 Chainflip/Relay/THORChain/NEAR 等）。假「$150 补偿」钓鱼刷屏，官号多次辟谣。",
+  "★ DeFi：★ @kamino 周报确认 Fixed Rates >$7500 万并上线 Backpack 代币化股权抵押借 USDC；★ @aeroxyz 称 Robinhood Crypto 第一大池已迁至 Aero，累计回购逾 2 亿 AERO；★ @Ondo 称 DTCC Tokenization Service 上线、Ondo Stocks 扩至 Robinhood Chain、Solana 智能组合上线。Threshold tBTC：运营商已打补丁/下线，铸造与赎回仍暂停（Defiant）。",
+  "安全旁支：@solanamobile 确认假「SKR Claim」应用经发布门户未授权访问进入 Spotlight 约 1 小时后下架并修漏洞。THORChain 官号本期未见恢复通告（仅播客预告）；Wu 转述联合创始人称节点无非公开信息。b14g 约 9700 万 CORE（约 $147 万）漏洞属中低影响旁支。",
+  "AI/宏观：Cointelegraph——Anthropic 禁止用 Claude Code 复刻既有游戏；@KobeissiLetter——美私营信息处理设备与软件投资 Q3 年化约 +7.3% 至纪录约 $1.77T，四大科技 Q3 CapEx 合计升约 $369 亿至约 $2019 亿。OpenAI/Anthropic/DeepMind 官号本窗零帖。"
+ ],
+ "sections": [
+  {
+   "id": "crypto",
+   "title": "加密",
+   "items": [
+    {
+     "title": "【第4天】币安 Update#4：回补约 95%；分阶段恢复提现；9.5h 净流出约 $36.4 亿（约 2.1%）；约 98% 留下；PoR 新地址；特勤局/FBI 追赃",
+     "body": "相对 Update#3（约 90%、目标 11/01 重开）：@binance Update#4 写明回补升至约 95%，十大币种仍 100% 足额，长尾约 5% 继续市场/OTC 采购；2026-11-01 06:00–09:00 UTC 启动第一阶段提现（15 网络按需求优先）。官帖进展：BTC 率先开通，随后 ETH/BSC/XRP/Base 等分批放开，至 12:36 UTC 首批 15 网全开；06:00–15:30 UTC 提现约 $46.49 亿、充值约 $10.10 亿，净流出约 $36.4 亿≈AUM $1710 亿的 2.1%（PoR 口径 10/28）。已更新 PoR 提现地址列表；10/31 00:00 UTC 快照 ZK 证明「预计明日」可验。@cz_binance：多数流出发生在头几小时，约 98% 选择留下。@SecretService：事发数分钟内协同冻结大量赃款，调查持续。假 $150 Reward Hub 补偿图被官号连续标注「截图伪造」。净损失终裁与完整技术报告仍待事后复盘。",
+     "impact": "high",
+     "value_note": "安全/储备/信任：提现重启与 2.1% 净流出是兑付压力实测；95% 回补与执法冻结继续压缩用户侧尾部风险，但长尾资产与二阶段开放节奏仍关键。",
+     "tickers": [
+      "BNB",
+      "BTC",
+      "ETH",
+      "USDT",
+      "USDC",
+      "SOL"
+     ],
+     "sources": [
+      {
+       "label": "@binance Update#4",
+       "url": "https://x.com/binance/status/2116744986096292263"
+      },
+      {
+       "label": "@binance 9.5h 资金流",
+       "url": "https://x.com/binance/status/2116926305254133892"
+      },
+      {
+       "label": "@binance PoR 新地址",
+       "url": "https://x.com/binance/status/2116785774540787920"
+      },
+      {
+       "label": "@cz_binance 2.1%/98%",
+       "url": "https://x.com/cz_binance/status/2116954044988354798"
+      },
+      {
+       "label": "@SecretService 调查",
+       "url": "https://x.com/SecretService/status/2116956218887389218"
+      },
+      {
+       "label": "@BlockBeatsAsia 净流出综述",
+       "url": "https://x.com/BlockBeatsAsia/status/2116931945896800508"
+      },
+      {
+       "label": "@WuBlockchain 95%+分阶段",
+       "url": "https://x.com/WuBlockchain/status/2116749793699754374"
+      },
+      {
+       "label": "X 新闻：提现恢复净流出",
+       "url": "https://x.com/i/trending/2116671503714361480"
+      }
+     ],
+     "metrics": "Update#4 ~109 万浏览；资金流帖 ~55 万浏览；CZ 98% 帖 ~43 万浏览/7400+赞；特勤局帖 ~18 万浏览",
+     "is_update": true
+    },
+    {
+     "title": "洗钱新阶段：Chainalysis 称 TRON 约 $5 亿中转已排空并转至 Solana；FBI 归咎朝鲜 TraderTraitor",
+     "body": "@chainalysis：朝方关联行为体在币安事件后将逾 $5 亿转入 TRON 分层地址（千级地址/三千+存款），多数中转已排空；资金经 Chainflip、Relay、THORChain、NEAR 等离开 TRON，抵达 ETH/BTC 等数十新钱包，并开始进入 Solana。@lookonchain：黑客将被盗 SOL（约 97 万枚量级）兑换为 BTC。@KobeissiLetter：FBI 宣布朝鲜为约 $63 亿盗窃幕后（并点名其亦涉 Bybit）。属追踪进展，非新用户资损案；冻结成功率仍取决于资产可冻性（如 USDC）。",
+     "impact": "high",
+     "value_note": "安全/执法：跨链分散抬高追回难度，同时扩大交易所/稳定币发行方协同冻结窗口。",
+     "tickers": [
+      "SOL",
+      "BTC",
+      "ETH",
+      "TRX"
+     ],
+     "sources": [
+      {
+       "label": "@chainalysis TRON→Solana",
+       "url": "https://x.com/chainalysis/status/2116938083543425324"
+      },
+      {
+       "label": "@lookonchain SOL→BTC",
+       "url": "https://x.com/lookonchain/status/2116841508599144917"
+      },
+      {
+       "label": "@KobeissiLetter FBI·NK",
+       "url": "https://x.com/KobeissiLetter/status/2116669713430282667"
+      },
+      {
+       "label": "@DefiantNews 洗钱路径",
+       "url": "https://x.com/DefiantNews/status/2116941841518223730"
+      },
+      {
+       "label": "@cz_binance 感谢特勤局",
+       "url": "https://x.com/cz_binance/status/2116977683393618404"
+      }
+     ],
+     "metrics": "Chainalysis ~3.4 万浏览；lookonchain SOL 帖 ~10 万浏览；Kobeissi FBI 帖 ~82 万浏览",
+     "is_update": true
+    },
+    {
+     "title": "Solana Mobile：假「SKR Claim」应用进入 dApp Spotlight 约 1 小时后下架；索要助记词",
+     "body": "@solanamobile：第三方恶意应用「SKR Claim」经 dApp Publishing Portal 未授权访问提交，Spotlight/Quests UI 被改；应用索要用户助记词，在 Spotlight 存活约 1 小时后下架并正从已装设备清除。团队已修补「可链接未完全发布应用」漏洞；强调官方永不索要助记词/为领空投连钱包。未见官方披露已证实大额用户损失——按供应链前端事故处理。",
+     "impact": "medium",
+     "value_note": "安全：官方商店 Spotlight 被植入助记词钓鱼，冲击「硬件钱包手机」信任溢价；漏洞修补速度决定尾部风险。",
+     "tickers": [
+      "SOL",
+      "SKR"
+     ],
+     "sources": [
+      {
+       "label": "@solanamobile 官方说明",
+       "url": "https://x.com/solanamobile/status/2116962140301266959"
+      },
+      {
+       "label": "@DefiantNews SKR Claim",
+       "url": "https://x.com/DefiantNews/status/2116966503451115724"
+      },
+      {
+       "label": "X 新闻：SKR Claim",
+       "url": "https://x.com/i/trending/2116978256545010134"
+      }
+     ],
+     "metrics": "官帖 ~3.2 万浏览/290+赞",
+     "is_update": false
+    },
+    {
+     "title": "旁支：OKXICE 代币化股票遭 50 家公司反对；中共决议点名打击虚拟货币腐败通道；b14g 约 $147 万 CORE 漏洞",
+     "body": "@WuBlockchain：反对 OKX 与 ICE 合资 OKXICE TSV 代币化自家股票的公司增至 50 家（含英伟达、美光、耐克等）。另：中共中央决议呼吁坚决打击利用互联网、虚拟货币、跨境资金与区块链实施的腐败。新闻口径：b14g 质押协议零提取漏洞抽走约 9700 万 CORE（约 $147 万），已暂停并协调冻结部分代币——规模低于币安主线，作安全旁支。",
+     "impact": "medium",
+     "value_note": "监管/RWA：发行人反对扩大令合规型代币化股权落地摩擦上升；国内反腐表述强化虚拟货币作为洗钱通道的政策压力。",
+     "tickers": [
+      "CORE"
+     ],
+     "sources": [
+      {
+       "label": "@WuBlockchain OKXICE 50 家反对",
+       "url": "https://x.com/WuBlockchain/status/2116885852181954619"
+      },
+      {
+       "label": "@WuBlockchain 中共决议",
+       "url": "https://x.com/WuBlockchain/status/2116865010714763504"
+      },
+      {
+       "label": "X 新闻：b14g CORE",
+       "url": "https://x.com/i/trending/2116621590528242007"
+      }
+     ],
+     "metrics": "OKXICE 帖 ~2.0 万浏览",
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "defi",
+   "title": "DeFi",
+   "items": [
+    {
+     "title": "★ Kamino：Fixed Rates >$7500 万 + Backpack 代币化股权抵押市场；★ Aero：Robinhood 第一大池迁入，累计回购逾 2 亿 AERO",
+     "body": "★ @kamino 周报：Fixed Rates 活跃贷款跨过 $7500 万（续报）；Backpack Market 上线，可用 @Backpack 1:1 代币化美股（含 $MU/$SKHY/$SPCX/$SNDK）借 USDC；另上线 Sentora Huma PST 市场。★ @aeroxyz：上线约 10 日后称 Robinhood Crypto 第一大池已在 Aero；另称累计回购逾 2 亿 AERO。属产品扩张与回购执行信号，非安全事件。",
+     "impact": "medium",
+     "value_note": "产品/收入：固息与 RWA 抵押扩容抬升可计息 TVL；回购与外部流量池迁移利好费用捕获，但依赖持续交易量。",
+     "tickers": [
+      "KMNO",
+      "AERO",
+      "USDC"
+     ],
+     "sources": [
+      {
+       "label": "★ @kamino 周报",
+       "url": "https://x.com/kamino/status/2116954271199449502"
+      },
+      {
+       "label": "★ @aeroxyz Robinhood 池",
+       "url": "https://x.com/aeroxyz/status/2116945721039745351"
+      },
+      {
+       "label": "★ @aeroxyz 2亿 AERO 回购",
+       "url": "https://x.com/aeroxyz/status/2116651931242541068"
+      },
+      {
+       "label": "★ @BackpackOnchain 互动",
+       "url": "https://x.com/BackpackOnchain/status/2116978299956293660"
+      }
+     ],
+     "metrics": "Kamino 周报 ~4500 浏览；Aero Robinhood 帖 ~1.3 万浏览",
+     "is_update": true
+    },
+    {
+     "title": "★ Ondo：DTCC Tokenization Service 上线；Ondo Stocks 扩至 Robinhood Chain；Solana 智能组合",
+     "body": "★ @Ondo：称「代币化标志性一周」——DTCC Tokenization Service 上线；Ondo Stocks 扩展至 Robinhood Chain；Ondo Intelligent Portfolios 登陆 Solana。与 Solana 生态周报中 RWA 价值逾 $50 亿叙事共振。属基础设施/分发进展，不等于二级流动性已爆发。",
+     "impact": "medium",
+     "value_note": "RWA/分发：DTCC 与券商链入口降低机构接入摩擦，长期利好代币化资产结算份额。",
+     "tickers": [
+      "ONDO",
+      "SOL"
+     ],
+     "sources": [
+      {
+       "label": "★ @Ondo 代币化周报",
+       "url": "https://x.com/Ondo/status/2116937837270507585"
+      },
+      {
+       "label": "★ @solana 生态周报 RWA",
+       "url": "https://x.com/solana/status/2116893019962327448"
+      }
+     ],
+     "metrics": "Ondo ~1.9 万浏览；Solana 周报 ~6.5 万浏览",
+     "is_update": false
+    },
+    {
+     "title": "【更新】tBTC：Threshold 称运营商已打补丁或下线，铸造/赎回仍暂停；THORChain 未见官方恢复",
+     "body": "@DefiantNews 引 Threshold：应对 Linux 漏洞，全部运营商已打补丁或离线；称未见该漏洞被用于攻击 tBTC 节点，但铸造与 BTC 赎回仍暂停——相对昨夜 Aave 限制 tBTC 新存/新借的后续。@THORChain 官号本期仅发播客预告，未见跨链兑换恢复通告；@WuBlockchain 转述联合创始人 Chad：节点无非公开信息、链上数据对调查者实时公开。暂停延误洗钱叙事仍成立，恢复时点待官方。",
+     "impact": "medium",
+     "value_note": "安全/基础设施：tBTC 进出通道关闭压制包装 BTC 流动性；THORChain 窗口关闭仍延长执法冻结时间。",
+     "tickers": [
+      "tBTC",
+      "AAVE",
+      "RUNE"
+     ],
+     "sources": [
+      {
+       "label": "@DefiantNews tBTC 运营商",
+       "url": "https://x.com/DefiantNews/status/2116968769444851923"
+      },
+      {
+       "label": "@DefiantNews THORChain/FBI",
+       "url": "https://x.com/DefiantNews/status/2116994437377310943"
+      },
+      {
+       "label": "@WuBlockchain Chad 回应",
+       "url": "https://x.com/WuBlockchain/status/2116786255203889434"
+      },
+      {
+       "label": "@THORChain 播客预告",
+       "url": "https://x.com/THORChain/status/2116865840117137793"
+      }
+     ],
+     "metrics": "Defiant tBTC 帖 ~2000 浏览",
+     "is_update": true
+    },
+    {
+     "title": "★ Chainlink：近窗 8 项标准集成（Anchorage/Polymarket/标普等）",
+     "body": "★ @chainlink Adoption Update：近窗称跨 5 项服务、3 条链完成 8 项 Chainlink 标准集成，用户侧点名 Anchorage、Further、HKGX、韩华投资、Polymarket、标普评级等。偏生态扩张例行更新。",
+     "impact": "low",
+     "value_note": "采用面：机构与预测市场集成巩固预言机份额叙事，短期难直接映射费用跳跃。",
+     "tickers": [
+      "LINK"
+     ],
+     "sources": [
+      {
+       "label": "★ @chainlink Adoption",
+       "url": "https://x.com/chainlink/status/2116960968685105295"
+      }
+     ],
+     "metrics": "~1.6 万浏览",
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "title": "AI",
+   "items": [
+    {
+     "title": "Anthropic：禁止用 Claude Code 复刻既有电子游戏（病毒式逆向工程趋势）",
+     "body": "@Cointelegraph：Anthropic 禁止用户使用 Claude Code 复刻已有电子游戏，背景是 AI 逆向工程游戏走红。OpenAI/Anthropic/DeepMind/TheRundownAI 官号本窗无原创帖——本期以媒体转述为准。属使用政策收紧，非模型能力发布。",
+     "impact": "medium",
+     "value_note": "合规/产品边界：收紧可复现商业内容的代理编码用途，可能影响部分开发者工作流与「agent 编码」营销边界。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@Cointelegraph Anthropic 禁令",
+       "url": "https://x.com/Cointelegraph/status/2116978053469331884"
+      }
+     ],
+     "metrics": "~3.5 万浏览",
+     "is_update": false
+    },
+    {
+     "title": "宏观：美 AI 相关固定投资 Q3 年化约 +7.3% 至约 $1.77T；四大科技 Q3 CapEx 合计约 $2019 亿",
+     "body": "@KobeissiLetter：美国私营信息处理设备与软件固定投资 Q3 年化增长约 +7.3%，至纪录约 $1.77 万亿，为 1983 年末以来最大季度增幅。另：Amazon/Alphabet/Meta/Microsoft 合计 CapEx Q3 升约 $369 亿至纪录约 $2019 亿，近 12 个月翻倍以上。与上期「隐形熊市/OpenAI 融资下调」同属 CapEx 与回报质疑背景。",
+     "impact": "medium",
+     "value_note": "风险偏好：CapEx 加速与股价承压并存，继续影响 AI 一级定价锚与高贝塔风险资产。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@KobeissiLetter AI 投资",
+       "url": "https://x.com/KobeissiLetter/status/2116996835621621916"
+      },
+      {
+       "label": "@KobeissiLetter Big Tech CapEx",
+       "url": "https://x.com/KobeissiLetter/status/2116900354717589597"
+      }
+     ],
+     "metrics": "投资帖 ~7.0 万浏览；CapEx 帖 ~17 万浏览",
+     "is_update": false
+    }
+   ]
+  }
+ ],
+ "watchlist_hits": [
+  {
+   "handle": "kamino",
+   "text": "★ Fixed Rates >$75M；Backpack 代币化股权抵押借 USDC",
+   "url": "https://x.com/kamino/status/2116954271199449502"
+  },
+  {
+   "handle": "aeroxyz",
+   "text": "★ Robinhood Crypto 第一大池迁入 Aero；回购逾 2 亿 AERO",
+   "url": "https://x.com/aeroxyz/status/2116945721039745351"
+  },
+  {
+   "handle": "Ondo",
+   "text": "★ DTCC Tokenization；Robinhood Chain；Solana 智能组合",
+   "url": "https://x.com/Ondo/status/2116937837270507585"
+  },
+  {
+   "handle": "solana",
+   "text": "★ 生态周报：RWA >$5B、Breakpoint 倒计时",
+   "url": "https://x.com/solana/status/2116893019962327448"
+  },
+  {
+   "handle": "chainlink",
+   "text": "★ 8 项标准集成（Anchorage/Polymarket/标普等）",
+   "url": "https://x.com/chainlink/status/2116960968685105295"
+  },
+  {
+   "handle": "BackpackOnchain",
+   "text": "★ 回应 Kamino×Backpack 市场",
+   "url": "https://x.com/BackpackOnchain/status/2116978299956293660"
+  },
+  {
+   "handle": "cz_binance",
+   "text": "提现恢复 2.1% 净流出；约 98% 留下；感谢特勤局",
+   "url": "https://x.com/cz_binance/status/2116954044988354798"
+  },
+  {
+   "handle": "chainalysis",
+   "text": "TRON $5 亿排空→Solana 洗钱新阶段",
+   "url": "https://x.com/chainalysis/status/2116938083543425324"
+  },
+  {
+   "handle": "lookonchain",
+   "text": "黑客 SOL→BTC；提现重开链上确认",
+   "url": "https://x.com/lookonchain/status/2116841508599144917"
+  },
+  {
+   "handle": "WuBlockchain",
+   "text": "Update#4；OKXICE；中共决议；THORChain Chad",
+   "url": "https://x.com/WuBlockchain/status/2116749793699754374"
+  },
+  {
+   "handle": "BlockBeatsAsia",
+   "text": "净流出 $36.38 亿综述；FBI·TraderTraitor",
+   "url": "https://x.com/BlockBeatsAsia/status/2116931945896800508"
+  },
+  {
+   "handle": "DefiantNews",
+   "text": "净流出/对手所；tBTC；SKR；THORChain",
+   "url": "https://x.com/DefiantNews/status/2117007271842713801"
+  },
+  {
+   "handle": "KobeissiLetter",
+   "text": "FBI·NK；AI CapEx/投资",
+   "url": "https://x.com/KobeissiLetter/status/2116669713430282667"
+  },
+  {
+   "handle": "LaunchOnSF",
+   "text": "恢复后轻互动（无新安全通告）",
+   "url": "https://x.com/LaunchOnSF/status/2116673131599515844"
+  }
+ ],
+ "stats": {
+  "x_calls_used": 20,
+  "posts_scanned": 380,
+  "news_stories": 60
+ },
+ "_generated_at": "2026-11-02 05:43 HKT"
+}
