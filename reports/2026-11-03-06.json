@@ -1,0 +1,395 @@
+{
+ "slot": "2026-11-03T06:00+08:00",
+ "window": "2026-11-02 06:00–2026-11-03 06:00 HKT",
+ "headline": "【第5天】币安 Update#5：10/31 PoR 快照 ZK 证明已可独立验；法币提现新开 USD/AED/VND/PHP/IDR；下阶段网络「明日」推进；Elliptic 称约 44%（约 $28.5 亿）赃款已冻；巴西 Mercado Bitcoin 安全事件首报（Hypernative 估超 $40M，Paolo 冻超 450 万 USDT）；★ Kamino CEO「One KMNO」公开信",
+ "summary": [
+  "这期最大的事（【第5天】）：@binance Recovery Update #5——10/31 00:00 UTC PoR 快照的完整零知识证明已生成，十大币种用户可在 PoR 站独立验 1:1 足额；仍称回补约 95%、长尾 5% 继续采购；下阶段更多网络/资产提现「计划明日」渐进开放。同窗：法币提现新开 USD/AED/VND/PHP/IDR；官号发布提现恢复期防诈提醒。@WuBlockchain 转 Elliptic：约 $64.3 亿赃款跨 11 链/~1.2 万钱包，约 $28.5 亿（44%）已冻结/扣押，黑客首次使用 CoinJoin。Cointelegraph：近一周币安净流出约 $141 亿（含近 24h 约 $35 亿），OKX 净流入约 $4.99 亿。韩国 FSC 紧急约谈 Upbit/Bithumb/Coinone，要求提高冷钱包比例与储备（法定已 ≥80%）。",
+  "新安全事件：巴西最大所 @MercadoBitcoin 确认系统安全事件并预防性暂停充提，称无客户损失、无数据泄露；Hypernative 估跨至少 10 链可疑转出超约 $40M（交易所未确认金额）。@paoloardoino：Tether 已冻结与该事件相关逾 450 万 USDT。另：ZachXBT 称一欧盟实体疑自多家 CEX 损失逾 $1.06 亿（非本所被黑）。",
+  "★ DeFi：★ @WeiszM/@kamino「One Kamino. One KMNO」——Foundation 收全部收入（含机构）、KMNO 唯一代币无单独股权、未来两年至少投 $2000 万扩资产与渠道；★ @chainlink 24/7 预言机正式上线（@aave 为上线合作方）+ Aave V4 Base 上 Coinbase 代币化股票 Hub 新 USDC 激励；★ @Ondo 向 Private Client 开放 OpenAI 私募票据 OPAIPon，且 MAG7Xon 组合实现 24/7 铸造赎回；★ @jito 首批第三方 BAM 节点（Triton/Bitwise/SOL Strategies）。",
+  "监管/宏观：新泽西撤销对 Coinbase 质押诉讼，州内可恢复质押；SEC 更新加密代币 taxonomy FAQ。@lookonchain：BTC ETF 1D 净流出约 7919 BTC（约 −$6.14 亿），ETH ETF 1D 约 −4.48 万 ETH（约 −$1.02 亿）。新闻口径 BTC 跌破约 $77k（未达 1h 超 $5 亿清算警报门槛）。",
+  "AI：@OpenAI 发布 LifeVal（日常事务助手基准）；@AnthropicAI 开放 Anthropic Residency 申请（截止 11/22）。新闻侧还有 Claude Message Threads 公测、OpenAI 合并 ChatGPT/Codex 用量池等产品动态。"
+ ],
+ "sections": [
+  {
+   "id": "crypto",
+   "title": "加密",
+   "items": [
+    {
+     "title": "【第5天】币安 Update#5：10/31 PoR ZK 已可验；法币新开 USD 等 5 币；下阶段提现「明日」；Elliptic 约 44% 已冻；韩 FSC 抬冷钱包",
+     "body": "相对 Update#4（约 95%、分阶段提现、9.5h 净流出约 $36.4 亿）：@binance Update#5 确认 10/31 00:00 UTC PoR 快照完整 ZK 证明已完成，十大币（BTC/ETH/USDT/BNB/SOL/USDC/XRP/USD1/RLUSD/ZEC）用户可下载开源验证器独立验 ≥1:1；计划 11/04 再拍覆盖更多代币的快照（估 40–50h 出 ZK）。回补仍约 95%、长尾约 5% 继续采购；更多网络提现「明日」渐进开放。法币提现新开 USD/AED/VND/PHP/IDR。官号与 @_RichardTeng 强调提现恢复期防「插队/补偿/金库」钓鱼。@WuBlockchain 引 Elliptic：洗钱涉 11 链/~1.2 万钱包/>4 万笔，约 $28.5 亿（44%）已冻，约 $32.4 亿仍在关联地址，并首次见 CoinJoin。Cointelegraph：近一周净流出约 $141 亿（近 24h 约 $35 亿）；Wu/PANews：DeFiLlama 口径 24h 净流出自日内约 $70 亿峰值回落至约 $33–35 亿、存提比回升。韩国 FSC 约谈本地所要求提高冷钱包占比与储备（法定已 ≥80%）。",
+     "impact": "high",
+     "value_note": "安全/储备/信任：ZK-PoR 可验把「自有资金回补」从声明推进到用户可复验；44% 冻结与法币通道恢复继续压缩尾部兑付风险，但长尾 5% 与完整网络开放节奏、以及周度百亿级净流出仍是压力指标。",
+     "tickers": [
+      "BNB",
+      "BTC",
+      "ETH",
+      "USDT",
+      "USDC",
+      "SOL"
+     ],
+     "sources": [
+      {
+       "label": "@binance Update#5",
+       "url": "https://x.com/binance/status/2117237539098521938"
+      },
+      {
+       "label": "@binance 法币提现 USD+",
+       "url": "https://x.com/binance/status/2117164969582330063"
+      },
+      {
+       "label": "@binance 防诈提醒",
+       "url": "https://x.com/binance/status/2117264311953563781"
+      },
+      {
+       "label": "@_RichardTeng PoR",
+       "url": "https://x.com/_RichardTeng/status/2117246357899538517"
+      },
+      {
+       "label": "@cz_binance PoR 更新",
+       "url": "https://x.com/cz_binance/status/2117240423576162481"
+      },
+      {
+       "label": "@WuBlockchain Elliptic 44%",
+       "url": "https://x.com/WuBlockchain/status/2117221564827746502"
+      },
+      {
+       "label": "@Cointelegraph 周净流出 $141亿",
+       "url": "https://x.com/Cointelegraph/status/2117351157274206345"
+      },
+      {
+       "label": "@Cointelegraph 韩 FSC 冷钱包",
+       "url": "https://x.com/Cointelegraph/status/2117217818114470050"
+      },
+      {
+       "label": "@WuBlockchain 24h 净流出回落",
+       "url": "https://x.com/WuBlockchain/status/2117286587730170046"
+      },
+      {
+       "label": "X 新闻：提现恢复/诈骗",
+       "url": "https://x.com/i/trending/2117081556485394876"
+      }
+     ],
+     "metrics": "Update#5 文章帖 ~47 万浏览；法币帖 ~27 万浏览；防诈帖 ~27 万浏览；CZ PoR 帖 ~28 万浏览",
+     "is_update": true
+    },
+    {
+     "title": "巴西 Mercado Bitcoin 确认安全事件：暂停充提；Hypernative 估超约 $40M；Tether 冻逾 450 万 USDT；官方称无客户损失",
+     "body": "@MercadoBitcoin 官方：今晨发现并快速遏制系统安全事件；称无客户损失、无数据泄露；预防性暂停充提，正追踪资产并配合当局。@WuBlockchain / Cointelegraph：Hypernative 初步在至少 10 条链（含 BTC/ETH/SOL/TRON）发现超约 $4000 万可疑转出，金额未经交易所确认。@paoloardoino：Tether 已冻结与该事件相关逾 450 万 USDT。属币安事件后四天内又一大型 CEX 事故，但量级与官方「客户无损失」口径显著不同——损失终裁与恢复时点待续报。",
+     "impact": "high",
+     "value_note": "安全/CEX 信任：区域龙头热钱包/系统事件强化「交易所不等于自托管」；稳定币发行方冻结速度决定可追回窗口。",
+     "tickers": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "USDT"
+     ],
+     "sources": [
+      {
+       "label": "@MercadoBitcoin 官方通报",
+       "url": "https://x.com/MercadoBitcoin/status/2117239507263132056"
+      },
+      {
+       "label": "@WuBlockchain Hypernative ~$40M",
+       "url": "https://x.com/WuBlockchain/status/2117255057280204824"
+      },
+      {
+       "label": "@paoloardoino 冻 450万+ USDT",
+       "url": "https://x.com/paoloardoino/status/2117272224814219720"
+      },
+      {
+       "label": "@Cointelegraph 暂停充提",
+       "url": "https://x.com/Cointelegraph/status/2117255442460008711"
+      },
+      {
+       "label": "@PANewsCN Mercado",
+       "url": "https://x.com/PANewsCN/status/2117253842811375755"
+      },
+      {
+       "label": "X 新闻：Mercado ~$40M+",
+       "url": "https://x.com/i/trending/2117260404883939594"
+      }
+     ],
+     "metrics": "官帖 ~28 万浏览/1200+赞；Paolo 冻资帖 ~4.8 万浏览",
+     "is_update": false
+    },
+    {
+     "title": "旁支：ZachXBT 称欧盟实体疑损逾 $1.06 亿；BTC/ETH ETF 延续净流出；新泽西撤销 Coinbase 质押诉讼；SEC 更新 taxonomy FAQ",
+     "body": "@lookonchain/@WuBlockchain 引 @zachxbt：一欧盟实体疑 11/01 自多家 CEX 账户损失逾约 $1.06 亿稳定币，攻击者换入 ETH 并经多家闪兑/跨链/门罗分散。@lookonchain Nov2：BTC ETF 1D 净流出约 7919 BTC（约 −$6.14 亿），ETH ETF 1D 约 −4.48 万 ETH（约 −$1.02 亿）。监管正：@Cointelegraph——新泽西撤销对 Coinbase 质押诉讼，州内可恢复质押；SEC 更新加密代币 taxonomy FAQ。Strategy 再购 811 BTC（约 $6550 万）属机构旁支。",
+     "impact": "medium",
+     "value_note": "安全/监管/资金流：CEX 账户被盗链再拉长；ETF 流出与监管松绑信号并存，短线风险偏好仍受安全新闻压制。",
+     "tickers": [
+      "BTC",
+      "ETH"
+     ],
+     "sources": [
+      {
+       "label": "@WuBlockchain ZachXBT $106M",
+       "url": "https://x.com/WuBlockchain/status/2117233673749831965"
+      },
+      {
+       "label": "@lookonchain EU/$106M",
+       "url": "https://x.com/lookonchain/status/2117246398664163663"
+      },
+      {
+       "label": "@lookonchain ETF 净流",
+       "url": "https://x.com/lookonchain/status/2117250038053360029"
+      },
+      {
+       "label": "@Cointelegraph NJ 质押",
+       "url": "https://x.com/Cointelegraph/status/2117342354021417068"
+      },
+      {
+       "label": "@Cointelegraph SEC taxonomy",
+       "url": "https://x.com/Cointelegraph/status/2117344107550884284"
+      },
+      {
+       "label": "@WuBlockchain Strategy 811 BTC",
+       "url": "https://x.com/WuBlockchain/status/2117243669334184287"
+      }
+     ],
+     "metrics": "ZachXBT 综述 ~3.4 万浏览；lookonchain ETF ~4.5 万浏览",
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "defi",
+   "title": "DeFi",
+   "items": [
+    {
+     "title": "★ Kamino CEO WeiszM 首封公开信：Foundation 收全部收入；KMNO 唯一代币无单独股权；两年至少投 $2000 万",
+     "body": "★ @WeiszM 致 KMNO 社区首封公开信，并由 ★ @kamino 转发「One Kamino. One KMNO」：Kamino Foundation 拥有知识产权并收取全部收入（含机构合作）；KMNO 为唯一代币，创始人/投资人/团队无单独股权分配、收益与社区同币绑定；承诺未来两年至少投入 $2000 万扩展可抵押资产与消费端渠道；其本人大部分 KMNO 按估值里程碑解锁。后续帖称与多位大户沟通后「无一卖家」。属治理/代币经济澄清，非 TVL 或安全拐点。",
+     "impact": "high",
+     "value_note": "治理/代币经济：明确收入归 Foundation、无股权分叉，降低「价值外流」折价叙事；$2000 万渠道承诺需跟踪落地与 KMNO 实际捕获。",
+     "tickers": [
+      "KMNO"
+     ],
+     "sources": [
+      {
+       "label": "★ @WeiszM 公开信",
+       "url": "https://x.com/WeiszM/status/2117354824257724699"
+      },
+      {
+       "label": "★ @kamino One KMNO",
+       "url": "https://x.com/kamino/status/2117356059513798948"
+      },
+      {
+       "label": "★ @WeiszM 大户无卖",
+       "url": "https://x.com/WeiszM/status/2117366371462049841"
+      }
+     ],
+     "metrics": "公开信 ~1.6 万浏览/127 赞；官转 ~2700 浏览",
+     "is_update": false
+    },
+    {
+     "title": "★ Chainlink 24/7 正式上线（Aave 为合作方）；★ Aave V4 Base 代币化股票 Hub 新 USDC 激励；★ Ondo：OPAIPon + MAG7Xon 24/7",
+     "body": "★ @chainlink：Chainlink 24/7 预言机正式上线，提供股票/商品等 RWA 跨交易时段与周末连续定价；★ @aave 为官方上线合作方，并用 24/7 Data Feeds 为代币化 RWA 抵押定价。另 ★ @aave：Base 上 Aave V4 Coinbase Tokenized Stocks Hub 上线新 USDC 激励，降低以代币化股票借 USDC 成本（仅限非美合格辖区）。★ @Ondo：向 Private Client 开放 OpenAI Private Market Notes（OPAIPon，代币化 OpenAI 经济敞口，两周内认购截止）；MAG7Xon（美股七巨头+BTC/ETH ETF 组合）已可在 ETH/BNB/Solana 24/7 铸造赎回。",
+     "impact": "medium",
+     "value_note": "预言机/RWA：7×24 定价打通周末抵押与永续场景；Ondo 私募票据与组合 24/7 铸造扩展代币化分发，实际 AUM 仍取决于合格投资者认购。",
+     "tickers": [
+      "LINK",
+      "AAVE",
+      "ONDO",
+      "USDC"
+     ],
+     "sources": [
+      {
+       "label": "★ @chainlink 24/7 上线",
+       "url": "https://x.com/chainlink/status/2117255200125678045"
+      },
+      {
+       "label": "★ @aave USDC 激励",
+       "url": "https://x.com/aave/status/2117354308203135384"
+      },
+      {
+       "label": "★ @Ondo OPAIPon",
+       "url": "https://x.com/Ondo/status/2117321332677345353"
+      },
+      {
+       "label": "★ @Ondo MAG7Xon 24/7",
+       "url": "https://x.com/Ondo/status/2117266652588871784"
+      }
+     ],
+     "metrics": "Chainlink 24/7 ~11 万浏览/910 赞；Ondo MAG7Xon ~2.0 万浏览；Aave 激励 ~1.2 万浏览",
+     "is_update": false
+    },
+    {
+     "title": "★ Jito：首批第三方 BAM 节点运营商；Pendle×Asseto NGI+ 案例（Partners Group $21 亿基础设施基金）",
+     "body": "★ @jito：宣布首批第三方 BAM Node 运营商 @triton_one、@Bitwise、@solstrategies，推进区块构建去中心化（测网→有限主网→开放验证者）。@pendle_fi 与 @AssetoFinance 联合发布 NGI+ 案例：将 Partners Group 约 $21 亿 AUM Next Generation Infrastructure 基金代币化敞口上链并接入 Pendle 收益市场。属基础设施/RWA 进展，非安全事件。THORChain/StonkFun/tBTC 本窗未见达标新进展（不重报）。",
+     "impact": "medium",
+     "value_note": "基础设施/RWA：BAM 第三方化降低单一运营风险；机构基础设施基金份额上链验证 Pendle 作为合格收益层的分发价值。",
+     "tickers": [
+      "JTO",
+      "PENDLE",
+      "SOL"
+     ],
+     "sources": [
+      {
+       "label": "★ @jito BAM 第三方",
+       "url": "https://x.com/jito/status/2117270716945146174"
+      },
+      {
+       "label": "@pendle_fi NGI+ 案例",
+       "url": "https://x.com/pendle_fi/status/2117225510073962991"
+      },
+      {
+       "label": "X 新闻：Jito BAM",
+       "url": "https://x.com/i/trending/2117347310015328501"
+      }
+     ],
+     "metrics": "Jito 公告 ~1.3 万浏览；Pendle 案例 ~4900 浏览",
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "title": "AI",
+   "items": [
+    {
+     "title": "OpenAI 发布 LifeVal 日常事务基准；Anthropic 开放 Residency 申请",
+     "body": "@OpenAI：发布 LifeVal——按数千 ChatGPT 用户反馈设计的个人助理日常任务基准（托儿、预算、政务等）。@AnthropicAI：开放付费固定期限 Anthropic Residency 申请（学者/技术创始人/工程师，不要求 ML 背景），截止 11/22。@TheRundownAI 亦跟进 LifeVal/GPT-6 Astra 相关测评转述。",
+     "impact": "medium",
+     "value_note": "产品/人才：LifeVal 把「助手」评测从考试题转向生活任务；Residency 扩招强化安全研究方向人力。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@OpenAI LifeVal",
+       "url": "https://x.com/OpenAI/status/2117307611338997846"
+      },
+      {
+       "label": "@AnthropicAI Residency",
+       "url": "https://x.com/AnthropicAI/status/2117343929960112486"
+      },
+      {
+       "label": "@TheRundownAI LifeVal",
+       "url": "https://x.com/TheRundownAI/status/2117316324166651979"
+      },
+      {
+       "label": "@Cointelegraph LifeVal",
+       "url": "https://x.com/Cointelegraph/status/2117345872123973815"
+      }
+     ],
+     "metrics": "OpenAI LifeVal ~37 万浏览；Anthropic Residency ~52 万浏览",
+     "is_update": false
+    },
+    {
+     "title": "产品动态（新闻口径）：Claude Message Threads 公测；OpenAI 拟合并 ChatGPT/Codex 用量池；高盛收紧交易员侧 AI 编码工具",
+     "body": "X 新闻综述：Anthropic Messages API 公测 message threads（长上下文首字延迟约降 35%）；OpenAI 计划 12 月起对 Plus/Pro/Business 合并 ChatGPT 高级对话与 Codex 用量池；高盛内部复盘后将 Claude Code/Copilot 等高级编码工具主要限工程师使用。属产品/企业治理动态，非模型发布。",
+     "impact": "low",
+     "value_note": "工作流：用量合并与权限收紧可能改变付费开发者与金融从业者的工具迁移成本。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "X 新闻：Message Threads",
+       "url": "https://x.com/i/trending/2117351173007008040"
+      },
+      {
+       "label": "X 新闻：用量池合并",
+       "url": "https://x.com/i/trending/2117194072230166887"
+      },
+      {
+       "label": "X 新闻：高盛限 AI 编码",
+       "url": "https://x.com/i/trending/2117291067926097949"
+      }
+     ],
+     "metrics": "",
+     "is_update": false
+    }
+   ]
+  }
+ ],
+ "watchlist_hits": [
+  {
+   "handle": "kamino",
+   "text": "★ 转发 CEO「One KMNO」公开信",
+   "url": "https://x.com/kamino/status/2117356059513798948"
+  },
+  {
+   "handle": "chainlink",
+   "text": "★ Chainlink 24/7 正式上线",
+   "url": "https://x.com/chainlink/status/2117255200125678045"
+  },
+  {
+   "handle": "aave",
+   "text": "★ V4 Base 代币化股票 Hub USDC 激励；24/7 合作方",
+   "url": "https://x.com/aave/status/2117354308203135384"
+  },
+  {
+   "handle": "Ondo",
+   "text": "★ OPAIPon + MAG7Xon 24/7",
+   "url": "https://x.com/Ondo/status/2117321332677345353"
+  },
+  {
+   "handle": "jito",
+   "text": "★ 首批第三方 BAM 节点",
+   "url": "https://x.com/jito/status/2117270716945146174"
+  },
+  {
+   "handle": "pendle_fi",
+   "text": "NGI+ / Partners Group 案例",
+   "url": "https://x.com/pendle_fi/status/2117225510073962991"
+  },
+  {
+   "handle": "solana",
+   "text": "Breakpoint 讲者与 Incubator Cohort 6",
+   "url": "https://x.com/solana/status/2117345323576426845"
+  },
+  {
+   "handle": "aeroxyz",
+   "text": "Earn more on Aero（营销，无新机制拐点）",
+   "url": "https://x.com/aeroxyz/status/2117348302832447758"
+  },
+  {
+   "handle": "LaunchOnSF",
+   "text": "轻互动回复（无新安全通告）",
+   "url": "https://x.com/LaunchOnSF/status/2117370539673276709"
+  },
+  {
+   "handle": "binance",
+   "text": "Update#5；法币；防诈",
+   "url": "https://x.com/binance/status/2117237539098521938"
+  },
+  {
+   "handle": "cz_binance",
+   "text": "转发 Update#5 PoR",
+   "url": "https://x.com/cz_binance/status/2117240423576162481"
+  },
+  {
+   "handle": "WuBlockchain",
+   "text": "Mercado；Elliptic 44%；净流出回落",
+   "url": "https://x.com/WuBlockchain/status/2117255057280204824"
+  },
+  {
+   "handle": "lookonchain",
+   "text": "ETF 净流；ZachXBT $106M",
+   "url": "https://x.com/lookonchain/status/2117250038053360029"
+  },
+  {
+   "handle": "Cointelegraph",
+   "text": "韩 FSC；周净流出；NJ/SEC",
+   "url": "https://x.com/Cointelegraph/status/2117217818114470050"
+  },
+  {
+   "handle": "OpenAI",
+   "text": "LifeVal 基准",
+   "url": "https://x.com/OpenAI/status/2117307611338997846"
+  },
+  {
+   "handle": "AnthropicAI",
+   "text": "Residency 申请开放",
+   "url": "https://x.com/AnthropicAI/status/2117343929960112486"
+  },
+  {
+   "handle": "TheRundownAI",
+   "text": "LifeVal / Astra 转述",
+   "url": "https://x.com/TheRundownAI/status/2117316324166651979"
+  }
+ ],
+ "stats": {
+  "x_calls_used": 22,
+  "posts_scanned": 420,
+  "news_stories": 75
+ },
+ "_generated_at": "2026-11-03 05:46 HKT"
+}
