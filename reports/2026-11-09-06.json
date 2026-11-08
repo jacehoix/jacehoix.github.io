@@ -1,0 +1,251 @@
+{
+ "slot": "2026-11-09T06:00+08:00",
+ "window": "2026-11-08 06:00–2026-11-09 06:00 HKT",
+ "headline": "【第2天】Keplr/Web3Auth 公布跨链抢救地址，The Block 核对约 $560 万；OKX 官方劝阻从 MEXC 转入；币安恢复 HYPE/APT 提现；Anthropic 34 亿美元锁定 1.7GW 燃气发电",
+ "summary": [
+  "这期最大的事：【第2天】@Web3Auth 与 @keplrwallet 公布并交叉核验抢救地址（覆盖 Cosmos Hub/Osmosis/Celestia/Akash/Noble/Injective/dYdX/Babylon/Axelar/Saga/Agoric 及 8 条 EVM 链，共 12 组），强调部分被误认为攻击的转账实为白帽回收；将继续更新名单并警惕假冒找回。@TheBlockCo：Web3Auth 称已从受影响 Keplr 钱包转出约 $560 万；另有「原始攻击者」先得手部分钱包，被盗金额官方未公布。@DefiantNews：其一核验地址接收约 2265.59 枚仍处绑定的质押 $ATOM 债权。@cz_binance 提醒用过社媒登录的钱包用户自行核查。★ @PancakeSwap 称自身资金与合约不受此次事件影响。",
+  "【第3天】OKX CEO @star_okx 中英文发帖，请用户暂时避免直接从 MEXC 向 OKX 转入资金，并称对 FinCEN 特别措施持审慎态度。@DefiantNews 跟进：徐明星称 OKX 已收紧管控，该命令并不要求海外交易所立即全球冻结。本窗 @MEXC 与 CEO @usithetalk 无新政策说明，仅有感谢回复。",
+  "【第11天】@binance 官方「Latest Withdrawal Update」：新恢复 HYPE、APT 提现；并列出此前已开放的多枚 ETH 网络资产（含 RLUSD/USD1/USDE/PENDLE/ONDO/LINK 等，原文列表截断）。属 10-30 热钱包事件后的继续复通。",
+  "其他：@VitalikButerin 称 ETH 应聚焦价值存储而非「手续费销毁代币」，销毁「从来不是真正的价格地板」、为拉高费用需大量协议开支与干预式治理（@WuBlockchain/@TheBlockCo/@PANewsCN）。DeFi：★ @aeroxyz 称 Coinbase 上旧版 AERO/VELO 已完成转换为新 $AERO；★ @solana 转发 Fidelity Digital Assets 报告称其占美国主要交易所活动约 15%、代币化资产月成交从不足 $1 亿升至近 $50 亿。AI：Anthropic 据 FT 接手 OnePWR 约 1.7GW 卡特彼勒重型燃气发电机组采购承诺，交易约 $34 亿（含工程/施工能力，未收购 OnePWR），为已知 AI 实验室单笔发电设备采购之最。"
+ ],
+ "sections": [
+  {
+   "id": "crypto",
+   "title": "加密",
+   "items": [
+    {
+     "title": "【第2天】Keplr/Web3Auth：公布并核验跨链抢救地址；The Block 核对约 $560 万；被盗金额仍未公布",
+     "body": "@Web3Auth 发线程称，作为持续响应的一部分，正与 Keplr 协助把受影响资产转入安全抢救钱包，并列出已核验的非攻击地址：Cosmos Hub、Osmosis、Celestia、Akash、Noble、Injective、dYdX、Babylon、Axelar、Saga、Agoric，以及覆盖全部 8 条 EVM 链的同一地址，合计 12 组；声明部分交易曾被误认为攻击活动，将随核验继续更新名单，并提醒谨防假冒找回。@keplrwallet 同步确认上述地址属于抢救而非恶意/漏洞利用地址。@TheBlockCo：Web3Auth 称已从暴露的 Keplr 钱包转出约 $560 万，赶在黑客之前；同时提及有「原始攻击者」先得手部分钱包，但未说明被盗金额。@DefiantNews：Keplr 确认抢救钱包而非攻击者地址；其中一个上榜地址接收了约 2265.59 枚仍处绑定状态的质押 $ATOM 债权。@cz_binance：若曾用「社媒登录」打开加密钱包，应自行进一步研究以保护资金，「自托管即自负责任」。★ @PancakeSwap 声明本协议资金与智能合约不受此次 Web3Auth 事件影响。",
+     "impact": "high",
+     "value_note": "安全/托管路径：官方地址清单降低「空余额=被盗」误判，但白帽同路径转移仍把用户资产控制权暂时集中到第三方抢救地址；被盗金额未公布，最终损失与归还路径仍不确定。",
+     "tickers": [
+      "ATOM",
+      "INJ",
+      "OSMO",
+      "TIA"
+     ],
+     "sources": [
+      {
+       "label": "@Web3Auth 抢救更新",
+       "url": "https://x.com/Web3Auth/status/2119314957057871935"
+      },
+      {
+       "label": "@Web3Auth 误认说明",
+       "url": "https://x.com/Web3Auth/status/2119314958236401922"
+      },
+      {
+       "label": "@keplrwallet 核验地址",
+       "url": "https://x.com/keplrwallet/status/2119316885737177339"
+      },
+      {
+       "label": "@TheBlockCo 约 $5.6M",
+       "url": "https://x.com/TheBlockCo/status/2119499417871056909"
+      },
+      {
+       "label": "@DefiantNews 抢救钱包确认",
+       "url": "https://x.com/DefiantNews/status/2119417906375319776"
+      },
+      {
+       "label": "@cz_binance 社媒登录提醒",
+       "url": "https://x.com/cz_binance/status/2119473419280691337"
+      },
+      {
+       "label": "★ @PancakeSwap 未受影响",
+       "url": "https://x.com/PancakeSwap/status/2119335675971686427"
+      }
+     ],
+     "metrics": "Web3Auth 更新帖约 4.9 万浏览/193 赞；keplrwallet 核验约 2.2 万浏览/129 赞；CZ 提醒约 30.6 万浏览/1432 赞",
+     "is_update": true
+    },
+    {
+     "title": "【第3天】MEXC：OKX CEO 徐明星公开劝阻直接从 MEXC 向 OKX 转入资金",
+     "body": "OKX CEO @star_okx 于窗口初期中英文发帖：对受波及的无辜用户表示理解，并明确「请大家暂时避免直接从 MEXC 向 OKX 转入资金」；英文帖称 OKX 对 FinCEN 特别措施持与（原文随后截断的）审慎态度。@DefiantNews 跟进标题为「OKX 警告 FinCEN 截止日期前 MEXC 转账可能被冻结」，文称徐明星表示 OKX 已收紧管控，同时指出该命令并不要求海外交易所立即在全球范围冻结。本窗 @MEXC 官方与 CEO @usithetalk 未见新的政策或资产安全说明，仅有对社区支持的感谢回复。上期用户所称的他所入金受阻，由此得到一家大型交易所 CEO 的公开确认。",
+     "impact": "high",
+     "value_note": "监管溢出：从用户个案升级为 OKX 官方劝阻对向入金，进一步抬升 MEXC 资金迁徙摩擦与标签风险，他所流动性出口收窄。",
+     "tickers": [
+      "USDT",
+      "USDC",
+      "BTC",
+      "ETH"
+     ],
+     "sources": [
+      {
+       "label": "@star_okx 中文劝阻",
+       "url": "https://x.com/star_okx/status/2119204354964222081"
+      },
+      {
+       "label": "@star_okx 英文说明",
+       "url": "https://x.com/star_okx/status/2119203186074599424"
+      },
+      {
+       "label": "@DefiantNews OKX/MEXC",
+       "url": "https://x.com/DefiantNews/status/2119206261434855869"
+      }
+     ],
+     "metrics": "star_okx 中文帖约 24.2 万浏览/477 赞；英文帖约 7.8 万浏览/225 赞",
+     "is_update": true
+    },
+    {
+     "title": "【第11天】币安官方恢复 HYPE、APT 网络提现",
+     "body": "@binance 发布「Latest Withdrawal Update」：提现已对下列网络与资产重新开放——新增 ✅ HYPE、✅ APT；并列出此前已开放的 ETH 网络资产，可见包括 RLUSD、USD1、TUSD、FDUSD、XUSD，以及 ENA、USDE、PENDLE、WLD、QNT、SHIB、ZRO、FET、NIL、ONDO、ALT、SKY、LINK、ETHFI、REZ 等（原文列表在此后截断）。这是 10-30 热钱包大规模流出后分批恢复提现的新进展，HYPE 与 APT 首次出现在本窗官方「New」复通名单中。",
+     "impact": "medium",
+     "value_note": "交易所运营/流动性：两条此前停提的公链资产恢复出金，降低相关代币在币安侧的锁定溢价，也显示热钱包事件后的复通仍在按资产逐步推进。",
+     "tickers": [
+      "HYPE",
+      "APT",
+      "BNB"
+     ],
+     "sources": [
+      {
+       "label": "@binance 提现更新",
+       "url": "https://x.com/binance/status/2119352231732580574"
+      }
+     ],
+     "metrics": "官方更新帖约 41.5 万浏览/1009 赞",
+     "is_update": true
+    },
+    {
+     "title": "Vitalik：ETH 应聚焦价值存储，而非「手续费销毁代币」",
+     "body": "@WuBlockchain/@TheBlockCo/@PANewsCN/@Cointelegraph 报道 @VitalikButerin 发文称，以太坊应更多把 ETH 定位为价值存储（store of value），而不是靠手续费销毁来估值。他表示销毁「从来不是真正的价格地板」（The Block 引语：the burn \"was never a true floor\"），即便销毁长期低于盈亏平衡点也不必过度担忧；若为最大化费用而优化，将需要大量协议层开支与干预式治理。@PANewsCN 转述其仍主张保留 EIP-1559 及销毁机制，但不应把它当作估值支柱。属创始人层面的叙事与治理取向，未见配套的正式 EIP 或发行量硬分叉落地。",
+     "impact": "medium",
+     "value_note": "叙事/治理：若社区认同 SoV 优先于费用销毁，可能降低市场对「超声货币/持续通缩」的定价权重，把长期价值更多绑到去中心化与安全性，而非燃烧量。",
+     "tickers": [
+      "ETH"
+     ],
+     "sources": [
+      {
+       "label": "@WuBlockchain Vitalik SoV",
+       "url": "https://x.com/WuBlockchain/status/2119410722828648858"
+      },
+      {
+       "label": "@TheBlockCo 销毁非地板",
+       "url": "https://x.com/TheBlockCo/status/2119458422139781456"
+      },
+      {
+       "label": "@PANewsCN ETH 价值存储",
+       "url": "https://x.com/PANewsCN/status/2119410825912004639"
+      },
+      {
+       "label": "@Cointelegraph Vitalik",
+       "url": "https://x.com/Cointelegraph/status/2119482803393835392"
+      }
+     ],
+     "metrics": "WuBlockchain 约 2.2 万浏览/212 赞；TheBlock 约 1.4 万浏览/98 赞；Cointelegraph 约 4.1 万浏览/421 赞",
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "defi",
+   "title": "DeFi",
+   "items": [
+    {
+     "title": "★ Aero：Coinbase 上旧版 AERO/VELO 已完成转换为新 $AERO",
+     "body": "★ @aeroxyz 官方发帖：在 @coinbase 上将旧版 AERO 或 VELO 代币转换为新 $AERO 代币的工作现已完成。属交易所侧旧合约/旧代号迁到新代币的收尾，本窗未见新的代币经济参数或安全事件说明。其余 protected 近窗多为营销或活动（★ @LaunchOnSF 日常收入播报、@uponrh 称 up 流动性池成交累计 $20 亿等），不单独成条。",
+     "impact": "low",
+     "value_note": "代币流动性：主流 CEX 完成旧票转换，可减少双代币/旧合约折价与兑付摩擦，便利持有人在 Coinbase 上交易统一后的 $AERO。",
+     "tickers": [
+      "AERO",
+      "VELO"
+     ],
+     "sources": [
+      {
+       "label": "★ @aeroxyz Coinbase 转换完成",
+       "url": "https://x.com/aeroxyz/status/2119495920664633779"
+      }
+     ],
+     "metrics": "aeroxyz 约 6100 浏览/172 赞",
+     "is_update": false
+    },
+    {
+     "title": "★ Solana 转发 Fidelity 报告：占美国主要交易所活动约 15%；代币化资产月成交近 $50 亿",
+     "body": "★ @solana 转发 Fidelity Digital Assets 报告《Solana’s Competitive Advantage in Onchain Trading》，列出三点：占全部主要美国交易所活动的 15%（2022 年为 0.30%）；曾在周度成交笔数上短暂超过纽交所；代币化资产成交额从每月不足 $1 亿升至近 $50 亿。报告原文由 Fidelity 撰写、官方账号转发，属第三方研究背书而非协议自身新的代币经济或安全披露。本窗 ★ @aave/@Morpho/@pendle_fi/@kamino/@Zcash 等无原帖。",
+     "impact": "medium",
+     "value_note": "交易份额/RWA：若 Fidelity 口径成立，意味着 Solana 在美国现货成交与代币化资产流转上的份额已被传统资管写入研究框架，有助于机构采用叙事；需与独立数据交叉验证。",
+     "tickers": [
+      "SOL"
+     ],
+     "sources": [
+      {
+       "label": "★ @solana Fidelity 报告",
+       "url": "https://x.com/solana/status/2119384450933162180"
+      }
+     ],
+     "metrics": "solana 转发帖约 7.9 万浏览/591 赞",
+     "is_update": false
+    },
+    {
+     "title": "Sky TVL 一周下滑约 15% 至约 $44.2 亿，USDS 供应下降约 13.4%",
+     "body": "@DefiantNews 援引 @DefiLlama：@SkyEcosystem TVL 在 11-07 录得约 $44.2 亿，为一周内下滑约 15%，并创 30 日低点；同期 $USDS 供应下降约 13.4%，显示收缩超出抵押品价格波动本身。未见 Sky 官方在本窗发帖解释赎回、参数或监管原因，属第三方数据观察。",
+     "impact": "medium",
+     "value_note": "TVL/稳定币供应：USDS 收缩幅度接近 TVL 降幅，意味着不只是抵押品市值下跌，还有稳定币负债端收缩，可能影响费用与储配收益规模。",
+     "tickers": [
+      "USDS",
+      "SKY"
+     ],
+     "sources": [
+      {
+       "label": "@DefiantNews Sky TVL",
+       "url": "https://x.com/DefiantNews/status/2119228916057665731"
+      }
+     ],
+     "metrics": "DefiantNews 约 4900 浏览/98 赞",
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "title": "AI",
+   "items": [
+    {
+     "title": "Anthropic 据 FT 以约 $34 亿接手 1.7GW 燃气发电机组采购，未收购供应商",
+     "body": "@Cointelegraph：据《金融时报》，Anthropic 达成约 $34 亿美元交易，以锁定 1.7 吉瓦燃气发电设备供其 AI 数据中心使用，称这是已知 AI 实验室单笔采购发电设备规模最大的一笔。@BlockBeatsAsia 补充：Anthropic 从美国设备商 OnePWR 手中接手 1.7GW 卡特彼勒重型燃气发电机组采购承诺，交易还包括工程与施工能力，但并未收购 OnePWR。本窗 @AnthropicAI/@OpenAI/@GoogleDeepMind/@TheRundownAI 均无原帖，数字与交易结构来自媒体转述 FT，细节以原报道为准。",
+     "impact": "high",
+     "value_note": "资本开支/能源瓶颈：头部实验室直接锁定发电设备而非只买云算力，说明电力已成为与芯片并列的扩张约束，也会抬升其长期成本与项目落地节奏。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@Cointelegraph $3.4B / 1.7GW",
+       "url": "https://x.com/Cointelegraph/status/2119490413941698701"
+      },
+      {
+       "label": "@BlockBeatsAsia OnePWR/卡特彼勒",
+       "url": "https://x.com/BlockBeatsAsia/status/2119403067879907541"
+      }
+     ],
+     "metrics": "Cointelegraph 约 3.3 万浏览/94 赞；BlockBeats 约 2900 浏览/17 赞",
+     "is_update": false
+    }
+   ]
+  }
+ ],
+ "watchlist_hits": [
+  {
+   "handle": "aeroxyz",
+   "text": "★ Coinbase 上旧版 AERO/VELO 已完成转换为新 $AERO",
+   "url": "https://x.com/aeroxyz/status/2119495920664633779"
+  },
+  {
+   "handle": "solana",
+   "text": "★ 转发 Fidelity 报告：美主要交易所活动占比约 15%；代币化资产月成交近 $50 亿",
+   "url": "https://x.com/solana/status/2119384450933162180"
+  },
+  {
+   "handle": "PancakeSwap",
+   "text": "★ 声明不受 Web3Auth 安全事件影响，资金与合约安全",
+   "url": "https://x.com/PancakeSwap/status/2119335675971686427"
+  },
+  {
+   "handle": "uponrh",
+   "text": "★ 称 up 流动性池成交累计达 $20 亿",
+   "url": "https://x.com/uponrh/status/2119475072893436063"
+  }
+ ],
+ "stats": {
+  "x_calls_used": 27,
+  "posts_scanned": 197,
+  "news_stories": 63
+ },
+ "_generated_at": "2026-11-09 05:40 HKT"
+}
