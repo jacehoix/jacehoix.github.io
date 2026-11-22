@@ -1,0 +1,320 @@
+{
+ "slot": "2026-11-23T06:00+08:00",
+ "window": "2026-11-22 06:00–2026-11-23 06:00 HKT",
+ "headline": "Abraxas 在比特币跌破6万美元期间累计提出约1.76万枚BTC（约10.4亿美元），价格反弹回6.1万美元上方；稳定币总市值创年内新低",
+ "summary": [
+  "这期最大的事：伦敦对冲基金 Abraxas Capital 在比特币跌破6万美元期间，从币安和 Kraken 累计提出 17,597 枚 BTC（约 10.4 亿美元，均价约 59,206 美元），规模明显大于上一期已报的约 10,356 枚 / 6.07 亿美元；周日比特币回到约 6.1 万美元上方、以太坊站上约 1,715 美元。但这不是单纯的 V 型修复：BlockBeats 引述 DefiLlama，稳定币总市值已降至约 2,842.15 亿美元、创年内新低，较 5 月 17 日高点约收缩 301.77 亿美元（-9.6%），过去 30 天再减约 6.15%。现货比特币 ETF 11 月约 34.7 亿美元流出的结构，并未被周末反弹改写。",
+  "★ Sui 官方宣布，约 8,200 万台符合条件的美国 Galaxy 设备将可通过 Samsung Wallet 在 Sui 上发送 USDC，官方称“从明天开始”（按发帖时间约对应 11 月 23 日）。这是把稳定币转账直接放进主流手机钱包，可能扩大 Sui 上的零售支付与 USDC 流转。",
+  "安全方面有两项新进展：Fluidkey 官方发布 11 月 19 日安全事件事后报告，称已在应用内和邮件中联系所有受影响用户；DefiantNews 引述官方称约 52 个账户被盗走约 160 万美元，花费密钥仍留在用户设备上，应用在用户解锁时签署了攻击者准备好的转账。另，Fusionist 呼吁暂停 BSC 上 ACE 的转账、交易与跨链，Blockaid 估计特权桥铸币已套走约 104 万美元 USDT（官方未确认最终损失）。",
+  "★ Ondo 官方周报：代币化 Anthropic（ANTon）已在 Ondo Stocks 上线，并加入新加坡金管局 Guardian 计划，同时推出两只 Intelligent Portfolios。★ Solana 官方称由 Backpack Securities 发行的 $ANT 首日成交约 1.347 亿美元；★ Securitize 称 Anthropic 上市首日即对符合条件的投资者在 Solana 上提供。Chainflip【第2天】损失口径合计约 1,200 万美元（含约 122.9 BTC），10% 赏金截止 11 月 23 日 18:38 UTC。"
+ ],
+ "sections": [
+  {
+   "id": "crypto",
+   "title": "加密",
+   "items": [
+    {
+     "title": "【第2天】Abraxas 累计提出约1.76万枚比特币（约10.4亿美元），价格反弹回6.1万美元上方；稳定币总市值创年内新低",
+     "body": "上一期已报 Abraxas 在急跌中买入约 10,356 枚 BTC（约 6.07 亿美元）。lookonchain 在本窗口更新：该机构在比特币跌破 6 万美元期间，从币安和 Kraken 累计提出 17,597 枚 BTC（约 10.4 亿美元），均价约 59,206 美元。EmberCN 与 PANews、BlockBeats 的分笔数字与这一合计相符，并认为其提币与价格重上 6 万美元大致同步。X News 称周日比特币回到约 6.1 万美元上方、以太坊站上约 1,715 美元，此前低点仍约 5.51 万美元。与价格反弹并行的是流动性收缩：BlockBeats 引述 DefiLlama，稳定币总市值降至约 2,842.15 亿美元，为年内新低，较 5 月 17 日高点约 3,143.92 亿美元收缩约 301.77 亿美元（-9.6%），9 月末曾回升至约 3,057.98 亿美元后再次掉头，过去 30 天再减约 6.15%。Cointelegraph 还称 Coinbase 比特币溢价已连续 60 个交易日为负；Arthur Hayes 则称若纳斯达克继续下跌，5 万美元将是下一道真正考验。周末没有新的交易日 ETF 流向，11 月现货比特币 ETF 约 34.7 亿美元净赎回仍是上一期已经确认的结构。",
+     "impact": "high",
+     "value_note": "巨鲸/对冲基金在低位提币离所，说明有真实现货买盘承接；但稳定币总供应创年内新低，意味着场内可动用的美元流动性仍在减少。反弹可以挤出空头，却不能单独当成资本回流。",
+     "tickers": [
+      "BTC",
+      "ETH"
+     ],
+     "sources": [
+      {
+       "label": "@lookonchain Abraxas 累计 17,597 枚 BTC、约 10.4 亿美元",
+       "url": "https://x.com/lookonchain/status/2124320776564469894"
+      },
+      {
+       "label": "@EmberCN 分笔与均价复核",
+       "url": "https://x.com/EmberCN/status/2124304194140258605"
+      },
+      {
+       "label": "@BlockBeatsAsia 引述 DefiLlama：稳定币总市值约 2,842 亿美元、年内新低",
+       "url": "https://x.com/BlockBeatsAsia/status/2124429024474865748"
+      },
+      {
+       "label": "@Cointelegraph Arthur Hayes：若纳指续跌，5 万美元是下一考验",
+       "url": "https://x.com/Cointelegraph/status/2124480625327362295"
+      },
+      {
+       "label": "@Cointelegraph Coinbase 比特币溢价连续 60 日为负",
+       "url": "https://x.com/Cointelegraph/status/2124450392050176422"
+      }
+     ],
+     "metrics": "lookonchain 帖约 1046 赞 / 113 转",
+     "is_update": true
+    },
+    {
+     "title": "【第2天】Chainflip 损失口径合计约 1200 万美元（含约 122.9 枚 BTC），赏金截止 11 月 23 日 18:38 UTC",
+     "body": "上一期已报 Chainflip 官方确认以太坊金库被盗、资金进入 Tornado Cash，并披露同期还有比特币被盗、提出 10% 赏金要约。本窗口 The Block 将损失口径合计为约 1,200 万美元，称攻击者还取走约 122.9 枚 BTC（与上期 DefiantNews 引述的 122.86 枚一致，属于把已披露的 BTC 与 ETH/稳定币合并计算，而不是新发现的另一笔被盗）。官方仍提供归还 90%、保留 10% 的链上赏金，截止时间为 11 月 23 日 18:38 UTC；The Block 称团队认为执法部门可凭攻击者留下的元数据追查身份。FLIP 在事发后有报道称跌幅超过约 30%–40%。截至本窗口结束，未见官方宣布资金已追回。",
+     "impact": "medium",
+     "value_note": "跨链金库的有效签名失守已经造成约 1,200 万美元量级损失，协议仍处安全模式；赏金截止日期就在今天，若未能收回资金，FLIP 与协议信誉的折损会更实质。",
+     "tickers": [
+      "FLIP",
+      "BTC",
+      "ETH"
+     ],
+     "sources": [
+      {
+       "label": "@TheBlockCo 损失合计约 1200 万美元、含约 122.9 BTC",
+       "url": "https://x.com/TheBlockCo/status/2124583648494334422"
+      },
+      {
+       "label": "@TheBlockCo 官方已发链上 10% 赏金要约",
+       "url": "https://x.com/TheBlockCo/status/2124272104837382263"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "Fluidkey 官方发布 11 月 19 日安全事件事后报告：约 52 个账户被盗走约 160 万美元",
+     "body": "Fluidkey 官方在本窗口发布 11 月 19 日安全事件事后报告，称已在应用内和邮件中直接联系所有受影响用户，调查仍在进行并将随发现更新报告。DefiantNews 引述官方说明：约 160 万美元从 52 个账户被盗；花费密钥仍留在用户设备上，但应用在用户打开并解锁时签署了攻击者预先准备的转账。这不是私钥被直接拷走的常规盗号，而是钱包在解锁流程里被诱使授权恶意交易。事件发生在 11 月 19 日，官方事后报告于 11 月 22 日发出，上一期报告未收录。",
+     "impact": "medium",
+     "value_note": "即便花费密钥未离开设备，解锁时自动签名仍足以造成真实损失；这会打击智能钱包/账户抽象的信任，也提醒用户在安全事件窗口避免打开或解锁相关应用。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@fluidkey 官方事后报告",
+       "url": "https://x.com/fluidkey/status/2124318988566208871"
+      },
+      {
+       "label": "@DefiantNews 约 160 万美元、52 个账户与攻击路径",
+       "url": "https://x.com/DefiantNews/status/2124335559661547892"
+      }
+     ],
+     "metrics": "Fluidkey 官方帖约 63 赞",
+     "is_update": false
+    },
+    {
+     "title": "Fusionist 呼吁暂停 BSC 上 ACE 转账与跨链：Blockaid 称特权桥铸币已套走约 104 万美元 USDT",
+     "body": "DefiantNews 报道，区块链游戏项目 Fusionist 在安全警报后呼吁用户暂停在 BNB Smart Chain 上对 ACE 的转账、交易和跨链；安全公司 Blockaid 估计，拥有特权的代币桥铸币权限被用来铸造无抵押 ACE 并卖成 USDT，已提取约 104 万美元，该数字不是最终损失。X News 称部分交易所出现剧烈折价，Gate.io 上价格一度接近归零，与其他所报价出现显著偏离。本窗口未能检索到 Fusionist 官方账号原帖，暂停请求以 DefiantNews 转述为准；项目方也尚未公布攻击者如何获得铸币权限、最终损失或补偿方案，事件应视为仍在进行。",
+     "impact": "medium",
+     "value_note": "又一起跨链桥特权铸币，直接破坏代币供应可信度；约百万美元量级本身不大，但无抵押增发足以让薄流动性盘口崩价，持有者和尚未暂停充提的交易所都面临错价与坏账风险。",
+     "tickers": [
+      "ACE"
+     ],
+     "sources": [
+      {
+       "label": "@DefiantNews：Fusionist 呼吁暂停，Blockaid 估计约 104 万美元",
+       "url": "https://x.com/DefiantNews/status/2124598542601965831"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "Pump.fun 将于 11 月 30 日取消外部钱包登录，有报道称保留旧钱包需在网站粘贴私钥",
+     "body": "Cointelegraph 报道，Pump.fun 将从 11 月 30 日起停止外部钱包登录，前 Mt. Gox CEO Mark Karpelès 批评其要求用户把私钥粘贴到网站。社区转述称，届时 Phantom、Ledger 等外部钱包登录将失效，只保留邮箱、Google、Apple 或 GitHub 等登录；若要继续使用已有钱包，需在网站导入私钥。有帖称官方解释是私钥在浏览器中加密并由登录服务商安全存储，但批评者认为这会放大钓鱼与仿冒站点风险。本窗口未见 @pumpdotfun 官方账号原帖，细节以 Cointelegraph 与社区转述为准，未独立核实产品文档。",
+     "impact": "medium",
+     "value_note": "若“在网站粘贴私钥”属实，这与行业基本安全规范相悖，可能把大量 Solana 迷因币交易者暴露在钓鱼面前；即使官方用意是托管式登录，也将改变 Pump.fun 作为非托管发射台的信任假设。",
+     "tickers": [
+      "PUMP"
+     ],
+     "sources": [
+      {
+       "label": "@Cointelegraph：11 月 30 日起停用外部钱包登录，Karpelès 批评粘贴私钥",
+       "url": "https://x.com/Cointelegraph/status/2124420192809722075"
+      }
+     ],
+     "metrics": "Cointelegraph 帖约 736 赞 / 88 转",
+     "is_update": false
+    },
+    {
+     "title": "ARK 撤回两只 CoinDesk 20 加密 ETF 的注册申请，告知 SEC 不打算推进",
+     "body": "Cointelegraph 报道，Cathie Wood 的 ARK 正在撤回 ARK CoinDesk 20 Crypto ETF 以及不含比特币的版本，并告知 SEC 不打算继续推进。X News 称两只产品于 1 月作为追踪 CoinDesk 20 指数的期货型基金提出，从未发行或出售份额，撤回文件日期为 11 月 20 日。这不是已发行产品的清盘，而是在现货比特币 ETF 持续赎回、山寨和指数产品需求疲弱的背景下，一家原本积极的发行商选择停掉尚未落地的加密指数 ETF。",
+     "impact": "low",
+     "value_note": "尚未发行就撤回，说明发行商对非比特币、指数型加密 ETF 的机构需求判断转冷，是渠道收缩信号，而不是已有规模的赎回。",
+     "tickers": [
+      "ARKK"
+     ],
+     "sources": [
+      {
+       "label": "@Cointelegraph ARK 撤回 CoinDesk 20 及相关 ETF",
+       "url": "https://x.com/Cointelegraph/status/2124359803082305640"
+      }
+     ],
+     "metrics": "Cointelegraph 帖约 322 赞 / 29 转",
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "defi",
+   "title": "DeFi",
+   "items": [
+    {
+     "title": "★ Sui 官方：约 8200 万台符合条件的美国 Galaxy 设备将可通过 Samsung Wallet 发送 Sui 上的 USDC",
+     "body": "Sui 官方发文称，从明天开始，约 8,200 万台符合条件的美国 Galaxy 设备可以通过 Samsung Wallet 在 Sui 上发送 USDC。发帖时间为 11 月 22 日 16:59 UTC（11 月 23 日 00:59 HKT），“明天”按官方表述约对应 11 月 23 日起。这是把一条公链上的美元稳定币转账，直接放进三星在美国的主流通用钱包，而不是只留在加密原生应用里。官方帖未展开手续费、限额、是否需另装钱包或开放范围是否仅限美国。",
+     "impact": "high",
+     "value_note": "主流手机厂商钱包若真正上线 Sui USDC 转账，可能把支付和存款入口扩展到千万级已有硬件用户，利好 Sui 上的稳定币流转与相关 DeFi 需求；最终效果仍取决于实际开通范围和用户是否真正使用。",
+     "tickers": [
+      "SUI",
+      "USDC"
+     ],
+     "sources": [
+      {
+       "label": "★ @SuiNetwork：Samsung Wallet 发送 Sui 上的 USDC",
+       "url": "https://x.com/SuiNetwork/status/2124548219426505052"
+      }
+     ],
+     "metrics": "官方帖约 618 赞 / 107 转",
+     "is_update": false
+    },
+    {
+     "title": "★ Ondo 上线代币化 Anthropic（ANTon）并加入新加坡金管局 Guardian；★ Solana 称 ANT 首日成交约 1.347 亿美元",
+     "body": "Ondo 官方发布周报：Ondo Tokenized Anthropic（ANTon）在 Anthropic 纳斯达克上市后数分钟内于 Ondo Stocks 上线；Ondo 加入新加坡金管局（MAS）的 Guardian 计划，与政策制定者和金融机构推进资产代币化；并新增两只 Intelligent Portfolios——US 500 Capital Shielded（SPYSHIELDon，把 12 只限定收益 ETF 合成一只代币，以放弃部分上行来缓冲标普 500 一年期下跌）以及 Big 5 Core Allocation（BIG5on，通过代币化 ETF 配置标普 500、纳斯达克 100、黄金、比特币和以太坊）。★ Securitize 称，Securitize Stocks 在上市首日即向符合条件的投资者在 Solana 上提供 Anthropic。★ Solana 官方周报称，由 Backpack Securities 发行、经 Sunrise 上架的 $ANT 首日成交约 1.347 亿美元，为先前 $SPCX 约 5,100 万美元首日成交的约 2.6 倍；并称 Solana 上代币化股票流通价值已超过约 12.2 亿美元。Anthropic 发行定价与募资规模仍未见其官方账号在本窗口说明，代币化成交数字以 Solana 官方口径为准。",
+     "impact": "medium",
+     "value_note": "把一家创纪录 IPO 的股票在上市当日就做成可铸销、可交易的链上份额，说明代币化股票的发行和交易轨道已经能承接主流新股需求；MAS Guardian 则把 Ondo 进一步推进监管沙盒与机构合作，而不只是零售交易。",
+     "tickers": [
+      "ONDO",
+      "ANT"
+     ],
+     "sources": [
+      {
+       "label": "★ @Ondo 周报：ANTon、Guardian 与两只投资组合",
+       "url": "https://x.com/Ondo/status/2124599092747600210"
+      },
+      {
+       "label": "★ @solana：$ANT 首日成交约 1.347 亿美元",
+       "url": "https://x.com/solana/status/2124495618542604462"
+      },
+      {
+       "label": "★ @Securitize：上市首日在 Solana 上提供 Anthropic",
+       "url": "https://x.com/Securitize/status/2124520671350751712"
+      }
+     ],
+     "metrics": "Ondo 官方帖约 137 赞 / 14 转；Solana 周报约 498 赞 / 90 转",
+     "is_update": false
+    },
+    {
+     "title": "★ Token Terminal：代币化股票市值约 48 亿美元，约 91% 由底仓股票 1:1 支撑、主要面向非美国投资者",
+     "body": "Token Terminal 在本窗口发布研究报告：代币化股票市值约 48 亿美元，12 个月内市值约增 9.1 倍、持有人约增 40 倍至 590 万；约 91% 的市值由底层股票 1:1 托管支撑。约 91% 的市值来自只面向非美国投资者的产品，美国上市股票和 ETF 是约 88% 市值的参考资产。托管高度集中：Alpaca Securities 被列为约 41.5 亿美元（约 86%）代币化股票的托管方，并是约 30.3 亿美元的唯一托管人。报告还称，代币化股票在 DeFi 中的存款约增 24 倍至 3 亿美元，占代币化股票市值约 6.3%；10 月周末 DEX 成交约 24 亿美元，占当月总量约 18%。这些是研究机构口径，不是项目方新披露的协议收入。",
+     "impact": "medium",
+     "value_note": "市值扩张很快，但托管集中在单一美国券商、且绝大部分产品只卖给非美投资者：需求主要是境外绕开时区和交易时段，也把托管与合规风险集中在少数中介。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "★ @tokenterminal 代币化股票约 48 亿美元研究报告",
+       "url": "https://x.com/tokenterminal/status/2124467761384657292"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "★ Pons 官方预告下一轮股票代币将于周一上线",
+     "body": "Pons 官方（@ponsdotfamily）发文称，下一轮 Stock Tokens 将于本周一上线，但帖中没有列出具体标的、发行规模或交易对。按发帖时间（11 月 22 日 01:10 UTC）对应的“周一”为 11 月 23 日。这是观察名单账号的产品节奏预告，还不是已上线的市场数据，需待官方公布标的后再评估对发行量和手续费收入的影响。",
+     "impact": "low",
+     "tickers": [
+      "PONS"
+     ],
+     "sources": [
+      {
+       "label": "★ @ponsdotfamily：下一轮 Stock Tokens 周一上线",
+       "url": "https://x.com/ponsdotfamily/status/2124309620277805056"
+      }
+     ],
+     "metrics": "官方帖约 338 赞 / 33 转",
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "title": "AI",
+   "items": [
+    {
+     "title": "Kobeissi：Anthropic 上市后现金约 2370 亿美元；官方账号本窗口未发帖，数字尚未获其官方确认",
+     "body": "Kobeissi Letter 称，Anthropic 在 IPO 后的现金及等价物达到约 2,370 亿美元纪录，并称 IPO 募资约 810 亿美元、另有约 260 亿美元定向私募。Cointelegraph 转发了这一现金数字，并称其超过 Alphabet、Amazon、SpaceX 和 Apple 的现金之和。Anthropic、OpenAI、DeepMind 官方账号在本窗口没有原帖，因此发行定价、募资与现金余额均以第三方统计为准，未经官方账号确认。链上方面，Ondo 与 Solana、Securitize 已在上市后把 Anthropic 股票做成可交易的代币化份额（见 DeFi 节），这与现金数字是两条独立线索。",
+     "impact": "medium",
+     "value_note": "若现金余额接近第三方所说的规模，Anthropic 在算力采购和价格战中的融资约束会明显小于多数同行；但在官方确认前，不应把这一数字当成已审计的财务报表。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@KobeissiLetter：现金约 2370 亿美元、IPO 约 810 亿美元（第三方口径）",
+       "url": "https://x.com/KobeissiLetter/status/2124282426209775663"
+      },
+      {
+       "label": "@Cointelegraph 转发该现金数字",
+       "url": "https://x.com/Cointelegraph/status/2124435290416730547"
+      }
+     ],
+     "metrics": "Kobeissi 帖约 3986 赞 / 368 转",
+     "is_update": true
+    },
+    {
+     "title": "AI 交易继续去杠杆：英伟达周线连跌为 2008 年以来最长，进口半导体价格同比升约 26.5%；马斯克警告算力融资可能严重短缺",
+     "body": "Cointelegraph 称英伟达上周五跌约 14%，并结束 2008 年以来最长的周线连跌。Kobeissi Letter 称，美国财政部长 Bessent 在 7 天内对英伟达的态度明显转变——此前一周还呼吁董事会从外部聘请新 CEO 并“大幅改组”。同期，美国 10 月计算机、外设和半导体进口价格同比上升约 26.5%，为 1990 年代以来有记录最大的同比升幅，也是连续第 7 个月同比正增长。Kobeissi 还称，2026 年一至三季度，与 AI 相关的投资对美国实际 GDP 增长贡献约 1.27 个百分点，约占同期累计约 2% 增长的 65%。杠杆基金方面，3 倍做多半导体 ETF SOXL 距 6 月高点回撤约 90%。Cointelegraph 引述埃隆·马斯克警告，明年 AI 算力融资短缺可能“非常严重”，行业若延误几个月就可能需要额外数千亿美元营运资金。这些都是市场与宏观评论，不是模型或产品发布；本窗口 OpenAI、Anthropic、DeepMind 官方账号没有原帖。",
+     "impact": "medium",
+     "value_note": "AI 仍是美国增长的主要贡献项，但芯片进口价格大涨、算力融资告急和半导体杠杆基金大幅回撤同时出现，说明扩产成本在上升、二级市场已在去杠杆。这对依赖股权融资购买 GPU 的公司更不利，也会继续通过科技股与比特币的相关性外溢到加密市场。",
+     "tickers": [
+      "NVDA"
+     ],
+     "sources": [
+      {
+       "label": "@Cointelegraph 英伟达周线连跌为 2008 年以来最长",
+       "url": "https://x.com/Cointelegraph/status/2124269223228662162"
+      },
+      {
+       "label": "@KobeissiLetter Bessent 一周内改变对英伟达的立场",
+       "url": "https://x.com/KobeissiLetter/status/2124602910407270636"
+      },
+      {
+       "label": "@KobeissiLetter 半导体等进口价格同比约 +26.5%",
+       "url": "https://x.com/KobeissiLetter/status/2124511538773970999"
+      },
+      {
+       "label": "@KobeissiLetter AI 投资贡献约 65% 的累计 GDP 增长",
+       "url": "https://x.com/KobeissiLetter/status/2124305136692408552"
+      },
+      {
+       "label": "@Cointelegraph 马斯克警告算力融资可能严重短缺",
+       "url": "https://x.com/Cointelegraph/status/2124616482176872936"
+      }
+     ],
+     "metrics": "Kobeissi Bessent 帖约 3226 赞 / 224 转；进口价格帖约 1154 赞 / 137 转",
+     "is_update": false
+    }
+   ]
+  }
+ ],
+ "watchlist_hits": [
+  {
+   "handle": "SuiNetwork",
+   "text": "官方宣布约 8200 万台美国 Galaxy 设备将可通过 Samsung Wallet 在 Sui 上发送 USDC",
+   "url": "https://x.com/SuiNetwork/status/2124548219426505052"
+  },
+  {
+   "handle": "Ondo",
+   "text": "官方周报：ANTon 上线、加入新加坡金管局 Guardian，并新增两只 Intelligent Portfolios",
+   "url": "https://x.com/Ondo/status/2124599092747600210"
+  },
+  {
+   "handle": "solana",
+   "text": "官方周报：Backpack Securities 发行的 $ANT 首日成交约 1.347 亿美元，代币化股票流通价值超过约 12.2 亿美元",
+   "url": "https://x.com/solana/status/2124495618542604462"
+  },
+  {
+   "handle": "Securitize",
+   "text": "官方称 Anthropic 上市首日即通过 Securitize Stocks 在 Solana 上向符合条件的投资者提供",
+   "url": "https://x.com/Securitize/status/2124520671350751712"
+  },
+  {
+   "handle": "ponsdotfamily",
+   "text": "官方预告下一轮 Stock Tokens 将于周一上线",
+   "url": "https://x.com/ponsdotfamily/status/2124309620277805056"
+  },
+  {
+   "handle": "tokenterminal",
+   "text": "研究报告：代币化股票市值约 48 亿美元，约 91% 由底仓 1:1 支撑",
+   "url": "https://x.com/tokenterminal/status/2124467761384657292"
+  }
+ ],
+ "stats": {
+  "x_calls_used": 31,
+  "posts_scanned": 374,
+  "news_stories": 83
+ },
+ "_generated_at": "2026-11-23 05:42 HKT"
+}
