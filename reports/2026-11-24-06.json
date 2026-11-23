@@ -1,0 +1,443 @@
+{
+ "slot": "2026-11-24T06:00+08:00",
+ "window": "2026-11-23 06:00–2026-11-24 06:00 HKT",
+ "headline": "黄仁勋离职约11天后被英伟达董事会全票恢复总裁、CEO及董事职务，英伟达收盘约涨31.6%、市值单日增加约9550亿美元，创个股单日市值增幅纪录；比特币随之上破约6.3万美元",
+ "summary": [
+  "这期最大的事：英伟达董事会一致表决，立即恢复黄仁勋的总裁、CEO和董事职务。官方称在听取美国政府高层意见后，认为其回归不构成国家安全风险，同时针对近期与外国情报相关报道的独立调查仍会继续。Kobeissi Letter 称英伟达收盘约涨31.6%、市值单日增加约9550亿美元，为有记录以来个股单日市值增幅最大；标普500收涨约4.7%，为2025年4月以来最佳单日，美股市值增加逾3万亿美元。The Block 称比特币随科技股反弹站上约6.3万美元；lookonchain 称 Abraxas 在黄仁勋回归后又买入 2,223 枚 BTC（约 1.4074 亿美元）。但这不是资金面已经转好：Kobeissi 称最大现货比特币 ETF IBIT 11 月已流出约 30 亿美元，上周单周再流出约 8.29 亿美元。",
+  "★ Sui 官方确认：约 8,200 万台符合条件的美国 Galaxy 设备现已可在 Samsung Wallet 之间发送 Sui 上的 USDC，且官方称转账没有手续费。这是上一期“从明天开始”预告的落地。",
+  "安全方面有三项新进展：★ 之外，Chainflip 官方发布 11 月 21 日金库被盗事件报告第一部分，将损失口径定为约 1,260 万美元，并称攻击者使用被盗的验证者密钥分片；兑换、存款和提现仍暂停。The Block 更新 Fusionist ACE 跨链桥：攻击者铸出无抵押代币卖出约 200 万美元后，有交易者再把低价代币经桥兑换成真实 ACE，抽走约 370 万美元储备。Cyber 方面，DefiantNews 引述 AstraSec：攻击铸造了 521.3 万枚无抵押 CYBER，项目方称金库将覆盖全部被铸代币，桥仍暂停审查。",
+  "★ Ondo 官方宣布，约 23 亿美元规模的代币化国债 USDY 已可通过 LayerZero OFT 在 Stellar 与以太坊之间转移。★ Pons 与 Robinhood Crypto 同步上线首只主动管理型 ETF 的股票代币 TTEQ。代币化股票交易也在加速：Cointelegraph 称 Solana 上周现货成交约 18 亿美元，★ Backpack 官方称其发行的代币化证券累计链上成交已达 100 亿美元。"
+ ],
+ "sections": [
+  {
+   "id": "crypto",
+   "title": "加密",
+   "items": [
+    {
+     "title": "黄仁勋被英伟达董事会全票恢复职务，英伟达收盘约涨31.6%、市值单日增加约9550亿美元；比特币站上约6.3万美元，Abraxas再买入2223枚BTC",
+     "body": "PANews 称黄仁勋离开约 11 天后，英伟达董事会全票通过，立即恢复其总裁、CEO 和董事职务。WuBlockchain 引述官方：董事会在听取美国政府高层意见后，认为其回归不构成国家安全风险，同时针对近期与外国情报相关报道的独立调查仍会继续；盘前一度涨约 25%，上周五曾跌约 14% 至约 125.53 美元、接近 18 个月低点。Kobeissi Letter 称收盘约涨 31.6%、市值单日增加约 9550 亿美元，超过全球除约 15 家以外所有公司的总市值，并称这是有记录以来个股单日市值增幅最大；标普 500 收涨约 4.7%，为 2025 年 4 月以来最佳单日，美股市值增加逾 3 万亿美元，纳斯达克 100 市值增加近 2 万亿美元。黄仁勋回到总部时获得员工起立鼓掌，并对员工说“第二次当 CEO 我会做得更好”。特朗普称这是“正确且恰当的决定”，马斯克转发评“错误已被纠正”。The Block 称比特币随科技股反弹站上约 6.3 万美元。lookonchain 称 Abraxas Capital 在黄仁勋回归后又买入 2,223 枚 BTC（约 1.4074 亿美元），前一日该机构已累计提出约 17,597 枚。与价格反弹并行的是，资金面并未转好：Kobeissi 称 IBIT 11 月已流出约 30 亿美元，为有记录以来第二大单月流出，并结束连续 4 个月净流入；上周单周流出约 8.29 亿美元，周四单日流出约 5.45 亿美元创该基金单日纪录，美国现货比特币 ETF 在过去 14 个交易日中有 12 日为净赎回。Cointelegraph 称上周现货 ETF 流向为：BTC 约 -17.9 亿美元、ETH 约 -3.1417 亿美元、SOL 约 +438 万美元、XRP 约 -1,111 万美元。lookonchain 周报称稳定币供应上周再减约 43.6 亿美元。",
+     "impact": "high",
+     "value_note": "这是风险偏好的单日剧烈反转，足以带动比特币短期挤空，但不能单独当成加密资本回流。IBIT 与现货比特币 ETF 仍在连续赎回，稳定币供应也还在收缩：价格可以因科技股情绪快速反弹，场内可动用的美元流动性并未同步回来。",
+     "tickers": [
+      "NVDA",
+      "BTC",
+      "ETH",
+      "SOL"
+     ],
+     "sources": [
+      {
+       "label": "@WuBlockchain 英伟达官方：全票恢复职务，政府高层意见后认为无国家安全风险",
+       "url": "https://x.com/WuBlockchain/status/2124869001595777035"
+      },
+      {
+       "label": "@PANewsCN：离开约11天后全票恢复，盘前一度涨约30%",
+       "url": "https://x.com/PANewsCN/status/2124889123265868176"
+      },
+      {
+       "label": "@KobeissiLetter：收盘约+31.6%，市值单日约+9550亿美元",
+       "url": "https://x.com/KobeissiLetter/status/2124974519567737034"
+      },
+      {
+       "label": "@KobeissiLetter：标普500约+4.7%，美股市值约+3万亿美元",
+       "url": "https://x.com/KobeissiLetter/status/2124971344043622642"
+      },
+      {
+       "label": "@KobeissiLetter 黄仁勋回总部获起立鼓掌",
+       "url": "https://x.com/KobeissiLetter/status/2124938048253116837"
+      },
+      {
+       "label": "@TheBlockCo 比特币站上约6.3万美元",
+       "url": "https://x.com/TheBlockCo/status/2124868262190076106"
+      },
+      {
+       "label": "@lookonchain Abraxas 再买入 2,223 枚 BTC、约 1.4074 亿美元",
+       "url": "https://x.com/lookonchain/status/2124878311759528234"
+      },
+      {
+       "label": "@KobeissiLetter IBIT 11月约-30亿美元，上周约-8.29亿美元",
+       "url": "https://x.com/KobeissiLetter/status/2124956652185309373"
+      },
+      {
+       "label": "@Cointelegraph 上周现货 ETF：BTC 约-17.9亿美元",
+       "url": "https://x.com/Cointelegraph/status/2124752549521572120"
+      }
+     ],
+     "metrics": "Kobeissi 收盘帖约 2234 赞 / 200 转；起立鼓掌帖约 3.4 万赞 / 3557 转",
+     "is_update": false
+    },
+    {
+     "title": "【第3天】Chainflip 官方发布事件报告第一部分：损失约1260万美元，兑换与充提仍暂停",
+     "body": "上一期已将损失口径合计为约 1,200 万美元，赏金截止时间为 11 月 23 日 18:38 UTC（约 11 月 24 日 02:38 HKT）。本窗口 Chainflip 官方发布事件报告第一部分，说明事发经过、完整时间线和当前进展，并明确兑换、存款和提现仍暂停、修复还在进行。官方博文在 X 卡片中将损失定为约 1,260 万美元，并称攻击者使用被盗的验证者密钥分片，从比特币和以太坊金库取走资金。截至本窗口结束，官方帖中未宣布资金已归还，也未给出重启或 LP 补偿时间表；赏金截止日期已过。",
+     "impact": "medium",
+     "value_note": "官方把损失和攻击路径写进报告，但协议仍处安全模式。赏金窗口已经结束却未见归还，FLIP 与协议能否恢复流动性，要看后续补偿和密钥管理整改，而不是市场对报告本身的解读。",
+     "tickers": [
+      "FLIP",
+      "BTC",
+      "ETH"
+     ],
+     "sources": [
+      {
+       "label": "@Chainflip 官方事件报告第一部分：仍暂停兑换与充提",
+       "url": "https://x.com/Chainflip/status/2124901107680104716"
+      }
+     ],
+     "metrics": "官方帖约 61 赞 / 8 转",
+     "is_update": true
+    },
+    {
+     "title": "【第2天】The Block：Fusionist ACE 桥先被铸币套现约200万美元，随后约370万美元储备被兑走",
+     "body": "上一期 Blockaid 估计特权桥铸币已套走约 104 万美元 USDT。本窗口 The Block 给出更完整路径：攻击者铸出海量无抵押代币并卖出约 200 万美元后，有交易者买进被砸低的代币，再经同一座桥兑换成真实 ACE，抽走约 370 万美元储备；有交易者把约 50 美元做成逾 1.7 万美元。The Block 称竞争对手 Gate 正回滚攻击期间的 ACE 交易。这仍不是项目方官方终报，最终损失和补偿方案未见官宣。",
+     "impact": "medium",
+     "value_note": "无抵押铸币之后，桥内真实储备又被低价代币兑走，说明攻击不仅破坏供应，还抽空了桥的兑付能力。约数百万美元量级本身不大，但对薄流动性的游戏代币和尚未完成回滚的交易所，错价与坏账风险已经发生。",
+     "tickers": [
+      "ACE"
+     ],
+     "sources": [
+      {
+       "label": "@TheBlockCo：铸币套现约200万美元，储备约370万美元被兑走",
+       "url": "https://x.com/TheBlockCo/status/2124645550066946398"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "【第3天】Cyber 称金库将覆盖攻击中被铸造的全部代币；桥仍暂停",
+     "body": "11 月 22 日报告已写过 Cyber 桥被疑似攻击、韩国交易所暂停充提。本窗口 DefiantNews 引述安全公司 AstraSec：攻击铸造了 521.3 万枚无抵押 CYBER；Cyber 方面称金库将覆盖此次攻击中被铸造的全部代币，桥仍暂停以完成全面安全审查。这是项目方首次给出覆盖承诺，但最终补偿范围、时间和是否包含间接受损者，仍有待官方细案。",
+     "impact": "medium",
+     "value_note": "若金库确能覆盖被铸出的无抵押代币，供应膨胀对持有者的直接稀释可以被对冲；在桥重启和审计结束前，跨链资产仍应视为冻结风险。",
+     "tickers": [
+      "CYBER"
+     ],
+     "sources": [
+      {
+       "label": "@DefiantNews 引述 AstraSec：521.3万枚无抵押 CYBER，金库将覆盖",
+       "url": "https://x.com/DefiantNews/status/2124956905558941951"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "币安官方聘请 Mandiant、SlowMist 与 Verichains 做独立安全审查",
+     "body": "币安官方及 CEO Richard Teng 在本窗口宣布，已聘请 Mandiant、SlowMist 与 Verichains，对其安全流程做独立审查，并承诺根据发现采取行动。官方原帖没有重述被盗金额。WuBlockchain 将此事表述为 10 月 29 日安全事件的后续，并写明该事件造成约 63 亿美元加密资产被盗；这一金额是 WuBlockchain 的表述，不是本窗口币安官方帖中的数字。",
+     "impact": "medium",
+     "value_note": "聘请一流安全公司本身不改变已发生损失，但说明交易所在 10 月事件后仍需外部验证其托管与风控。金额应以官方或后续审计为准，不宜把媒体转述的约 63 亿美元直接当成新确认的终数。",
+     "tickers": [
+      "BNB"
+     ],
+     "sources": [
+      {
+       "label": "@binance 官方：聘请 Mandiant、SlowMist 与 Verichains",
+       "url": "https://x.com/binance/status/2124867398344052960"
+      },
+      {
+       "label": "@_RichardTeng：独立审查是最高标准",
+       "url": "https://x.com/_RichardTeng/status/2124885177755459800"
+      },
+      {
+       "label": "@WuBlockchain 将此事与 10 月 29 日约 63 亿美元被盗事件并列（媒体口径）",
+       "url": "https://x.com/WuBlockchain/status/2124912271906447410"
+      }
+     ],
+     "metrics": "币安官方帖约 349 赞 / 38 转",
+     "is_update": true
+    },
+    {
+     "title": "欧盟提出第22轮对俄制裁，拟将交易禁令扩至约60家俄罗斯银行并针对加密平台；英国禁止交易所在自有平台做市的规则将于2027年生效",
+     "body": "吴说区块链与 Cointelegraph 称，欧盟委员会主席冯德莱恩 11 月 23 日公布第 22 轮对俄制裁方案，拟将交易禁令扩大到约 60 家俄罗斯银行，并针对加密平台；仍需 27 个成员国一致通过。另，英国 FCA 政策声明 PS26/11 禁止合格加密交易平台用自有资金在自己的市场上做市，财政部已于 11 月 18 日敲定配套规则，将于 2027 年 10 月 25 日起实施，过渡保护申请截止 2027 年 2 月 28 日。The Block 还称，韩国《数字资产基本法》草案将于本周晚些时候公布，内容料包括牌照、交易所持股上限等。这些都是监管议程，不是即时执行的禁令。",
+     "impact": "medium",
+     "value_note": "欧盟方案若通过，可能进一步压缩对俄相关的加密通道；英国做市禁令要到 2027 年才生效，改变的是交易所自营与客户盘口的利益结构。韩国草案仍待国会讨论，落地细节未定。",
+     "sources": [
+      {
+       "label": "@WuBlockchain 欧盟第22轮制裁：约60家银行与加密平台",
+       "url": "https://x.com/WuBlockchain/status/2124925692521701661"
+      },
+      {
+       "label": "@Cointelegraph 冯德莱恩：更大力度打击俄融资渠道",
+       "url": "https://x.com/Cointelegraph/status/2124951345614450910"
+      },
+      {
+       "label": "@TheBlockCo 韩国数字资产基本法草案将于本周晚些时候公布",
+       "url": "https://x.com/TheBlockCo/status/2124779458691514453"
+      }
+     ],
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "defi",
+   "title": "DeFi",
+   "items": [
+    {
+     "title": "★【第2天】Sui 官方确认：约8200万台美国 Galaxy 设备现已可通过 Samsung Wallet 免费发送 USDC",
+     "body": "上一期 Sui 官方预告“从明天开始”。本窗口官方确认功能已上线：约 8,200 万台符合条件的美国 Galaxy 设备，现可在 Samsung Wallet 之间发送 Sui 网络上的 USDC，官方称转账没有手续费。这是把稳定币转账直接放进主流手机钱包，覆盖范围与上一期预告一致，但已从计划变成可用状态。帖中未披露上线后的实际发送笔数或金额。",
+     "impact": "high",
+     "value_note": "若这 8,200 万台设备中即使只有很小比例真正转账，也可能给 Sui 上的 USDC 带来零售级流转；关键要看后续是否出现可验证的交易量和商户场景，而不是预告本身的设备数量。",
+     "tickers": [
+      "SUI",
+      "USDC"
+     ],
+     "sources": [
+      {
+       "label": "★ @SuiNetwork：现已可在 Samsung Wallet 之间免费发送 Sui 上的 USDC",
+       "url": "https://x.com/SuiNetwork/status/2124910386843627611"
+      }
+     ],
+     "metrics": "官方帖约 382 赞 / 65 转",
+     "is_update": true
+    },
+    {
+     "title": "★ Ondo：约23亿美元规模的 USDY 已可通过 LayerZero 在 Stellar 与以太坊之间转移，并在 Tempo 上用 OUSD 即时申赎",
+     "body": "Ondo 官方宣布，目前最大的代币化国债产品 USDY（TVL 逾 23 亿美元）已通过 LayerZero 的 OFT 标准在 Stellar 与以太坊之间转移，以便在 Stellar 上更简单地申赎，并接入以太坊流动性。官方随后又称，由 Visa、Mastercard、Stripe、Coinbase 与 Shopify 联合发起的 @openstandard 的 OUSD，已在 Tempo 上支持 USDY 的即时申赎，面向美国以外的合格投资者（需受系统维护时间约束）。这是发行方自己把同一只产品同时接到新的链和结算层，不是第三方的包装代币。",
+     "impact": "medium",
+     "value_note": "USDY 的价值取决于国债底仓和申赎是否顺畅。跨链用 OFT 而不是新包装，有利于供应一致；但也把桥和发行方的合规、停机与资格限制，变成这条流动性的新瓶颈。",
+     "tickers": [
+      "USDY"
+     ],
+     "sources": [
+      {
+       "label": "★ @Ondo：USDY 经 LayerZero OFT 在 Stellar 与以太坊之间转移",
+       "url": "https://x.com/Ondo/status/2124879906530033956"
+      },
+      {
+       "label": "★ @Ondo：Tempo 上由 OUSD 支持 USDY 即时申赎",
+       "url": "https://x.com/Ondo/status/2124921523462877451"
+      }
+     ],
+     "metrics": "LayerZero 帖约 239 赞 / 38 转",
+     "is_update": false
+    },
+    {
+     "title": "★【第2天】Pons 与 Robinhood Crypto 上线 T. Rowe Price 科技 ETF（TTEQ）股票代币，为 Robinhood Chain 首只主动管理型 ETF",
+     "body": "上一期 Pons 只预告“周一上线股票代币”、未列标的。本窗口 Pons 官方宣布，T. Rowe Price Technology ETF（$TTEQ）股票代币已可在 Pons 上配对；并称这是 Robinhood Chain 上首只主动管理型 ETF，标志着股票代币的一个新类别。Robinhood Crypto 官方同步宣布该类别上线，TTEQ 为第一只。Cointelegraph 亦作了转述。本窗口没有给出首日成交额或费用收入。",
+     "impact": "medium",
+     "value_note": "从预告变成具体标的落地，且把股票代币从单只股票扩展到主动管理型 ETF，可能扩大发行和交易手续费来源；实际影响要等成交和持仓数据。",
+     "tickers": [
+      "TTEQ",
+      "PONS"
+     ],
+     "sources": [
+      {
+       "label": "★ @ponsdotfamily：TTEQ 股票代币已可在 Pons 配对",
+       "url": "https://x.com/ponsdotfamily/status/2124902327500816663"
+      },
+      {
+       "label": "★ @RobinhoodCrypto：主动管理型 ETF 股票代币类别上线，首只为 TTEQ",
+       "url": "https://x.com/RobinhoodCrypto/status/2124889383618875891"
+      }
+     ],
+     "metrics": "Pons 官方帖约 118 赞 / 6 转；Robinhood Crypto 帖约 420 赞 / 43 转",
+     "is_update": true
+    },
+    {
+     "title": "★ 代币化股票交易量继续扩大：Solana 上周现货约18亿美元，Backpack 累计约100亿美元，BNB Chain 上 ANT 不到四日约2.62亿美元",
+     "body": "Cointelegraph 称，Solana 上代币化股票上周现货成交创约 18 亿美元纪录，约占全部链上股票成交的 43%，其中 Backpack Securities 贡献约 13.9 亿美元。★ Backpack 官方宣布，由其发行的代币化证券累计链上成交已达 100 亿美元。★ BNB Chain 官方称，BNB Smart Chain 上代币化 ANT 自发行后不到四日（含周末）成交已超过约 2.61 亿美元，并称在各链中领先。★ Solana 官方转发 Bitwise 白皮书：今年 1 月至 9 月，Solana 处理了约 314 亿美元代币化股票成交中的约 134 亿美元。★ Token Terminal 还称，过去 30 天 Base 以约 39 亿美元、约 29.4% 份额在代币化股票现货 DEX 成交中排第一；Aave V4 是 Base 上最大的代币化股票 DeFi 场所，存款约 1,710 万美元，占 14 个场所合计约 3,050 万美元的约 56%。这些是成交和份额数据，不是新的发行文件。",
+     "impact": "medium",
+     "value_note": "成交放大说明代币化股票已从发行叙事进入交易和抵押使用，但也把流动性进一步集中在少数发行方、链和借贷协议上。周末和盘前成交会放大消息面波动，并不自动等于底层股票的新增申购。",
+     "tickers": [
+      "SOL",
+      "ANT",
+      "BNB"
+     ],
+     "sources": [
+      {
+       "label": "@Cointelegraph：Solana 上周代币化股票现货约18亿美元",
+       "url": "https://x.com/Cointelegraph/status/2124961407879839753"
+      },
+      {
+       "label": "★ @BackpackOnchain：发行的代币化证券累计链上成交约100亿美元",
+       "url": "https://x.com/BackpackOnchain/status/2124864856067395959"
+      },
+      {
+       "label": "★ @BNBCHAIN：ANT 不到四日链上成交约2.61亿美元",
+       "url": "https://x.com/BNBCHAIN/status/2124912438189683050"
+      },
+      {
+       "label": "★ @solana 转发 Bitwise：1–9月 Solana 占代币化股票成交约134/314亿美元",
+       "url": "https://x.com/solana/status/2124951266887675971"
+      },
+      {
+       "label": "★ @tokenterminal：Base 过去30天代币化股票 DEX 约39亿美元居首",
+       "url": "https://x.com/tokenterminal/status/2124948593996152994"
+      },
+      {
+       "label": "★ @tokenterminal：Aave V4 为 Base 上最大代币化股票 DeFi 场所",
+       "url": "https://x.com/tokenterminal/status/2124941904588722468"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "★ Sky：PSM 的 USDC 流动性已重建至约17.7亿美元；韩国主要交易所将 SKY 与 USDS 列入交易警示并暂停充值",
+     "body": "Sky 官方称，协议 PSM 的 USDC 流动性已重建至约 17.7 亿美元，重新高于 USDS 与 DAI 合计流通量的约 28.4%。官方还说，11 月 19 日（周四）PSM 在市场压力和“严重误导性报道”下，按 1:1 处理了超过 20 亿美元的 USDS 兑 USDC，为上线以来最大单日流出；系统没有暂停，sUSDS、USDS 与 PSM 按设计运行，USDS 仍有约 92 亿美元抵押充分支持。与此同时，The Block 与 WuBlockchain 称，韩国 Upbit、Bithumb 和 Coinone 已将 SKY 与 USDS 列入交易警示名单并暂停充值；这与 PSM 大额流出是否直接相关，官方帖中没有说明。",
+     "impact": "medium",
+     "value_note": "能在单日兑换超过 20 亿美元后把 USDC 库存补回约 17.7 亿美元，说明储备和铸赎机制扛住了压力；但韩国主要法币通道把 SKY/USDS 列入警示并停充，会限制当地用户的进出，短期仍可能影响流动性和溢价。",
+     "tickers": [
+      "USDS",
+      "SKY",
+      "DAI"
+     ],
+     "sources": [
+      {
+       "label": "★ @SkyEcosystem：PSM 的 USDC 已重建至约17.7亿美元，11月19日单日兑换逾20亿美元",
+       "url": "https://x.com/SkyEcosystem/status/2124820382473433356"
+      },
+      {
+       "label": "@TheBlockCo Upbit、Bithumb、Coinone 将 SKY 与 USDS 列入警示并暂停充值",
+       "url": "https://x.com/TheBlockCo/status/2124836255124885667"
+      },
+      {
+       "label": "@WuBlockchain：韩国两大所将 SKY 与 USDS 列为交易注意资产",
+       "url": "https://x.com/WuBlockchain/status/2124824748345704595"
+      }
+     ],
+     "metrics": "Sky 官方帖约 176 赞 / 21 转",
+     "is_update": false
+    },
+    {
+     "title": "★ Maple：近期市场波动中15笔追保全部在时限内补足，零清算；★ Spark 曾在24小时内自动收回约4.08亿美元稳定币流动性",
+     "body": "Maple 官方称，过去数日市场波动中，平台共发出 15 笔追保，全部完成：14 笔追加抵押，1 笔还款，没有发生清算；平均补足时间约 2 小时，远低于 24 小时时限；额外抵押约 3,820 万美元，另有约 2,770 万美元来自未被追保、借款人主动补仓。Spark 官方则回顾稳定币外流期间，Spark Liquidity Layer 在 24 小时内通过 316 笔自动交易，从以太坊和 Base 收回约 4.08 亿美元，同时仍保留约 24 亿美元稳定币资本。这两条都是协议在压力测试下的运作披露，不是新的代币经济变更。",
+     "impact": "medium",
+     "value_note": "追保全部按时完成、自动收回流动性且未出现清算，说明这些信贷和流动性层在本轮波动中按设计工作；这降低了连锁清算的近忧，但不能外推到下一轮更急的赎回。",
+     "tickers": [
+      "MPL"
+     ],
+     "sources": [
+      {
+       "label": "★ @maplefinance：15笔追保全部补足，零清算",
+       "url": "https://x.com/maplefinance/status/2124850088002617422"
+      },
+      {
+       "label": "★ @sparkfinance：24小时自动收回约4.08亿美元，仍留约24亿美元稳定币",
+       "url": "https://x.com/sparkfinance/status/2124895736122724362"
+      }
+     ],
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "title": "AI",
+   "items": [
+    {
+     "title": "【第2天】AI 交易一日逆转：黄仁勋复职带动英伟达约+31.6%，空头当日亏损约122亿美元；他将于12月3日出席参议院听证会",
+     "body": "上一期写的是英伟达周线连跌为 2008 年以来最长、半导体杠杆基金大幅回撤。本窗口这一结构被单日反转改写，详见加密节头条。补充几条仍与估值和监管相关的进展：Kobeissi Letter 称英伟达空头当日已亏损约 122 亿美元，为至少 7 年来最大单日亏损。Cointelegraph 称，欧洲一只 -3 倍做空英伟达的 ETP 在黄仁勋回归消息后因突破容许波动而被自动暂停；黄仁勋定于 12 月 3 日出席美国参议院银行委员会，就 AI 出口管制和美国技术优势作证；参议员伊丽莎白·沃伦批评恢复其职务的决定，要求特朗普政府作出说明并收紧出口管制。这些是同一条复职消息的监管与衍生品余波，不是新的产品或财报。",
+     "impact": "high",
+     "value_note": "单日市值增加约 9550 亿美元，说明市场把“谁来执掌英伟达”当成 AI 资本开支能否延续的开关。若 12 月 3 日听证会或持续中的独立调查带来新的出口限制，这种估值修复仍可能被重新定价。",
+     "tickers": [
+      "NVDA"
+     ],
+     "sources": [
+      {
+       "label": "@KobeissiLetter：空头当日约亏损122亿美元",
+       "url": "https://x.com/KobeissiLetter/status/2124904528164053334"
+      },
+      {
+       "label": "@Cointelegraph 欧洲-3倍英伟达 ETP 被自动暂停",
+       "url": "https://x.com/Cointelegraph/status/2124941356480991239"
+      },
+      {
+       "label": "@Cointelegraph 黄仁勋12月3日将出席参议院银行委员会",
+       "url": "https://x.com/Cointelegraph/status/2124936245008613512"
+      },
+      {
+       "label": "@Cointelegraph 沃伦批评恢复职务并要求更严出口管制",
+       "url": "https://x.com/Cointelegraph/status/2124926337118859510"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "OpenAI 推出开源运行时 Shirudo，并启动为小企业匹配本地 AI 顾问的 OpenWorks；DeepMind 称 Gemini 4 智能体把量子电路成本降至约十分之一",
+     "body": "OpenAI 官方宣布与 Cisco 共同推出开源 Linux 运行时 Shirudo，让智能体在不停机的情况下用动态 eBPF 规则防护系统，为补丁争取时间。官方还推出 OpenWorks：由 OpenAI 资助本地 AI 顾问，免费帮助美国 20 个城市的小企业引入 AI，The Rundown 称顾问月薪最高约 8,000 美元，企业另获 3 个月 ChatGPT Business。Google DeepMind 官方称，用多组 Gemini 4 智能体并借助 Lean 形式化验证，构造了新的量子电路，可把未来模拟成本降低至多约 10 倍，并将验证过的方案与 Lean 库开源。Anthropic 官方账号在本窗口没有原帖；Cointelegraph 报道其推出用于自动审查和修复拉取请求的 Claude Ship，这一产品细节未经官方账号确认。",
+     "impact": "medium",
+     "value_note": "Shirudo 和量子电路优化是可验证的工程进展，OpenWorks 则是渠道补贴。它们短期不太改变模型公司的收入结构，但说明头部实验室仍在用产品与开源工具争夺开发者和企业入口。Claude Ship 需待官方账号或文档确认后再视为已发布产品。",
+     "sources": [
+      {
+       "label": "@OpenAI：与 Cisco 推出开源运行时 Shirudo",
+       "url": "https://x.com/OpenAI/status/2124980590717911527"
+      },
+      {
+       "label": "@OpenAI：启动 OpenWorks，资助本地顾问帮助小企业",
+       "url": "https://x.com/OpenAI/status/2124922133545714160"
+      },
+      {
+       "label": "@GoogleDeepMind：Gemini 4 智能体将量子电路成本降至约十分之一",
+       "url": "https://x.com/GoogleDeepMind/status/2124911073266413634"
+      },
+      {
+       "label": "@Cointelegraph：Anthropic 推出 Claude Ship（官方账号本窗口无原帖）",
+       "url": "https://x.com/Cointelegraph/status/2124981542627790855"
+      }
+     ],
+     "metrics": "OpenWorks 官方帖约 3711 赞 / 245 转；DeepMind 量子电路帖约 2957 赞 / 304 转",
+     "is_update": false
+    }
+   ]
+  }
+ ],
+ "watchlist_hits": [
+  {
+   "handle": "SuiNetwork",
+   "text": "官方确认约8200万台美国 Galaxy 设备现已可通过 Samsung Wallet 免费发送 Sui 上的 USDC",
+   "url": "https://x.com/SuiNetwork/status/2124910386843627611"
+  },
+  {
+   "handle": "Ondo",
+   "text": "USDY（TVL 逾23亿美元）经 LayerZero OFT 在 Stellar 与以太坊之间转移，并在 Tempo 上由 OUSD 支持即时申赎",
+   "url": "https://x.com/Ondo/status/2124879906530033956"
+  },
+  {
+   "handle": "ponsdotfamily",
+   "text": "T. Rowe Price 科技 ETF（TTEQ）股票代币已可在 Pons 配对，为 Robinhood Chain 首只主动管理型 ETF",
+   "url": "https://x.com/ponsdotfamily/status/2124902327500816663"
+  },
+  {
+   "handle": "RobinhoodCrypto",
+   "text": "股票代币新增主动管理型 ETF 类别，首只为 TTEQ",
+   "url": "https://x.com/RobinhoodCrypto/status/2124889383618875891"
+  },
+  {
+   "handle": "BackpackOnchain",
+   "text": "其发行的代币化证券累计链上成交达约100亿美元",
+   "url": "https://x.com/BackpackOnchain/status/2124864856067395959"
+  },
+  {
+   "handle": "BNBCHAIN",
+   "text": "BNB Smart Chain 上代币化 ANT 不到四日成交约2.61亿美元",
+   "url": "https://x.com/BNBCHAIN/status/2124912438189683050"
+  },
+  {
+   "handle": "solana",
+   "text": "转发 Bitwise：今年1–9月 Solana 处理约134亿美元代币化股票成交",
+   "url": "https://x.com/solana/status/2124951266887675971"
+  },
+  {
+   "handle": "SkyEcosystem",
+   "text": "PSM 的 USDC 流动性已重建至约17.7亿美元；11月19日单日兑换逾20亿美元",
+   "url": "https://x.com/SkyEcosystem/status/2124820382473433356"
+  },
+  {
+   "handle": "maplefinance",
+   "text": "15笔追保全部补足，零清算；额外抵押约3820万美元",
+   "url": "https://x.com/maplefinance/status/2124850088002617422"
+  },
+  {
+   "handle": "sparkfinance",
+   "text": "24小时内自动收回约4.08亿美元稳定币流动性，仍留约24亿美元",
+   "url": "https://x.com/sparkfinance/status/2124895736122724362"
+  },
+  {
+   "handle": "tokenterminal",
+   "text": "Base 过去30天代币化股票 DEX 成交约39亿美元居首；Aave V4 为 Base 上最大场所",
+   "url": "https://x.com/tokenterminal/status/2124948593996152994"
+  }
+ ],
+ "stats": {
+  "x_calls_used": 27,
+  "posts_scanned": 357,
+  "news_stories": 85
+ },
+ "_generated_at": "2026-11-24 05:49 HKT"
+}
