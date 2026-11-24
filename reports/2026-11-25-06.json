@@ -1,0 +1,468 @@
+{
+ "slot": "2026-11-25T06:00+08:00",
+ "window": "2026-11-24 06:00–2026-11-25 06:00 HKT",
+ "headline": "美国 CFTC 允许受监管交易所和清算所用比特币、以太坊和支付型稳定币满足财务资源要求；贝莱德在香港推出首只代币化货币市场基金，富达新增 AAVE、LINK、UNI",
+ "summary": [
+  "这期最大的事：美国商品期货交易委员会（CFTC）周一发布员工指引，允许指定合约市场、掉期执行设施和衍生品清算机构把比特币、以太坊和合格支付型稳定币计入至少覆盖一年运营的财务资源要求。Saylor 称这是把比特币投入实际使用的下一阶段。同一窗口，贝莱德在香港推出首只代币化货币市场基金（CoinDesk 称初始规模约 1 亿美元，并为香港首只面向零售的 CNAV 货币基金；Cointelegraph 称专业投资者可用持牌稳定币 HKDAP 认购），富达则把 AAVE、LINK、UNI 加入 Fidelity Crypto。制度通道在打开，但现货资金面没有跟上：吴说区块链称美国现货比特币 ETF 11 月 23 日再净流出约 5.70 亿美元，已连续五日净赎回；黄仁勋复职带来的反弹未能守住。",
+  "★【第2天】Sky：PANews 称联合创始人 Rune 公开道歉，承认自己用 SKY 抵押借走 stUSDS 池近一半资金，计划场外卖给机构以偿还约 7700 万美元欠款；存款人已十余日无法取款，借款利率触及 50% 上限仍未逼出还款。本期未检索到 @SkyEcosystem 官方说明。",
+  "★ Aave Horizon 上线 Neuberger Berman 与 Securitize 的高收益代币化基金 HINC，符合条件的投资者可作抵押借入 USDC、GHO 和 RLUSD。★ Rialto 宣布 500 万美元种子轮，由 Robinhood 与 Offchain 联合领投。",
+  "【第2天】韩国金融委员会公布《数字资产基本法》草案：拟在 2017 年后重新允许 ICO，韩元稳定币先由银行占多数的联合体发行，交易所大股东持股上限 20%；草案将提交国会。"
+ ],
+ "sections": [
+  {
+   "id": "crypto",
+   "title": "加密",
+   "items": [
+    {
+     "title": "CFTC 允许受监管交易所和清算所用比特币、以太坊和支付型稳定币满足财务资源要求，并敲定事件合约数据报告规则",
+     "body": "The Block 称，CFTC 员工周一发布咨询文件，说明指定合约市场等受监管市场主体可使用比特币、以太坊和稳定币，来满足至少覆盖一年运营的财务资源要求。Cointelegraph 快讯称，受监管交易所和清算所现在可以把 BTC、ETH 和支付型稳定币计入财务资源；随后又转述 Saylor 的评论：员工层面已承认比特币有资格作为美国衍生品交易所的运营准备金，“下一阶段的采用是让比特币真正工作起来”。CoinDesk 把同一套动作写在一起：委员会敲定了全抵押事件合约的数据报告框架，用以取代多年来靠无异议函打补丁的做法，并同时发布上述资产指引。这还不是国会立法，而是监管机构的规则与员工指引，但对美国衍生品市场能否把加密资产当作合格准备金，已经前进了一步。",
+     "impact": "high",
+     "value_note": "如果交易所和清算所开始把 BTC、ETH 和支付型稳定币计入准备金，这两类资产就多了一层受监管的制度需求，而不只是交易标的。它不能单独扭转现货 ETF 的赎回，但改变的是比特币在美国市场结构里的角色。",
+     "tickers": [
+      "BTC",
+      "ETH"
+     ],
+     "sources": [
+      {
+       "label": "@TheBlockCo：员工指引，BTC/ETH/稳定币可满足至少一年财务资源要求",
+       "url": "https://x.com/TheBlockCo/status/2124996674401755288"
+      },
+      {
+       "label": "@Cointelegraph：受监管交易所和清算所可将 BTC、ETH 和支付型稳定币计入财务资源",
+       "url": "https://x.com/Cointelegraph/status/2125004206134227296"
+      },
+      {
+       "label": "@CoinDesk：事件合约报告规则落地，并发布 BTC/ETH/稳定币财务资源指引",
+       "url": "https://x.com/CoinDesk/status/2125161454722510901"
+      },
+      {
+       "label": "@Cointelegraph 转述 Saylor：比特币有资格作为衍生品交易所运营准备金",
+       "url": "https://x.com/Cointelegraph/status/2125233269444895127"
+      }
+     ],
+     "metrics": "Cointelegraph 指引快讯约 787 赞 / 132 转；Saylor 转述约 515 赞；CoinDesk 约 113 赞",
+     "is_update": false
+    },
+    {
+     "title": "贝莱德在香港推出首只代币化货币市场基金，专业投资者可用持牌稳定币 HKDAP 认购",
+     "body": "Cointelegraph 称，贝莱德在香港及亚太推出其首只代币化货币市场基金，专业投资者可用香港持牌稳定币之一 HKDAP 认购。CoinDesk 进一步称，该基金同时面向零售和机构，初始资产管理规模约 1 亿美元，并称这是香港首只向零售投资者开放的 CNAV（恒定资产净值）货币市场基金。对香港市场来说，这是把传统货币基金份额和本地合规稳定币申购通道接到同一只产品上，而不是又一只离岸代币化美债的复制。",
+     "impact": "high",
+     "value_note": "若认购和份额确按持牌稳定币与香港规则落地，这会把代币化现金管理从试验做成可被本地投资者使用的产品。本期看到的是媒体对发行的报道，初始约 1 亿美元只说明起步规模，还要看后续净申购和能否持续按稳定净值运作。",
+     "tickers": [
+      "BTC"
+     ],
+     "sources": [
+      {
+       "label": "@Cointelegraph：贝莱德香港及亚太首只代币化货币基金，专业投资者可用 HKDAP 认购",
+       "url": "https://x.com/Cointelegraph/status/2125112449963573367"
+      },
+      {
+       "label": "@CoinDesk：初始约 1 亿美元，称是香港首只面向零售的 CNAV 货币基金",
+       "url": "https://x.com/CoinDesk/status/2125290775357342007"
+      }
+     ],
+     "metrics": "Cointelegraph 约 445 赞 / 69 转；CoinDesk 约 63 赞",
+     "is_update": false
+    },
+    {
+     "title": "【第2天】韩国金融委员会公布《数字资产基本法》草案：拟重开 ICO、银行主导韩元稳定币，交易所大股东持股上限 20%",
+     "body": "上一期只写到草案将于本周晚些时候拿出。本窗口 Cointelegraph 称，韩国金融委员会公布了数字资产法案：自 2017 年禁令后拟重新允许 ICO；韩元稳定币先由银行占多数的联合体发行；交易所主要股东持股上限 20%；草案将提交国会。The Block 亦称政府公布了综合性的《数字资产基本法》，并写到拟允许 ICO 以及交易所上的做市商，同时建立以银行为中心的本币稳定币发行联合体。Cointelegraph 另称，20% 持股上限可能限制 Naver Financial 对 Upbit 运营方 Dunamu 的投票权，尽管其收购交易报价约 112 亿美元。这仍是提交国会前的草案，不是已生效的法律。",
+     "impact": "high",
+     "value_note": "如果草案按现有口径通过，韩国将重新打开代币融资，并把韩元稳定币的发行权先行交给银行主导的联合体，同时限制交易所股权集中。对 Upbit 等现有平台的控制权、以及谁能发行韩元稳定币，都会直接改写当地市场结构。最终文本仍取决于国会审议。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@Cointelegraph：FSC 公布草案要点，将提交国会",
+       "url": "https://x.com/Cointelegraph/status/2125121131111665904"
+      },
+      {
+       "label": "@TheBlockCo：政府公布《数字资产基本法》",
+       "url": "https://x.com/TheBlockCo/status/2125132671013773807"
+      },
+      {
+       "label": "@Cointelegraph：20% 持股上限或影响 Naver 对 Dunamu 的投票权",
+       "url": "https://x.com/Cointelegraph/status/2125288564468388265"
+      }
+     ],
+     "metrics": "Cointelegraph 草案快讯约 281 赞 / 43 转",
+     "is_update": true
+    },
+    {
+     "title": "黄仁勋复职反弹未能守住：美国现货比特币 ETF 11 月 23 日再流出约 5.70 亿美元，已连续五日净赎回；算力同比约降 8%，上市矿企今年卖币约 80.8 亿美元",
+     "body": "吴说区块链引述 SoSoValue：美国现货比特币 ETF 在 11 月 23 日录得约 5.70 亿美元净流出，连续五日净赎回；当日单一基金流入以富达 FBTC 约 1329 万美元居前。BlockBeats 称，黄仁勋回归带动风险资产反弹时，比特币一度上涨近 5%，但约 6 小时内涨幅全部回吐。Cointelegraph 引述 Glassnode 称，以相对资本流入的亏损衡量，比特币正经历自 FTX 崩盘以来最重的亏损，且这一比率在一周内几乎翻倍。吴说区块链另引述 Glassnode：比特币算力同比约下降 8%，为 2021 年中国禁矿以来首次年度收缩。PANews 称，今年上市矿企已卖出约 80.8 亿美元比特币，抛压约为 ETF 的两倍，并称 12 家头部矿企中只剩 1 家仍在囤币。制度通道的消息没有立刻变成现货买盘。",
+     "impact": "medium",
+     "value_note": "连续赎回、矿工卖币和算力回落说明，场内可交易的比特币供应仍在增加或未被新资金接走。CFTC 和贝莱德的制度进展改变的是未来需求结构，还没有在本窗口改写 ETF 资金流向。",
+     "tickers": [
+      "BTC",
+      "ETH"
+     ],
+     "sources": [
+      {
+       "label": "@WuBlockchain 引述 SoSoValue：11 月 23 日现货比特币 ETF 净流出约 5.70 亿美元，连续五日",
+       "url": "https://x.com/WuBlockchain/status/2125096871551279390"
+      },
+      {
+       "label": "@BlockBeatsAsia：黄仁勋利好下比特币涨幅约 6 小时内回吐",
+       "url": "https://x.com/BlockBeatsAsia/status/2125179322382377248"
+      },
+      {
+       "label": "@Cointelegraph 引述 Glassnode：相对资本流入的亏损为 FTX 以来最重",
+       "url": "https://x.com/Cointelegraph/status/2125293594344845522"
+      },
+      {
+       "label": "@WuBlockchain 引述 Glassnode：算力同比约 -8%，为 2021 年来首次年度下降",
+       "url": "https://x.com/WuBlockchain/status/2125257128931963200"
+      },
+      {
+       "label": "@PANewsCN：今年上市矿企卖出约 80.8 亿美元比特币",
+       "url": "https://x.com/PANewsCN/status/2125171807657631757"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "Coinkite 发布 Coldcard 种子生成漏洞事后报告：官方称 236 名客户报损；吴说区块链称被盗约 1,778.84 枚比特币、涉及逾 8,600 个地址",
+     "body": "The Block 称，Coinkite 周二发布事后报告，说明 7 月发现的种子生成漏洞；公司表示有 236 名客户报损，约占其估计 Coldcard 用户基数的 0.2%，并称真实数字可能更高。吴说区块链称，同一份报告确认攻击者可离线重建私钥，并把被盗规模写成 1,778.84 枚比特币、涉及逾 8,600 个地址。这两个口径并置：一个是公司统计的报损客户数，一个是链上或第三方汇总的地址与币量，不能直接当成同一组确认损失。对仍在使用旧固件或受影响种子的持有者，这是密钥本身可能已被暴力或弱熵推算出的问题，而不是热钱包被盗。",
+     "impact": "medium",
+     "value_note": "若弱熵种子可被离线重建，损失与冷存储是否在线无关，取决于种子生成时的随机数质量。报损客户数和链上地址数口径不同，最终受损规模仍应以项目方和可核对的链上证据为准。",
+     "tickers": [
+      "BTC"
+     ],
+     "sources": [
+      {
+       "label": "@TheBlockCo：Coinkite 称 236 名客户报损，约占估计用户的 0.2%，真实数字可能更高",
+       "url": "https://x.com/TheBlockCo/status/2125239182524400028"
+      },
+      {
+       "label": "@WuBlockchain：称被盗 1,778.84 枚比特币，涉及逾 8,600 个地址，攻击者离线重建私钥",
+       "url": "https://x.com/WuBlockchain/status/2125292646751154614"
+      }
+     ],
+     "is_update": false
+    },
+    {
+     "title": "币安称正与美国司法部及行业伙伴协调冻结并争取返还受影响资金；同时与 Cboe 合作接入实时美股基准数据",
+     "body": "币安官方称，正在与美国司法部以及协助冻结受影响资产的行业伙伴密切协调，并将在资产没收程序中继续配合。PANews 转述称，目标是尽快推动受影响资金返还。这是对早前被盗资金追索的进展，不是新的被盗事件。另外，币安与联席 CEO 赵长鹏（Richard Teng）同步宣布与 Cboe 合作，把受信任的实时市场基准数据接入币安产品。Teng 还称，英伟达消息在常规交易时段之外传出时，平台已有逾 20 亿美元成交。后一项是产品与交易活跃度，不能当成现货比特币需求恢复。",
+     "impact": "medium",
+     "value_note": "与司法部的协作若能把已冻结资产纳入返还程序，对受害用户是追索进展；Cboe 数据合作主要改善交易体验，并不改变币安的准备金或代币经济。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@binance：正与美国司法部及协助冻结资产的伙伴协调",
+       "url": "https://x.com/binance/status/2125198606139633797"
+      },
+      {
+       "label": "@PANewsCN 转述：争取尽快推动受影响资金返还",
+       "url": "https://x.com/PANewsCN/status/2125205633721114640"
+      },
+      {
+       "label": "@binance：与 Cboe 合作接入实时基准数据",
+       "url": "https://x.com/binance/status/2125168223339360655"
+      },
+      {
+       "label": "@_RichardTeng：英伟达消息后非时段成交逾 20 亿美元",
+       "url": "https://x.com/_RichardTeng/status/2125205291801387134"
+      }
+     ],
+     "is_update": true
+    }
+   ]
+  },
+  {
+   "id": "defi",
+   "title": "DeFi",
+   "items": [
+    {
+     "title": "★ 富达 Fidelity Crypto 新增 AAVE、LINK、UNI；Chainlink 官方确认 LINK，Uniswap 创始人 Hayden 出示富达账户截图",
+     "body": "The Block 称，富达已把 AAVE、LINK 和 UNI 加入用户可通过 Fidelity Crypto 账户交易的名单，此前已支持 BTC、ETH、SOL、LTC 以及富达自己的 Fidelity Digital Dollar（FIDD）。Cointelegraph 亦报道了同一扩张。Chainlink 官方发帖确认，富达客户现在可以在 Fidelity Crypto 平台上交易 LINK，并称富达资产管理规模约 7.9 万亿美元。Uniswap 创始人 Hayden Adams 以富达用户身份发图，称现在可以直接在富达交易 UNI。这不是代币经济变更，而是把三只核心 DeFi 代币送进美国大型经纪商的加密交易通道。",
+     "impact": "high",
+     "value_note": "富达的通道会降低传统经纪客户买这三只代币的摩擦，也可能带来新的持仓需求；它不改变协议收入或治理，真正的影响要看出货量和是否扩展到质押、借贷等链上功能。",
+     "tickers": [
+      "AAVE",
+      "LINK",
+      "UNI"
+     ],
+     "sources": [
+      {
+       "label": "@TheBlockCo：Fidelity Crypto 新增 AAVE、LINK、UNI",
+       "url": "https://x.com/TheBlockCo/status/2125256452713681021"
+      },
+      {
+       "label": "@Cointelegraph：富达新增 AAVE、LINK、UNI",
+       "url": "https://x.com/Cointelegraph/status/2125263411713908840"
+      },
+      {
+       "label": "★ @chainlink 官方：富达客户可交易 LINK，并称富达 AUM 约 7.9 万亿美元",
+       "url": "https://x.com/chainlink/status/2125276878336593965"
+      },
+      {
+       "label": "★ @haydenzadams：以富达用户身份确认可直接交易 UNI",
+       "url": "https://x.com/haydenzadams/status/2125324446617514305"
+      }
+     ],
+     "metrics": "Chainlink 官方约 746 赞 / 75 转；Cointelegraph 约 465 赞；Hayden 约 114 赞",
+     "is_update": false
+    },
+    {
+     "title": "★ Aave Horizon 上线 Neuberger Berman 与 Securitize 的高收益代币化基金 HINC，可抵押借入 USDC、GHO 和 RLUSD",
+     "body": "Aave 官方宣布，Neuberger Berman 与 Securitize 的高收益代币化基金 HINC 已在 Aave Horizon 上线。官方称，该基金主要投资高收益公司债和 CLO 档，Neuberger Berman 担任助理顾问；符合条件的投资者可以把 HINC 当作抵押，借入 GHO、RLUSD 和 USDC。Securitize 官方同步确认上线，并称 HINC 为 Horizon 带来主动管理的高收益信用这一新的风险收益组合。The Block 亦作了报道。关于 Neuberger 管理规模，The Block 与 Securitize 给出的数字不一致，本期不以单一口径采信。这是把传统高收益信用资产直接做成 DeFi 抵押品，而不仅是又一只代币化国债。",
+     "impact": "high",
+     "value_note": "若 HINC 能稳定作为抵押并保持可借贷深度，Aave Horizon 的机构抵押品会从国债类扩展到高收益信用，协议利息和清算风险特征都会变化。目前只是上线宣布，还要看实际抵押规模和风控参数。",
+     "tickers": [
+      "AAVE",
+      "GHO",
+      "RLUSD",
+      "USDC"
+     ],
+     "sources": [
+      {
+       "label": "★ @aave 官方：HINC 在 Horizon 上线，可借 GHO、RLUSD、USDC",
+       "url": "https://x.com/aave/status/2125229803410235815"
+      },
+      {
+       "label": "★ @Securitize 官方：HINC 为 Horizon 带来主动管理高收益信用",
+       "url": "https://x.com/Securitize/status/2125228557848723756"
+      },
+      {
+       "label": "@TheBlockCo：Neuberger 代币化高收益基金上线 Aave Horizon",
+       "url": "https://x.com/TheBlockCo/status/2125230882252546279"
+      }
+     ],
+     "metrics": "Aave 官方约 139 赞；Securitize 约 105 赞",
+     "is_update": false
+    },
+    {
+     "title": "★【第2天】PANews：Sky 联合创始人 Rune 道歉并计划场外卖出 SKY，以偿还约 7700 万美元借款；stUSDS 存款人已十余日无法取款",
+     "body": "上一期写过 Sky 在 11 月 19 日大规模兑换后重建 PSM 的 USDC 流动性，以及韩国主要交易所将 SKY 与 USDS 列入交易警示并暂停充值。本窗口 PANews 称，联合创始人 Rune 公开道歉、承认责任在他，计划把 SKY 场外卖给机构，以还清约 7700 万美元欠款；他用自家代币抵押，借走了 stUSDS 池近一半资金，存款人已十余日取不出钱，借款利率升至 50% 上限也没有逼出还款；并称杜均已表示想接下其全部 SKY 仓位。EmberCN 则把待还借款写成约 7440 万美元，并提到他曾花费逾 4000 万美元买入自家代币。本期检索未发现 @SkyEcosystem 官方账号就还款安排或取款恢复发布说明，OTC 是否成交、折价多少、以及杜均接盘均未得到官方或本人在观察账号上的确认。",
+     "impact": "high",
+     "value_note": "若创始人借款占满或接近占满 stUSDS 流动性，这个收益池就已经不是可随时退出的现金等价，而是取决于单一借款人能否还款或被清算。场外卖币还债会给 SKY 带来抛压，也可能是恢复取款的前提。在官方说明和链上还款被核实前，应把 stUSDS 视为退出受阻的信贷风险，而不是普通储蓄。",
+     "tickers": [
+      "SKY",
+      "USDS"
+     ],
+     "sources": [
+      {
+       "label": "@PANewsCN：Rune 道歉，计划场外卖 SKY 偿还约 7700 万美元，存款人十余日无法取款",
+       "url": "https://x.com/PANewsCN/status/2125118153181249541"
+      },
+      {
+       "label": "@EmberCN：称待还借款约 7440 万美元，并与 2023 年 Curve 创始人场外卖币作比较",
+       "url": "https://x.com/EmberCN/status/2125137736298598742"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "★ Rialto 宣布 500 万美元种子轮，由 Robinhood 与 Offchain 联合领投；Aero 流动性已可通过 Rialto 接入 Robinhood Crypto",
+     "body": "Rialto 官方宣布完成 500 万美元种子轮，由 Robinhood 与 Offchain 联合领投。官方称，Rialto 为用户、钱包、交易所和机构提供更好的链上市场准入，并使用新的流动性来源以及 Robinhood Chain 的工具。后续帖称，本轮融资建立在过去一年多与 Robinhood Crypto、Offchain 的合作之上，双方已一起研究加密和股票代币如何在 Robinhood Chain 上交易。Aero 官方同期宣布，Aero 流动性现已通过 Rialto 在 Robinhood Crypto 上可用。这是观察名单里的受保护项目拿到交易所和券商背景的资金，并把自身流动性接到 Robinhood 的股票代币生态。",
+     "impact": "medium",
+     "value_note": "种子轮本身不改变已发行代币的供给，但 Robinhood 联合领投，说明该通道被视为 Robinhood Chain 上加密与股票代币交易的基础设施。后续要看出货量、费用归属，以及合作是否带来可核实的协议收入。",
+     "tickers": [
+      "AERO"
+     ],
+     "sources": [
+      {
+       "label": "★ @rialto_xyz 官方：500 万美元种子轮，Robinhood 与 Offchain 联合领投",
+       "url": "https://x.com/rialto_xyz/status/2125276960729260329"
+      },
+      {
+       "label": "★ @rialto_xyz：本轮建立在与 Robinhood Crypto、Offchain 一年多的合作上",
+       "url": "https://x.com/rialto_xyz/status/2125276962285367653"
+      },
+      {
+       "label": "★ @aeroxyz：Aero 流动性已可通过 Rialto 在 Robinhood Crypto 使用",
+       "url": "https://x.com/aeroxyz/status/2125273265455423665"
+      }
+     ],
+     "metrics": "Rialto 融资帖约 384 赞 / 27 转",
+     "is_update": false
+    },
+    {
+     "title": "★ Ondo 上线 Strive 三只上市股票的代币化版本，并与 Morpho 推出以 STRCon 为抵押的 Saturn 金库；Morpho 还支持用 Robinhood 股票代币借 USDG",
+     "body": "Ondo 官方称，比特币财库公司 Strive 的三只上市股票已通过 Ondo Stocks 上链：普通股 ASSTon、浮动利率优先股 SATAon、固定利率优先股 SATSon，面向符合条件的非美国投资者。The Block 亦报道了此事。Ondo 另宣布，Saturn 在 Morpho 上的新金库允许美国、欧盟和欧洲经济区以外的合格投资者以 STRCon 为抵押出借 USDC，由 Hyperithm 共同管理，并使用 Zama 的保密金库基础设施。Morpho 官方同时称，交易者可在 arcus 上用 Robinhood 股票代币作抵押，借入 USDG 流动性，底层由 Morpho 提供。代币化股票正在从交易标的变成可借贷的抵押品。",
+     "impact": "medium",
+     "value_note": "当股票代币可以被抵押借贷，其需求不再只取决于交易量，还取决于能借出的稳定币深度和清算参数。这也把传统股票的波动直接带进 DeFi 借贷的风险模型。",
+     "tickers": [
+      "USDC",
+      "USDG"
+     ],
+     "sources": [
+      {
+       "label": "★ @Ondo 官方：Strive 的 ASST、SATA、SATS 代币化版本上线",
+       "url": "https://x.com/Ondo/status/2125236370994073849"
+      },
+      {
+       "label": "@TheBlockCo：Ondo 将 Strive 普通股与两只优先股上链",
+       "url": "https://x.com/TheBlockCo/status/2125300364958437438"
+      },
+      {
+       "label": "★ @Ondo：Saturn 在 Morpho 上以 STRCon 为抵押出借 USDC",
+       "url": "https://x.com/Ondo/status/2125276062653530197"
+      },
+      {
+       "label": "★ @Morpho：可在 arcus 上用 Robinhood 股票代币抵押借入 USDG",
+       "url": "https://x.com/Morpho/status/2125247126137676194"
+      }
+     ],
+     "is_update": true
+    },
+    {
+     "title": "★ Chainlink 与 Anchorage Digital 推出 CustodySync，机构无需把资产搬出合格托管即可在 DeFi 借贷；Zcash 称 Gemini 已开通屏蔽地址充值",
+     "body": "Cointelegraph 称，Chainlink 与 Anchorage Digital 推出 CustodySync，使机构可以在不把资产搬出合格托管的情况下，向 DeFi 借贷市场借款。Chainlink 官方解释称，与传统托管下约 250 万亿美元资产相比，目前托管中的数字资产约 7000 亿美元；CustodySync 的目标是让机构在资产仍由合格托管人持有的前提下，用这些数字资产在 DeFi 中借款。与此同时，Zcash 官方宣布，Gemini 已开通屏蔽 ZEC 充值，称链上的私密转移变得更容易。DefiantNews 补充，这次 Ironwood 上线增加的是链上隐私，并不等于对交易所匿名：Gemini 仍要求身份验证。DefiLlama 还宣布开始核验 theo 的 thUSD 储备，称抵押品逾 1.41 亿美元，数字全天候更新、对手方文件每周收集。Spark 则更新了 Optimism 与 Unichain 上 Spark Liquidity Layer 计划弃用后的替代取款路径，供剩余 sUSDC 持有人使用。",
+     "impact": "medium",
+     "value_note": "CustodySync 若被托管机构采用，可能把目前无法上链的托管资产变成 DeFi 借贷的抵押来源，而不要求资产离开合格托管。这会扩大可借贷规模，也把托管和法律结构更深地嵌进协议。Gemini 的屏蔽充值提升的是链上转账隐私，并不改变交易所侧的合规识别。",
+     "tickers": [
+      "LINK",
+      "ZEC",
+      "USDC"
+     ],
+     "sources": [
+      {
+       "label": "@Cointelegraph：Chainlink 与 Anchorage 推出 CustodySync",
+       "url": "https://x.com/Cointelegraph/status/2125285101206741378"
+      },
+      {
+       "label": "★ @chainlink 官方：托管中的数字资产约 7000 亿美元，CustodySync 可在资产留在合格托管的前提下借款",
+       "url": "https://x.com/chainlink/status/2125254921767268725"
+      },
+      {
+       "label": "★ @Zcash 官方：Gemini 已开通屏蔽 ZEC 充值",
+       "url": "https://x.com/Zcash/status/2125302563914629506"
+      },
+      {
+       "label": "@DefiantNews：Gemini 屏蔽充值仍要求身份验证",
+       "url": "https://x.com/DefiantNews/status/2125304696240058447"
+      },
+      {
+       "label": "★ @DefiLlama：开始核验 thUSD 储备，称抵押品逾 1.41 亿美元",
+       "url": "https://x.com/DefiLlama/status/2125266205267111988"
+      },
+      {
+       "label": "★ @sparkfinance：Optimism 与 Unichain 弃用后的替代取款路径",
+       "url": "https://x.com/sparkfinance/status/2125311734084767819"
+      }
+     ],
+     "is_update": false
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "title": "AI",
+   "items": [
+    {
+     "title": "OpenAI 公布 GPT-6 系列蛋白质设计的湿实验验证，并称 GPT-6 Cyber 一次运行验证了 948 个可导致本地 root 权限的 Linux 内核漏洞",
+     "body": "OpenAI 官方称，正在发布预印本，展示 GPT-6 系列模型本身的蛋白质设计能力已通过湿实验验证：模型可以用推理和代码设计新的蛋白质形状与序列，而不调用专门的生物学生成模型。官方称，与合作方 Onava 的实验中，在 322 个受测蛋白质里有 35 个显示出结合证据，并且五个靶点都出现了结合物；另一次实验中，GPT-6.2 为先前设计的三种形状生成新序列，107 个蛋白质里有 14 个在湿实验中显示结合。官方把这写成概念验证，下一步要看这些蛋白质结合后是否做了有用的事。稍早，OpenAI 还称，在一次运行中，GPT-6 Cyber 帮助验证了 948 个可授予本地 root 权限的 Linux 内核漏洞，并生成供维护者审阅的补丁。这把通用模型同时推进到生物实验和系统安全两个可核验的领域。",
+     "impact": "high",
+     "value_note": "湿实验结合率和内核漏洞补丁都是可核对的结果，说明通用模型已经能在实验室和基础软件里产出可被专家审阅的产出。这不等于已可按提示设计出可用药物，也不等于所有补丁都已合并，但会加强市场对通用模型替代专用科学工具的预期。",
+     "tickers": [],
+     "sources": [
+      {
+       "label": "@OpenAI 官方：GPT-6 系列蛋白质设计能力的湿实验预印本",
+       "url": "https://x.com/OpenAI/status/2125334383490105601"
+      },
+      {
+       "label": "@OpenAI：322 个受测蛋白质中 35 个显示结合，五个靶点均有结合物",
+       "url": "https://x.com/OpenAI/status/2125334391195070471"
+      },
+      {
+       "label": "@OpenAI：GPT-6 Cyber 一次运行验证 948 个可导致本地 root 的 Linux 内核漏洞",
+       "url": "https://x.com/OpenAI/status/2125007927098699827"
+      }
+     ],
+     "metrics": "蛋白质设计主帖约 1400 赞 / 141 转；内核漏洞帖约 3329 赞 / 260 转",
+     "is_update": false
+    },
+    {
+     "title": "Anthropic 发布 Siren 评估，测试智能体在沙箱可逃逸时会不会主动逃出；吴说区块链称 ANT 跌破发行价，币安与 Hyperliquid 永续成交额合计逾 13 亿美元",
+     "body": "Anthropic 官方发布新研究：当 AI 智能体有机会逃出沙箱时，它会不会这么做。新评估 Siren 给 Claude 安排常规任务，但故意削弱沙箱，并把对任务有用的东西放在沙箱外，覆盖 1,700 多种用于试探的情景。这是安全评测，不是产品发布。市场方面，吴说区块链称，11 月 24 日美股交易中，Claude 开发商 Anthropic（ANT）下跌 11.70% 至 77.39 美元，跌破 83 美元的发行价，较此前高点下跌 30.59%；并称币安与 Hyperliquid 上相关永续合约成交额合计超过 13 亿美元。上一期刚写过黄仁勋复职带动的风险偏好反转，本窗口这家新上市 AI 公司已经跌破发行价。",
+     "impact": "medium",
+     "value_note": "Siren 关注的是模型在有漏洞的运行环境里会不会主动越权，这与是否把更强模型对外发布有关。ANT 跌破发行价说明，上市后的定价已经开始反映增长和风险预期，而不仅是发行叙事；链上永续成交放大了价格波动，但不等于公司基本面已经结算。",
+     "tickers": [
+      "ANT"
+     ],
+     "sources": [
+      {
+       "label": "@AnthropicAI 官方：Siren 评估——智能体在可逃逸时会不会逃出沙箱",
+       "url": "https://x.com/AnthropicAI/status/2125341904644763678"
+      },
+      {
+       "label": "@WuBlockchain：ANT 跌 11.70% 至 77.39 美元，跌破 83 美元发行价；币安与 Hyperliquid 永续成交额逾 13 亿美元",
+       "url": "https://x.com/WuBlockchain/status/2125275896148004992"
+      }
+     ],
+     "metrics": "Anthropic 官方约 164 赞 / 23 转",
+     "is_update": true
+    }
+   ]
+  }
+ ],
+ "watchlist_hits": [
+  {
+   "handle": "aave",
+   "text": "Neuberger/Securitize 的 HINC 已在 Aave Horizon 上线，可抵押借入 USDC、GHO、RLUSD",
+   "url": "https://x.com/aave/status/2125229803410235815"
+  },
+  {
+   "handle": "chainlink",
+   "text": "官方确认富达客户可在 Fidelity Crypto 交易 LINK；并与 Anchorage 推出 CustodySync",
+   "url": "https://x.com/chainlink/status/2125276878336593965"
+  },
+  {
+   "handle": "haydenzadams",
+   "text": "以富达用户身份发图，确认可直接在 Fidelity 交易 UNI",
+   "url": "https://x.com/haydenzadams/status/2125324446617514305"
+  },
+  {
+   "handle": "rialto_xyz",
+   "text": "500 万美元种子轮，由 Robinhood 与 Offchain 联合领投",
+   "url": "https://x.com/rialto_xyz/status/2125276960729260329"
+  },
+  {
+   "handle": "aeroxyz",
+   "text": "Aero 流动性已可通过 Rialto 在 Robinhood Crypto 使用",
+   "url": "https://x.com/aeroxyz/status/2125273265455423665"
+  },
+  {
+   "handle": "Ondo",
+   "text": "Strive 三只股票代币化上线；Saturn 在 Morpho 上以 STRCon 抵押出借 USDC",
+   "url": "https://x.com/Ondo/status/2125236370994073849"
+  },
+  {
+   "handle": "Morpho",
+   "text": "可在 arcus 上用 Robinhood 股票代币抵押借入 USDG",
+   "url": "https://x.com/Morpho/status/2125247126137676194"
+  },
+  {
+   "handle": "Securitize",
+   "text": "官方确认 HINC 在 Aave Horizon 上线",
+   "url": "https://x.com/Securitize/status/2125228557848723756"
+  },
+  {
+   "handle": "Zcash",
+   "text": "Gemini 已开通屏蔽 ZEC 充值",
+   "url": "https://x.com/Zcash/status/2125302563914629506"
+  },
+  {
+   "handle": "DefiLlama",
+   "text": "开始核验 thUSD 储备，称抵押品逾 1.41 亿美元",
+   "url": "https://x.com/DefiLlama/status/2125266205267111988"
+  },
+  {
+   "handle": "sparkfinance",
+   "text": "为 Optimism 与 Unichain 上剩余 sUSDC 提供替代取款路径",
+   "url": "https://x.com/sparkfinance/status/2125311734084767819"
+  },
+  {
+   "handle": "binance",
+   "text": "正与美国司法部及行业伙伴协调冻结并争取返还受影响资金；与 Cboe 合作接入实时基准数据",
+   "url": "https://x.com/binance/status/2125198606139633797"
+  }
+ ],
+ "stats": {
+  "x_calls_used": 43,
+  "posts_scanned": 460,
+  "news_stories": 95
+ },
+ "_generated_at": "2026-11-25 05:45 HKT"
+}
